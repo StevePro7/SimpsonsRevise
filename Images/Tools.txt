@@ -1,0 +1,20 @@
+Tools
+19/10/2021
+
+
+Reference:
+https://github.com/SteveProXNA/VanHalenDemoSMS
+
+
+GRAPHICS
+Original Van Halen record covers images were downloaded and resized using ResizeImage.net.
+The resized images were then converted to 4bpp using BMP converter and finally BMP2Tile.
+
+
+https://resizeimage.net
+https://online-converting.com/image/convert2bmp
+
+
+Convert to BMP
+simply open all the files
+set to 4bpp

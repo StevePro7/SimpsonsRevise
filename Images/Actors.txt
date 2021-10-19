@@ -1,0 +1,23 @@
+Actors
+19/10/2021
+
+
+public enum ActorType
+{
+		Bart1,
+		Bart2,
+		Comic,
+		Drhibbert,
+		Drnick,
+		Flanders,
+		Grampa1,
+		Homer1,
+		Homer2,
+		Homer3,
+		Lisa1,
+		Lisa2,
+		Maggie,
+		Marge0,
+		Skinner,
+		Troy
+}
