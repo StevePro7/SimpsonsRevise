@@ -1,0 +1,81 @@
+;!FILE test_manager.asm
+XL2
+H 9 areas 31 global symbols
+M test_manager
+O -mz80
+S _engine_sample_manager_init Ref0000
+S _engine_sample_manager_play Ref0000
+S .__.ABS. Def0000
+S _riff_sample_data Ref0000
+S _riff_sample_bank Ref0000
+S _devkit_SMS_mapROMBank Ref0000
+A _CODE size 3D flags 0 addr 0
+S _engine_test_manager_init Def0000
+S XG$engine_test_manager_init$0$0 Def0003
+S A$test_manager$100 Def0024
+S A$test_manager$101 Def0025
+S C$test_manager.c$13$1$20 Def0000
+S C$test_manager.c$21$1$22 Def0019
+S C$test_manager.c$14$1$20 Def0003
+S A$test_manager$121 Def0037
+S C$test_manager.c$22$1$22 Def0026
+S A$test_manager$113 Def0030
+S C$test_manager.c$16$1$20 Def0011
+S A$test_manager$114 Def0031
+S A$test_manager$105 Def0026
+S C$test_manager.c$24$1$22 Def0030
+S A$test_manager$115 Def0032
+S A$test_manager$106 Def0029
+S C$test_manager.c$25$1$22 Def0037
+S A$test_manager$116 Def0033
+S A$test_manager$107 Def002C
+S C$test_manager.c$26$1$22 Def0038
+S A$test_manager$126 Def0038
+S A$test_manager$117 Def0036
+S A$test_manager$108 Def002E
+S A$test_manager$127 Def003A
+S A$test_manager$109 Def002F
+S G$engine_riff_manager_play$0$0 Def0011
+S C$test_manager.c$11$0$0 Def0000
+S A$test_manager$60 Def0000
+S _engine_riff_manager_play Def0011
+S A$test_manager$90 Def0017
+S A$test_manager$65 Def0003
+S A$test_manager$94 Def0019
+S A$test_manager$95 Def001C
+S G$psgInit$0$0 Def0006
+S A$test_manager$96 Def001F
+S A$test_manager$97 Def0021
+S A$test_manager$88 Def0011
+S A$test_manager$98 Def0022
+S A$test_manager$89 Def0013
+S A$test_manager$99 Def0023
+S G$engine_test_manager_init$0$0 Def0000
+S XG$engine_riff_manager_play$0$0 Def0038
+S _psgInit Def0006
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 21 06 00 C3 00 00
+R 00 00 00 00 00 03 00 00 02 06 00 00
+T 06 00
+R 00 00 00 00
+T 06 00 9F BF DF FF 81 00 A1 00 00 C1 00
+R 00 00 00 00
+T 11 00
+R 00 00 00 00
+T 11 00 DD E5 DD 21 00 00 DD 39 01 00 00 DD 6E 04
+R 00 00 00 00 02 0B 03 00
+T 1F 00 26 00 29 09 4E 23 46 11 00 00 DD 6E 04 26
+R 00 00 00 00 02 0A 04 00
+T 2D 00 00 19 56 C5 D5 33 CD 00 00 33 E1 DD E1 C3
+R 00 00 00 00 02 09 05 00
+T 3B 00 00 00
+R 00 00 00 00 02 02 01 00
