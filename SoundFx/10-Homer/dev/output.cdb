@@ -86,7 +86,7 @@ S:G$engine_screen_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_screen_manager_update$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0
 M:bank2
-S:G$right01_wav_pcmenc$0$0({8926}DA8926d,SC:U),D,0,0
+S:G$right01_wav_pcmenc$0$0({20493}DA20493d,SC:U),D,0,0
 M:bank3
 S:G$right02_wav_pcmenc$0$0({9101}DA9101d,SC:U),D,0,0
 M:bank4
