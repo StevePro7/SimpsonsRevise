@@ -56,7 +56,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000189E  s__GSFINAL                      
      000019C6  l__BANK4                        
      00001A2C  l__BANK7                        
-     00001A48  l__BANK6                        
+     000022DE  l__BANK2                        
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
@@ -66,8 +66,8 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000022DE  l__BANK2                        
      0000238D  l__BANK3                        
+     0000300A  l__BANK6                        
      00008000  G$SMS_SRAM$0$0                     _sms_manager
      00008000  _SMS_SRAM                          SMSlib_PSGaiden
      00008000  s__BANK2                        
@@ -1993,7 +1993,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK6                              00008000    00001A48 =        6728. bytes (REL,CON)
+_BANK6                              00008000    0000300A =       12298. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
