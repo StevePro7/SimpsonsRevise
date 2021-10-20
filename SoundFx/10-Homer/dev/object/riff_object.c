@@ -4,12 +4,12 @@
 
 const unsigned char *riff_sample_data[] =
 {
-	Riff_1980_04_wav_pcmenc,
-	Riff_1995_04_wav_pcmenc,
+	right01_wav_pcmenc,
+	right02_wav_pcmenc,
 };
 
 const unsigned char riff_sample_bank[] =
 {
-	Riff_1980_04_wav_pcmenc_bank,
-	Riff_1995_04_wav_pcmenc_bank,
+	right01_wav_pcmenc_bank,
+	right02_wav_pcmenc_bank,
 };

@@ -86,9 +86,9 @@ S:G$engine_screen_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_screen_manager_update$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0
 M:bank2
-S:G$Riff_1980_04_wav_pcmenc$0$0({13957}DA13957d,SC:U),D,0,0
+S:G$right01_wav_pcmenc$0$0({8926}DA8926d,SC:U),D,0,0
 M:bank3
-S:G$Riff_1995_04_wav_pcmenc$0$0({14146}DA14146d,SC:U),D,0,0
+S:G$right02_wav_pcmenc$0$0({9101}DA9101d,SC:U),D,0,0
 M:_sms_manager
 F:G$devkit_SMS_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),Z,0,0,0,0,0
@@ -473,8 +473,8 @@ S:G$screen_test_screen_load$0$0({2}DF,SV:S),C,0,0
 S:G$screen_test_screen_update$0$0({2}DF,SV:S),C,0,0
 M:riff_object
 S:G$riff_sample_data$0$0({4}DA2d,DG,SC:U),E,0,0
-S:G$Riff_1980_04_wav_pcmenc$0$0({0}DA0d,SC:U),D,0,0
-S:G$Riff_1995_04_wav_pcmenc$0$0({0}DA0d,SC:U),D,0,0
+S:G$right01_wav_pcmenc$0$0({0}DA0d,SC:U),D,0,0
+S:G$right02_wav_pcmenc$0$0({0}DA0d,SC:U),D,0,0
 S:G$riff_sample_bank$0$0({2}DA2d,SC:U),D,0,0
 M:none_screen
 F:G$screen_none_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
@@ -949,8 +949,8 @@ L:Fscreen_manager$update_method$0$0:C036
 L:Finput_manager$curr_joypad1$0$0:C12F
 L:Finput_manager$prev_joypad1$0$0:C131
 L:G$riff_sample_data$0$0:C133
-L:G$Riff_1980_04_wav_pcmenc$0$0:8000
-L:G$Riff_1995_04_wav_pcmenc$0$0:8000
+L:G$right01_wav_pcmenc$0$0:8000
+L:G$right02_wav_pcmenc$0$0:8000
 L:G$__SMS__SEGA_signature$0$0:7FF0
 L:G$__SMS__SDSC_author$0$0:7FD2
 L:G$__SMS__SDSC_name$0$0:7FC9

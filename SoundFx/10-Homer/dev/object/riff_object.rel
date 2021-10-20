@@ -2,9 +2,9 @@ XL2
 H 9 areas 8 global symbols
 M riff_object
 O -mz80
-S _Riff_1980_04_wav_pcmenc Ref0000
 S .__.ABS. Def0000
-S _Riff_1995_04_wav_pcmenc Ref0000
+S _right01_wav_pcmenc Ref0000
+S _right02_wav_pcmenc Ref0000
 A _CODE size 2 flags 0 addr 0
 S G$riff_sample_bank$0$0 Def0000
 S _riff_sample_bank Def0000
@@ -30,4 +30,4 @@ R 00 00 00 00
 T 00 00
 R 00 00 07 00
 T 00 00 00 00 00 00
-R 00 00 07 00 02 02 00 00 02 04 02 00
+R 00 00 07 00 02 02 01 00 02 04 02 00

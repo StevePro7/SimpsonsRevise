@@ -53,8 +53,8 @@ Area                                    Addr        Size        Decimal Bytes (A
      000017BB  s__INITIALIZER                  
      000017C7  s__GSINIT                       
      000017D6  s__GSFINAL                      
-     00003685  l__BANK2                        
-     00003742  l__BANK3                        
+     000022DE  l__BANK2                        
+     0000238D  l__BANK3                        
      00008000  G$SMS_SRAM$0$0                     _sms_manager
      00008000  _SMS_SRAM                          SMSlib_PSGaiden
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
@@ -1821,24 +1821,24 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK2                              00008000    00003685 =       13957. bytes (REL,CON)
+_BANK2                              00008000    000022DE =        8926. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  G$Riff_1980_04_wav_pcmenc$0$0      bank2
-     00008000  _Riff_1980_04_wav_pcmenc           bank2
+     00008000  G$right01_wav_pcmenc$0$0           bank2
+     00008000  _right01_wav_pcmenc                bank2
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK3                              00008000    00003742 =       14146. bytes (REL,CON)
+_BANK3                              00008000    0000238D =        9101. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  G$Riff_1995_04_wav_pcmenc$0$0      bank3
-     00008000  _Riff_1995_04_wav_pcmenc           bank3
+     00008000  G$right02_wav_pcmenc$0$0           bank3
+     00008000  _right02_wav_pcmenc                bank3
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
 Hexadecimal  [32-Bits]
