@@ -28,3 +28,16 @@ Qs
 
 
 Sound FX
+4x banks
+
+9101	bank3
+6700	bank7
+
+12298	bank6
+
+8926	bank2
+6677	bank5
+
+
+6598	bank4
+left 	over
