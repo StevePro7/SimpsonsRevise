@@ -50,13 +50,13 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000200  s__CODE                         
      000014B8  l__BANK6                        
      0000167B  l__CODE                         
+     0000177E  l__BANK2                        
      0000177E  l__BANK5                        
      0000187B  s__HOME                         
      0000187B  s__INITIALIZER                  
      0000188F  s__GSINIT                       
      0000189E  s__GSFINAL                      
      000019C6  l__BANK4                        
-     00001A2C  l__BANK7                        
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
@@ -66,8 +66,8 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000238D  l__BANK3                        
-     0000500D  l__BANK2                        
+     00001A2C  l__BANK7                        
+     0000300A  l__BANK3                        
      00008000  G$SMS_SRAM$0$0                     _sms_manager
      00008000  _SMS_SRAM                          SMSlib_PSGaiden
      00008000  s__BANK2                        
@@ -1945,7 +1945,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK2                              00008000    0000500D =       20493. bytes (REL,CON)
+_BANK2                              00008000    0000177E =        6014. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1957,7 +1957,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK3                              00008000    0000238D =        9101. bytes (REL,CON)
+_BANK3                              00008000    0000300A =       12298. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
