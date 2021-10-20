@@ -49,12 +49,12 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000012F  l__DATA                         
      00000200  s__CODE                         
      0000167B  l__CODE                         
-     0000177E  l__BANK5                        
      0000187B  s__HOME                         
      0000187B  s__INITIALIZER                  
      0000188F  s__GSINIT                       
      0000189E  s__GSFINAL                      
      000019C6  l__BANK4                        
+     00001A15  l__BANK5                        
      00001A2C  l__BANK7                        
      000022DE  l__BANK2                        
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
@@ -1981,7 +1981,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK5                              00008000    0000177E =        6014. bytes (REL,CON)
+_BANK5                              00008000    00001A15 =        6677. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
