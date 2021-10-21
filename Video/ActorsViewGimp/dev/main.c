@@ -2,7 +2,7 @@
 
 void main(void)
 {
-	static unsigned char index = 2;
+	static unsigned char index = 3;
 	devkit_SMS_init();
 	devkit_SMS_displayOff();
 	engine_asm_manager_clear_VRAM();

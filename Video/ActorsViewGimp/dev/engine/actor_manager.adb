@@ -10,11 +10,7 @@ S:Lactor_manager.draw_impl$palette$1$24({2}DG,SC:U),B,1,9
 F:Factor_manager$draw_actor00$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor01$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor02$0$0({2}DF,SV:S),Z,0,0,0,0,0
-F:G$engine_actor_manager_draw_actor$0$0({2}DF,SV:S),C,0,2,0,0,0
-S:Lactor_manager.engine_actor_manager_draw_actor$index$1$29({1}SC:U),B,1,4
-S:Lactor_manager.engine_actor_manager_draw_actor$tileset$1$30({2}DG,SC:U),R,0,0,[e,d]
-S:Lactor_manager.engine_actor_manager_draw_actor$tilemap$1$30({2}DG,SC:U),B,1,-2
-S:Lactor_manager.engine_actor_manager_draw_actor$palette$1$30({2}DG,SC:U),R,0,0,[c,b]
+F:Factor_manager$draw_actor03$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:G$actor_tileset$0$0({32}DA16d,DG,SC:U),E,0,0
 S:G$actor_tilemap$0$0({32}DA16d,DG,SC:U),E,0,0
 S:G$actor_palette$0$0({32}DA16d,DG,SC:U),E,0,0
@@ -61,4 +57,3 @@ S:G$devkit_PORT_A_KEY_1$0$0({2}DF,SI:U),C,0,0
 S:G$devkit_PORT_A_KEY_2$0$0({2}DF,SI:U),C,0,0
 S:G$devkit_SPRITEMODE_NORMAL$0$0({2}DF,SC:U),C,0,0
 S:G$devkit_VDPFEATURE_HIDEFIRSTCOL$0$0({2}DF,SI:U),C,0,0
-S:G$engine_actor_manager_draw_actor$0$0({2}DF,SV:S),C,0,2
