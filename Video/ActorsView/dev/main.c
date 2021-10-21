@@ -17,9 +17,11 @@ void main(void)
 	//engine_font_manager_draw_text( "223344", 1, 16 );
 	//engine_content_manager_load_sprite_palette();
 
-	//engine_content_manager_load_sprite_palette();
-	//engine_actor_manager_draw();
-	foo();
+	engine_content_manager_load_sprite_palette();
+
+	engine_actor_manager_draw();
+	//foo();
+
 	//engine_content_manager_load_font_tiles();
 
 	devkit_SMS_displayOn();

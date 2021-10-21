@@ -1,7 +1,7 @@
 #include "content_manager.h"
 #include "../devkit/_sms_manager.h"
-//#include "../banks/bank2.h"
-#include "../banks/bank3.h"
+#include "../banks/bank2.h"
+//#include "../banks/bank3.h"
 #include "../banks/bank6.h"
 #include "../banks/bank7.h"
 #include "../gfx.h"
@@ -44,8 +44,8 @@ void foo()
 	//devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) actor01__tilemap__stmcompr );
 	//devkit_SMS_loadBGPalette( ( void * ) actor01__palette__bin );
 
-	devkit_SMS_mapROMBank( actor04__tiles__psgcompr_bank );
-	devkit_SMS_loadPSGaidencompressedTiles( actor04__tiles__psgcompr, FULL_TILES_OFFSET );
-	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) actor04__tilemap__stmcompr );
-	devkit_SMS_loadBGPalette( ( void * ) actor04__palette__bin );
+	devkit_SMS_mapROMBank( actor00__tiles__psgcompr_bank );
+	devkit_SMS_loadPSGaidencompressedTiles( actor00__tiles__psgcompr, FULL_TILES_OFFSET );
+	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) actor00__tilemap__stmcompr );
+	devkit_SMS_loadBGPalette( ( void * ) actor00__palette__bin );
 }
