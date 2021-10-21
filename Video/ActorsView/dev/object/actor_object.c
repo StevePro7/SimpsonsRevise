@@ -67,8 +67,8 @@ const unsigned char *actor_palette[] =
 
 const unsigned char actor_banking[] =
 {
-	actor00__tiles__psgcompr_bank,
-	actor01__tiles__psgcompr_bank,
+	actor00__palette__bin_bank,
+	actor01__palette__bin_bank,
 	actor02__tiles__psgcompr_bank,
 	actor03__tiles__psgcompr_bank,
 	actor04__tiles__psgcompr_bank,

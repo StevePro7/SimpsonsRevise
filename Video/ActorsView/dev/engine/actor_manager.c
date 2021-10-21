@@ -10,7 +10,7 @@
 
 void engine_actor_manager_draw()
 {
-	const unsigned char index = 5;
+	unsigned char index = 1;
 	const unsigned char *tileset = ( const unsigned char * ) actor_tileset[ index ];
 	const unsigned char *tilemap = ( const unsigned char * ) actor_tilemap[ index ];
 	const unsigned char *palette = ( const unsigned char * ) actor_palette[ index ];
@@ -27,8 +27,8 @@ void engine_actor_manager_draw()
 	//devkit_SMS_loadBGPalette( ( void * ) actor04__palette__bin );
 
 
-	devkit_SMS_mapROMBank( 3 );
-	//devkit_SMS_mapROMBank( banking );
+	//devkit_SMS_mapROMBank( 2 );
+	devkit_SMS_mapROMBank( banking );
 	//engine_font_manager_draw_data( banking, 10, 10 );
 	//engine_font_manager_draw_data( index, 10, 10 );
 

@@ -1,6 +1,6 @@
 ;!FILE actor_manager.asm
 XL2
-H 9 areas 32 global symbols
+H 9 areas 3A global symbols
 M actor_manager
 O -mz80
 S _actor_tilemap Ref0000
@@ -10,49 +10,57 @@ S _devkit_SMS_loadBGPalette Ref0000
 S _actor_tileset Ref0000
 S _devkit_SMS_loadPSGaidencompressedTiles Ref0000
 S .__.ABS. Def0000
+S _actor_banking Ref0000
 S _devkit_SMS_mapROMBank Ref0000
-A _CODE size 37 flags 0 addr 0
-S A$actor_manager$80 Def0017
-S A$actor_manager$71 Def000B
-S A$actor_manager$90 Def0021
-S A$actor_manager$81 Def0018
-S A$actor_manager$72 Def000C
-S A$actor_manager$63 Def0004
-S A$actor_manager$91 Def0022
-S A$actor_manager$73 Def000D
-S A$actor_manager$92 Def0024
-S A$actor_manager$74 Def000E
-S A$actor_manager$93 Def0027
-S A$actor_manager$75 Def0010
+A _CODE size 47 flags 0 addr 0
+S A$actor_manager$80 Def001D
+S A$actor_manager$71 Def0011
+S A$actor_manager$90 Def0028
+S A$actor_manager$81 Def0020
+S A$actor_manager$72 Def0014
+S A$actor_manager$63 Def0009
+S A$actor_manager$91 Def0029
+S A$actor_manager$73 Def0015
+S A$actor_manager$92 Def002A
+S A$actor_manager$74 Def0018
+S A$actor_manager$56 Def0000
+S A$actor_manager$93 Def002D
+S A$actor_manager$75 Def0019
+S A$actor_manager$57 Def0002
 S G$engine_actor_manager_draw$0$0 Def0000
-S A$actor_manager$94 Def0028
-S A$actor_manager$85 Def0019
-S A$actor_manager$76 Def0011
-S A$actor_manager$67 Def0008
-S A$actor_manager$95 Def0029
-S A$actor_manager$86 Def001A
-S A$actor_manager$77 Def0012
-S A$actor_manager$59 Def0000
-S A$actor_manager$96 Def002C
-S A$actor_manager$87 Def001C
-S A$actor_manager$78 Def0015
-S A$actor_manager$97 Def002D
-S A$actor_manager$88 Def001D
-S A$actor_manager$79 Def0016
-S A$actor_manager$98 Def0030
-S A$actor_manager$89 Def001E
-S A$actor_manager$99 Def0031
+S A$actor_manager$94 Def002E
+S A$actor_manager$85 Def0021
+S A$actor_manager$76 Def001A
+S A$actor_manager$67 Def000D
+S A$actor_manager$58 Def0006
+S A$actor_manager$95 Def002F
+S A$actor_manager$86 Def0022
+S A$actor_manager$59 Def0008
+S A$actor_manager$96 Def0032
+S A$actor_manager$87 Def0023
+S A$actor_manager$97 Def0033
+S A$actor_manager$88 Def0024
+S A$actor_manager$98 Def0036
+S A$actor_manager$89 Def0025
+S A$actor_manager$99 Def0037
 S _engine_actor_manager_draw Def0000
-S XG$engine_actor_manager_draw$0$0 Def0036
-S A$actor_manager$100 Def0032
-S A$actor_manager$101 Def0035
-S C$actor_manager.c$30$1$21 Def000B
-S C$actor_manager.c$41$1$21 Def0036
-S C$actor_manager.c$14$1$21 Def0000
-S C$actor_manager.c$15$1$21 Def0004
-S C$actor_manager.c$16$1$21 Def0008
-S A$actor_manager$106 Def0036
-S C$actor_manager.c$36$1$21 Def0019
+S XG$engine_actor_manager_draw$0$0 Def0046
+S A$actor_manager$100 Def003A
+S A$actor_manager$110 Def0044
+S A$actor_manager$101 Def003B
+S C$actor_manager.c$40$1$21 Def003C
+S C$actor_manager.c$31$1$21 Def0021
+S C$actor_manager.c$41$1$21 Def0046
+S C$actor_manager.c$14$1$21 Def0009
+S C$actor_manager.c$15$1$21 Def000D
+S A$actor_manager$105 Def003C
+S C$actor_manager.c$16$1$21 Def0011
+S A$actor_manager$115 Def0046
+S A$actor_manager$106 Def003D
+S C$actor_manager.c$17$1$21 Def001D
+S A$actor_manager$107 Def003E
+S A$actor_manager$108 Def003F
+S A$actor_manager$109 Def0042
 S C$actor_manager.c$11$0$0 Def0000
 A _DATA size 0 flags 0 addr 0
 A _INITIALIZED size 0 flags 0 addr 0
@@ -64,11 +72,15 @@ A _INITIALIZER size 0 flags 0 addr 0
 A _CABS size 0 flags 8 addr 0
 T 00 00
 R 00 00 00 00
-T 00 00 ED 5B 0A 00 ED 4B 0A 00 2A 0A 00 E5 C5 D5
-R 00 00 00 00 02 04 04 00 02 08 00 00 02 0B 01 00
-T 0E 00 3E 03 F5 33 CD 00 00 33 D1 C1 E1 D5 FD E1
-R 00 00 00 00 02 07 07 00
-T 1C 00 E5 C5 11 40 00 D5 FD E5 CD 00 00 F1 F1 01
-R 00 00 00 00 02 0B 05 00
-T 2A 00 00 00 C5 CD 00 00 F1 F1 CD 00 00 F1 C9
-R 00 00 00 00 02 06 02 00 02 0B 03 00
+T 00 00 DD E5 DD 21 00 00 DD 39 F5 ED 5B 02 00 ED
+R 00 00 00 00 02 0D 04 00
+T 0E 00 4B 02 00 21 02 00 7E DD 77 FE 23 7E DD 77
+R 00 00 00 00 02 03 00 00 02 06 01 00
+T 1C 00 FF 21 01 00 66 C5 D5 E5 33 CD 00 00 33 D1
+R 00 00 00 00 02 04 07 00 02 0C 08 00
+T 2A 00 21 40 00 E5 D5 CD 00 00 F1 21 00 00 E3 CD
+R 00 00 00 00 02 08 05 00
+T 38 00 00 00 F1 F1 C1 C5 C5 CD 00 00 DD F9 DD E1
+R 00 00 00 00 02 02 02 00 02 0A 03 00
+T 46 00 C9
+R 00 00 00 00
