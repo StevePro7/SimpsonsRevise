@@ -67,20 +67,28 @@ const unsigned char *actor_palette[] =
 
 const unsigned char actor_banking[] =
 {
-	actor00__tiles__psgcompr_bank,
-	actor01__tiles__psgcompr_bank,
-	actor02__tiles__psgcompr_bank,
-	actor03__tiles__psgcompr_bank,
-	actor04__tiles__psgcompr_bank,
-	actor05__tiles__psgcompr_bank,
-	actor06__tiles__psgcompr_bank,
-	actor07__tiles__psgcompr_bank,
-	actor08__tiles__psgcompr_bank,
-	actor09__tiles__psgcompr_bank,
-	actor10__tiles__psgcompr_bank,
-	actor11__tiles__psgcompr_bank,
-	actor12__tiles__psgcompr_bank,
-	actor13__tiles__psgcompr_bank,
-	actor14__tiles__psgcompr_bank,
-	actor15__tiles__psgcompr_bank,
+	2, 2, 2, 2,
+	3, 3, 3, 3,
+	4, 4, 4, 4,
+	5, 5, 5, 5,
 };
+
+//const unsigned char actor_banking[] =
+//{
+//	actor00__tiles__psgcompr_bank,
+//	actor01__tiles__psgcompr_bank,
+//	actor02__tiles__psgcompr_bank,
+//	actor03__tiles__psgcompr_bank,
+//	actor04__tiles__psgcompr_bank,
+//	actor05__tiles__psgcompr_bank,
+//	actor06__tiles__psgcompr_bank,
+//	actor07__tiles__psgcompr_bank,
+//	actor08__tiles__psgcompr_bank,
+//	actor09__tiles__psgcompr_bank,
+//	actor10__tiles__psgcompr_bank,
+//	actor11__tiles__psgcompr_bank,
+//	actor12__tiles__psgcompr_bank,
+//	actor13__tiles__psgcompr_bank,
+//	actor14__tiles__psgcompr_bank,
+//	actor15__tiles__psgcompr_bank,
+//};

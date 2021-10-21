@@ -21,6 +21,7 @@ S:G$devkit_SMS_loadPSGaidencompressedTiles$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_loadSTMcompressedTileMap$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_loadBGPalette$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_loadSpritePalette$0$0({2}DF,SV:S),C,0,0
+S:G$devkit_SMS_setBGPaletteColor$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_setSpritePaletteColor$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_setNextTileatXY$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_setTile$0$0({2}DF,SV:S),C,0,0

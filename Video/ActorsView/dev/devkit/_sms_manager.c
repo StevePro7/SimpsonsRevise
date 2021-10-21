@@ -83,6 +83,11 @@ void devkit_SMS_loadSpritePalette( void *palette )
 {
 	SMS_loadSpritePalette( palette );
 }
+void devkit_SMS_setBGPaletteColor( const unsigned char entry, const unsigned char r, const unsigned char g, const unsigned char b )
+{
+	const unsigned char color = RGB( r, g, b );
+	SMS_setBGPaletteColor( entry, color );
+}
 void devkit_SMS_setSpritePaletteColor( const unsigned char entry, const unsigned char r, const unsigned char g, const unsigned char b )
 {
 	const unsigned char color = RGB( r, g, b );

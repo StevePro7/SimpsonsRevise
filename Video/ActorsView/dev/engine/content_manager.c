@@ -19,6 +19,7 @@ void engine_content_manager_load_font_tiles()
 void engine_content_manager_load_sprite_palette()
 {
 	devkit_SMS_setSpritePaletteColor( 0, 3, 3, 3 );
+//	devkit_SMS_setBGPaletteColor( 15, 3, 3, 3 );
 }
 
 void engine_content_manager_load_splash()

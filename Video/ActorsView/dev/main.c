@@ -15,13 +15,15 @@ void main(void)
 	//engine_content_manager_load_title();
 
 	engine_content_manager_load_font_tiles();
-	engine_font_manager_draw_text( "SUZANNE!!", 1, 16 );
-	engine_content_manager_load_sprite_palette();
+	//engine_font_manager_draw_text( "SUZANNE!!", 1, 16 );
+	
 
 	engine_actor_manager_draw();
 	//foo();
 
 	//engine_content_manager_load_font_tiles();
+
+	engine_content_manager_load_sprite_palette();
 
 	devkit_SMS_displayOn();
 	for (;;)
