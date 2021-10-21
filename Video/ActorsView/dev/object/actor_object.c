@@ -65,7 +65,7 @@ const unsigned char *actor_palette[] =
 	actor15__palette__bin,
 };
 
-const unsigned char actor_banking[] =
+unsigned char actor_banking[] =
 {
 	actor00__tiles__psgcompr_bank,
 	actor01__tiles__psgcompr_bank,

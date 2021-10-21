@@ -9,11 +9,11 @@
 
 void engine_actor_manager_draw()
 {
-	const unsigned char index = 2;
+	const unsigned char index = 14;
 	const unsigned char *tileset = actor_tileset[ index ];
 	const unsigned char *tilemap = actor_tilemap[ index ];
 	const unsigned char *palette = actor_palette[ index ];
-	//const unsigned char banking = actor_banking[ index ];
+	unsigned char banking = actor_banking[ index ];
 
 	//devkit_SMS_mapROMBank( banking );
 	//devkit_SMS_loadPSGaidencompressedTiles( tileset, ACTOR_TILES_OFFSET );
@@ -26,7 +26,9 @@ void engine_actor_manager_draw()
 	//devkit_SMS_loadBGPalette( ( void * ) actor04__palette__bin );
 
 
-	devkit_SMS_mapROMBank( 2 );
+	//devkit_SMS_mapROMBank( 5 );
+	devkit_SMS_mapROMBank( banking );
+
 	//devkit_SMS_loadPSGaidencompressedTiles( actor00__tiles__psgcompr, ACTOR_TILES_OFFSET );
 	devkit_SMS_loadPSGaidencompressedTiles( tileset, ACTOR_TILES_OFFSET );
 	//devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) actor00__tilemap__stmcompr );
