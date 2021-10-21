@@ -3,10 +3,10 @@ cd banks
 cd bank3
 
 :: Setup.
-bmp2tile.exe raw\actor04.bmp -savetiles "actor04 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor04 (tilemap).stmcompr" -savepalette "actor04 (palette).bin" -fullpalette -exit
-bmp2tile.exe raw\actor05.bmp -savetiles "actor05 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor05 (tilemap).stmcompr" -savepalette "actor05 (palette).bin" -fullpalette -exit
-bmp2tile.exe raw\actor06.bmp -savetiles "actor06 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor06 (tilemap).stmcompr" -savepalette "actor06 (palette).bin" -fullpalette -exit
-bmp2tile.exe raw\actor07.bmp -savetiles "actor07 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor07 (tilemap).stmcompr" -savepalette "actor07 (palette).bin" -fullpalette -exit
+bmp2tile.exe raw\actor04.bmp -savetiles "actor04 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 64 -savetilemap "actor04 (tilemap).stmcompr" -savepalette "actor04 (palette).bin" -fullpalette -exit
+bmp2tile.exe raw\actor05.bmp -savetiles "actor05 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 64 -savetilemap "actor05 (tilemap).stmcompr" -savepalette "actor05 (palette).bin" -fullpalette -exit
+bmp2tile.exe raw\actor06.bmp -savetiles "actor06 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 64 -savetilemap "actor06 (tilemap).stmcompr" -savepalette "actor06 (palette).bin" -fullpalette -exit
+bmp2tile.exe raw\actor07.bmp -savetiles "actor07 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 64 -savetilemap "actor07 (tilemap).stmcompr" -savepalette "actor07 (palette).bin" -fullpalette -exit
 
 :: Convert.
 cd ..

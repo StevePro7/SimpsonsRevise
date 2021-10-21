@@ -1,6 +1,6 @@
 M:bank3
 S:G$actor04__palette__bin$0$0({16}DA16d,SC:U),D,0,0
-S:G$actor04__tilemap__stmcompr$0$0({94}DA94d,SC:U),D,0,0
+S:G$actor04__tilemap__stmcompr$0$0({91}DA91d,SC:U),D,0,0
 S:G$actor04__tiles__psgcompr$0$0({3126}DA3126d,SC:U),D,0,0
 S:G$actor05__palette__bin$0$0({16}DA16d,SC:U),D,0,0
 S:G$actor05__tilemap__stmcompr$0$0({89}DA89d,SC:U),D,0,0

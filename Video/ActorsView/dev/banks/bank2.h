@@ -39,7 +39,7 @@ extern const unsigned char	actor03__palette__bin[];
 #define				actor03__palette__bin_bank 2
 
 extern const unsigned char	actor03__tilemap__stmcompr[];
-#define				actor03__tilemap__stmcompr_size 104
+#define				actor03__tilemap__stmcompr_size 102
 #define				actor03__tilemap__stmcompr_bank 2
 
 extern const unsigned char	actor03__tiles__psgcompr[];

@@ -9,5 +9,5 @@ S:G$actor02__palette__bin$0$0({16}DA16d,SC:U),D,0,0
 S:G$actor02__tilemap__stmcompr$0$0({81}DA81d,SC:U),D,0,0
 S:G$actor02__tiles__psgcompr$0$0({2913}DA2913d,SC:U),D,0,0
 S:G$actor03__palette__bin$0$0({16}DA16d,SC:U),D,0,0
-S:G$actor03__tilemap__stmcompr$0$0({104}DA104d,SC:U),D,0,0
+S:G$actor03__tilemap__stmcompr$0$0({102}DA102d,SC:U),D,0,0
 S:G$actor03__tiles__psgcompr$0$0({3228}DA3228d,SC:U),D,0,0
