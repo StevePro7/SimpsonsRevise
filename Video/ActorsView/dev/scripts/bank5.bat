@@ -1,3 +1,4 @@
+cd ..
 cd banks
 cd bank5
 
@@ -6,7 +7,6 @@ bmp2tile.exe raw\actor12.bmp -savetiles "actor12 (tiles).psgcompr" -removedupes 
 bmp2tile.exe raw\actor13.bmp -savetiles "actor13 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor13 (tilemap).stmcompr" -savepalette "actor13 (palette).bin" -fullpalette -exit
 bmp2tile.exe raw\actor14.bmp -savetiles "actor14 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor14 (tilemap).stmcompr" -savepalette "actor14 (palette).bin" -fullpalette -exit
 bmp2tile.exe raw\actor15.bmp -savetiles "actor15 (tiles).psgcompr" -removedupes -nomirror -planar -tileoffset 112 -savetilemap "actor15 (tilemap).stmcompr" -savepalette "actor15 (palette).bin" -fullpalette -exit
-
 
 :: Convert.
 cd ..
