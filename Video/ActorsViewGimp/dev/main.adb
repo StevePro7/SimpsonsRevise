@@ -1,5 +1,7 @@
 M:main
 F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
+F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
+S:Lmain.main$index$1$41({1}SC:U),E,0,0
 S:G$atof$0$0({2}DF,SF:S),C,0,0
 S:G$atoi$0$0({2}DF,SI:S),C,0,0
 S:G$atol$0$0({2}DF,SL:S),C,0,0
@@ -62,13 +64,10 @@ S:G$devkit_PORT_A_KEY_1$0$0({2}DF,SI:U),C,0,0
 S:G$devkit_PORT_A_KEY_2$0$0({2}DF,SI:U),C,0,0
 S:G$devkit_SPRITEMODE_NORMAL$0$0({2}DF,SC:U),C,0,0
 S:G$devkit_VDPFEATURE_HIDEFIRSTCOL$0$0({2}DF,SI:U),C,0,0
-S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
+S:G$engine_actor_manager_draw_tests$0$0({2}DF,SV:S),C,0,0
+S:G$engine_actor_manager_draw_actor$0$0({2}DF,SV:S),C,0,0
 S:G$engine_asm_manager_clear_VRAM$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font_tiles$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
-S:G$engine_content_manager_load_splash$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_title$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_draw_char$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_draw_text$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_draw_data$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0

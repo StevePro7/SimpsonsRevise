@@ -2,7 +2,7 @@
 
 void main(void)
 {
-	//unsigned char index = 0;
+	static unsigned char index = 12;
 	devkit_SMS_init();
 	devkit_SMS_displayOff();
 	engine_asm_manager_clear_VRAM();
@@ -13,13 +13,17 @@ void main(void)
 
 	//engine_content_manager_load_splash();
 	
-	engine_content_manager_load_font_tiles();
+	
 	//engine_content_manager_load_title();
 
-	engine_actor_manager_draw();
+	//index = 3;
+	//engine_actor_manager_draw_actor( index );
+	engine_actor_manager_draw_tests();
 	engine_content_manager_load_sprite_palette();
 
-	engine_font_manager_draw_text( "HELLO", 1, 1 );
+	//engine_content_manager_load_font_tiles();
+	//engine_font_manager_draw_text( "HELLO", 1, 1 );
+
 	devkit_SMS_displayOn();
 	for (;;)
 	{

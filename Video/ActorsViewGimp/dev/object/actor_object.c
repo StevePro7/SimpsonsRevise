@@ -5,7 +5,7 @@
 #include "../banks/bank4.h"
 #include "../banks/bank5.h"
 
-const unsigned char *actor_tileset[] =
+const unsigned char *actor_tileset[ 16 ] =
 {
 	actor00__tiles__psgcompr,
 	actor01__tiles__psgcompr,
@@ -25,7 +25,7 @@ const unsigned char *actor_tileset[] =
 	actor15__tiles__psgcompr,
 };
 
-const unsigned char *actor_tilemap[] =
+const unsigned char *actor_tilemap[ 16 ] =
 {
 	actor00__tilemap__stmcompr,
 	actor01__tilemap__stmcompr,
@@ -45,7 +45,7 @@ const unsigned char *actor_tilemap[] =
 	actor15__tilemap__stmcompr,
 };
 
-const unsigned char *actor_palette[] =
+const unsigned char *actor_palette[ 16 ] =
 {
 	actor00__palette__bin,
 	actor01__palette__bin,
@@ -65,7 +65,7 @@ const unsigned char *actor_palette[] =
 	actor15__palette__bin,
 };
 
-//const unsigned char actor_banking[] =
+//const unsigned char actor_banking[ 16 ] =
 //{
 //	2, 2, 2, 2,
 //	3, 3, 3, 3,
@@ -73,7 +73,7 @@ const unsigned char *actor_palette[] =
 //	5, 5, 5, 5,
 //};
 
-//const unsigned char actor_banking[] =
+//const unsigned char actor_banking[ 16 ] =
 //{
 //	actor00__tiles__psgcompr_bank,
 //	actor01__tiles__psgcompr_bank,
