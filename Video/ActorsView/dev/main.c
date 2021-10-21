@@ -14,9 +14,8 @@ void main(void)
 
 	//engine_content_manager_load_title();
 
-	//engine_font_manager_draw_text( "223344", 1, 16 );
-	//engine_content_manager_load_sprite_palette();
-
+	engine_content_manager_load_font_tiles();
+	engine_font_manager_draw_text( "SUZANNE!!", 1, 16 );
 	engine_content_manager_load_sprite_palette();
 
 	engine_actor_manager_draw();
