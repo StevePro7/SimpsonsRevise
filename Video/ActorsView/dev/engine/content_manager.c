@@ -37,16 +37,3 @@ void engine_content_manager_load_title()
 	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) simpsons__tilemap__stmcompr );
 	devkit_SMS_loadBGPalette( ( void * ) simpsons__palette__bin );
 }
-
-void foo()
-{
-	//devkit_SMS_mapROMBank( actor01__tiles__psgcompr_bank );
-	//devkit_SMS_loadPSGaidencompressedTiles( actor01__tiles__psgcompr, FULL_TILES_OFFSET );
-	//devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) actor01__tilemap__stmcompr );
-	//devkit_SMS_loadBGPalette( ( void * ) actor01__palette__bin );
-
-	devkit_SMS_mapROMBank( actor00__tiles__psgcompr_bank );
-	devkit_SMS_loadPSGaidencompressedTiles( actor00__tiles__psgcompr, FULL_TILES_OFFSET );
-	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) actor00__tilemap__stmcompr );
-	devkit_SMS_loadBGPalette( ( void * ) actor00__palette__bin );
-}
