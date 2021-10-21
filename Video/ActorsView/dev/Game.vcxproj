@@ -144,6 +144,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="banks\bank2.c" />
+    <ClCompile Include="banks\bank3.c" />
+    <ClCompile Include="banks\bank4.c" />
+    <ClCompile Include="banks\bank5.c" />
+    <ClCompile Include="banks\bank6.c" />
+    <ClCompile Include="banks\bank7.c" />
     <ClCompile Include="devkit\_sms_manager.c" />
     <ClCompile Include="engine\asm_manager.c" />
     <ClCompile Include="engine\content_manager.c" />
@@ -155,6 +161,12 @@
     <None Include="build.bat" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="banks\bank2.h" />
+    <ClInclude Include="banks\bank3.h" />
+    <ClInclude Include="banks\bank4.h" />
+    <ClInclude Include="banks\bank5.h" />
+    <ClInclude Include="banks\bank6.h" />
+    <ClInclude Include="banks\bank7.h" />
     <ClInclude Include="devkit\_sms_manager.h" />
     <ClInclude Include="engine\asm_manager.h" />
     <ClInclude Include="engine\content_manager.h" />

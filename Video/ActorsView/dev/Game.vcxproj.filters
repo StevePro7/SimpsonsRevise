@@ -31,6 +31,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\banks">
+      <UniqueIdentifier>{e9325754-b8e9-4e4b-99aa-2c51087fafeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\banks">
+      <UniqueIdentifier>{14077028-87d8-4b46-a9ac-97127ebfb192}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -50,6 +56,24 @@
     </ClCompile>
     <ClCompile Include="engine\asm_manager.c">
       <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank2.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank3.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank4.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank5.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank6.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank7.c">
+      <Filter>Source Files\banks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +99,24 @@
     </ClInclude>
     <ClInclude Include="engine\asm_manager.h">
       <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank2.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank3.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank4.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank5.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank6.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank7.h">
+      <Filter>Header Files\banks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
