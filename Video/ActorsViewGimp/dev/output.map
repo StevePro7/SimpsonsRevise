@@ -49,11 +49,11 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000012A  l__HEADER5                      
      00000200  s__CODE                         
      00000880  l__BANK6                        
-     00001086  l__CODE                         
-     00001286  s__HOME                         
-     00001286  s__INITIALIZER                  
-     000012EA  s__GSINIT                       
-     00001301  s__GSFINAL                      
+     0000117E  l__CODE                         
+     0000137E  s__HOME                         
+     0000137E  s__INITIALIZER                  
+     000013E2  s__GSINIT                       
+     000013F9  s__GSFINAL                      
      00001F38  l__BANK7                        
      00002245  l__BANK5                        
      000022E4  l__BANK4                        
@@ -90,7 +90,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -149,7 +149,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -209,7 +209,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -269,7 +269,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -329,7 +329,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -389,7 +389,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -449,7 +449,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -509,7 +509,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -569,7 +569,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -629,7 +629,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -689,7 +689,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -749,7 +749,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -809,7 +809,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -869,7 +869,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -929,7 +929,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -989,7 +989,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1049,7 +1049,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1109,7 +1109,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1149,19 +1149,19 @@ _CODE                               00000200    00001086 =        4230. bytes (R
      000005E1  F_sms_manager$__str_1$0$0          _sms_manager
      000005EF  F_sms_manager$__str_2$0$0          _sms_manager
      00000627  A$actor_manager$63                 actor_manager
-     00000627  C$actor_manager.c$19$0$0           actor_manager
-     00000627  C$actor_manager.c$21$1$21          actor_manager
+     00000627  C$actor_manager.c$22$0$0           actor_manager
+     00000627  C$actor_manager.c$24$1$21          actor_manager
      00000627  G$engine_actor_manager_init$0$0    actor_manager
      00000627  _engine_actor_manager_init         actor_manager
      0000062A  A$actor_manager$64                 actor_manager
      0000062D  A$actor_manager$68                 actor_manager
-     0000062D  C$actor_manager.c$22$1$21          actor_manager
+     0000062D  C$actor_manager.c$25$1$21          actor_manager
      00000630  A$actor_manager$69                 actor_manager
      00000633  A$actor_manager$73                 actor_manager
-     00000633  C$actor_manager.c$23$1$21          actor_manager
+     00000633  C$actor_manager.c$26$1$21          actor_manager
      00000636  A$actor_manager$74                 actor_manager
      00000639  A$actor_manager$78                 actor_manager
-     00000639  C$actor_manager.c$24$1$21          actor_manager
+     00000639  C$actor_manager.c$27$1$21          actor_manager
      0000063C  A$actor_manager$79                 actor_manager
      0000063F  A$actor_manager$83                 actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
@@ -1169,638 +1169,840 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000063F  C$actor_manager.c$25$1$21          actor_manager
+     0000063F  C$actor_manager.c$28$1$21          actor_manager
      00000642  A$actor_manager$84                 actor_manager
      00000645  A$actor_manager$88                 actor_manager
-     00000645  C$actor_manager.c$26$1$21          actor_manager
+     00000645  C$actor_manager.c$29$1$21          actor_manager
      00000648  A$actor_manager$89                 actor_manager
      0000064B  A$actor_manager$93                 actor_manager
-     0000064B  C$actor_manager.c$27$1$21          actor_manager
+     0000064B  C$actor_manager.c$30$1$21          actor_manager
      0000064E  A$actor_manager$94                 actor_manager
      00000651  A$actor_manager$98                 actor_manager
-     00000651  C$actor_manager.c$28$1$21          actor_manager
+     00000651  C$actor_manager.c$31$1$21          actor_manager
      00000654  A$actor_manager$99                 actor_manager
-     00000657  A$actor_manager$104                actor_manager
-     00000657  C$actor_manager.c$29$1$21          actor_manager
-     00000657  XG$engine_actor_manager_init$0$0   actor_manager
-     00000658  A$actor_manager$114                actor_manager
-     00000658  C$actor_manager.c$31$1$21          actor_manager
-     00000658  G$engine_actor_manager_draw$0$0    actor_manager
-     00000658  _engine_actor_manager_draw         actor_manager
-     0000065A  A$actor_manager$115                actor_manager
-     0000065E  A$actor_manager$116                actor_manager
-     00000660  A$actor_manager$120                actor_manager
-     00000660  C$actor_manager.c$33$1$23          actor_manager
-     00000663  A$actor_manager$121                actor_manager
-     00000666  A$actor_manager$122                actor_manager
-     00000668  A$actor_manager$123                actor_manager
-     00000669  A$actor_manager$124                actor_manager
-     0000066A  A$actor_manager$125                actor_manager
-     0000066B  A$actor_manager$126                actor_manager
-     0000066C  A$actor_manager$127                actor_manager
-     0000066D  A$actor_manager$128                actor_manager
-     0000066E  A$actor_manager$133                actor_manager
-     0000066E  C$actor_manager.c$34$1$23          actor_manager
-     0000066E  XG$engine_actor_manager_draw$0$0   actor_manager
-     00000670  A$actor_manager$134                actor_manager
-     00000673  A$actor_manager$147                actor_manager
-     00000673  C$actor_manager.c$36$1$23          actor_manager
-     00000673  C$actor_manager.c$38$1$25          actor_manager
-     00000673  Factor_manager$draw_impl$0$0       actor_manager
-     00000676  A$actor_manager$148                actor_manager
-     00000677  A$actor_manager$149                actor_manager
-     00000678  A$actor_manager$150                actor_manager
-     00000679  A$actor_manager$151                actor_manager
-     0000067A  A$actor_manager$152                actor_manager
-     0000067D  A$actor_manager$153                actor_manager
-     0000067E  A$actor_manager$157                actor_manager
-     0000067E  C$actor_manager.c$39$1$25          actor_manager
-     00000681  A$actor_manager$158                actor_manager
-     00000682  A$actor_manager$159                actor_manager
-     00000683  A$actor_manager$160                actor_manager
-     00000684  A$actor_manager$161                actor_manager
-     00000685  A$actor_manager$162                actor_manager
+     00000657  A$actor_manager$103                actor_manager
+     00000657  C$actor_manager.c$32$1$21          actor_manager
+     0000065A  A$actor_manager$104                actor_manager
+     0000065D  A$actor_manager$108                actor_manager
+     0000065D  C$actor_manager.c$33$1$21          actor_manager
+     00000660  A$actor_manager$109                actor_manager
+     00000663  A$actor_manager$113                actor_manager
+     00000663  C$actor_manager.c$34$1$21          actor_manager
+     00000666  A$actor_manager$114                actor_manager
+     00000669  A$actor_manager$118                actor_manager
+     00000669  C$actor_manager.c$35$1$21          actor_manager
+     0000066C  A$actor_manager$119                actor_manager
+     0000066F  A$actor_manager$123                actor_manager
+     0000066F  C$actor_manager.c$36$1$21          actor_manager
+     00000672  A$actor_manager$124                actor_manager
+     00000675  A$actor_manager$128                actor_manager
+     00000675  C$actor_manager.c$37$1$21          actor_manager
+     00000678  A$actor_manager$129                actor_manager
+     0000067B  A$actor_manager$133                actor_manager
+     0000067B  C$actor_manager.c$38$1$21          actor_manager
+     0000067E  A$actor_manager$134                actor_manager
+     00000681  A$actor_manager$138                actor_manager
+     00000681  C$actor_manager.c$39$1$21          actor_manager
+     00000684  A$actor_manager$139                actor_manager
+     00000687  A$actor_manager$144                actor_manager
+     00000687  C$actor_manager.c$40$1$21          actor_manager
+     00000687  XG$engine_actor_manager_init$0$0   actor_manager
+     00000688  A$actor_manager$154                actor_manager
+     00000688  C$actor_manager.c$42$1$21          actor_manager
+     00000688  G$engine_actor_manager_draw$0$0    actor_manager
+     00000688  _engine_actor_manager_draw         actor_manager
+     0000068A  A$actor_manager$155                actor_manager
+     0000068E  A$actor_manager$156                actor_manager
+     00000690  A$actor_manager$160                actor_manager
+     00000690  C$actor_manager.c$44$1$23          actor_manager
+     00000693  A$actor_manager$161                actor_manager
+     00000696  A$actor_manager$162                actor_manager
+     00000698  A$actor_manager$163                actor_manager
+     00000699  A$actor_manager$164                actor_manager
+     0000069A  A$actor_manager$165                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000688  A$actor_manager$163                actor_manager
-     00000689  A$actor_manager$164                actor_manager
-     0000068A  A$actor_manager$165                actor_manager
-     0000068D  A$actor_manager$166                actor_manager
-     0000068E  A$actor_manager$167                actor_manager
-     0000068F  A$actor_manager$171                actor_manager
-     0000068F  C$actor_manager.c$40$1$25          actor_manager
-     00000692  A$actor_manager$172                actor_manager
-     00000693  A$actor_manager$173                actor_manager
-     00000694  A$actor_manager$174                actor_manager
-     00000695  A$actor_manager$175                actor_manager
-     00000696  A$actor_manager$176                actor_manager
-     00000697  A$actor_manager$177                actor_manager
-     0000069A  A$actor_manager$178                actor_manager
-     0000069B  A$actor_manager$179                actor_manager
-     0000069E  A$actor_manager$180                actor_manager
-     0000069F  A$actor_manager$181                actor_manager
-     000006A0  A$actor_manager$185                actor_manager
-     000006A0  C$actor_manager.c$41$1$25          actor_manager
-     000006A3  A$actor_manager$186                actor_manager
-     000006A4  A$actor_manager$187                actor_manager
-     000006A5  A$actor_manager$188                actor_manager
-     000006A6  A$actor_manager$189                actor_manager
-     000006A7  A$actor_manager$190                actor_manager
-     000006A8  A$actor_manager$191                actor_manager
-     000006AB  A$actor_manager$192                actor_manager
-     000006AC  A$actor_manager$197                actor_manager
-     000006AC  C$actor_manager.c$42$1$25          actor_manager
-     000006AC  XFactor_manager$draw_impl$0$0      actor_manager
-     000006AD  A$actor_manager$210                actor_manager
-     000006AD  C$actor_manager.c$44$1$25          actor_manager
-     000006AD  C$actor_manager.c$46$1$26          actor_manager
-     000006AD  Factor_manager$draw_actor00$0$0    actor_manager
-     000006B0  A$actor_manager$211                actor_manager
-     000006B1  A$actor_manager$212                actor_manager
-     000006B4  A$actor_manager$213                actor_manager
-     000006B5  A$actor_manager$214                actor_manager
-     000006B8  A$actor_manager$215                actor_manager
-     000006B9  A$actor_manager$216                actor_manager
-     000006BB  A$actor_manager$217                actor_manager
-     000006BC  A$actor_manager$218                actor_manager
-     000006BD  A$actor_manager$219                actor_manager
-     000006C0  A$actor_manager$220                actor_manager
-     000006C3  A$actor_manager$221                actor_manager
-     000006C4  A$actor_manager$222                actor_manager
-     000006C5  A$actor_manager$227                actor_manager
-     000006C5  C$actor_manager.c$47$1$26          actor_manager
-     000006C5  XFactor_manager$draw_actor00$0$0   actor_manager
-     000006C6  A$actor_manager$240                actor_manager
-     000006C6  C$actor_manager.c$48$1$26          actor_manager
-     000006C6  C$actor_manager.c$50$1$27          actor_manager
+     0000069B  A$actor_manager$166                actor_manager
+     0000069C  A$actor_manager$167                actor_manager
+     0000069D  A$actor_manager$168                actor_manager
+     0000069E  A$actor_manager$173                actor_manager
+     0000069E  C$actor_manager.c$45$1$23          actor_manager
+     0000069E  XG$engine_actor_manager_draw$0$0   actor_manager
+     000006A0  A$actor_manager$174                actor_manager
+     000006A3  A$actor_manager$187                actor_manager
+     000006A3  C$actor_manager.c$47$1$23          actor_manager
+     000006A3  C$actor_manager.c$49$1$25          actor_manager
+     000006A3  Factor_manager$draw_impl$0$0       actor_manager
+     000006A6  A$actor_manager$188                actor_manager
+     000006A7  A$actor_manager$189                actor_manager
+     000006A8  A$actor_manager$190                actor_manager
+     000006A9  A$actor_manager$191                actor_manager
+     000006AA  A$actor_manager$192                actor_manager
+     000006AD  A$actor_manager$193                actor_manager
+     000006AE  A$actor_manager$197                actor_manager
+     000006AE  C$actor_manager.c$50$1$25          actor_manager
+     000006B1  A$actor_manager$198                actor_manager
+     000006B2  A$actor_manager$199                actor_manager
+     000006B3  A$actor_manager$200                actor_manager
+     000006B4  A$actor_manager$201                actor_manager
+     000006B5  A$actor_manager$202                actor_manager
+     000006B8  A$actor_manager$203                actor_manager
+     000006B9  A$actor_manager$204                actor_manager
+     000006BA  A$actor_manager$205                actor_manager
+     000006BD  A$actor_manager$206                actor_manager
+     000006BE  A$actor_manager$207                actor_manager
+     000006BF  A$actor_manager$211                actor_manager
+     000006BF  C$actor_manager.c$51$1$25          actor_manager
+     000006C2  A$actor_manager$212                actor_manager
+     000006C3  A$actor_manager$213                actor_manager
+     000006C4  A$actor_manager$214                actor_manager
+     000006C5  A$actor_manager$215                actor_manager
+     000006C6  A$actor_manager$216                actor_manager
+     000006C7  A$actor_manager$217                actor_manager
+     000006CA  A$actor_manager$218                actor_manager
+     000006CB  A$actor_manager$219                actor_manager
+     000006CE  A$actor_manager$220                actor_manager
+     000006CF  A$actor_manager$221                actor_manager
+     000006D0  A$actor_manager$225                actor_manager
+     000006D0  C$actor_manager.c$52$1$25          actor_manager
+     000006D3  A$actor_manager$226                actor_manager
+     000006D4  A$actor_manager$227                actor_manager
+     000006D5  A$actor_manager$228                actor_manager
+     000006D6  A$actor_manager$229                actor_manager
+     000006D7  A$actor_manager$230                actor_manager
+     000006D8  A$actor_manager$231                actor_manager
+     000006DB  A$actor_manager$232                actor_manager
+     000006DC  A$actor_manager$237                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000006C6  Factor_manager$draw_actor01$0$0    actor_manager
-     000006C9  A$actor_manager$241                actor_manager
-     000006CA  A$actor_manager$242                actor_manager
-     000006CD  A$actor_manager$243                actor_manager
-     000006CE  A$actor_manager$244                actor_manager
-     000006D1  A$actor_manager$245                actor_manager
-     000006D2  A$actor_manager$246                actor_manager
-     000006D4  A$actor_manager$247                actor_manager
-     000006D5  A$actor_manager$248                actor_manager
-     000006D6  A$actor_manager$249                actor_manager
-     000006D9  A$actor_manager$250                actor_manager
-     000006DC  A$actor_manager$251                actor_manager
-     000006DD  A$actor_manager$252                actor_manager
-     000006DE  A$actor_manager$257                actor_manager
-     000006DE  C$actor_manager.c$51$1$27          actor_manager
-     000006DE  XFactor_manager$draw_actor01$0$0   actor_manager
-     000006DF  A$actor_manager$270                actor_manager
-     000006DF  C$actor_manager.c$52$1$27          actor_manager
-     000006DF  C$actor_manager.c$54$1$28          actor_manager
-     000006DF  Factor_manager$draw_actor02$0$0    actor_manager
-     000006E2  A$actor_manager$271                actor_manager
-     000006E3  A$actor_manager$272                actor_manager
-     000006E6  A$actor_manager$273                actor_manager
-     000006E7  A$actor_manager$274                actor_manager
-     000006EA  A$actor_manager$275                actor_manager
-     000006EB  A$actor_manager$276                actor_manager
-     000006ED  A$actor_manager$277                actor_manager
-     000006EE  A$actor_manager$278                actor_manager
-     000006EF  A$actor_manager$279                actor_manager
-     000006F2  A$actor_manager$280                actor_manager
-     000006F5  A$actor_manager$281                actor_manager
-     000006F6  A$actor_manager$282                actor_manager
-     000006F7  A$actor_manager$287                actor_manager
-     000006F7  C$actor_manager.c$55$1$28          actor_manager
-     000006F7  XFactor_manager$draw_actor02$0$0   actor_manager
-     000006F8  A$actor_manager$300                actor_manager
-     000006F8  C$actor_manager.c$56$1$28          actor_manager
-     000006F8  C$actor_manager.c$58$1$29          actor_manager
-     000006F8  Factor_manager$draw_actor03$0$0    actor_manager
-     000006FB  A$actor_manager$301                actor_manager
-     000006FC  A$actor_manager$302                actor_manager
-     000006FF  A$actor_manager$303                actor_manager
-     00000700  A$actor_manager$304                actor_manager
-     00000703  A$actor_manager$305                actor_manager
-     00000704  A$actor_manager$306                actor_manager
-     00000706  A$actor_manager$307                actor_manager
-     00000707  A$actor_manager$308                actor_manager
-     00000708  A$actor_manager$309                actor_manager
-     0000070B  A$actor_manager$310                actor_manager
-     0000070E  A$actor_manager$311                actor_manager
-     0000070F  A$actor_manager$312                actor_manager
+     000006DC  C$actor_manager.c$53$1$25          actor_manager
+     000006DC  XFactor_manager$draw_impl$0$0      actor_manager
+     000006DD  A$actor_manager$250                actor_manager
+     000006DD  C$actor_manager.c$55$1$25          actor_manager
+     000006DD  C$actor_manager.c$57$1$26          actor_manager
+     000006DD  Factor_manager$draw_actor00$0$0    actor_manager
+     000006E0  A$actor_manager$251                actor_manager
+     000006E1  A$actor_manager$252                actor_manager
+     000006E4  A$actor_manager$253                actor_manager
+     000006E5  A$actor_manager$254                actor_manager
+     000006E8  A$actor_manager$255                actor_manager
+     000006E9  A$actor_manager$256                actor_manager
+     000006EB  A$actor_manager$257                actor_manager
+     000006EC  A$actor_manager$258                actor_manager
+     000006ED  A$actor_manager$259                actor_manager
+     000006F0  A$actor_manager$260                actor_manager
+     000006F3  A$actor_manager$261                actor_manager
+     000006F4  A$actor_manager$262                actor_manager
+     000006F5  A$actor_manager$267                actor_manager
+     000006F5  C$actor_manager.c$58$1$26          actor_manager
+     000006F5  XFactor_manager$draw_actor00$0$0   actor_manager
+     000006F6  A$actor_manager$280                actor_manager
+     000006F6  C$actor_manager.c$59$1$26          actor_manager
+     000006F6  C$actor_manager.c$61$1$27          actor_manager
+     000006F6  Factor_manager$draw_actor01$0$0    actor_manager
+     000006F9  A$actor_manager$281                actor_manager
+     000006FA  A$actor_manager$282                actor_manager
+     000006FD  A$actor_manager$283                actor_manager
+     000006FE  A$actor_manager$284                actor_manager
+     00000701  A$actor_manager$285                actor_manager
+     00000702  A$actor_manager$286                actor_manager
+     00000704  A$actor_manager$287                actor_manager
+     00000705  A$actor_manager$288                actor_manager
+     00000706  A$actor_manager$289                actor_manager
+     00000709  A$actor_manager$290                actor_manager
+     0000070C  A$actor_manager$291                actor_manager
+     0000070D  A$actor_manager$292                actor_manager
+     0000070E  A$actor_manager$297                actor_manager
+     0000070E  C$actor_manager.c$62$1$27          actor_manager
+     0000070E  XFactor_manager$draw_actor01$0$0   actor_manager
+     0000070F  A$actor_manager$310                actor_manager
+     0000070F  C$actor_manager.c$63$1$27          actor_manager
+     0000070F  C$actor_manager.c$65$1$28          actor_manager
+     0000070F  Factor_manager$draw_actor02$0$0    actor_manager
+     00000712  A$actor_manager$311                actor_manager
+     00000713  A$actor_manager$312                actor_manager
+     00000716  A$actor_manager$313                actor_manager
+     00000717  A$actor_manager$314                actor_manager
+     0000071A  A$actor_manager$315                actor_manager
+     0000071B  A$actor_manager$316                actor_manager
+     0000071D  A$actor_manager$317                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000710  A$actor_manager$317                actor_manager
-     00000710  C$actor_manager.c$59$1$29          actor_manager
-     00000710  XFactor_manager$draw_actor03$0$0   actor_manager
-     00000711  A$actor_manager$330                actor_manager
-     00000711  C$actor_manager.c$60$1$29          actor_manager
-     00000711  C$actor_manager.c$62$1$30          actor_manager
-     00000711  Factor_manager$draw_actor04$0$0    actor_manager
-     00000714  A$actor_manager$331                actor_manager
-     00000715  A$actor_manager$332                actor_manager
-     00000718  A$actor_manager$333                actor_manager
-     00000719  A$actor_manager$334                actor_manager
-     0000071C  A$actor_manager$335                actor_manager
-     0000071D  A$actor_manager$336                actor_manager
-     0000071F  A$actor_manager$337                actor_manager
-     00000720  A$actor_manager$338                actor_manager
-     00000721  A$actor_manager$339                actor_manager
-     00000724  A$actor_manager$340                actor_manager
-     00000727  A$actor_manager$341                actor_manager
-     00000728  A$actor_manager$342                actor_manager
-     00000729  A$actor_manager$347                actor_manager
-     00000729  C$actor_manager.c$63$1$30          actor_manager
-     00000729  XFactor_manager$draw_actor04$0$0   actor_manager
-     0000072A  A$actor_manager$360                actor_manager
-     0000072A  C$actor_manager.c$64$1$30          actor_manager
-     0000072A  C$actor_manager.c$66$1$31          actor_manager
-     0000072A  Factor_manager$draw_actor05$0$0    actor_manager
-     0000072D  A$actor_manager$361                actor_manager
-     0000072E  A$actor_manager$362                actor_manager
-     00000731  A$actor_manager$363                actor_manager
-     00000732  A$actor_manager$364                actor_manager
-     00000735  A$actor_manager$365                actor_manager
-     00000736  A$actor_manager$366                actor_manager
-     00000738  A$actor_manager$367                actor_manager
-     00000739  A$actor_manager$368                actor_manager
-     0000073A  A$actor_manager$369                actor_manager
-     0000073D  A$actor_manager$370                actor_manager
-     00000740  A$actor_manager$371                actor_manager
-     00000741  A$actor_manager$372                actor_manager
-     00000742  A$actor_manager$377                actor_manager
-     00000742  C$actor_manager.c$67$1$31          actor_manager
-     00000742  XFactor_manager$draw_actor05$0$0   actor_manager
-     00000743  A$actor_manager$390                actor_manager
-     00000743  C$actor_manager.c$68$1$31          actor_manager
-     00000743  C$actor_manager.c$70$1$32          actor_manager
-     00000743  Factor_manager$draw_actor06$0$0    actor_manager
-     00000746  A$actor_manager$391                actor_manager
-     00000747  A$actor_manager$392                actor_manager
-     0000074A  A$actor_manager$393                actor_manager
-     0000074B  A$actor_manager$394                actor_manager
-     0000074E  A$actor_manager$395                actor_manager
-     0000074F  A$actor_manager$396                actor_manager
+     0000071E  A$actor_manager$318                actor_manager
+     0000071F  A$actor_manager$319                actor_manager
+     00000722  A$actor_manager$320                actor_manager
+     00000725  A$actor_manager$321                actor_manager
+     00000726  A$actor_manager$322                actor_manager
+     00000727  A$actor_manager$327                actor_manager
+     00000727  C$actor_manager.c$66$1$28          actor_manager
+     00000727  XFactor_manager$draw_actor02$0$0   actor_manager
+     00000728  A$actor_manager$340                actor_manager
+     00000728  C$actor_manager.c$67$1$28          actor_manager
+     00000728  C$actor_manager.c$69$1$29          actor_manager
+     00000728  Factor_manager$draw_actor03$0$0    actor_manager
+     0000072B  A$actor_manager$341                actor_manager
+     0000072C  A$actor_manager$342                actor_manager
+     0000072F  A$actor_manager$343                actor_manager
+     00000730  A$actor_manager$344                actor_manager
+     00000733  A$actor_manager$345                actor_manager
+     00000734  A$actor_manager$346                actor_manager
+     00000736  A$actor_manager$347                actor_manager
+     00000737  A$actor_manager$348                actor_manager
+     00000738  A$actor_manager$349                actor_manager
+     0000073B  A$actor_manager$350                actor_manager
+     0000073E  A$actor_manager$351                actor_manager
+     0000073F  A$actor_manager$352                actor_manager
+     00000740  A$actor_manager$357                actor_manager
+     00000740  C$actor_manager.c$70$1$29          actor_manager
+     00000740  XFactor_manager$draw_actor03$0$0   actor_manager
+     00000741  A$actor_manager$370                actor_manager
+     00000741  C$actor_manager.c$71$1$29          actor_manager
+     00000741  C$actor_manager.c$73$1$30          actor_manager
+     00000741  Factor_manager$draw_actor04$0$0    actor_manager
+     00000744  A$actor_manager$371                actor_manager
+     00000745  A$actor_manager$372                actor_manager
+     00000748  A$actor_manager$373                actor_manager
+     00000749  A$actor_manager$374                actor_manager
+     0000074C  A$actor_manager$375                actor_manager
+     0000074D  A$actor_manager$376                actor_manager
+     0000074F  A$actor_manager$377                actor_manager
+     00000750  A$actor_manager$378                actor_manager
+     00000751  A$actor_manager$379                actor_manager
+     00000754  A$actor_manager$380                actor_manager
+     00000757  A$actor_manager$381                actor_manager
+     00000758  A$actor_manager$382                actor_manager
+     00000759  A$actor_manager$387                actor_manager
+     00000759  C$actor_manager.c$74$1$30          actor_manager
+     00000759  XFactor_manager$draw_actor04$0$0   actor_manager
+     0000075A  A$actor_manager$400                actor_manager
+     0000075A  C$actor_manager.c$75$1$30          actor_manager
+     0000075A  C$actor_manager.c$77$1$31          actor_manager
+     0000075A  Factor_manager$draw_actor05$0$0    actor_manager
+     0000075D  A$actor_manager$401                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000751  A$actor_manager$397                actor_manager
-     00000752  A$actor_manager$398                actor_manager
-     00000753  A$actor_manager$399                actor_manager
-     00000756  A$actor_manager$400                actor_manager
-     00000759  A$actor_manager$401                actor_manager
-     0000075A  A$actor_manager$402                actor_manager
-     0000075B  A$actor_manager$407                actor_manager
-     0000075B  C$actor_manager.c$71$1$32          actor_manager
-     0000075B  XFactor_manager$draw_actor06$0$0   actor_manager
-     0000075C  A$actor_manager$420                actor_manager
-     0000075C  C$actor_manager.c$72$1$32          actor_manager
-     0000075C  C$actor_manager.c$74$1$33          actor_manager
-     0000075C  Factor_manager$draw_actor07$0$0    actor_manager
-     0000075F  A$actor_manager$421                actor_manager
-     00000760  A$actor_manager$422                actor_manager
-     00000763  A$actor_manager$423                actor_manager
-     00000764  A$actor_manager$424                actor_manager
-     00000767  A$actor_manager$425                actor_manager
-     00000768  A$actor_manager$426                actor_manager
-     0000076A  A$actor_manager$427                actor_manager
-     0000076B  A$actor_manager$428                actor_manager
-     0000076C  A$actor_manager$429                actor_manager
-     0000076F  A$actor_manager$430                actor_manager
-     00000772  A$actor_manager$431                actor_manager
-     00000773  A$actor_manager$432                actor_manager
-     00000774  A$actor_manager$437                actor_manager
-     00000774  C$actor_manager.c$75$1$33          actor_manager
-     00000774  XFactor_manager$draw_actor07$0$0   actor_manager
-     00000775  A$asm_manager$59                   asm_manager
-     00000775  C$asm_manager.c$11$0$0             asm_manager
-     00000775  C$asm_manager.c$30$1$1             asm_manager
-     00000775  G$engine_asm_manager_clear_VRAM$   asm_manager
-     00000775  _engine_asm_manager_clear_VRAM     asm_manager
-     00000777  A$asm_manager$60                   asm_manager
-     00000779  A$asm_manager$61                   asm_manager
-     0000077B  A$asm_manager$62                   asm_manager
-     0000077D  A$asm_manager$63                   asm_manager
-     00000780  A$asm_manager$65                   asm_manager
-     00000782  A$asm_manager$66                   asm_manager
-     00000784  A$asm_manager$67                   asm_manager
-     00000785  A$asm_manager$68                   asm_manager
-     00000786  A$asm_manager$69                   asm_manager
-     00000787  A$asm_manager$70                   asm_manager
-     0000078A  A$asm_manager$75                   asm_manager
-     0000078A  C$asm_manager.c$33$1$1             asm_manager
-     0000078A  XG$engine_asm_manager_clear_VRAM   asm_manager
-     0000078B  A$content_manager$62               content_manager
-     0000078B  C$content_manager.c$12$0$0         content_manager
-     0000078B  C$content_manager.c$15$1$19        content_manager
-     0000078B  G$engine_content_manager_load_fo   content_manager
-     0000078B  _engine_content_manager_load_fon   content_manager
+     0000075E  A$actor_manager$402                actor_manager
+     00000761  A$actor_manager$403                actor_manager
+     00000762  A$actor_manager$404                actor_manager
+     00000765  A$actor_manager$405                actor_manager
+     00000766  A$actor_manager$406                actor_manager
+     00000768  A$actor_manager$407                actor_manager
+     00000769  A$actor_manager$408                actor_manager
+     0000076A  A$actor_manager$409                actor_manager
+     0000076D  A$actor_manager$410                actor_manager
+     00000770  A$actor_manager$411                actor_manager
+     00000771  A$actor_manager$412                actor_manager
+     00000772  A$actor_manager$417                actor_manager
+     00000772  C$actor_manager.c$78$1$31          actor_manager
+     00000772  XFactor_manager$draw_actor05$0$0   actor_manager
+     00000773  A$actor_manager$430                actor_manager
+     00000773  C$actor_manager.c$79$1$31          actor_manager
+     00000773  C$actor_manager.c$81$1$32          actor_manager
+     00000773  Factor_manager$draw_actor06$0$0    actor_manager
+     00000776  A$actor_manager$431                actor_manager
+     00000777  A$actor_manager$432                actor_manager
+     0000077A  A$actor_manager$433                actor_manager
+     0000077B  A$actor_manager$434                actor_manager
+     0000077E  A$actor_manager$435                actor_manager
+     0000077F  A$actor_manager$436                actor_manager
+     00000781  A$actor_manager$437                actor_manager
+     00000782  A$actor_manager$438                actor_manager
+     00000783  A$actor_manager$439                actor_manager
+     00000786  A$actor_manager$440                actor_manager
+     00000789  A$actor_manager$441                actor_manager
+     0000078A  A$actor_manager$442                actor_manager
+     0000078B  A$actor_manager$447                actor_manager
+     0000078B  C$actor_manager.c$82$1$32          actor_manager
+     0000078B  XFactor_manager$draw_actor06$0$0   actor_manager
+     0000078C  A$actor_manager$460                actor_manager
+     0000078C  C$actor_manager.c$83$1$32          actor_manager
+     0000078C  C$actor_manager.c$85$1$33          actor_manager
+     0000078C  Factor_manager$draw_actor07$0$0    actor_manager
+     0000078F  A$actor_manager$461                actor_manager
+     00000790  A$actor_manager$462                actor_manager
+     00000793  A$actor_manager$463                actor_manager
+     00000794  A$actor_manager$464                actor_manager
+     00000797  A$actor_manager$465                actor_manager
+     00000798  A$actor_manager$466                actor_manager
+     0000079A  A$actor_manager$467                actor_manager
+     0000079B  A$actor_manager$468                actor_manager
+     0000079C  A$actor_manager$469                actor_manager
+     0000079F  A$actor_manager$470                actor_manager
+     000007A2  A$actor_manager$471                actor_manager
+     000007A3  A$actor_manager$472                actor_manager
+     000007A4  A$actor_manager$477                actor_manager
+     000007A4  C$actor_manager.c$86$1$33          actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000078E  A$content_manager$63               content_manager
-     0000078F  A$content_manager$64               content_manager
-     00000792  A$content_manager$65               content_manager
-     00000793  A$content_manager$66               content_manager
-     00000796  A$content_manager$67               content_manager
-     00000797  A$content_manager$68               content_manager
-     00000798  A$content_manager$73               content_manager
-     00000798  C$content_manager.c$17$1$19        content_manager
-     00000798  XG$engine_content_manager_load_f   content_manager
-     00000799  A$content_manager$86               content_manager
-     00000799  C$content_manager.c$19$1$19        content_manager
-     00000799  C$content_manager.c$21$1$20        content_manager
-     00000799  G$engine_content_manager_load_sp   content_manager
-     00000799  _engine_content_manager_load_spr   content_manager
-     0000079C  A$content_manager$87               content_manager
-     0000079D  A$content_manager$88               content_manager
-     0000079F  A$content_manager$89               content_manager
-     000007A0  A$content_manager$90               content_manager
-     000007A3  A$content_manager$91               content_manager
-     000007A4  A$content_manager$92               content_manager
-     000007A5  A$content_manager$97               content_manager
-     000007A5  C$content_manager.c$23$1$20        content_manager
-     000007A5  XG$engine_content_manager_load_s   content_manager
-     000007A6  A$content_manager$110              content_manager
-     000007A6  C$content_manager.c$33$1$20        content_manager
-     000007A6  C$content_manager.c$35$1$21        content_manager
-     000007A6  G$engine_content_manager_load_ti   content_manager
-     000007A6  _engine_content_manager_load_tit   content_manager
-     000007A8  A$content_manager$111              content_manager
-     000007A9  A$content_manager$112              content_manager
-     000007AA  A$content_manager$113              content_manager
-     000007AD  A$content_manager$114              content_manager
-     000007AE  A$content_manager$118              content_manager
-     000007AE  C$content_manager.c$36$1$21        content_manager
-     000007B1  A$content_manager$119              content_manager
-     000007B2  A$content_manager$120              content_manager
-     000007B5  A$content_manager$121              content_manager
-     000007B6  A$content_manager$122              content_manager
-     000007B9  A$content_manager$123              content_manager
-     000007BA  A$content_manager$124              content_manager
-     000007BB  A$content_manager$128              content_manager
-     000007BB  C$content_manager.c$37$1$21        content_manager
-     000007BE  A$content_manager$129              content_manager
-     000007BF  A$content_manager$130              content_manager
-     000007C2  A$content_manager$131              content_manager
-     000007C3  A$content_manager$132              content_manager
-     000007C6  A$content_manager$133              content_manager
-     000007C7  A$content_manager$134              content_manager
-     000007C8  A$content_manager$138              content_manager
-     000007C8  C$content_manager.c$38$1$21        content_manager
-     000007CB  A$content_manager$139              content_manager
+     000007A4  XFactor_manager$draw_actor07$0$0   actor_manager
+     000007A5  A$actor_manager$490                actor_manager
+     000007A5  C$actor_manager.c$88$1$33          actor_manager
+     000007A5  C$actor_manager.c$90$1$34          actor_manager
+     000007A5  Factor_manager$draw_actor08$0$0    actor_manager
+     000007A8  A$actor_manager$491                actor_manager
+     000007A9  A$actor_manager$492                actor_manager
+     000007AC  A$actor_manager$493                actor_manager
+     000007AD  A$actor_manager$494                actor_manager
+     000007B0  A$actor_manager$495                actor_manager
+     000007B1  A$actor_manager$496                actor_manager
+     000007B3  A$actor_manager$497                actor_manager
+     000007B4  A$actor_manager$498                actor_manager
+     000007B5  A$actor_manager$499                actor_manager
+     000007B8  A$actor_manager$500                actor_manager
+     000007BB  A$actor_manager$501                actor_manager
+     000007BC  A$actor_manager$502                actor_manager
+     000007BD  A$actor_manager$507                actor_manager
+     000007BD  C$actor_manager.c$91$1$34          actor_manager
+     000007BD  XFactor_manager$draw_actor08$0$0   actor_manager
+     000007BE  A$actor_manager$520                actor_manager
+     000007BE  C$actor_manager.c$92$1$34          actor_manager
+     000007BE  C$actor_manager.c$94$1$35          actor_manager
+     000007BE  Factor_manager$draw_actor09$0$0    actor_manager
+     000007C1  A$actor_manager$521                actor_manager
+     000007C2  A$actor_manager$522                actor_manager
+     000007C5  A$actor_manager$523                actor_manager
+     000007C6  A$actor_manager$524                actor_manager
+     000007C9  A$actor_manager$525                actor_manager
+     000007CA  A$actor_manager$526                actor_manager
+     000007CC  A$actor_manager$527                actor_manager
+     000007CD  A$actor_manager$528                actor_manager
+     000007CE  A$actor_manager$529                actor_manager
+     000007D1  A$actor_manager$530                actor_manager
+     000007D4  A$actor_manager$531                actor_manager
+     000007D5  A$actor_manager$532                actor_manager
+     000007D6  A$actor_manager$537                actor_manager
+     000007D6  C$actor_manager.c$95$1$35          actor_manager
+     000007D6  XFactor_manager$draw_actor09$0$0   actor_manager
+     000007D7  A$actor_manager$550                actor_manager
+     000007D7  C$actor_manager.c$96$1$35          actor_manager
+     000007D7  C$actor_manager.c$98$1$36          actor_manager
+     000007D7  Factor_manager$draw_actor10$0$0    actor_manager
+     000007DA  A$actor_manager$551                actor_manager
+     000007DB  A$actor_manager$552                actor_manager
+     000007DE  A$actor_manager$553                actor_manager
+     000007DF  A$actor_manager$554                actor_manager
+     000007E2  A$actor_manager$555                actor_manager
+     000007E3  A$actor_manager$556                actor_manager
+     000007E5  A$actor_manager$557                actor_manager
+     000007E6  A$actor_manager$558                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000007CC  A$content_manager$140              content_manager
-     000007CF  A$content_manager$141              content_manager
-     000007D0  A$content_manager$146              content_manager
-     000007D0  C$content_manager.c$39$1$21        content_manager
-     000007D0  XG$engine_content_manager_load_t   content_manager
-     000007D1  A$font_manager$62                  font_manager
-     000007D1  C$font_manager.c$11$0$0            font_manager
-     000007D1  C$font_manager.c$13$1$0            font_manager
-     000007D1  C$font_manager.c$14$1$23           font_manager
-     000007D1  G$engine_font_manager_draw_char$   font_manager
-     000007D1  _engine_font_manager_draw_char     font_manager
-     000007D4  A$font_manager$63                  font_manager
-     000007D5  A$font_manager$64                  font_manager
-     000007D6  A$font_manager$65                  font_manager
-     000007D8  A$font_manager$66                  font_manager
-     000007D9  A$font_manager$70                  font_manager
-     000007D9  C$font_manager.c$15$1$23           font_manager
-     000007DA  A$font_manager$71                  font_manager
-     000007DD  A$font_manager$72                  font_manager
-     000007DE  A$font_manager$73                  font_manager
-     000007DF  A$font_manager$74                  font_manager
-     000007E0  A$font_manager$75                  font_manager
-     000007E1  A$font_manager$76                  font_manager
-     000007E4  A$font_manager$77                  font_manager
-     000007E5  A$font_manager$78                  font_manager
-     000007E6  A$font_manager$79                  font_manager
-     000007E7  A$font_manager$80                  font_manager
-     000007E8  A$font_manager$81                  font_manager
-     000007EB  A$font_manager$82                  font_manager
-     000007EC  A$font_manager$83                  font_manager
-     000007ED  A$font_manager$87                  font_manager
-     000007ED  C$font_manager.c$16$1$23           font_manager
-     000007F0  A$font_manager$88                  font_manager
-     000007F1  A$font_manager$89                  font_manager
-     000007F2  A$font_manager$90                  font_manager
-     000007F3  A$font_manager$91                  font_manager
-     000007F6  A$font_manager$92                  font_manager
-     000007F7  A$font_manager$97                  font_manager
-     000007F7  C$font_manager.c$17$1$23           font_manager
-     000007F7  XG$engine_font_manager_draw_char   font_manager
-     000007F8  A$font_manager$107                 font_manager
-     000007F8  C$font_manager.c$19$1$23           font_manager
-     000007F8  G$engine_font_manager_draw_text$   font_manager
-     000007F8  _engine_font_manager_draw_text     font_manager
-     000007FA  A$font_manager$108                 font_manager
-     000007FE  A$font_manager$109                 font_manager
-     00000800  A$font_manager$116                 font_manager
-     00000800  C$font_manager.c$21$1$23           font_manager
-     00000800  C$font_manager.c$24$1$25           font_manager
-     00000803  A$font_manager$117                 font_manager
-     00000805  A$font_manager$119                 font_manager
+     000007E7  A$actor_manager$559                actor_manager
+     000007EA  A$actor_manager$560                actor_manager
+     000007ED  A$actor_manager$561                actor_manager
+     000007EE  A$actor_manager$562                actor_manager
+     000007EF  A$actor_manager$567                actor_manager
+     000007EF  C$actor_manager.c$99$1$36          actor_manager
+     000007EF  XFactor_manager$draw_actor10$0$0   actor_manager
+     000007F0  A$actor_manager$580                actor_manager
+     000007F0  C$actor_manager.c$100$1$36         actor_manager
+     000007F0  C$actor_manager.c$102$1$37         actor_manager
+     000007F0  Factor_manager$draw_actor11$0$0    actor_manager
+     000007F3  A$actor_manager$581                actor_manager
+     000007F4  A$actor_manager$582                actor_manager
+     000007F7  A$actor_manager$583                actor_manager
+     000007F8  A$actor_manager$584                actor_manager
+     000007FB  A$actor_manager$585                actor_manager
+     000007FC  A$actor_manager$586                actor_manager
+     000007FE  A$actor_manager$587                actor_manager
+     000007FF  A$actor_manager$588                actor_manager
+     00000800  A$actor_manager$589                actor_manager
+     00000803  A$actor_manager$590                actor_manager
+     00000806  A$actor_manager$591                actor_manager
+     00000807  A$actor_manager$592                actor_manager
+     00000808  A$actor_manager$597                actor_manager
+     00000808  C$actor_manager.c$103$1$37         actor_manager
+     00000808  XFactor_manager$draw_actor11$0$0   actor_manager
+     00000809  A$actor_manager$610                actor_manager
+     00000809  C$actor_manager.c$104$1$37         actor_manager
+     00000809  C$actor_manager.c$106$1$38         actor_manager
+     00000809  Factor_manager$draw_actor12$0$0    actor_manager
+     0000080C  A$actor_manager$611                actor_manager
+     0000080D  A$actor_manager$612                actor_manager
+     00000810  A$actor_manager$613                actor_manager
+     00000811  A$actor_manager$614                actor_manager
+     00000814  A$actor_manager$615                actor_manager
+     00000815  A$actor_manager$616                actor_manager
+     00000817  A$actor_manager$617                actor_manager
+     00000818  A$actor_manager$618                actor_manager
+     00000819  A$actor_manager$619                actor_manager
+     0000081C  A$actor_manager$620                actor_manager
+     0000081F  A$actor_manager$621                actor_manager
+     00000820  A$actor_manager$622                actor_manager
+     00000821  A$actor_manager$627                actor_manager
+     00000821  C$actor_manager.c$107$1$38         actor_manager
+     00000821  XFactor_manager$draw_actor12$0$0   actor_manager
+     00000822  A$actor_manager$640                actor_manager
+     00000822  C$actor_manager.c$108$1$38         actor_manager
+     00000822  C$actor_manager.c$110$1$39         actor_manager
+     00000822  Factor_manager$draw_actor13$0$0    actor_manager
+     00000825  A$actor_manager$641                actor_manager
+     00000826  A$actor_manager$642                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000808  A$font_manager$120                 font_manager
-     00000809  A$font_manager$121                 font_manager
-     0000080A  A$font_manager$122                 font_manager
-     0000080D  A$font_manager$123                 font_manager
-     0000080F  A$font_manager$124                 font_manager
-     00000810  A$font_manager$125                 font_manager
-     00000811  A$font_manager$126                 font_manager
-     00000812  A$font_manager$127                 font_manager
-     00000814  A$font_manager$131                 font_manager
-     00000814  C$font_manager.c$26$2$26           font_manager
-     00000816  A$font_manager$132                 font_manager
-     00000817  A$font_manager$136                 font_manager
-     00000817  C$font_manager.c$27$2$26           font_manager
-     00000818  A$font_manager$137                 font_manager
-     00000819  A$font_manager$138                 font_manager
-     0000081C  A$font_manager$139                 font_manager
-     0000081D  A$font_manager$140                 font_manager
-     0000081E  A$font_manager$141                 font_manager
-     00000821  A$font_manager$142                 font_manager
-     00000822  A$font_manager$143                 font_manager
-     00000823  A$font_manager$144                 font_manager
-     00000824  A$font_manager$145                 font_manager
-     00000825  A$font_manager$146                 font_manager
-     00000828  A$font_manager$147                 font_manager
-     00000829  A$font_manager$148                 font_manager
-     0000082A  A$font_manager$149                 font_manager
-     0000082B  A$font_manager$153                 font_manager
-     0000082B  C$font_manager.c$28$2$26           font_manager
-     0000082E  A$font_manager$154                 font_manager
-     0000082F  A$font_manager$155                 font_manager
-     00000830  A$font_manager$156                 font_manager
-     00000831  A$font_manager$157                 font_manager
-     00000832  A$font_manager$158                 font_manager
-     00000835  A$font_manager$159                 font_manager
-     00000836  A$font_manager$160                 font_manager
-     00000837  A$font_manager$164                 font_manager
-     00000837  C$font_manager.c$29$2$26           font_manager
-     00000838  A$font_manager$165                 font_manager
-     0000083A  A$font_manager$167                 font_manager
-     0000083C  A$font_manager$172                 font_manager
-     0000083C  C$font_manager.c$31$1$25           font_manager
-     0000083C  XG$engine_font_manager_draw_text   font_manager
-     0000083D  A$font_manager$182                 font_manager
-     0000083D  C$font_manager.c$33$1$25           font_manager
-     0000083D  G$engine_font_manager_draw_data$   font_manager
-     0000083D  _engine_font_manager_draw_data     font_manager
-     0000083F  A$font_manager$183                 font_manager
-     00000843  A$font_manager$184                 font_manager
-     00000845  A$font_manager$185                 font_manager
-     00000846  A$font_manager$192                 font_manager
-     00000846  C$font_manager.c$35$1$25           font_manager
+     00000829  A$actor_manager$643                actor_manager
+     0000082A  A$actor_manager$644                actor_manager
+     0000082D  A$actor_manager$645                actor_manager
+     0000082E  A$actor_manager$646                actor_manager
+     00000830  A$actor_manager$647                actor_manager
+     00000831  A$actor_manager$648                actor_manager
+     00000832  A$actor_manager$649                actor_manager
+     00000835  A$actor_manager$650                actor_manager
+     00000838  A$actor_manager$651                actor_manager
+     00000839  A$actor_manager$652                actor_manager
+     0000083A  A$actor_manager$657                actor_manager
+     0000083A  C$actor_manager.c$111$1$39         actor_manager
+     0000083A  XFactor_manager$draw_actor13$0$0   actor_manager
+     0000083B  A$actor_manager$670                actor_manager
+     0000083B  C$actor_manager.c$112$1$39         actor_manager
+     0000083B  C$actor_manager.c$114$1$40         actor_manager
+     0000083B  Factor_manager$draw_actor14$0$0    actor_manager
+     0000083E  A$actor_manager$671                actor_manager
+     0000083F  A$actor_manager$672                actor_manager
+     00000842  A$actor_manager$673                actor_manager
+     00000843  A$actor_manager$674                actor_manager
+     00000846  A$actor_manager$675                actor_manager
+     00000847  A$actor_manager$676                actor_manager
+     00000849  A$actor_manager$677                actor_manager
+     0000084A  A$actor_manager$678                actor_manager
+     0000084B  A$actor_manager$679                actor_manager
+     0000084E  A$actor_manager$680                actor_manager
+     00000851  A$actor_manager$681                actor_manager
+     00000852  A$actor_manager$682                actor_manager
+     00000853  A$actor_manager$687                actor_manager
+     00000853  C$actor_manager.c$115$1$40         actor_manager
+     00000853  XFactor_manager$draw_actor14$0$0   actor_manager
+     00000854  A$actor_manager$700                actor_manager
+     00000854  C$actor_manager.c$116$1$40         actor_manager
+     00000854  C$actor_manager.c$118$1$41         actor_manager
+     00000854  Factor_manager$draw_actor15$0$0    actor_manager
+     00000857  A$actor_manager$701                actor_manager
+     00000858  A$actor_manager$702                actor_manager
+     0000085B  A$actor_manager$703                actor_manager
+     0000085C  A$actor_manager$704                actor_manager
+     0000085F  A$actor_manager$705                actor_manager
+     00000860  A$actor_manager$706                actor_manager
+     00000862  A$actor_manager$707                actor_manager
+     00000863  A$actor_manager$708                actor_manager
+     00000864  A$actor_manager$709                actor_manager
+     00000867  A$actor_manager$710                actor_manager
+     0000086A  A$actor_manager$711                actor_manager
+     0000086B  A$actor_manager$712                actor_manager
+     0000086C  A$actor_manager$717                actor_manager
+     0000086C  C$actor_manager.c$119$1$41         actor_manager
+     0000086C  XFactor_manager$draw_actor15$0$0   actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000849  A$font_manager$193                 font_manager
-     0000084C  A$font_manager$194                 font_manager
-     00000850  A$font_manager$199                 font_manager
-     00000850  C$font_manager.c$45$2$29           font_manager
-     00000853  A$font_manager$200                 font_manager
-     00000854  A$font_manager$201                 font_manager
-     00000857  A$font_manager$202                 font_manager
-     0000085A  A$font_manager$203                 font_manager
-     0000085B  A$font_manager$204                 font_manager
-     0000085E  A$font_manager$205                 font_manager
-     0000085F  A$font_manager$206                 font_manager
-     00000860  A$font_manager$207                 font_manager
-     00000861  A$font_manager$208                 font_manager
-     00000862  A$font_manager$212                 font_manager
-     00000862  C$font_manager.c$46$2$29           font_manager
-     00000863  A$font_manager$213                 font_manager
-     00000864  A$font_manager$214                 font_manager
-     00000867  A$font_manager$215                 font_manager
-     00000868  A$font_manager$216                 font_manager
-     0000086B  A$font_manager$217                 font_manager
-     0000086E  A$font_manager$218                 font_manager
-     0000086F  A$font_manager$219                 font_manager
-     00000872  A$font_manager$220                 font_manager
-     00000873  A$font_manager$221                 font_manager
-     00000874  A$font_manager$222                 font_manager
-     00000875  A$font_manager$223                 font_manager
-     00000876  A$font_manager$224                 font_manager
-     00000877  A$font_manager$228                 font_manager
-     00000877  C$font_manager.c$47$3$30           font_manager
-     0000087A  A$font_manager$229                 font_manager
-     0000087D  A$font_manager$233                 font_manager
-     0000087D  C$font_manager.c$49$3$30           font_manager
-     0000087E  A$font_manager$234                 font_manager
-     00000880  A$font_manager$235                 font_manager
-     00000881  A$font_manager$239                 font_manager
-     00000881  C$font_manager.c$50$3$30           font_manager
-     00000882  A$font_manager$240                 font_manager
-     00000883  A$font_manager$241                 font_manager
-     00000885  A$font_manager$242                 font_manager
-     00000886  A$font_manager$243                 font_manager
-     00000888  A$font_manager$244                 font_manager
-     0000088B  A$font_manager$245                 font_manager
-     0000088C  A$font_manager$246                 font_manager
-     0000088E  A$font_manager$250                 font_manager
-     0000088E  C$font_manager.c$53$4$31           font_manager
-     00000890  A$font_manager$255                 font_manager
-     00000890  C$font_manager.c$56$3$30           font_manager
-     00000893  A$font_manager$256                 font_manager
-     00000896  A$font_manager$257                 font_manager
-     00000899  A$font_manager$258                 font_manager
-     0000089C  A$font_manager$259                 font_manager
+     0000086D  A$asm_manager$59                   asm_manager
+     0000086D  C$asm_manager.c$11$0$0             asm_manager
+     0000086D  C$asm_manager.c$30$1$1             asm_manager
+     0000086D  G$engine_asm_manager_clear_VRAM$   asm_manager
+     0000086D  _engine_asm_manager_clear_VRAM     asm_manager
+     0000086F  A$asm_manager$60                   asm_manager
+     00000871  A$asm_manager$61                   asm_manager
+     00000873  A$asm_manager$62                   asm_manager
+     00000875  A$asm_manager$63                   asm_manager
+     00000878  A$asm_manager$65                   asm_manager
+     0000087A  A$asm_manager$66                   asm_manager
+     0000087C  A$asm_manager$67                   asm_manager
+     0000087D  A$asm_manager$68                   asm_manager
+     0000087E  A$asm_manager$69                   asm_manager
+     0000087F  A$asm_manager$70                   asm_manager
+     00000882  A$asm_manager$75                   asm_manager
+     00000882  C$asm_manager.c$33$1$1             asm_manager
+     00000882  XG$engine_asm_manager_clear_VRAM   asm_manager
+     00000883  A$content_manager$62               content_manager
+     00000883  C$content_manager.c$12$0$0         content_manager
+     00000883  C$content_manager.c$15$1$19        content_manager
+     00000883  G$engine_content_manager_load_fo   content_manager
+     00000883  _engine_content_manager_load_fon   content_manager
+     00000886  A$content_manager$63               content_manager
+     00000887  A$content_manager$64               content_manager
+     0000088A  A$content_manager$65               content_manager
+     0000088B  A$content_manager$66               content_manager
+     0000088E  A$content_manager$67               content_manager
+     0000088F  A$content_manager$68               content_manager
+     00000890  A$content_manager$73               content_manager
+     00000890  C$content_manager.c$17$1$19        content_manager
+     00000890  XG$engine_content_manager_load_f   content_manager
+     00000891  A$content_manager$86               content_manager
+     00000891  C$content_manager.c$19$1$19        content_manager
+     00000891  C$content_manager.c$21$1$20        content_manager
+     00000891  G$engine_content_manager_load_sp   content_manager
+     00000891  _engine_content_manager_load_spr   content_manager
+     00000894  A$content_manager$87               content_manager
+     00000895  A$content_manager$88               content_manager
+     00000897  A$content_manager$89               content_manager
+     00000898  A$content_manager$90               content_manager
+     0000089B  A$content_manager$91               content_manager
+     0000089C  A$content_manager$92               content_manager
+     0000089D  A$content_manager$97               content_manager
+     0000089D  C$content_manager.c$23$1$20        content_manager
+     0000089D  XG$engine_content_manager_load_s   content_manager
+     0000089E  A$content_manager$110              content_manager
+     0000089E  C$content_manager.c$33$1$20        content_manager
+     0000089E  C$content_manager.c$35$1$21        content_manager
+     0000089E  G$engine_content_manager_load_ti   content_manager
+     0000089E  _engine_content_manager_load_tit   content_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000089D  A$font_manager$260                 font_manager
-     000008A0  A$font_manager$261                 font_manager
-     000008A1  A$font_manager$262                 font_manager
-     000008A2  A$font_manager$263                 font_manager
-     000008A3  A$font_manager$264                 font_manager
-     000008A4  A$font_manager$265                 font_manager
-     000008A7  A$font_manager$266                 font_manager
-     000008A8  A$font_manager$267                 font_manager
-     000008A9  A$font_manager$271                 font_manager
-     000008A9  C$font_manager.c$57$3$30           font_manager
-     000008AC  A$font_manager$272                 font_manager
-     000008AD  A$font_manager$273                 font_manager
-     000008AE  A$font_manager$274                 font_manager
-     000008AF  A$font_manager$275                 font_manager
-     000008B2  A$font_manager$276                 font_manager
-     000008B3  A$font_manager$280                 font_manager
-     000008B3  C$font_manager.c$43$2$29           font_manager
-     000008B6  A$font_manager$281                 font_manager
-     000008B9  A$font_manager$282                 font_manager
-     000008BB  A$font_manager$283                 font_manager
-     000008BD  A$font_manager$284                 font_manager
-     000008BF  A$font_manager$285                 font_manager
-     000008C1  A$font_manager$290                 font_manager
-     000008C1  C$font_manager.c$59$2$29           font_manager
-     000008C1  XG$engine_font_manager_draw_data   font_manager
-     000008C2  G$font_tiles__palette__bin$0$0     gfx
-     000008C2  _font_tiles__palette__bin          gfx
-     000008D2  G$font_tiles__tilemap__bin$0$0     gfx
-     000008D2  _font_tiles__tilemap__bin          gfx
-     00000952  G$font_tiles__tiles__psgcompr$0$   gfx
-     00000952  _font_tiles__tiles__psgcompr       gfx
-     00000BE9  __divuint                          
-     00000BF1  __divuchar                         
-     00000BF8  __divu8                            
-     00000BFB  __divu16                           
-     00000C2A  _UNSAFE_SMS_copySpritestoSAT       SMSlib_UNSAFE
-     00000C42  _UNSAFE_SMS_VRAMmemcpy32           SMSlib_UNSAFE
-     00000C5F  _UNSAFE_SMS_VRAMmemcpy64           SMSlib_UNSAFE
-     00000C7C  _UNSAFE_SMS_VRAMmemcpy128          SMSlib_UNSAFE
-     00000C99  _SMS_init                          SMSlib
-     00000CED  _VDPReg_init                       SMSlib
-     00000CF8  _SMS_VDPType                       SMSlib
-     00000D00  _SMS_VDPturnOnFeature              SMSlib
-     00000D17  _SMS_VDPturnOffFeature             SMSlib
-     00000D30  _SMS_setBGScrollX                  SMSlib
-     00000D3A  _SMS_setBGScrollY                  SMSlib
-     00000D44  _SMS_setBackdropColor              SMSlib
-     00000D4E  _SMS_useFirstHalfTilesforSprites   SMSlib
-     00000D62  _SMS_setSpriteMode                 SMSlib
-     00000DA7  _SMS_setBGPaletteColor             SMSlib
-     00000DBB  _SMS_setSpritePaletteColor         SMSlib
+     000008A0  A$content_manager$111              content_manager
+     000008A1  A$content_manager$112              content_manager
+     000008A2  A$content_manager$113              content_manager
+     000008A5  A$content_manager$114              content_manager
+     000008A6  A$content_manager$118              content_manager
+     000008A6  C$content_manager.c$36$1$21        content_manager
+     000008A9  A$content_manager$119              content_manager
+     000008AA  A$content_manager$120              content_manager
+     000008AD  A$content_manager$121              content_manager
+     000008AE  A$content_manager$122              content_manager
+     000008B1  A$content_manager$123              content_manager
+     000008B2  A$content_manager$124              content_manager
+     000008B3  A$content_manager$128              content_manager
+     000008B3  C$content_manager.c$37$1$21        content_manager
+     000008B6  A$content_manager$129              content_manager
+     000008B7  A$content_manager$130              content_manager
+     000008BA  A$content_manager$131              content_manager
+     000008BB  A$content_manager$132              content_manager
+     000008BE  A$content_manager$133              content_manager
+     000008BF  A$content_manager$134              content_manager
+     000008C0  A$content_manager$138              content_manager
+     000008C0  C$content_manager.c$38$1$21        content_manager
+     000008C3  A$content_manager$139              content_manager
+     000008C4  A$content_manager$140              content_manager
+     000008C7  A$content_manager$141              content_manager
+     000008C8  A$content_manager$146              content_manager
+     000008C8  C$content_manager.c$39$1$21        content_manager
+     000008C8  XG$engine_content_manager_load_t   content_manager
+     000008C9  A$font_manager$62                  font_manager
+     000008C9  C$font_manager.c$11$0$0            font_manager
+     000008C9  C$font_manager.c$13$1$0            font_manager
+     000008C9  C$font_manager.c$14$1$23           font_manager
+     000008C9  G$engine_font_manager_draw_char$   font_manager
+     000008C9  _engine_font_manager_draw_char     font_manager
+     000008CC  A$font_manager$63                  font_manager
+     000008CD  A$font_manager$64                  font_manager
+     000008CE  A$font_manager$65                  font_manager
+     000008D0  A$font_manager$66                  font_manager
+     000008D1  A$font_manager$70                  font_manager
+     000008D1  C$font_manager.c$15$1$23           font_manager
+     000008D2  A$font_manager$71                  font_manager
+     000008D5  A$font_manager$72                  font_manager
+     000008D6  A$font_manager$73                  font_manager
+     000008D7  A$font_manager$74                  font_manager
+     000008D8  A$font_manager$75                  font_manager
+     000008D9  A$font_manager$76                  font_manager
+     000008DC  A$font_manager$77                  font_manager
+     000008DD  A$font_manager$78                  font_manager
+     000008DE  A$font_manager$79                  font_manager
+     000008DF  A$font_manager$80                  font_manager
+     000008E0  A$font_manager$81                  font_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001086 =        4230. bytes (REL,CON)
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000DCF  _SMS_loadBGPalette                 SMSlib
-     00000DE3  _SMS_loadSpritePalette             SMSlib
-     00000DF7  _SMS_setColor                      SMSlib
-     00000DFB  _SMS_initSprites                   SMSlib
-     00000E01  _SMS_addSprite                     SMSlib
-     00000E56  _SMS_finalizeSprites               SMSlib
-     00000E68  _SMS_copySpritestoSAT              SMSlib
-     00000E91  _SMS_waitForVBlank                 SMSlib
-     00000E9E  _SMS_getKeysStatus                 SMSlib
-     00000EA2  _SMS_getKeysPressed                SMSlib
-     00000EBF  _SMS_getKeysHeld                   SMSlib
-     00000ED6  _SMS_getKeysReleased               SMSlib
-     00000EF3  _SMS_queryPauseRequested           SMSlib
-     00000EFB  _SMS_resetPauseRequest             SMSlib
-     00000F01  _SMS_setLineInterruptHandler       SMSlib
-     00000F12  _SMS_setLineCounter                SMSlib
-     00000F21  _SMS_getVCount                     SMSlib
-     00000F25  _SMS_getHCount                     SMSlib
-     00000F29  _SMS_isr                           SMSlib
-     00000F5F  _SMS_nmi_isr                       SMSlib
-     00000F72  _SMS_loadSTMcompressedTileMapAre   SMSlib_STMcomp
-     00001153  ___sdcc_call_hl                    
-     00001154  _SMS_loadPSGaidencompressedTiles   SMSlib_PSGaiden
-     00001236  _SMS_loadTileMap                   SMSlib_loadTileMap
-     0000126F  __moduchar                         
-     0000127B  __moduint                          
-
+     000008E3  A$font_manager$82                  font_manager
+     000008E4  A$font_manager$83                  font_manager
+     000008E5  A$font_manager$87                  font_manager
+     000008E5  C$font_manager.c$16$1$23           font_manager
+     000008E8  A$font_manager$88                  font_manager
+     000008E9  A$font_manager$89                  font_manager
+     000008EA  A$font_manager$90                  font_manager
+     000008EB  A$font_manager$91                  font_manager
+     000008EE  A$font_manager$92                  font_manager
+     000008EF  A$font_manager$97                  font_manager
+     000008EF  C$font_manager.c$17$1$23           font_manager
+     000008EF  XG$engine_font_manager_draw_char   font_manager
+     000008F0  A$font_manager$107                 font_manager
+     000008F0  C$font_manager.c$19$1$23           font_manager
+     000008F0  G$engine_font_manager_draw_text$   font_manager
+     000008F0  _engine_font_manager_draw_text     font_manager
+     000008F2  A$font_manager$108                 font_manager
+     000008F6  A$font_manager$109                 font_manager
+     000008F8  A$font_manager$116                 font_manager
+     000008F8  C$font_manager.c$21$1$23           font_manager
+     000008F8  C$font_manager.c$24$1$25           font_manager
+     000008FB  A$font_manager$117                 font_manager
+     000008FD  A$font_manager$119                 font_manager
+     00000900  A$font_manager$120                 font_manager
+     00000901  A$font_manager$121                 font_manager
+     00000902  A$font_manager$122                 font_manager
+     00000905  A$font_manager$123                 font_manager
+     00000907  A$font_manager$124                 font_manager
+     00000908  A$font_manager$125                 font_manager
+     00000909  A$font_manager$126                 font_manager
+     0000090A  A$font_manager$127                 font_manager
+     0000090C  A$font_manager$131                 font_manager
+     0000090C  C$font_manager.c$26$2$26           font_manager
+     0000090E  A$font_manager$132                 font_manager
+     0000090F  A$font_manager$136                 font_manager
+     0000090F  C$font_manager.c$27$2$26           font_manager
+     00000910  A$font_manager$137                 font_manager
+     00000911  A$font_manager$138                 font_manager
+     00000914  A$font_manager$139                 font_manager
+     00000915  A$font_manager$140                 font_manager
+     00000916  A$font_manager$141                 font_manager
+     00000919  A$font_manager$142                 font_manager
+     0000091A  A$font_manager$143                 font_manager
+     0000091B  A$font_manager$144                 font_manager
+     0000091C  A$font_manager$145                 font_manager
+     0000091D  A$font_manager$146                 font_manager
+     00000920  A$font_manager$147                 font_manager
+     00000921  A$font_manager$148                 font_manager
+     00000922  A$font_manager$149                 font_manager
+     00000923  A$font_manager$153                 font_manager
+     00000923  C$font_manager.c$28$2$26           font_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000926  A$font_manager$154                 font_manager
+     00000927  A$font_manager$155                 font_manager
+     00000928  A$font_manager$156                 font_manager
+     00000929  A$font_manager$157                 font_manager
+     0000092A  A$font_manager$158                 font_manager
+     0000092D  A$font_manager$159                 font_manager
+     0000092E  A$font_manager$160                 font_manager
+     0000092F  A$font_manager$164                 font_manager
+     0000092F  C$font_manager.c$29$2$26           font_manager
+     00000930  A$font_manager$165                 font_manager
+     00000932  A$font_manager$167                 font_manager
+     00000934  A$font_manager$172                 font_manager
+     00000934  C$font_manager.c$31$1$25           font_manager
+     00000934  XG$engine_font_manager_draw_text   font_manager
+     00000935  A$font_manager$182                 font_manager
+     00000935  C$font_manager.c$33$1$25           font_manager
+     00000935  G$engine_font_manager_draw_data$   font_manager
+     00000935  _engine_font_manager_draw_data     font_manager
+     00000937  A$font_manager$183                 font_manager
+     0000093B  A$font_manager$184                 font_manager
+     0000093D  A$font_manager$185                 font_manager
+     0000093E  A$font_manager$192                 font_manager
+     0000093E  C$font_manager.c$35$1$25           font_manager
+     00000941  A$font_manager$193                 font_manager
+     00000944  A$font_manager$194                 font_manager
+     00000948  A$font_manager$199                 font_manager
+     00000948  C$font_manager.c$45$2$29           font_manager
+     0000094B  A$font_manager$200                 font_manager
+     0000094C  A$font_manager$201                 font_manager
+     0000094F  A$font_manager$202                 font_manager
+     00000952  A$font_manager$203                 font_manager
+     00000953  A$font_manager$204                 font_manager
+     00000956  A$font_manager$205                 font_manager
+     00000957  A$font_manager$206                 font_manager
+     00000958  A$font_manager$207                 font_manager
+     00000959  A$font_manager$208                 font_manager
+     0000095A  A$font_manager$212                 font_manager
+     0000095A  C$font_manager.c$46$2$29           font_manager
+     0000095B  A$font_manager$213                 font_manager
+     0000095C  A$font_manager$214                 font_manager
+     0000095F  A$font_manager$215                 font_manager
+     00000960  A$font_manager$216                 font_manager
+     00000963  A$font_manager$217                 font_manager
+     00000966  A$font_manager$218                 font_manager
+     00000967  A$font_manager$219                 font_manager
+     0000096A  A$font_manager$220                 font_manager
+     0000096B  A$font_manager$221                 font_manager
+     0000096C  A$font_manager$222                 font_manager
+     0000096D  A$font_manager$223                 font_manager
+     0000096E  A$font_manager$224                 font_manager
+     0000096F  A$font_manager$228                 font_manager
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000096F  C$font_manager.c$47$3$30           font_manager
+     00000972  A$font_manager$229                 font_manager
+     00000975  A$font_manager$233                 font_manager
+     00000975  C$font_manager.c$49$3$30           font_manager
+     00000976  A$font_manager$234                 font_manager
+     00000978  A$font_manager$235                 font_manager
+     00000979  A$font_manager$239                 font_manager
+     00000979  C$font_manager.c$50$3$30           font_manager
+     0000097A  A$font_manager$240                 font_manager
+     0000097B  A$font_manager$241                 font_manager
+     0000097D  A$font_manager$242                 font_manager
+     0000097E  A$font_manager$243                 font_manager
+     00000980  A$font_manager$244                 font_manager
+     00000983  A$font_manager$245                 font_manager
+     00000984  A$font_manager$246                 font_manager
+     00000986  A$font_manager$250                 font_manager
+     00000986  C$font_manager.c$53$4$31           font_manager
+     00000988  A$font_manager$255                 font_manager
+     00000988  C$font_manager.c$56$3$30           font_manager
+     0000098B  A$font_manager$256                 font_manager
+     0000098E  A$font_manager$257                 font_manager
+     00000991  A$font_manager$258                 font_manager
+     00000994  A$font_manager$259                 font_manager
+     00000995  A$font_manager$260                 font_manager
+     00000998  A$font_manager$261                 font_manager
+     00000999  A$font_manager$262                 font_manager
+     0000099A  A$font_manager$263                 font_manager
+     0000099B  A$font_manager$264                 font_manager
+     0000099C  A$font_manager$265                 font_manager
+     0000099F  A$font_manager$266                 font_manager
+     000009A0  A$font_manager$267                 font_manager
+     000009A1  A$font_manager$271                 font_manager
+     000009A1  C$font_manager.c$57$3$30           font_manager
+     000009A4  A$font_manager$272                 font_manager
+     000009A5  A$font_manager$273                 font_manager
+     000009A6  A$font_manager$274                 font_manager
+     000009A7  A$font_manager$275                 font_manager
+     000009AA  A$font_manager$276                 font_manager
+     000009AB  A$font_manager$280                 font_manager
+     000009AB  C$font_manager.c$43$2$29           font_manager
+     000009AE  A$font_manager$281                 font_manager
+     000009B1  A$font_manager$282                 font_manager
+     000009B3  A$font_manager$283                 font_manager
+     000009B5  A$font_manager$284                 font_manager
+     000009B7  A$font_manager$285                 font_manager
+     000009B9  A$font_manager$290                 font_manager
+     000009B9  C$font_manager.c$59$2$29           font_manager
+     000009B9  XG$engine_font_manager_draw_data   font_manager
+     000009BA  G$font_tiles__palette__bin$0$0     gfx
+     000009BA  _font_tiles__palette__bin          gfx
+     000009CA  G$font_tiles__tilemap__bin$0$0     gfx
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000117E =        4478. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000009CA  _font_tiles__tilemap__bin          gfx
+     00000A4A  G$font_tiles__tiles__psgcompr$0$   gfx
+     00000A4A  _font_tiles__tiles__psgcompr       gfx
+     00000CE1  __divuint                          
+     00000CE9  __divuchar                         
+     00000CF0  __divu8                            
+     00000CF3  __divu16                           
+     00000D22  _UNSAFE_SMS_copySpritestoSAT       SMSlib_UNSAFE
+     00000D3A  _UNSAFE_SMS_VRAMmemcpy32           SMSlib_UNSAFE
+     00000D57  _UNSAFE_SMS_VRAMmemcpy64           SMSlib_UNSAFE
+     00000D74  _UNSAFE_SMS_VRAMmemcpy128          SMSlib_UNSAFE
+     00000D91  _SMS_init                          SMSlib
+     00000DE5  _VDPReg_init                       SMSlib
+     00000DF0  _SMS_VDPType                       SMSlib
+     00000DF8  _SMS_VDPturnOnFeature              SMSlib
+     00000E0F  _SMS_VDPturnOffFeature             SMSlib
+     00000E28  _SMS_setBGScrollX                  SMSlib
+     00000E32  _SMS_setBGScrollY                  SMSlib
+     00000E3C  _SMS_setBackdropColor              SMSlib
+     00000E46  _SMS_useFirstHalfTilesforSprites   SMSlib
+     00000E5A  _SMS_setSpriteMode                 SMSlib
+     00000E9F  _SMS_setBGPaletteColor             SMSlib
+     00000EB3  _SMS_setSpritePaletteColor         SMSlib
+     00000EC7  _SMS_loadBGPalette                 SMSlib
+     00000EDB  _SMS_loadSpritePalette             SMSlib
+     00000EEF  _SMS_setColor                      SMSlib
+     00000EF3  _SMS_initSprites                   SMSlib
+     00000EF9  _SMS_addSprite                     SMSlib
+     00000F4E  _SMS_finalizeSprites               SMSlib
+     00000F60  _SMS_copySpritestoSAT              SMSlib
+     00000F89  _SMS_waitForVBlank                 SMSlib
+     00000F96  _SMS_getKeysStatus                 SMSlib
+     00000F9A  _SMS_getKeysPressed                SMSlib
+     00000FB7  _SMS_getKeysHeld                   SMSlib
+     00000FCE  _SMS_getKeysReleased               SMSlib
+     00000FEB  _SMS_queryPauseRequested           SMSlib
+     00000FF3  _SMS_resetPauseRequest             SMSlib
+     00000FF9  _SMS_setLineInterruptHandler       SMSlib
+     0000100A  _SMS_setLineCounter                SMSlib
+     00001019  _SMS_getVCount                     SMSlib
+     0000101D  _SMS_getHCount                     SMSlib
+     00001021  _SMS_isr                           SMSlib
+     00001057  _SMS_nmi_isr                       SMSlib
+     0000106A  _SMS_loadSTMcompressedTileMapAre   SMSlib_STMcomp
+     0000124B  ___sdcc_call_hl                    
+     0000124C  _SMS_loadPSGaidencompressedTiles   SMSlib_PSGaiden
+     0000132E  _SMS_loadTileMap                   SMSlib_loadTileMap
+     00001367  __moduchar                         
+     00001373  __moduint                          
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1811,7 +2013,7 @@ _HEADER0                            00000000    00000006 =           6. bytes (A
       -----  --------------------------------   ------------------------
      00000006  _SMS_crt0_RST08                    crt0
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1822,7 +2024,7 @@ _HEADER1                            00000000    00000009 =           9. bytes (A
       -----  --------------------------------   ------------------------
      00000011  _SMS_crt0_RST18                    crt0
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1831,7 +2033,7 @@ _HEADER2                            00000000    0000000A =          10. bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1840,7 +2042,7 @@ _HEADER3                            00000000    00000003 =           3. bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1849,7 +2051,7 @@ _HEADER4                            00000000    00000003 =           3. bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1863,42 +2065,42 @@ _HEADER5                            00000000    0000012A =         298. bytes (A
      00000159  _OUTI32                            crt0
      00000199  _outi_block                        crt0
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
-Hexadecimal  [32-Bits]
-
-Area                                    Addr        Size        Decimal Bytes (Attributes)
---------------------------------        ----        ----        ------- ----- ------------
-_INITIALIZER                        00001286    00000064 =         100. bytes (REL,CON)
-
-      Value  Global                              Global Defined In Module
-      -----  --------------------------------   ------------------------
-     00001286  Factor_object$__xinit_actor_tile   actor_object
-     000012A6  Factor_object$__xinit_actor_tile   actor_object
-     000012C6  Factor_object$__xinit_actor_pale   actor_object
-ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
-Hexadecimal  [32-Bits]
-
-Area                                    Addr        Size        Decimal Bytes (Attributes)
---------------------------------        ----        ----        ------- ----- ------------
-_GSINIT                             000012EA    00000017 =          23. bytes (REL,CON)
-
-      Value  Global                              Global Defined In Module
-      -----  --------------------------------   ------------------------
-     000012EA  gsinit                             crt0
-     000012F9  A$main$55                          main
-     000012F9  C$main.c$5$2$42                    main
-     000012FD  A$main$56                          main
-
-ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
-Hexadecimal  [32-Bits]
-
-Area                                    Addr        Size        Decimal Bytes (Attributes)
---------------------------------        ----        ----        ------- ----- ------------
-_GSFINAL                            00001301    00000001 =           1. bytes (REL,CON)
-
-      Value  Global                              Global Defined In Module
-      -----  --------------------------------   ------------------------
 ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZER                        0000137E    00000064 =         100. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000137E  Factor_object$__xinit_actor_tile   actor_object
+     0000139E  Factor_object$__xinit_actor_tile   actor_object
+     000013BE  Factor_object$__xinit_actor_pale   actor_object
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             000013E2    00000017 =          23. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000013E2  gsinit                             crt0
+     000013F1  A$main$55                          main
+     000013F1  C$main.c$5$2$42                    main
+     000013F5  A$main$56                          main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            000013F9    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1921,7 +2123,7 @@ _DATA                               0000C000    0000010C =         268. bytes (R
      0000C0EA  _SMS_theLineInterruptHandler       SMSlib
      0000C0EC  _decompBuffer                      SMSlib_PSGaiden
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1939,7 +2141,7 @@ _INITIALIZED                        0000C10C    00000064 =         100. bytes (R
      0000C16C  _VDPReg                            SMSlib
      0000C16E  _spritesHeight                     SMSlib
      0000C16F  _spritesWidth                      SMSlib
-ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -1972,7 +2174,7 @@ _BANK2                              00008000    00002713 =       10003. bytes (R
      00009B39  _actor03__tilemap__stmcompr        bank2
      00009BA2  G$actor03__tiles__psgcompr$0$0     bank2
      00009BA2  _actor03__tiles__psgcompr          bank2
-ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2005,7 +2207,7 @@ _BANK3                              00008000    00002962 =       10594. bytes (R
      00009FA6  _actor07__tilemap__stmcompr        bank3
      0000A016  G$actor07__tiles__psgcompr$0$0     bank3
      0000A016  _actor07__tiles__psgcompr          bank3
-ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2038,7 +2240,7 @@ _BANK4                              00008000    000022E4 =        8932. bytes (R
      000098AA  _actor11__tilemap__stmcompr        bank4
      000098FD  G$actor11__tiles__psgcompr$0$0     bank4
      000098FD  _actor11__tiles__psgcompr          bank4
-ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2071,7 +2273,7 @@ _BANK5                              00008000    00002245 =        8773. bytes (R
      000098B9  _actor15__tilemap__stmcompr        bank5
      0000991D  G$actor15__tiles__psgcompr$0$0     bank5
      0000991D  _actor15__tiles__psgcompr          bank5
-ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2086,7 +2288,7 @@ _BANK6                              00008000    00000880 =        2176. bytes (R
      00008010  _splash__tilemap__stmcompr         bank6
      00008057  G$splash__tiles__psgcompr$0$0      bank6
      00008057  _splash__tiles__psgcompr           bank6
-ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2101,7 +2303,7 @@ _BANK7                              00008000    00001F38 =        7992. bytes (R
      00008010  _simpsons__tilemap__stmcompr       bank7
      000080D1  G$simpsons__tiles__psgcompr$0$0    bank7
      000080D1  _simpsons__tiles__psgcompr         bank7
-ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2113,7 +2315,7 @@ _CABS0                              00000000    00000010 =          16. bytes (A
      00007FF0  G$__SMS__SEGA_signature$0$0        _sms_manager
      00007FF0  ___SMS__SEGA_signature             _sms_manager
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2125,7 +2327,7 @@ _CABS1                              00000000    0000000E =          14. bytes (A
      00007FD2  G$__SMS__SDSC_author$0$0           _sms_manager
      00007FD2  ___SMS__SDSC_author                _sms_manager
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2137,7 +2339,7 @@ _CABS2                              00000000    0000000E =          14. bytes (A
      00007FC4  G$__SMS__SDSC_name$0$0             _sms_manager
      00007FC4  ___SMS__SDSC_name                  _sms_manager
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2149,7 +2351,7 @@ _CABS3                              00000000    00000038 =          56. bytes (A
      00007F8C  G$__SMS__SDSC_descr$0$0            _sms_manager
      00007F8C  ___SMS__SDSC_descr                 _sms_manager
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 56.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
@@ -2161,7 +2363,7 @@ _CABS4                              00000000    00000010 =          16. bytes (A
      00007FE0  G$__SMS__SDSC_signature$0$0        _sms_manager
      00007FE0  ___SMS__SDSC_signature             _sms_manager
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
 
 Files Linked                              [ module(s) ]
 
@@ -2196,7 +2398,7 @@ C:\Program Files\SDCC\bin\..\lib\z80/z80.lib
 C:\Program Files\SDCC\bin\..\lib\z80/z80.lib
                                           [ modunsigned.rel ]
 
-ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
+ASxxxx Linker V03.00 + NoICE + sdld,  page 58.
 
 User Base Address Definitions
 

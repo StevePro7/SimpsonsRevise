@@ -15,6 +15,14 @@ F:Factor_manager$draw_actor04$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor05$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor06$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor07$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor08$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor09$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor10$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor11$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor12$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor13$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor14$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor15$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Factor_manager$draw_method$0$0({32}DA16d,DC,DF,SV:S),E,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
