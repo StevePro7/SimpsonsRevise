@@ -1,0 +1,56 @@
+XL2
+H 9 areas F global symbols
+M actor_object
+O -mz80
+S .__.ABS. Def0000
+S _actor00__tiles__psgcompr Ref0000
+S _actor00__tilemap__stmcompr Ref0000
+S _actor00__palette__bin Ref0000
+A _CODE size 1 flags 0 addr 0
+S G$actor_banking$0$0 Def0000
+S _actor_banking Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 6 flags 0 addr 0
+S _actor_tilemap Def0002
+S G$actor_tileset$0$0 Def0000
+S _actor_palette Def0004
+S _actor_tileset Def0000
+S G$actor_tilemap$0$0 Def0002
+S G$actor_palette$0$0 Def0004
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 6 flags 0 addr 0
+S Factor_object$__xinit_actor_tilemap$0$0 Def0002
+S Factor_object$__xinit_actor_palette$0$0 Def0004
+S Factor_object$__xinit_actor_tileset$0$0 Def0000
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 02 00
+R 00 00 02 00
+T 02 00
+R 00 00 02 00
+T 04 00
+R 00 00 02 00
+T 04 00
+R 00 00 02 00
+T 00 00
+R 00 00 00 00
+T 00 00 02
+R 00 00 00 00
+T 00 00
+R 00 00 07 00
+T 00 00 00 00
+R 00 00 07 00 02 02 01 00
+T 02 00
+R 00 00 07 00
+T 02 00 00 00
+R 00 00 07 00 02 02 02 00
+T 04 00
+R 00 00 07 00
+T 04 00 00 00
+R 00 00 07 00 02 02 03 00

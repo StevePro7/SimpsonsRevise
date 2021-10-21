@@ -37,6 +37,12 @@
     <Filter Include="Source Files\banks">
       <UniqueIdentifier>{14077028-87d8-4b46-a9ac-97127ebfb192}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\object">
+      <UniqueIdentifier>{b85476c3-c675-45ae-a8b1-4055dc762349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\object">
+      <UniqueIdentifier>{b3543881-2146-4a32-aec6-011983cb66e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -77,6 +83,12 @@
     </ClCompile>
     <ClCompile Include="engine\font_manager.c">
       <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\actor_manager.c">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="object\actor_object.c">
+      <Filter>Source Files\object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +135,12 @@
     </ClInclude>
     <ClInclude Include="engine\font_manager.h">
       <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\actor_manager.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="object\actor_object.h">
+      <Filter>Header Files\object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

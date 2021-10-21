@@ -12,10 +12,12 @@ void main( void )
 
 	//engine_content_manager_load_splash();
 
-	engine_content_manager_load_font_tiles();
-	engine_content_manager_load_title();
-	engine_font_manager_draw_text( "TEST!!", 1, 16 );
-	engine_content_manager_load_sprite_palette();
+	
+	//engine_content_manager_load_title();
+	engine_actor_manager_draw();
+	//engine_content_manager_load_font_tiles();
+	//engine_font_manager_draw_text( "223344", 1, 16 );
+	//engine_content_manager_load_sprite_palette();
 
 	devkit_SMS_displayOn();
 	for( ;; )
