@@ -1,0 +1,125 @@
+XL2
+H 9 areas 3A global symbols
+M actor_object
+O -mz80
+S _actor13__palette__bin Ref0000
+S _actor04__palette__bin Ref0000
+S _actor14__palette__bin Ref0000
+S _actor05__palette__bin Ref0000
+S _actor15__palette__bin Ref0000
+S _actor06__palette__bin Ref0000
+S _actor07__palette__bin Ref0000
+S _actor08__palette__bin Ref0000
+S _actor09__palette__bin Ref0000
+S .__.ABS. Def0000
+S _actor00__tiles__psgcompr Ref0000
+S _actor10__tiles__psgcompr Ref0000
+S _actor01__tiles__psgcompr Ref0000
+S _actor11__tiles__psgcompr Ref0000
+S _actor02__tiles__psgcompr Ref0000
+S _actor12__tiles__psgcompr Ref0000
+S _actor03__tiles__psgcompr Ref0000
+S _actor13__tiles__psgcompr Ref0000
+S _actor04__tiles__psgcompr Ref0000
+S _actor14__tiles__psgcompr Ref0000
+S _actor05__tiles__psgcompr Ref0000
+S _actor15__tiles__psgcompr Ref0000
+S _actor06__tiles__psgcompr Ref0000
+S _actor07__tiles__psgcompr Ref0000
+S _actor08__tiles__psgcompr Ref0000
+S _actor09__tiles__psgcompr Ref0000
+S _actor00__tilemap__stmcompr Ref0000
+S _actor10__tilemap__stmcompr Ref0000
+S _actor01__tilemap__stmcompr Ref0000
+S _actor11__tilemap__stmcompr Ref0000
+S _actor02__tilemap__stmcompr Ref0000
+S _actor12__tilemap__stmcompr Ref0000
+S _actor03__tilemap__stmcompr Ref0000
+S _actor13__tilemap__stmcompr Ref0000
+S _actor04__tilemap__stmcompr Ref0000
+S _actor14__tilemap__stmcompr Ref0000
+S _actor05__tilemap__stmcompr Ref0000
+S _actor15__tilemap__stmcompr Ref0000
+S _actor06__tilemap__stmcompr Ref0000
+S _actor00__palette__bin Ref0000
+S _actor07__tilemap__stmcompr Ref0000
+S _actor10__palette__bin Ref0000
+S _actor01__palette__bin Ref0000
+S _actor08__tilemap__stmcompr Ref0000
+S _actor11__palette__bin Ref0000
+S _actor02__palette__bin Ref0000
+S _actor09__tilemap__stmcompr Ref0000
+S _actor12__palette__bin Ref0000
+S _actor03__palette__bin Ref0000
+A _CODE size 0 flags 0 addr 0
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 60 flags 0 addr 0
+S _actor_tilemap Def0020
+S G$actor_tileset$0$0 Def0000
+S _actor_palette Def0040
+S _actor_tileset Def0000
+S G$actor_tilemap$0$0 Def0020
+S G$actor_palette$0$0 Def0040
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 60 flags 0 addr 0
+S Factor_object$__xinit_actor_tilemap$0$0 Def0020
+S Factor_object$__xinit_actor_palette$0$0 Def0040
+S Factor_object$__xinit_actor_tileset$0$0 Def0000
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 20 00
+R 00 00 02 00
+T 20 00
+R 00 00 02 00
+T 40 00
+R 00 00 02 00
+T 40 00
+R 00 00 02 00
+T 00 00
+R 00 00 07 00
+T 00 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 0A 00 02 04 0C 00 02 06 0E 00
+T 06 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 10 00 02 04 12 00 02 06 14 00
+T 0C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 16 00 02 04 17 00 02 06 18 00
+T 12 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 19 00 02 04 0B 00 02 06 0D 00
+T 18 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 0F 00 02 04 11 00 02 06 13 00
+T 1E 00 00 00
+R 00 00 07 00 02 02 15 00
+T 20 00
+R 00 00 07 00
+T 20 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 1A 00 02 04 1C 00 02 06 1E 00
+T 26 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 20 00 02 04 22 00 02 06 24 00
+T 2C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 26 00 02 04 28 00 02 06 2B 00
+T 32 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 2E 00 02 04 1B 00 02 06 1D 00
+T 38 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 1F 00 02 04 21 00 02 06 23 00
+T 3E 00 00 00
+R 00 00 07 00 02 02 25 00
+T 40 00
+R 00 00 07 00
+T 40 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 27 00 02 04 2A 00 02 06 2D 00
+T 46 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 30 00 02 04 01 00 02 06 03 00
+T 4C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 05 00 02 04 06 00 02 06 07 00
+T 52 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 08 00 02 04 29 00 02 06 2C 00
+T 58 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 2F 00 02 04 00 00 02 06 02 00
+T 5E 00 00 00
+R 00 00 07 00 02 02 04 00
