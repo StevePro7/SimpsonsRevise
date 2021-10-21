@@ -1,6 +1,7 @@
 #include "content_manager.h"
 #include "../devkit/_sms_manager.h"
 #include "../banks/bank6.h"
+#include "../banks/bank7.h"
 #include "../gfx.h"
 
 #define FONT_TILES_OFFSET		0
@@ -26,3 +27,10 @@ void engine_content_manager_load_splash()
 	devkit_SMS_loadBGPalette( ( void * ) splash__palette__bin );
 }
 
+void engine_content_manager_load_title()
+{
+	devkit_SMS_mapROMBank( simpsons__tiles__psgcompr_bank );
+	devkit_SMS_loadPSGaidencompressedTiles( simpsons__tiles__psgcompr, FULL_TILES_OFFSET );
+	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) simpsons__tilemap__stmcompr );
+	devkit_SMS_loadBGPalette( ( void * ) simpsons__palette__bin );
+}
