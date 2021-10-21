@@ -21,3 +21,4 @@ if exist "*.lst" del "*.lst" > nul
 if exist "*.sym" del "*.sym" > nul
 
 cd ..
+cd scripts

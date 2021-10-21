@@ -1,3 +1,4 @@
+cd ..
 cd banks
 cd bank4
 
@@ -20,3 +21,4 @@ if exist "*.lst" del "*.lst" > nul
 if exist "*.sym" del "*.sym" > nul
 
 cd ..
+cd scripts
