@@ -11,7 +11,7 @@
 
 #define MAX_ACTORS			16
 static void( *draw_method[ MAX_ACTORS ] )( );
-static void draw_impl( unsigned char n, void *tileset, const unsigned char *tilemap, void *palette );
+static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette );
 
 static void draw_actor00();
 static void draw_actor01();
@@ -54,7 +54,7 @@ void engine_actor_manager_draw( unsigned char index )
 //	//engine_font_manager_draw_data( index, 10, 21 );
 //}
 
-static void draw_impl( unsigned char n, void *tileset, const unsigned char *tilemap, void *palette )
+static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette )
 {
 	devkit_SMS_mapROMBank( n );
 	devkit_SMS_loadPSGaidencompressedTiles( tileset, ACTOR_TILES_OFFSET );

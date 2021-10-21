@@ -1206,9 +1206,9 @@ _CODE                               00000200    00001042 =        4162. bytes (R
      00000660  C$actor_manager.c$60$1$25          actor_manager
      00000663  A$actor_manager$134                actor_manager
      00000664  A$actor_manager$135                actor_manager
-     00000667  A$actor_manager$136                actor_manager
-     00000668  A$actor_manager$137                actor_manager
-     00000669  A$actor_manager$138                actor_manager
+     00000665  A$actor_manager$136                actor_manager
+     00000666  A$actor_manager$137                actor_manager
+     00000667  A$actor_manager$138                actor_manager
      0000066A  A$actor_manager$139                actor_manager
      0000066B  A$actor_manager$140                actor_manager
      0000066C  A$actor_manager$141                actor_manager

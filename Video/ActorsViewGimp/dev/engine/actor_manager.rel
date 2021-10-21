@@ -128,7 +128,7 @@ S A$actor_manager$217 Def0084
 S A$actor_manager$190 Def0070
 S A$actor_manager$163 Def005F
 S A$actor_manager$154 Def0055
-S A$actor_manager$136 Def0040
+S A$actor_manager$136 Def003E
 S A$actor_manager$127 Def0034
 S A$actor_manager$109 Def0029
 S C$actor_manager.c$83$1$30 Def00BC
@@ -144,7 +144,7 @@ S A$actor_manager$191 Def0073
 S A$actor_manager$173 Def0067
 S A$actor_manager$164 Def0060
 S A$actor_manager$155 Def0056
-S A$actor_manager$137 Def0041
+S A$actor_manager$137 Def003F
 S A$actor_manager$128 Def0035
 S C$actor_manager.c$84$1$30 Def00CB
 S C$actor_manager.c$62$1$25 Def005B
@@ -161,7 +161,7 @@ S A$actor_manager$192 Def0074
 S A$actor_manager$165 Def0061
 S A$actor_manager$156 Def0059
 S A$actor_manager$147 Def004A
-S A$actor_manager$138 Def0042
+S A$actor_manager$138 Def0040
 S A$actor_manager$129 Def0038
 S C$actor_manager.c$85$1$30 Def00D8
 S C$actor_manager.c$63$1$25 Def0067
@@ -251,9 +251,9 @@ T 21 00 26 00 29 09 4E 23 66 69 DD E1 C3 00 00
 R 00 00 00 00 02 0D 0A 00
 T 2E 00
 R 00 00 00 00
-T 2E 00 21 02 00 39 7E F5 33 CD 00 00 33 21 40 00
+T 2E 00 21 02 00 39 7E F5 33 CD 00 00 33 21 03 00
 R 00 00 00 00 02 0A 11 00
-T 3C 00 E5 21 05 00 39 4E 23 46 C5 CD 00 00 F1 F1
+T 3C 00 39 4E 23 46 21 40 00 E5 C5 CD 00 00 F1 F1
 R 00 00 00 00 02 0C 05 00
 T 4A 00 21 05 00 39 4E 23 46 C5 21 00 00 E5 CD
 R 00 00 00 00
