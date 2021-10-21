@@ -23,5 +23,6 @@ void engine_content_manager_load_splash()
 	devkit_SMS_mapROMBank( splash__tiles__psgcompr_bank );
 	devkit_SMS_loadPSGaidencompressedTiles( splash__tiles__psgcompr, FULL_TILES_OFFSET );
 	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) splash__tilemap__stmcompr );
+	devkit_SMS_loadBGPalette( ( void * ) splash__palette__bin );
 }
 
