@@ -11,9 +11,10 @@ F:Factor_manager$draw_actor00$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor01$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor02$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor03$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:G$actor_tileset$0$0({32}DA16d,DG,SC:U),E,0,0
-S:G$actor_tilemap$0$0({32}DA16d,DG,SC:U),E,0,0
-S:G$actor_palette$0$0({32}DA16d,DG,SC:U),E,0,0
+F:Factor_manager$draw_actor04$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor05$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor06$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Factor_manager$draw_actor07$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Factor_manager$draw_method$0$0({32}DA16d,DC,DF,SV:S),E,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0

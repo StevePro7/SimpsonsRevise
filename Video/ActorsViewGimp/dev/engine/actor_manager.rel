@@ -1,8 +1,12 @@
 ;!FILE actor_manager.asm
 XL2
-H 9 areas B3 global symbols
+H 9 areas 117 global symbols
 M actor_manager
 O -mz80
+S _actor04__palette__bin Ref0000
+S _actor05__palette__bin Ref0000
+S _actor06__palette__bin Ref0000
+S _actor07__palette__bin Ref0000
 S _devkit_SMS_loadSTMcompressedTileMap Ref0000
 S _devkit_SMS_loadBGPalette Ref0000
 S _devkit_SMS_loadPSGaidencompressedTiles Ref0000
@@ -11,177 +15,273 @@ S _actor00__tiles__psgcompr Ref0000
 S _actor01__tiles__psgcompr Ref0000
 S _actor02__tiles__psgcompr Ref0000
 S _actor03__tiles__psgcompr Ref0000
+S _actor04__tiles__psgcompr Ref0000
+S _actor05__tiles__psgcompr Ref0000
+S _actor06__tiles__psgcompr Ref0000
+S _actor07__tiles__psgcompr Ref0000
 S ___sdcc_call_hl Ref0000
 S _actor00__tilemap__stmcompr Ref0000
 S _actor01__tilemap__stmcompr Ref0000
 S _actor02__tilemap__stmcompr Ref0000
 S _actor03__tilemap__stmcompr Ref0000
+S _actor04__tilemap__stmcompr Ref0000
+S _actor05__tilemap__stmcompr Ref0000
+S _actor06__tilemap__stmcompr Ref0000
+S _actor07__tilemap__stmcompr Ref0000
 S _actor00__palette__bin Ref0000
 S _actor01__palette__bin Ref0000
 S _actor02__palette__bin Ref0000
 S _actor03__palette__bin Ref0000
 S _devkit_SMS_mapROMBank Ref0000
-A _CODE size D2 flags 0 addr 0
+A _CODE size 14E flags 0 addr 0
+S A$actor_manager$398 Def012B
+S C$actor_manager.c$58$1$29 Def00D1
+S A$actor_manager$399 Def012C
+S C$actor_manager.c$59$1$29 Def00E9
 S C$actor_manager.c$19$0$0 Def0000
-S C$actor_manager.c$78$1$29 Def00B9
-S C$actor_manager.c$79$1$29 Def00D1
-S XFactor_manager$draw_actor00$0$0 Def0086
-S XFactor_manager$draw_actor01$0$0 Def009F
+S XFactor_manager$draw_actor00$0$0 Def009E
+S XFactor_manager$draw_actor01$0$0 Def00B7
 S A$actor_manager$63 Def0000
-S XFactor_manager$draw_actor02$0$0 Def00B8
+S XFactor_manager$draw_actor02$0$0 Def00D0
 S A$actor_manager$73 Def000C
 S A$actor_manager$64 Def0003
-S XFactor_manager$draw_actor03$0$0 Def00D1
+S XFactor_manager$draw_actor03$0$0 Def00E9
+S A$actor_manager$83 Def0018
 S A$actor_manager$74 Def000F
-S A$actor_manager$84 Def0018
-S G$engine_actor_manager_draw$0$0 Def0019
-S A$actor_manager$94 Def0019
-S A$actor_manager$95 Def001B
+S XFactor_manager$draw_actor04$0$0 Def0102
+S A$actor_manager$93 Def0024
+S A$actor_manager$84 Def001B
+S XFactor_manager$draw_actor05$0$0 Def011B
+S G$engine_actor_manager_draw$0$0 Def0031
+S A$actor_manager$94 Def0027
+S XFactor_manager$draw_actor06$0$0 Def0134
 S A$actor_manager$68 Def0006
-S A$actor_manager$96 Def001F
+S XFactor_manager$draw_actor07$0$0 Def014D
 S A$actor_manager$78 Def0012
 S A$actor_manager$69 Def0009
+S A$actor_manager$88 Def001E
 S A$actor_manager$79 Def0015
+S A$actor_manager$98 Def002A
+S A$actor_manager$89 Def0021
+S A$actor_manager$99 Def002D
 S G$engine_actor_manager_init$0$0 Def0000
-S _engine_actor_manager_draw Def0019
+S _engine_actor_manager_draw Def0031
 S _engine_actor_manager_init Def0000
-S XG$engine_actor_manager_draw$0$0 Def002F
-S Factor_manager$draw_impl$0$0 Def0034
-S XG$engine_actor_manager_init$0$0 Def0018
-S Factor_manager$draw_actor00$0$0 Def006E
-S Factor_manager$draw_actor01$0$0 Def0087
-S A$actor_manager$100 Def0021
-S Factor_manager$draw_actor02$0$0 Def00A0
-S A$actor_manager$200 Def0081
-S A$actor_manager$101 Def0024
-S Factor_manager$draw_actor03$0$0 Def00B9
+S XG$engine_actor_manager_draw$0$0 Def0047
+S Factor_manager$draw_impl$0$0 Def004C
+S XG$engine_actor_manager_init$0$0 Def0030
+S Factor_manager$draw_actor00$0$0 Def0086
+S Factor_manager$draw_actor01$0$0 Def009F
+S Factor_manager$draw_actor02$0$0 Def00B8
+S Factor_manager$draw_actor03$0$0 Def00D1
 S C$actor_manager.c$21$1$21 Def0000
-S A$actor_manager$201 Def0084
-S A$actor_manager$102 Def0027
+S A$actor_manager$300 Def00D1
+S A$actor_manager$210 Def0086
+S A$actor_manager$120 Def0039
+S Factor_manager$draw_actor04$0$0 Def00EA
+S C$actor_manager.c$31$1$21 Def0031
 S C$actor_manager.c$22$1$21 Def0006
-S A$actor_manager$220 Def0087
-S A$actor_manager$202 Def0085
-S A$actor_manager$130 Def0039
-S A$actor_manager$103 Def0029
-S C$actor_manager.c$30$1$23 Def002F
+S A$actor_manager$400 Def012F
+S A$actor_manager$310 Def00E4
+S A$actor_manager$301 Def00D4
+S A$actor_manager$220 Def0099
+S A$actor_manager$211 Def0089
+S A$actor_manager$121 Def003C
+S Factor_manager$draw_actor05$0$0 Def0103
 S C$actor_manager.c$23$1$21 Def000C
-S A$actor_manager$230 Def009A
-S A$actor_manager$221 Def008A
-S A$actor_manager$140 Def0044
-S A$actor_manager$131 Def003A
-S A$actor_manager$113 Def002F
-S A$actor_manager$104 Def002A
+S A$actor_manager$401 Def0132
+S A$actor_manager$311 Def00E7
+S A$actor_manager$302 Def00D5
+S A$actor_manager$221 Def009C
+S A$actor_manager$212 Def008A
+S A$actor_manager$122 Def003F
+S A$actor_manager$104 Def0030
+S Factor_manager$draw_actor06$0$0 Def011C
 S C$actor_manager.c$24$1$21 Def0012
-S A$actor_manager$231 Def009D
-S A$actor_manager$222 Def008B
-S A$actor_manager$141 Def0045
-S A$actor_manager$132 Def003B
+S A$actor_manager$420 Def0135
+S A$actor_manager$402 Def0133
+S A$actor_manager$330 Def00EA
+S A$actor_manager$312 Def00E8
+S A$actor_manager$303 Def00D8
+S A$actor_manager$240 Def009F
+S A$actor_manager$222 Def009D
+S A$actor_manager$213 Def008D
+S A$actor_manager$150 Def0051
+S A$actor_manager$123 Def0041
 S A$actor_manager$114 Def0031
-S A$actor_manager$105 Def002B
+S Factor_manager$draw_actor07$0$0 Def0135
 S C$actor_manager.c$25$1$21 Def0018
-S A$actor_manager$250 Def00A0
-S A$actor_manager$232 Def009E
-S A$actor_manager$223 Def008E
-S A$actor_manager$160 Def005F
-S A$actor_manager$151 Def0050
-S A$actor_manager$142 Def0046
-S A$actor_manager$133 Def003E
-S A$actor_manager$106 Def002C
-S A$actor_manager$260 Def00B3
-S A$actor_manager$251 Def00A3
-S A$actor_manager$224 Def008F
-S A$actor_manager$170 Def0068
-S A$actor_manager$161 Def0060
+S A$actor_manager$430 Def0148
+S A$actor_manager$421 Def0138
+S A$actor_manager$340 Def00FD
+S A$actor_manager$331 Def00ED
+S A$actor_manager$304 Def00D9
+S A$actor_manager$250 Def00B2
+S A$actor_manager$241 Def00A2
+S A$actor_manager$214 Def008E
+S A$actor_manager$160 Def005C
+S A$actor_manager$151 Def0052
+S A$actor_manager$133 Def0047
+S A$actor_manager$124 Def0042
+S A$actor_manager$115 Def0033
+S C$actor_manager.c$62$1$30 Def00EA
+S C$actor_manager.c$40$1$25 Def0068
+S C$actor_manager.c$33$1$23 Def0039
+S C$actor_manager.c$26$1$21 Def001E
+S A$actor_manager$431 Def014B
+S A$actor_manager$422 Def0139
+S A$actor_manager$341 Def0100
+S A$actor_manager$332 Def00EE
+S A$actor_manager$305 Def00DC
+S A$actor_manager$251 Def00B5
+S A$actor_manager$242 Def00A3
+S A$actor_manager$215 Def0091
+S A$actor_manager$161 Def005D
 S A$actor_manager$152 Def0053
-S A$actor_manager$143 Def0049
-S A$actor_manager$107 Def002D
-S C$actor_manager.c$27$1$21 Def0019
-S A$actor_manager$261 Def00B6
-S A$actor_manager$252 Def00A4
-S A$actor_manager$225 Def0092
-S A$actor_manager$207 Def0086
-S A$actor_manager$171 Def0069
-S A$actor_manager$153 Def0054
-S A$actor_manager$144 Def004A
-S A$actor_manager$108 Def002E
-S C$actor_manager.c$60$1$25 Def0050
-S A$actor_manager$280 Def00B9
-S A$actor_manager$262 Def00B7
-S A$actor_manager$253 Def00A7
-S A$actor_manager$226 Def0093
-S A$actor_manager$190 Def006E
-S A$actor_manager$172 Def006C
-S A$actor_manager$154 Def0055
-S A$actor_manager$145 Def004B
-S A$actor_manager$127 Def0034
-S C$actor_manager.c$61$1$25 Def0061
-S A$actor_manager$290 Def00CC
-S A$actor_manager$281 Def00BC
-S A$actor_manager$254 Def00A8
-S A$actor_manager$227 Def0095
-S A$actor_manager$191 Def0071
-S A$actor_manager$155 Def0056
-S A$actor_manager$146 Def004E
-S A$actor_manager$137 Def003F
-S A$actor_manager$128 Def0037
-S C$actor_manager.c$62$1$25 Def006D
-S A$actor_manager$291 Def00CF
-S A$actor_manager$282 Def00BD
-S A$actor_manager$255 Def00AB
-S A$actor_manager$237 Def009F
-S A$actor_manager$228 Def0096
-S A$actor_manager$192 Def0072
-S A$actor_manager$165 Def0061
-S A$actor_manager$156 Def0057
-S A$actor_manager$147 Def004F
-S A$actor_manager$138 Def0042
-S A$actor_manager$129 Def0038
-S C$actor_manager.c$70$1$27 Def0087
-S C$actor_manager.c$56$1$23 Def0034
-S C$actor_manager.c$29$1$23 Def0021
-S A$actor_manager$292 Def00D0
-S A$actor_manager$283 Def00C0
-S A$actor_manager$256 Def00AC
-S A$actor_manager$229 Def0097
-S A$actor_manager$193 Def0075
-S A$actor_manager$166 Def0064
-S A$actor_manager$157 Def0058
-S A$actor_manager$139 Def0043
-S C$actor_manager.c$71$1$27 Def009F
-S C$actor_manager.c$64$1$25 Def006E
-S A$actor_manager$284 Def00C1
-S A$actor_manager$257 Def00AE
-S A$actor_manager$194 Def0076
-S A$actor_manager$167 Def0065
-S A$actor_manager$158 Def005B
-S C$actor_manager.c$72$1$27 Def00A0
-S A$actor_manager$285 Def00C4
-S A$actor_manager$267 Def00B8
-S A$actor_manager$258 Def00AF
-S A$actor_manager$195 Def0079
-S A$actor_manager$177 Def006D
-S A$actor_manager$168 Def0066
-S A$actor_manager$159 Def005C
-S A$actor_manager$286 Def00C5
-S A$actor_manager$259 Def00B0
-S A$actor_manager$196 Def007A
-S A$actor_manager$169 Def0067
-S C$actor_manager.c$66$1$26 Def006E
-S XFactor_manager$draw_impl$0$0 Def006D
-S C$actor_manager.c$58$1$25 Def0034
-S A$actor_manager$287 Def00C7
-S A$actor_manager$197 Def007C
-S C$actor_manager.c$74$1$28 Def00A0
-S C$actor_manager.c$67$1$26 Def0086
-S C$actor_manager.c$59$1$25 Def003F
-S A$actor_manager$297 Def00D1
-S A$actor_manager$288 Def00C8
-S A$actor_manager$198 Def007D
-S C$actor_manager.c$75$1$28 Def00B8
-S C$actor_manager.c$68$1$26 Def0087
-S A$actor_manager$289 Def00C9
-S A$actor_manager$199 Def007E
-S C$actor_manager.c$76$1$28 Def00B9
+S A$actor_manager$134 Def0049
+S A$actor_manager$125 Def0043
+S A$actor_manager$116 Def0037
+S C$actor_manager.c$70$1$32 Def011C
+S C$actor_manager.c$63$1$30 Def0102
+S C$actor_manager.c$41$1$25 Def0079
+S C$actor_manager.c$34$1$23 Def0047
+S C$actor_manager.c$27$1$21 Def0024
+S A$actor_manager$432 Def014C
+S A$actor_manager$423 Def013C
+S A$actor_manager$360 Def0103
+S A$actor_manager$342 Def0101
+S A$actor_manager$333 Def00F1
+S A$actor_manager$306 Def00DD
+S A$actor_manager$270 Def00B8
+S A$actor_manager$252 Def00B6
+S A$actor_manager$243 Def00A6
+S A$actor_manager$216 Def0092
+S A$actor_manager$180 Def0077
+S A$actor_manager$171 Def0068
+S A$actor_manager$162 Def005E
+S A$actor_manager$153 Def0056
+S A$actor_manager$126 Def0044
+S C$actor_manager.c$71$1$32 Def0134
+S C$actor_manager.c$64$1$30 Def0103
+S C$actor_manager.c$42$1$25 Def0085
+S C$actor_manager.c$28$1$21 Def002A
+S A$actor_manager$424 Def013D
+S A$actor_manager$370 Def0116
+S A$actor_manager$361 Def0106
+S A$actor_manager$334 Def00F2
+S A$actor_manager$307 Def00DF
+S A$actor_manager$280 Def00CB
+S A$actor_manager$271 Def00BB
+S A$actor_manager$244 Def00A7
+S A$actor_manager$217 Def0094
+S A$actor_manager$190 Def0080
+S A$actor_manager$181 Def0078
+S A$actor_manager$172 Def006B
+S A$actor_manager$163 Def0061
+S A$actor_manager$127 Def0045
+S C$actor_manager.c$72$1$32 Def0135
+S C$actor_manager.c$50$1$27 Def009F
+S C$actor_manager.c$36$1$23 Def004C
+S C$actor_manager.c$29$1$21 Def0030
+S A$actor_manager$425 Def0140
+S A$actor_manager$407 Def0134
+S A$actor_manager$371 Def0119
+S A$actor_manager$362 Def0107
+S A$actor_manager$335 Def00F5
+S A$actor_manager$317 Def00E9
+S A$actor_manager$308 Def00E0
+S A$actor_manager$281 Def00CE
+S A$actor_manager$272 Def00BC
+S A$actor_manager$245 Def00AA
+S A$actor_manager$227 Def009E
+S A$actor_manager$218 Def0095
+S A$actor_manager$191 Def0081
+S A$actor_manager$173 Def006C
+S A$actor_manager$164 Def0062
+S A$actor_manager$128 Def0046
+S C$actor_manager.c$51$1$27 Def00B7
+S C$actor_manager.c$44$1$25 Def0086
+S A$actor_manager$426 Def0141
+S A$actor_manager$390 Def011C
+S A$actor_manager$372 Def011A
+S A$actor_manager$363 Def010A
+S A$actor_manager$336 Def00F6
+S A$actor_manager$309 Def00E1
+S A$actor_manager$282 Def00CF
+S A$actor_manager$273 Def00BF
+S A$actor_manager$246 Def00AB
+S A$actor_manager$219 Def0096
+S A$actor_manager$192 Def0084
+S A$actor_manager$174 Def006D
+S A$actor_manager$165 Def0063
+S A$actor_manager$147 Def004C
+S C$actor_manager.c$66$1$31 Def0103
+S C$actor_manager.c$52$1$27 Def00B8
+S A$actor_manager$427 Def0143
+S A$actor_manager$391 Def011F
+S A$actor_manager$364 Def010B
+S A$actor_manager$337 Def00F8
+S A$actor_manager$274 Def00C0
+S A$actor_manager$247 Def00AD
+S A$actor_manager$175 Def006E
+S A$actor_manager$166 Def0066
+S A$actor_manager$157 Def0057
+S A$actor_manager$148 Def004F
+S C$actor_manager.c$74$1$33 Def0135
+S C$actor_manager.c$67$1$31 Def011B
+S C$actor_manager.c$60$1$29 Def00EA
+S A$actor_manager$437 Def014D
+S A$actor_manager$428 Def0144
+S A$actor_manager$392 Def0120
+S A$actor_manager$365 Def010E
+S A$actor_manager$347 Def0102
+S A$actor_manager$338 Def00F9
+S A$actor_manager$275 Def00C3
+S A$actor_manager$257 Def00B7
+S A$actor_manager$248 Def00AE
+S A$actor_manager$185 Def0079
+S A$actor_manager$176 Def006F
+S A$actor_manager$167 Def0067
+S A$actor_manager$158 Def005A
+S A$actor_manager$149 Def0050
+S C$actor_manager.c$75$1$33 Def014D
+S C$actor_manager.c$68$1$31 Def011C
+S C$actor_manager.c$46$1$26 Def0086
+S C$actor_manager.c$38$1$25 Def004C
+S A$actor_manager$429 Def0145
+S A$actor_manager$393 Def0123
+S A$actor_manager$366 Def010F
+S A$actor_manager$339 Def00FA
+S A$actor_manager$276 Def00C4
+S A$actor_manager$249 Def00AF
+S A$actor_manager$186 Def007C
+S A$actor_manager$177 Def0070
+S A$actor_manager$159 Def005B
+S C$actor_manager.c$54$1$28 Def00B8
+S C$actor_manager.c$47$1$26 Def009E
+S C$actor_manager.c$39$1$25 Def0057
+S A$actor_manager$394 Def0124
+S A$actor_manager$367 Def0111
+S A$actor_manager$277 Def00C6
+S A$actor_manager$187 Def007D
+S A$actor_manager$178 Def0073
+S C$actor_manager.c$55$1$28 Def00D0
+S C$actor_manager.c$48$1$26 Def009F
+S XFactor_manager$draw_impl$0$0 Def0085
+S A$actor_manager$395 Def0127
+S A$actor_manager$377 Def011B
+S A$actor_manager$368 Def0112
+S A$actor_manager$287 Def00D0
+S A$actor_manager$278 Def00C7
+S A$actor_manager$197 Def0085
+S A$actor_manager$188 Def007E
+S A$actor_manager$179 Def0074
+S C$actor_manager.c$56$1$28 Def00D1
+S A$actor_manager$396 Def0128
+S A$actor_manager$369 Def0113
+S A$actor_manager$279 Def00C8
+S A$actor_manager$189 Def007F
+S A$actor_manager$397 Def012A
 A _DATA size 20 flags 0 addr 0
 S Factor_manager$draw_method$0$0 Def0000
 A _INITIALIZED size 0 flags 0 addr 0
@@ -197,51 +297,81 @@ T 00 00
 R 00 00 01 00
 T 00 00
 R 00 00 00 00
-T 00 00 21 6E 00 22 00 00 21 87 00 22
+T 00 00 21 86 00 22 00 00 21 9F 00 22
 R 00 00 00 00 00 03 00 00 00 06 01 00 00 09 00 00
-T 0A 00 02 00 21 A0 00 22 04 00 21
+T 0A 00 02 00 21 B8 00 22 04 00 21
 R 00 00 00 00 00 02 01 00 00 05 00 00 00 08 01 00
-T 13 00 B9 00 22 06 00 C9
-R 00 00 00 00 00 02 00 00 00 05 01 00
-T 19 00
+T 13 00 D1 00 22 06 00 21 EA 00 22
+R 00 00 00 00 00 02 00 00 00 05 01 00 00 08 00 00
+T 1C 00 08 00 21 03 01 22 0A 00 21
+R 00 00 00 00 00 02 01 00 00 05 00 00 00 08 01 00
+T 25 00 1C 01 22 0C 00 21 35 01 22
+R 00 00 00 00 00 02 00 00 00 05 01 00 00 08 00 00
+T 2E 00 0E 00 C9
+R 00 00 00 00 00 02 01 00
+T 31 00
 R 00 00 00 00
-T 19 00 DD E5 DD 21 00 00 DD 39 01 00 00 DD 6E 04
+T 31 00 DD E5 DD 21 00 00 DD 39 01 00 00 DD 6E 04
 R 00 00 00 00 00 0B 01 00
-T 27 00 26 00 29 09 4E 23 66 69 DD E1 C3 00 00
-R 00 00 00 00 02 0D 08 00
-T 34 00
+T 3F 00 26 00 29 09 4E 23 66 69 DD E1 C3 00 00
+R 00 00 00 00 02 0D 10 00
+T 4C 00
 R 00 00 00 00
-T 34 00 21 02 00 39 7E F5 33 CD 00 00 33 21 03 00
-R 00 00 00 00 02 0A 11 00
-T 42 00 39 4E 23 46 21 40 00 E5 C5 CD 00 00 F1 F1
-R 00 00 00 00 02 0C 02 00
-T 50 00 21 05 00 39 4E 23 46 C5 21 00 00 E5 CD
+T 4C 00 21 02 00 39 7E F5 33 CD 00 00 33 21 03 00
+R 00 00 00 00 02 0A 1D 00
+T 5A 00 39 4E 23 46 21 40 00 E5 C5 CD 00 00 F1 F1
+R 00 00 00 00 02 0C 06 00
+T 68 00 21 05 00 39 4E 23 46 C5 21 00 00 E5 CD
 R 00 00 00 00
-T 5D 00 00 00 F1 F1 21 07 00 39 4E 23 46 C5 CD
-R 00 00 00 00 02 02 00 00
-T 6A 00 00 00 F1 C9
-R 00 00 00 00 02 02 01 00
-T 6E 00
+T 75 00 00 00 F1 F1 21 07 00 39 4E 23 46 C5 CD
+R 00 00 00 00 02 02 04 00
+T 82 00 00 00 F1 C9
+R 00 00 00 00 02 02 05 00
+T 86 00
 R 00 00 00 00
-T 6E 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
-R 00 00 00 00 02 03 0D 00 02 07 09 00 02 0B 04 00
-T 7C 00 F5 33 CD 34 00 21 07 00 39 F9 C9
+T 86 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
+R 00 00 00 00 02 03 19 00 02 07 11 00 02 0B 08 00
+T 94 00 F5 33 CD 4C 00 21 07 00 39 F9 C9
 R 00 00 00 00 00 05 00 00
-T 87 00
+T 9F 00
 R 00 00 00 00
-T 87 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
-R 00 00 00 00 02 03 0E 00 02 07 0A 00 02 0B 05 00
-T 95 00 F5 33 CD 34 00 21 07 00 39 F9 C9
+T 9F 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
+R 00 00 00 00 02 03 1A 00 02 07 12 00 02 0B 09 00
+T AD 00 F5 33 CD 4C 00 21 07 00 39 F9 C9
 R 00 00 00 00 00 05 00 00
-T A0 00
+T B8 00
 R 00 00 00 00
-T A0 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
-R 00 00 00 00 02 03 0F 00 02 07 0B 00 02 0B 06 00
-T AE 00 F5 33 CD 34 00 21 07 00 39 F9 C9
+T B8 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
+R 00 00 00 00 02 03 1B 00 02 07 13 00 02 0B 0A 00
+T C6 00 F5 33 CD 4C 00 21 07 00 39 F9 C9
 R 00 00 00 00 00 05 00 00
-T B9 00
+T D1 00
 R 00 00 00 00
-T B9 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
-R 00 00 00 00 02 03 10 00 02 07 0C 00 02 0B 07 00
-T C7 00 F5 33 CD 34 00 21 07 00 39 F9 C9
+T D1 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 02
+R 00 00 00 00 02 03 1C 00 02 07 14 00 02 0B 0B 00
+T DF 00 F5 33 CD 4C 00 21 07 00 39 F9 C9
+R 00 00 00 00 00 05 00 00
+T EA 00
+R 00 00 00 00
+T EA 00 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 03
+R 00 00 00 00 02 03 00 00 02 07 15 00 02 0B 0C 00
+T F8 00 F5 33 CD 4C 00 21 07 00 39 F9 C9
+R 00 00 00 00 00 05 00 00
+T 03 01
+R 00 00 00 00
+T 03 01 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 03
+R 00 00 00 00 02 03 01 00 02 07 16 00 02 0B 0D 00
+T 11 01 F5 33 CD 4C 00 21 07 00 39 F9 C9
+R 00 00 00 00 00 05 00 00
+T 1C 01
+R 00 00 00 00
+T 1C 01 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 03
+R 00 00 00 00 02 03 02 00 02 07 17 00 02 0B 0E 00
+T 2A 01 F5 33 CD 4C 00 21 07 00 39 F9 C9
+R 00 00 00 00 00 05 00 00
+T 35 01
+R 00 00 00 00
+T 35 01 21 00 00 E5 21 00 00 E5 21 00 00 E5 3E 03
+R 00 00 00 00 02 03 03 00 02 07 18 00 02 0B 0F 00
+T 43 01 F5 33 CD 4C 00 21 07 00 39 F9 C9
 R 00 00 00 00 00 05 00 00
