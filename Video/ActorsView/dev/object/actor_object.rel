@@ -1,5 +1,5 @@
 XL2
-H 9 areas 3C global symbols
+H 9 areas 3A global symbols
 M actor_object
 O -mz80
 S _actor13__palette__bin Ref0000
@@ -51,9 +51,7 @@ S _actor02__palette__bin Ref0000
 S _actor09__tilemap__stmcompr Ref0000
 S _actor12__palette__bin Ref0000
 S _actor03__palette__bin Ref0000
-A _CODE size 10 flags 0 addr 0
-S G$actor_banking$0$0 Def0000
-S _actor_banking Def0000
+A _CODE size 0 flags 0 addr 0
 A _DATA size 0 flags 0 addr 0
 A _INITIALIZED size 60 flags 0 addr 0
 S _actor_tilemap Def0020
@@ -83,12 +81,6 @@ T 40 00
 R 00 00 02 00
 T 40 00
 R 00 00 02 00
-T 00 00
-R 00 00 00 00
-T 00 00 02 02 02 02 03 03 03 03 04 04 04 04 05 05
-R 00 00 00 00
-T 0E 00 05 05
-R 00 00 00 00
 T 00 00
 R 00 00 07 00
 T 00 00 00 00 00 00 00 00

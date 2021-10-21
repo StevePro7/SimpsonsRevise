@@ -50,4 +50,3 @@ S:G$actor14__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$actor15__palette__bin$0$0({0}DA0d,SC:U),D,0,0
 S:G$actor15__tilemap__stmcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$actor15__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
-S:G$actor_banking$0$0({16}DA16d,SC:U),D,0,0
