@@ -7,20 +7,28 @@
 
 const unsigned char *actor_tileset[] =
 {
-	actor00__tiles__psgcompr
+	actor00__tiles__psgcompr,
+	actor01__tiles__psgcompr,
+	actor02__tiles__psgcompr,
 };
 
 const unsigned char *actor_tilemap[] =
 {
-	actor00__tilemap__stmcompr
+	actor00__tilemap__stmcompr,
+	actor01__tilemap__stmcompr,
+	actor02__tilemap__stmcompr,
 };
 
 const unsigned char *actor_palette[] =
 {
 	actor00__palette__bin,
+	actor01__palette__bin,
+	actor02__palette__bin,
 };
 
 const unsigned char actor_banking[] =
 {
-	actor00__tiles__psgcompr_bank
+	actor00__tiles__psgcompr_bank,
+	actor01__tiles__psgcompr_bank,
+	actor02__tiles__psgcompr_bank,
 };

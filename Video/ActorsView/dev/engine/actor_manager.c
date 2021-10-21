@@ -7,10 +7,10 @@
 
 void engine_actor_manager_draw()
 {
-	const char index = 0;
+	const char index = 2;
 	const unsigned char *tileset = actor_tileset[ index ];
 	const unsigned char *tilemap = actor_tilemap[ index ];
-	const unsigned char *palette= actor_palette[ index ];
+	const unsigned char *palette = actor_palette[ index ];
 	const unsigned char banking = actor_banking[ index ];
 
 	devkit_SMS_mapROMBank( banking );
