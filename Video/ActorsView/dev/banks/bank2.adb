@@ -2,3 +2,12 @@ M:bank2
 S:G$actor00__palette__bin$0$0({16}DA16d,SC:U),D,0,0
 S:G$actor00__tilemap__stmcompr$0$0({83}DA83d,SC:U),D,0,0
 S:G$actor00__tiles__psgcompr$0$0({2750}DA2750d,SC:U),D,0,0
+S:G$actor01__palette__bin$0$0({16}DA16d,SC:U),D,0,0
+S:G$actor01__tilemap__stmcompr$0$0({75}DA75d,SC:U),D,0,0
+S:G$actor01__tiles__psgcompr$0$0({2099}DA2099d,SC:U),D,0,0
+S:G$actor02__palette__bin$0$0({16}DA16d,SC:U),D,0,0
+S:G$actor02__tilemap__stmcompr$0$0({81}DA81d,SC:U),D,0,0
+S:G$actor02__tiles__psgcompr$0$0({2913}DA2913d,SC:U),D,0,0
+S:G$actor03__palette__bin$0$0({16}DA16d,SC:U),D,0,0
+S:G$actor03__tilemap__stmcompr$0$0({104}DA104d,SC:U),D,0,0
+S:G$actor03__tiles__psgcompr$0$0({3228}DA3228d,SC:U),D,0,0

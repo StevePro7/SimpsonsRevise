@@ -1,3 +1,4 @@
+cd ..
 cd banks
 cd bank2
 
