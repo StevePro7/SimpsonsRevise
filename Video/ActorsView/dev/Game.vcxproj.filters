@@ -75,6 +75,9 @@
     <ClCompile Include="banks\bank7.c">
       <Filter>Source Files\banks</Filter>
     </ClCompile>
+    <ClCompile Include="engine\font_manager.c">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat">
@@ -117,6 +120,9 @@
     </ClInclude>
     <ClInclude Include="banks\bank7.h">
       <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\font_manager.h">
+      <Filter>Header Files\engine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
