@@ -18,9 +18,9 @@ void main(void)
 	//engine_content_manager_load_sprite_palette();
 
 	//engine_content_manager_load_sprite_palette();
-	engine_actor_manager_draw();
-
-	engine_content_manager_load_font_tiles();
+	//engine_actor_manager_draw();
+	foo();
+	//engine_content_manager_load_font_tiles();
 
 	devkit_SMS_displayOn();
 	for (;;)
