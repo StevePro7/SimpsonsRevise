@@ -64,4 +64,5 @@ S:G$devkit_VDPFEATURE_HIDEFIRSTCOL$0$0({2}DF,SI:U),C,0,0
 S:G$engine_asm_manager_clear_VRAM$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font_tiles$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_load_splash$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0

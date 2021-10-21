@@ -8,6 +8,7 @@ void main( void )
 
 	engine_content_manager_load_font_tiles();
 	engine_content_manager_load_sprite_palette();
+	engine_content_manager_load_splash();
 
 	devkit_SMS_displayOn();
 	for( ;; )
