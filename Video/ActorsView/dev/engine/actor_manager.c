@@ -11,7 +11,7 @@
 //void engine_actor_manager_draw( const unsigned char index )
 void engine_actor_manager_draw()
 {
-	const unsigned char index = 8;
+	const unsigned char index = 11;
 	const unsigned char *tileset = ( const unsigned char * ) actor_tileset[ index ];
 	const unsigned char *tilemap = ( const unsigned char * ) actor_tilemap[ index ];
 	const unsigned char *palette = ( const unsigned char * ) actor_palette[ index ];
