@@ -2,7 +2,7 @@
 
 void main(void)
 {
-	static unsigned char index = 14;
+	static unsigned char index = 0;
 	devkit_SMS_init();
 	devkit_SMS_displayOff();
 	engine_asm_manager_clear_VRAM();
@@ -23,8 +23,8 @@ void main(void)
 	//engine_actor_manager_draw_tests();
 	engine_content_manager_load_sprite_palette();
 
-	//engine_content_manager_load_font_tiles();
-	//engine_font_manager_draw_text( "HELLO", 1, 1 );
+	engine_content_manager_load_font_tiles();
+	engine_font_manager_draw_text( "STEVE IS HERE!", 10, 5 );
 
 	devkit_SMS_displayOn();
 	for (;;)
