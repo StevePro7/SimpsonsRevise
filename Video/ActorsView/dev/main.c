@@ -1,6 +1,6 @@
 #include "main.h"
 
-void main( void )
+void main(void)
 {
 	devkit_SMS_init();
 	devkit_SMS_displayOff();
@@ -12,10 +12,8 @@ void main( void )
 
 	//engine_content_manager_load_splash();
 
-	
-	engine_content_manager_load_title();
-	
-	
+	//engine_content_manager_load_title();
+
 	//engine_font_manager_draw_text( "223344", 1, 16 );
 	//engine_content_manager_load_sprite_palette();
 
@@ -25,7 +23,7 @@ void main( void )
 	engine_content_manager_load_font_tiles();
 
 	devkit_SMS_displayOn();
-	for( ;; )
+	for (;;)
 	{
 		devkit_SMS_waitForVBlank();
 	}
