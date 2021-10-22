@@ -1,9 +1,9 @@
 #include "actor_object.h"
 
-#include "../banks/bank2.h"
-#include "../banks/bank3.h"
-#include "../banks/bank4.h"
-#include "../banks/bank5.h"
+#include "../banks/bank6.h"
+#include "../banks/bank7.h"
+#include "../banks/bank8.h"
+#include "../banks/bank9.h"
 
 const unsigned char *actor_tileset[ 16 ] =
 {
