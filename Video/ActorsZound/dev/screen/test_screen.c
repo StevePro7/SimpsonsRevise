@@ -11,7 +11,7 @@ void screen_test_screen_load()
 	//engine_actor_manager_init();
 	//engine_actor_manager_draw( index );
 
-	engine_font_manager_text( "TEST SCREEN...!!", 10, 3 );
+	engine_font_manager_text( "AUDIO TIME", 10, 3 );
 }
 
 void screen_test_screen_update( unsigned char *screen_type )
@@ -20,6 +20,15 @@ void screen_test_screen_update( unsigned char *screen_type )
 	if( input )
 	{
 		engine_font_manager_text( "PRESS DOWN", 10, 5 );
+	}
+	else
+	{
+		unsigned char input = engine_input_manager_hold_up();
+		if( input )
+		{
+			engine_font_manager_text( "PRESS -UP-", 10, 6 );
+		}
+
 	}
 
 	*screen_type = screen_type_test;
