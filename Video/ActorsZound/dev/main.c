@@ -24,7 +24,7 @@ void main(void)
 	engine_content_manager_load_sprite_palette();
 
 	engine_content_manager_load_font_tiles();
-	engine_font_manager_draw_text( "STEVE IS HERE!", 10, 5 );
+	engine_font_manager_draw_text( "SUZANNE IS HERE!", 10, 5 );
 
 	devkit_SMS_displayOn();
 	for (;;)
