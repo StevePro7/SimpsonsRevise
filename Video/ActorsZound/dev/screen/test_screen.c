@@ -10,7 +10,7 @@ void screen_test_screen_load()
 	engine_actor_manager_init();
 	engine_actor_manager_draw( index );
 
-	engine_font_manager_text( "TEST SCREEN!!", 10, 3 );
+	engine_font_manager_text( "TEST SCREEN...!!", 10, 3 );
 }
 
 void screen_test_screen_update( unsigned char *screen_type )
