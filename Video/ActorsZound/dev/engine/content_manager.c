@@ -13,13 +13,18 @@ void engine_content_manager_load_font_tiles()
 {
 	// Font tiles.
 	devkit_SMS_loadPSGaidencompressedTiles( font_tiles__tiles__psgcompr, FONT_TILES_OFFSET );
-	//devkit_SMS_loadBGPalette( ( void * ) font_tiles__palette__bin );
+	devkit_SMS_loadBGPalette( ( void * ) font_tiles__palette__bin );		// TODO - comment out when loading title or actor
+}
+
+void engine_content_manager_load_sprites()
+{
+	// TODO - load simpsons sprites...!
 }
 
 void engine_content_manager_load_sprite_palette()
 {
 	devkit_SMS_setSpritePaletteColor( 0, 3, 3, 3 );
-//	devkit_SMS_setBGPaletteColor( 15, 3, 3, 3 );
+//	devkit_SMS_setBGPaletteColor( 15, 3, 3, 3 );		// TODO - do I want to implement in SMSLib?
 }
 
 //void engine_content_manager_load_splash()
@@ -30,10 +35,10 @@ void engine_content_manager_load_sprite_palette()
 //	devkit_SMS_loadBGPalette( ( void * ) splash__palette__bin );
 //}
 
-void engine_content_manager_load_title()
-{
-	devkit_SMS_mapROMBank( simpsons__tiles__psgcompr_bank );
-	devkit_SMS_loadPSGaidencompressedTiles( simpsons__tiles__psgcompr, FULL_TILES_OFFSET );
-	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) simpsons__tilemap__stmcompr );
-	devkit_SMS_loadBGPalette( ( void * ) simpsons__palette__bin );
-}
+//void engine_content_manager_load_title()
+//{
+//	devkit_SMS_mapROMBank( simpsons__tiles__psgcompr_bank );
+//	devkit_SMS_loadPSGaidencompressedTiles( simpsons__tiles__psgcompr, FULL_TILES_OFFSET );
+//	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) simpsons__tilemap__stmcompr );
+//	devkit_SMS_loadBGPalette( ( void * ) simpsons__palette__bin );
+//}

@@ -1,7 +1,10 @@
 M:func_screen
 F:G$screen_func_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_func_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lfunc_screen.screen_func_screen_update$screen_type$1$6({2}DG,SC:U),B,1,4
+S:Lfunc_screen.screen_func_screen_update$screen_type$1$7({2}DG,SC:U),B,1,4
+S:Ffunc_screen$index$0$0({1}SC:U),E,0,0
+S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0

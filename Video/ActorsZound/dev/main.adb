@@ -1,7 +1,6 @@
 M:main
 F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
-F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
-S:Lmain.main$index$1$44({1}SC:U),E,0,0
+S:Lmain.main$open_screen_type$1$42({1}SC:U),R,0,0,[]
 S:G$atof$0$0({2}DF,SF:S),C,0,0
 S:G$atoi$0$0({2}DF,SI:S),C,0,0
 S:G$atol$0$0({2}DF,SL:S),C,0,0
@@ -69,8 +68,7 @@ S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_asm_manager_clear_VRAM$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font_tiles$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
-S:G$engine_content_manager_load_title$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_input_manager_update$0$0({2}DF,SV:S),C,0,0
+S:G$engine_screen_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_screen_manager_update$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0

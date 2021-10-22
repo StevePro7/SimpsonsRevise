@@ -1,7 +1,7 @@
 M:content_manager
 F:G$engine_content_manager_load_font_tiles$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0,0,0,0
 F:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),Z,0,0,0,0,0
-F:G$engine_content_manager_load_title$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0
@@ -44,3 +44,4 @@ S:G$devkit_PORT_A_KEY_1$0$0({2}DF,SI:U),C,0,0
 S:G$devkit_PORT_A_KEY_2$0$0({2}DF,SI:U),C,0,0
 S:G$devkit_SPRITEMODE_NORMAL$0$0({2}DF,SC:U),C,0,0
 S:G$devkit_VDPFEATURE_HIDEFIRSTCOL$0$0({2}DF,SI:U),C,0,0
+S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0

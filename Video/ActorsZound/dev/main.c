@@ -2,33 +2,39 @@
 
 void main(void)
 {
-	static unsigned char index = 0;
+	// Global variables.
+	//static bool global_pause;
+	unsigned char open_screen_type;
+
+	engine_asm_manager_clear_VRAM();
 	devkit_SMS_init();
 	devkit_SMS_displayOff();
-	engine_asm_manager_clear_VRAM();
 
 	devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
 	devkit_SMS_useFirstHalfTilesforSprites_False();
 	devkit_SMS_VDPturnOnFeature( devkit_VDPFEATURE_HIDEFIRSTCOL() );
 
-	//engine_content_manager_load_splash();
-	
-	engine_actor_manager_init();
-	engine_actor_manager_draw( index );
-	//engine_content_manager_load_title();
-
-	//index = 3;
-	//engine_actor_manager_draw_actor( index );
-	//engine_actor_manager_draw_tests01();
-	//engine_actor_manager_draw_tests();
+	engine_content_manager_load_font_tiles();
+	//engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette();
 
-	engine_content_manager_load_font_tiles();
-	engine_font_manager_text( "TESTING IS HERE!", 10, 5 );
+	open_screen_type = screen_type_splash;
+	open_screen_type = screen_type_test;
 
+	engine_screen_manager_init( open_screen_type );
 	devkit_SMS_displayOn();
 	for (;;)
 	{
+		devkit_SMS_initSprites();
+		engine_input_manager_update();
+
+		engine_screen_manager_update();
+
+		devkit_SMS_finalizeSprites();
 		devkit_SMS_waitForVBlank();
+		devkit_SMS_copySpritestoSAT();
+
+		//devkit_PSGFrame();
+		//devkit_PSGSFXFrame();
 	}
 }
