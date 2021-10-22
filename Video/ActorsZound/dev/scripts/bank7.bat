@@ -1,8 +1,8 @@
 echo start
 :: Setup.
 cd ../banks/bank7/raw
-pcmenc -rto 1 -dt1 12 -dt2 12 -dt3 423 wrong03.wav
-mv wrong03.wav.pcmenc ../
+pcmenc -rto 1 -dt1 12 -dt2 12 -dt3 423 wrong02.wav
+mv wrong02.wav.pcmenc ../
 
 :: Convert.
 cd ../..
