@@ -147,6 +147,18 @@
     <ClCompile Include="banks\bank9.c">
       <Filter>Source Files\banks</Filter>
     </ClCompile>
+    <ClCompile Include="banks\bank10.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank11.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank12.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank13.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat">
@@ -248,6 +260,18 @@
       <Filter>Header Files\banks</Filter>
     </ClInclude>
     <ClInclude Include="banks\bank9.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank10.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank11.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank12.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank13.h">
       <Filter>Header Files\banks</Filter>
     </ClInclude>
   </ItemGroup>

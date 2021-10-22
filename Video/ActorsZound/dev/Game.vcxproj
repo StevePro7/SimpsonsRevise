@@ -144,6 +144,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="banks\bank10.c" />
+    <ClCompile Include="banks\bank11.c" />
+    <ClCompile Include="banks\bank12.c" />
+    <ClCompile Include="banks\bank13.c" />
     <ClCompile Include="banks\bank2.c" />
     <ClCompile Include="banks\bank3.c" />
     <ClCompile Include="banks\bank4.c" />
@@ -181,6 +185,10 @@
     <None Include="build.bat" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="banks\bank10.h" />
+    <ClInclude Include="banks\bank11.h" />
+    <ClInclude Include="banks\bank12.h" />
+    <ClInclude Include="banks\bank13.h" />
     <ClInclude Include="banks\bank2.h" />
     <ClInclude Include="banks\bank3.h" />
     <ClInclude Include="banks\bank4.h" />
