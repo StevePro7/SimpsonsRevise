@@ -4,7 +4,7 @@
 
 void screen_none_screen_load()
 {
-	engine_font_manager_text( "NONE SCREEN!!", 10, 2 );
+	//engine_font_manager_text( "NONE SCREEN!!", 10, 2 );
 }
 
 void screen_none_screen_update( unsigned char *screen_type )

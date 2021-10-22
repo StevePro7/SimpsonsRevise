@@ -70,11 +70,11 @@ void engine_screen_manager_init( unsigned char open_screen_type )
 
 void engine_screen_manager_update()
 {
-	//if( curr_screen_type != next_screen_type )
-	//{
-	//	curr_screen_type = next_screen_type;
-	//	load_method[ curr_screen_type ]();
-	//}
+	if( curr_screen_type != next_screen_type )
+	{
+		curr_screen_type = next_screen_type;
+		load_method[ curr_screen_type ]();
+	}
 
-	//update_method[ curr_screen_type ]( &next_screen_type );
+	update_method[ curr_screen_type ]( &next_screen_type );
 }
