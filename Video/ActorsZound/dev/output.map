@@ -8,7 +8,6 @@ Area                                    Addr        Size        Decimal Bytes (A
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00000000  .__.ABS.                           
-     00000000  _engine_font_manager_text       
      00000000  l__BSEG                         
      00000000  l__BSS                          
      00000000  l__CABS                         
@@ -57,6 +56,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      000014B6  s__GSFINAL                      
      00001F38  l__BANK7                        
      00002245  l__BANK5                        
+     000022E4  l__BANK4                        
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
@@ -66,7 +66,6 @@ Area                                    Addr        Size        Decimal Bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000022E4  l__BANK4                        
      00002713  l__BANK2                        
      00002962  l__BANK3                        
      00008000  G$SMS_SRAM$0$0                     _sms_manager
@@ -86,7 +85,6 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FFFC  _SRAM_bank_to_be_mapped_on_slot2   SMSlib_loadTileMap
      0000FFFF  G$ROM_bank_to_be_mapped_on_slot2   _sms_manager
      0000FFFF  _ROM_bank_to_be_mapped_on_slot2    SMSlib_loadTileMap
-
 ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
 Hexadecimal  [32-Bits]
 
@@ -1758,8 +1756,8 @@ _CODE                               00000200    0000123B =        4667. bytes (R
      000008EA  C$font_manager.c$11$0$0            font_manager
      000008EA  C$font_manager.c$13$1$0            font_manager
      000008EA  C$font_manager.c$14$1$23           font_manager
-     000008EA  G$engine_font_manager_draw_char$   font_manager
-     000008EA  _engine_font_manager_draw_char     font_manager
+     000008EA  G$engine_font_manager_char$0$0     font_manager
+     000008EA  _engine_font_manager_char          font_manager
      000008ED  A$font_manager$63                  font_manager
      000008EE  A$font_manager$64                  font_manager
      000008EF  A$font_manager$65                  font_manager
@@ -1797,11 +1795,11 @@ _CODE                               00000200    0000123B =        4667. bytes (R
      0000090F  A$font_manager$92                  font_manager
      00000910  A$font_manager$97                  font_manager
      00000910  C$font_manager.c$17$1$23           font_manager
-     00000910  XG$engine_font_manager_draw_char   font_manager
+     00000910  XG$engine_font_manager_char$0$0    font_manager
      00000911  A$font_manager$107                 font_manager
      00000911  C$font_manager.c$19$1$23           font_manager
-     00000911  G$engine_font_manager_draw_text$   font_manager
-     00000911  _engine_font_manager_draw_text     font_manager
+     00000911  G$engine_font_manager_text$0$0     font_manager
+     00000911  _engine_font_manager_text          font_manager
      00000913  A$font_manager$108                 font_manager
      00000917  A$font_manager$109                 font_manager
      00000919  A$font_manager$116                 font_manager
@@ -1859,11 +1857,11 @@ _CODE                               00000200    0000123B =        4667. bytes (R
      00000953  A$font_manager$167                 font_manager
      00000955  A$font_manager$172                 font_manager
      00000955  C$font_manager.c$31$1$25           font_manager
-     00000955  XG$engine_font_manager_draw_text   font_manager
+     00000955  XG$engine_font_manager_text$0$0    font_manager
      00000956  A$font_manager$182                 font_manager
      00000956  C$font_manager.c$33$1$25           font_manager
-     00000956  G$engine_font_manager_draw_data$   font_manager
-     00000956  _engine_font_manager_draw_data     font_manager
+     00000956  G$engine_font_manager_data$0$0     font_manager
+     00000956  _engine_font_manager_data          font_manager
      00000958  A$font_manager$183                 font_manager
      0000095C  A$font_manager$184                 font_manager
      0000095E  A$font_manager$185                 font_manager
@@ -1962,7 +1960,7 @@ _CODE                               00000200    0000123B =        4667. bytes (R
      000009D8  A$font_manager$285                 font_manager
      000009DA  A$font_manager$290                 font_manager
      000009DA  C$font_manager.c$59$2$29           font_manager
-     000009DA  XG$engine_font_manager_draw_data   font_manager
+     000009DA  XG$engine_font_manager_data$0$0    font_manager
      000009DB  A$screen_manager$76                screen_manager
      000009DB  C$screen_manager.c$29$0$0          screen_manager
      000009DB  C$screen_manager.c$31$1$8          screen_manager
@@ -2628,4 +2626,3 @@ _BANK6=0x8000
 _BANK7=0x8000
 
 
-?ASlink-Warning-Undefined Global '_engine_font_manager_text' referenced by module 'main'
