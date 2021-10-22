@@ -32,6 +32,13 @@ cd object
 sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 actor_object.c
 cd ..
 
+cd screen
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 func_screen.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 none_screen.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 splash_screen.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 test_screen.c
+cd ..
+
 sdcc --debug -c -mz80 --opt-code-speed --peep-file peep-rules.txt --std-c99 main.c
 
 
@@ -51,17 +58,11 @@ echo.
 :: Link
 sdcc --debug -o output.ihx --Werror --opt-code-speed -mz80 --no-std-crt0 --data-loc 0xC000 ^
 ../crt0/crt0_sms.rel main.rel ^
--Wl-b_BANK2=0x8000 ^
--Wl-b_BANK3=0x8000 ^
--Wl-b_BANK4=0x8000 ^
--Wl-b_BANK5=0x8000 ^
+-Wl-b_BANK2=0x8000 -Wl-b_BANK3=0x8000 -Wl-b_BANK4=0x8000 -Wl-b_BANK5=0x8000 ^
 -Wl-b_BANK6=0x8000 ^
 -Wl-b_BANK7=0x8000 ^
 ../lib/SMSlib.lib ^
-banks\bank2.rel ^
-banks\bank3.rel ^
-banks\bank4.rel ^
-banks\bank5.rel ^
+banks\bank2.rel banks\bank3.rel banks\bank4.rel banks\bank5.rel ^
 banks\bank6.rel ^
 banks\bank7.rel ^
 devkit/_sms_manager.rel ^
@@ -70,6 +71,10 @@ engine/asm_manager.rel engine/audio_manager.rel engine/content_manager.rel engin
 engine/global_manager.rel engine/hack_manager.rel engine/input_manager.rel engine/locale_manager.rel engine/sample_manager.rel ^
 engine/screen_manager.rel ^
 object/actor_object.rel ^
+screen/func_screen.rel ^
+screen/none_screen.rel ^
+screen/splash_screen.rel ^
+screen/test_screen.rel ^
 gfx.rel
 
 :: Execute

@@ -70,7 +70,7 @@ S:G$engine_asm_manager_clear_VRAM$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font_tiles$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_title$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_draw_char$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_draw_text$0$0({2}DF,SV:S),C,0,0
-S:G$engine_font_manager_draw_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0
