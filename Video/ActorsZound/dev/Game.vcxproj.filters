@@ -141,6 +141,12 @@
     <ClCompile Include="psg.c">
       <Filter>Source Files\content</Filter>
     </ClCompile>
+    <ClCompile Include="banks\bank8.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
+    <ClCompile Include="banks\bank9.c">
+      <Filter>Source Files\banks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat">
@@ -237,6 +243,12 @@
     </ClInclude>
     <ClInclude Include="psg.h">
       <Filter>Header Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank8.h">
+      <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="banks\bank9.h">
+      <Filter>Header Files\banks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
