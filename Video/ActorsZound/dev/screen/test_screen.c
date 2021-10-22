@@ -8,7 +8,7 @@ static unsigned char index = 14;
 
 void screen_test_screen_load()
 {
-	engine_font_manager_text( "AUDIO TIME OK", 10, 3 );
+	engine_font_manager_text( "AUDIO TIME OK!!", 10, 3 );
 }
 
 void screen_test_screen_update( unsigned char *screen_type )
