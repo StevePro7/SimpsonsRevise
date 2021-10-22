@@ -1,1 +1,1 @@
-bank4.bat
+echo bank4.txt

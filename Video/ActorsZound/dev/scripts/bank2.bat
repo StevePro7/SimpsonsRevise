@@ -1,1 +1,1 @@
-bank2.bat
+echo bank2.txt
