@@ -6,6 +6,7 @@
 
 // LIBRARIES.
 #include "devkit/_sms_manager.h"
+#include "devkit/_snd_manager.h"
 
 #include "engine/actor_manager.h"
 #include "engine/asm_manager.h"

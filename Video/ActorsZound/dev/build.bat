@@ -77,7 +77,7 @@ screen/func_screen.rel ^
 screen/none_screen.rel ^
 screen/splash_screen.rel ^
 screen/test_screen.rel ^
-gfx.rel
+gfx.rel psg.rel
 
 :: Execute
 ihx2sms output.ihx output.sms
