@@ -1,0 +1,1 @@
+M:hack_manager
