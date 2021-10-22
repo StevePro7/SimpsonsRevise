@@ -1,0 +1,11 @@
+SGDK
+22/10/2021
+176
+ 48
+
+320
+224
+
+Sega Drive resolutions (from Wikipedia):
+320 x 224 NTSC
+320 x 240 PAL
