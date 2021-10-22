@@ -168,6 +168,10 @@
     <ClCompile Include="gfx.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="object\actor_object.c" />
+    <ClCompile Include="screen\func_screen.c" />
+    <ClCompile Include="screen\none_screen.c" />
+    <ClCompile Include="screen\splash_screen.c" />
+    <ClCompile Include="screen\test_screen.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat" />
@@ -197,6 +201,10 @@
     <ClInclude Include="gfx.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="object\actor_object.h" />
+    <ClInclude Include="screen\func_screen.h" />
+    <ClInclude Include="screen\none_screen.h" />
+    <ClInclude Include="screen\splash_screen.h" />
+    <ClInclude Include="screen\test_screen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

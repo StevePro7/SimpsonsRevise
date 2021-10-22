@@ -43,6 +43,12 @@
     <Filter Include="Source Files\object">
       <UniqueIdentifier>{b3543881-2146-4a32-aec6-011983cb66e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\screen">
+      <UniqueIdentifier>{3d9502d2-082d-4c5d-a797-c50313099dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screen">
+      <UniqueIdentifier>{0543f961-f135-46f7-bad8-dcde3b2f0c20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -116,6 +122,18 @@
     </ClCompile>
     <ClCompile Include="engine\sound_manager.c">
       <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\func_screen.c">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\none_screen.c">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\splash_screen.c">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\test_screen.c">
+      <Filter>Source Files\screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +213,18 @@
     </ClInclude>
     <ClInclude Include="engine\sound_manager.h">
       <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="screen\func_screen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="screen\none_screen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="screen\splash_screen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="screen\test_screen.h">
+      <Filter>Header Files\screen</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
