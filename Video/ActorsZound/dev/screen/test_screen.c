@@ -1,5 +1,4 @@
 #include "test_screen.h"
-//#include "../engine/actor_manager.h"
 #include "../engine/audio_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
@@ -9,9 +8,6 @@ static unsigned char index = 14;
 
 void screen_test_screen_load()
 {
-	//engine_actor_manager_init();
-	//engine_actor_manager_draw( index );
-
 	engine_font_manager_text( "AUDIO TIME", 10, 3 );
 }
 
