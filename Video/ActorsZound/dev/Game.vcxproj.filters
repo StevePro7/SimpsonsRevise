@@ -21,12 +21,6 @@
     <Filter Include="Source Files\engine">
       <UniqueIdentifier>{741adb6f-8ef6-4422-953c-1a6aa5238433}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\output">
-      <UniqueIdentifier>{87b1fc85-9cd8-4f69-a39a-75bd87f4a81c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\output">
-      <UniqueIdentifier>{cfb2b2df-6766-4430-834a-9be77cbcff2b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -49,6 +43,12 @@
     <Filter Include="Source Files\screen">
       <UniqueIdentifier>{0543f961-f135-46f7-bad8-dcde3b2f0c20}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\content">
+      <UniqueIdentifier>{cfb2b2df-6766-4430-834a-9be77cbcff2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\content">
+      <UniqueIdentifier>{87b1fc85-9cd8-4f69-a39a-75bd87f4a81c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -61,7 +61,7 @@
       <Filter>Source Files\devkit</Filter>
     </ClCompile>
     <ClCompile Include="gfx.c">
-      <Filter>Source Files\output</Filter>
+      <Filter>Source Files\content</Filter>
     </ClCompile>
     <ClCompile Include="engine\content_manager.c">
       <Filter>Source Files\engine</Filter>
@@ -138,6 +138,9 @@
     <ClCompile Include="devkit\_snd_manager.c">
       <Filter>Source Files\devkit</Filter>
     </ClCompile>
+    <ClCompile Include="psg.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat">
@@ -155,7 +158,7 @@
       <Filter>Header Files\devkit</Filter>
     </ClInclude>
     <ClInclude Include="gfx.h">
-      <Filter>Header Files\output</Filter>
+      <Filter>Header Files\content</Filter>
     </ClInclude>
     <ClInclude Include="engine\content_manager.h">
       <Filter>Header Files\engine</Filter>
@@ -231,6 +234,9 @@
     </ClInclude>
     <ClInclude Include="devkit\_snd_manager.h">
       <Filter>Header Files\devkit</Filter>
+    </ClInclude>
+    <ClInclude Include="psg.h">
+      <Filter>Header Files\content</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

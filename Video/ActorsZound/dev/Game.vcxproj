@@ -169,6 +169,7 @@
     <ClCompile Include="gfx.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="object\actor_object.c" />
+    <ClCompile Include="psg.c" />
     <ClCompile Include="screen\func_screen.c" />
     <ClCompile Include="screen\none_screen.c" />
     <ClCompile Include="screen\splash_screen.c" />
@@ -203,6 +204,7 @@
     <ClInclude Include="gfx.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="object\actor_object.h" />
+    <ClInclude Include="psg.h" />
     <ClInclude Include="screen\func_screen.h" />
     <ClInclude Include="screen\none_screen.h" />
     <ClInclude Include="screen\splash_screen.h" />
