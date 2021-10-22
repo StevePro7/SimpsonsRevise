@@ -1,5 +1,6 @@
 #include "test_screen.h"
 //#include "../engine/actor_manager.h"
+#include "../engine/audio_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/input_manager.h"
@@ -20,6 +21,7 @@ void screen_test_screen_update( unsigned char *screen_type )
 	if( input )
 	{
 		engine_font_manager_text( "PRESS DOWN", 10, 5 );
+		engine_audio_manager_right();
 	}
 	else
 	{
@@ -27,6 +29,8 @@ void screen_test_screen_update( unsigned char *screen_type )
 		if( input )
 		{
 			engine_font_manager_text( "PRESS -UP-", 10, 6 );
+			//engine_audio_manager_wrong();
+			engine_audio_manager_cheat();
 		}
 
 	}

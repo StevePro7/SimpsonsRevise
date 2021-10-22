@@ -5,6 +5,9 @@ S:Ltest_screen.screen_test_screen_update$screen_type$1$6({2}DG,SC:U),B,1,4
 S:Ltest_screen.screen_test_screen_update$input$1$7({1}SC:U),R,0,0,[c]
 S:Ltest_screen.screen_test_screen_update$input$2$9({1}SC:U),R,0,0,[l]
 S:Ftest_screen$index$0$0({1}SC:U),E,0,0
+S:G$engine_audio_manager_cheat$0$0({2}DF,SV:S),C,0,0
+S:G$engine_audio_manager_right$0$0({2}DF,SV:S),C,0,0
+S:G$engine_audio_manager_wrong$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
