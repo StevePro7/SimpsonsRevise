@@ -64,9 +64,9 @@ sdcc --debug -o output.ihx --Werror --opt-code-speed -mz80 --no-std-crt0 --data-
 -Wl-b_BANK10=0x8000 -Wl-b_BANK11=0x8000 -Wl-b_BANK12=0x8000 -Wl-b_BANK13=0x8000 ^
 ../lib/SMSlib.lib ^
 ../lib/PSGlib.rel ^
-banks\bank2.rel banks\bank3.rel banks\bank4.rel banks\bank5.rel ^
-banks\bank6.rel banks\bank7.rel banks\bank8.rel banks\bank9.rel ^
-banks\ban10.rel banks\bank11.rel banks\bank12.rel banks\bank13.rel ^
+banks/bank2.rel banks/bank3.rel banks/bank4.rel banks/bank5.rel ^
+banks/bank6.rel banks/bank7.rel banks/bank8.rel banks/bank9.rel ^
+banks/bank10.rel banks/bank11.rel banks/bank12.rel banks/bank13.rel ^
 devkit/_sms_manager.rel devkit/_snd_manager.rel ^
 engine/actor_manager.rel ^
 engine/asm_manager.rel engine/audio_manager.rel engine/content_manager.rel engine/enum_manager.rel engine/font_manager.rel ^
