@@ -35,14 +35,14 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000006  l__HEADER0                      
      00000009  l__HEADER1                      
      0000000A  l__HEADER2                      
+     0000000A  l__INITIALIZED                  
+     0000000A  l__INITIALIZER                  
      0000000E  l__CABS1                        
      0000000E  l__CABS2                        
      0000000F  l__GSINIT                       
      00000010  l__CABS0                        
      00000010  l__CABS4                        
      00000038  l__CABS3                        
-     0000006A  l__INITIALIZED                  
-     0000006A  l__INITIALIZER                  
      000000BE  G$VDPDataPort$0$0                  asm_manager
      000000BF  G$VDPControlPort$0$0               asm_manager
      0000012A  l__HEADER5                      
@@ -52,8 +52,8 @@ Area                                    Addr        Size        Decimal Bytes (A
      00001ADD  l__CODE                         
      00001CDD  s__HOME                         
      00001CDD  s__INITIALIZER                  
-     00001D47  s__GSINIT                       
-     00001D56  s__GSFINAL                      
+     00001CE7  s__GSINIT                       
+     00001CF6  s__GSFINAL                      
      00001F88  l__BANK15                       
      00002245  l__BANK9                        
      000022E4  l__BANK8                        
@@ -94,9 +94,9 @@ Area                                    Addr        Size        Decimal Bytes (A
      00008000  s__BANK9                        
      0000C000  s__DATA                         
      0000C142  s__INITIALIZED                  
-     0000C1AC  s__BSEG                         
-     0000C1AC  s__BSS                          
-     0000C1AC  s__HEAP                         
+     0000C14C  s__BSEG                         
+     0000C14C  s__BSS                          
+     0000C14C  s__HEAP                         
      0000FFFC  G$SRAM_bank_to_be_mapped_on_slot   _sms_manager
      0000FFFC  _SRAM_bank_to_be_mapped_on_slot2   SMSlib_loadTileMap
      0000FFFF  G$ROM_bank_to_be_mapped_on_slot2   _sms_manager
@@ -2986,35 +2986,32 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_INITIALIZER                        00001CDD    0000006A =         106. bytes (REL,CON)
+_INITIALIZER                        00001CDD    0000000A =          10. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00001CDD  Finput_manager$__xinit_curr_joyp   input_manager
      00001CDF  Finput_manager$__xinit_prev_joyp   input_manager
-     00001CE1  Factor_object$__xinit_actor_tile   actor_object
-     00001D01  Factor_object$__xinit_actor_tile   actor_object
-     00001D21  Factor_object$__xinit_actor_pale   actor_object
-     00001D41  Ffunc_screen$__xinit_index$0$0     func_screen
-     00001D42  Ftest_screen$__xinit_index$0$0     test_screen
+     00001CE1  Ffunc_screen$__xinit_index$0$0     func_screen
+     00001CE2  Ftest_screen$__xinit_index$0$0     test_screen
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_GSINIT                             00001D47    0000000F =          15. bytes (REL,CON)
+_GSINIT                             00001CE7    0000000F =          15. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001D47  gsinit                             crt0
+     00001CE7  gsinit                             crt0
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 58.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_GSFINAL                            00001D56    00000001 =           1. bytes (REL,CON)
+_GSFINAL                            00001CF6    00000001 =           1. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -3077,23 +3074,17 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_INITIALIZED                        0000C142    0000006A =         106. bytes (REL,CON)
+_INITIALIZED                        0000C142    0000000A =          10. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      0000C142  Finput_manager$curr_joypad1$0$0    input_manager
      0000C144  Finput_manager$prev_joypad1$0$0    input_manager
-     0000C146  G$actor_tileset$0$0                actor_object
-     0000C146  _actor_tileset                     actor_object
-     0000C166  G$actor_tilemap$0$0                actor_object
-     0000C166  _actor_tilemap                     actor_object
-     0000C186  G$actor_palette$0$0                actor_object
-     0000C186  _actor_palette                     actor_object
-     0000C1A6  Ffunc_screen$index$0$0             func_screen
-     0000C1A7  Ftest_screen$index$0$0             test_screen
-     0000C1A8  _VDPReg                            SMSlib
-     0000C1AA  _spritesHeight                     SMSlib
-     0000C1AB  _spritesWidth                      SMSlib
+     0000C146  Ffunc_screen$index$0$0             func_screen
+     0000C147  Ftest_screen$index$0$0             test_screen
+     0000C148  _VDPReg                            SMSlib
+     0000C14A  _spritesHeight                     SMSlib
+     0000C14B  _spritesWidth                      SMSlib
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 61.
 Hexadecimal  [32-Bits]
@@ -3577,7 +3568,6 @@ engine/input_manager.rel                  [ input_manager ]
 engine/locale_manager.rel                 [ locale_manager ]
 engine/sample_manager.rel                 [ sample_manager ]
 engine/screen_manager.rel                 [ screen_manager ]
-object/actor_object.rel                   [ actor_object ]
 screen/func_screen.rel                    [ func_screen ]
 screen/none_screen.rel                    [ none_screen ]
 screen/splash_screen.rel                  [ splash_screen ]
