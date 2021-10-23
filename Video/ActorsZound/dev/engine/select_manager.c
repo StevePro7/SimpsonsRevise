@@ -21,7 +21,20 @@ unsigned char select_long_option[ MAX_OPTIONS ] = { LOCALE_LONG_OPT1, LOCALE_LON
 
 
 void engine_select_manager_init()
-{}
+{
+	unsigned char idx = 0;
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		select_option[ idx ] = SELECT_Y + idx * SELECT_DELTA;
+	}
+
+	diff_select = 0;		// Select difficulty option.
+	long_select = 0;		// Number questions option.
+	quiz_select = 0;		// Last questions selected.
+	select_choice = 0;		// Variable that remembers.
+	select_height = select_option[ select_choice ];
+}
+
 void engine_select_manager_base()
 {
 	unsigned char idx;
