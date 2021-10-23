@@ -1,10 +1,12 @@
 ;!FILE audio_manager.asm
 XL2
-H 9 areas 78 global symbols
+H 9 areas 84 global symbols
 M audio_manager
 O -mz80
 S _devkit_SFX_CHANNEL2 Ref0000
 S _finish_psg Ref0000
+S _hacker_music Ref0000
+S _hacker_sound Ref0000
 S _devkit_PSGStop Ref0000
 S _sfx_right_psg Ref0000
 S .__.ABS. Def0000
@@ -14,7 +16,7 @@ S _music_psg Ref0000
 S _devkit_PSGSFXPlay Ref0000
 S _sfx_cheat_psg Ref0000
 S _devkit_SMS_mapROMBank Ref0000
-A _CODE size 60 flags 0 addr 0
+A _CODE size 6A flags 0 addr 0
 S A$audio_manager$92 Def0011
 S A$audio_manager$65 Def0000
 S A$audio_manager$93 Def0012
@@ -37,87 +39,97 @@ S G$engine_audio_manager_finish_music$0$0 Def000E
 S _engine_audio_manager_sound_wrong Def0028
 S G$engine_audio_manager_stop_music$0$0 Def001C
 S XG$engine_audio_manager_start_music$0$0 Def000D
-S Faudio_manager$play_sound$0$0 Def004F
+S Faudio_manager$play_sound$0$0 Def0054
 S G$engine_audio_manager_sound_cheat$0$0 Def0031
 S XG$engine_audio_manager_sound_wrong$0$0 Def0030
 S _engine_audio_manager_finish_music Def000E
 S _engine_audio_manager_stop_music Def001C
-S A$audio_manager$200 Def0041
-S A$audio_manager$210 Def004A
-S A$audio_manager$201 Def0044
+S A$audio_manager$200 Def003E
+S A$audio_manager$210 Def0049
 S A$audio_manager$102 Def001B
-S A$audio_manager$211 Def004D
-S A$audio_manager$230 Def0052
+S A$audio_manager$220 Def0052
 S A$audio_manager$140 Def0027
-S A$audio_manager$240 Def005E
-S A$audio_manager$231 Def0053
+S A$audio_manager$204 Def003F
 S A$audio_manager$132 Def001F
-S C$audio_manager.c$30$1$34 Def000E
-S A$audio_manager$232 Def0054
-S A$audio_manager$205 Def0045
+S A$audio_manager$250 Def005E
+S A$audio_manager$214 Def004A
+S A$audio_manager$205 Def0042
 S A$audio_manager$133 Def0022
-S C$audio_manager.c$60$1$41 Def004F
-S XFaudio_manager$play_music$0$0 Def004E
+S XFaudio_manager$play_music$0$0 Def0053
 S XG$engine_audio_manager_finish_music$0$0 Def001B
+S C$audio_manager.c$31$1$34 Def000E
 S _engine_audio_manager_sound_cheat Def0031
-S A$audio_manager$233 Def0055
-S A$audio_manager$206 Def0046
+S A$audio_manager$251 Def005F
+S A$audio_manager$215 Def004B
+S A$audio_manager$206 Def0043
 S A$audio_manager$161 Def0030
 S A$audio_manager$134 Def0023
-S A$audio_manager$234 Def0056
-S A$audio_manager$216 Def004E
-S A$audio_manager$207 Def0047
+S A$audio_manager$252 Def0060
+S A$audio_manager$243 Def0058
+S A$audio_manager$225 Def0053
+S A$audio_manager$216 Def004C
+S A$audio_manager$207 Def0044
 S A$audio_manager$153 Def0028
 S A$audio_manager$135 Def0026
-S C$audio_manager.c$32$1$35 Def000E
-S A$audio_manager$235 Def0057
-S A$audio_manager$208 Def0048
+S C$audio_manager.c$62$1$41 Def003F
+S A$audio_manager$253 Def0061
+S A$audio_manager$217 Def004D
+S A$audio_manager$208 Def0045
 S A$audio_manager$154 Def002B
-S C$audio_manager.c$41$1$36 Def001F
-S C$audio_manager.c$33$1$35 Def001B
-S A$audio_manager$245 Def005F
-S A$audio_manager$236 Def0058
-S A$audio_manager$209 Def0049
+S C$audio_manager.c$63$1$41 Def004A
+S C$audio_manager.c$33$1$35 Def000E
+S A$audio_manager$263 Def0069
+S A$audio_manager$254 Def0062
+S A$audio_manager$218 Def004E
+S A$audio_manager$209 Def0046
 S A$audio_manager$182 Def0039
 S A$audio_manager$155 Def002C
 S A$audio_manager$119 Def001C
-S A$audio_manager$237 Def0059
+S C$audio_manager.c$64$1$41 Def0053
+S C$audio_manager.c$42$1$36 Def001F
+S C$audio_manager.c$34$1$35 Def001B
+S A$audio_manager$255 Def0063
+S A$audio_manager$219 Def004F
 S A$audio_manager$174 Def0031
 S A$audio_manager$156 Def002F
-S C$audio_manager.c$56$1$41 Def003A
+S C$audio_manager.c$50$1$38 Def0031
 S XG$engine_audio_manager_stop_music$0$0 Def001C
-S C$audio_manager.c$35$1$35 Def001C
-S C$audio_manager.c$27$1$34 Def0000
-S A$audio_manager$238 Def005A
-S A$audio_manager$229 Def004F
+S A$audio_manager$256 Def0064
+S A$audio_manager$247 Def0059
+S A$audio_manager$238 Def0054
 S A$audio_manager$175 Def0034
-S C$audio_manager.c$57$1$41 Def0045
-S C$audio_manager.c$43$1$37 Def001F
-S C$audio_manager.c$28$1$34 Def000D
-S A$audio_manager$239 Def005D
+S C$audio_manager.c$70$2$45 Def0058
+S C$audio_manager.c$66$1$41 Def0054
+S C$audio_manager.c$57$1$41 Def003A
+S C$audio_manager.c$36$1$35 Def001C
+S C$audio_manager.c$28$1$34 Def0000
+S A$audio_manager$257 Def0067
+S A$audio_manager$248 Def005C
+S A$audio_manager$239 Def0057
 S A$audio_manager$176 Def0035
-S C$audio_manager.c$58$1$41 Def004E
-S C$audio_manager.c$51$1$39 Def0031
-S C$audio_manager.c$44$1$37 Def0027
+S C$audio_manager.c$73$1$44 Def0059
+S C$audio_manager.c$44$1$37 Def001F
+S C$audio_manager.c$29$1$34 Def000D
+S A$audio_manager$258 Def0068
+S A$audio_manager$249 Def005D
 S A$audio_manager$195 Def003A
 S A$audio_manager$177 Def0038
-S XFaudio_manager$play_sound$0$0 Def005F
-S C$audio_manager.c$52$1$39 Def0039
-S C$audio_manager.c$45$1$37 Def0028
-S C$audio_manager.c$37$1$36 Def001C
+S XFaudio_manager$play_sound$0$0 Def0069
+S C$audio_manager.c$74$1$44 Def0069
+S C$audio_manager.c$52$1$39 Def0031
+S C$audio_manager.c$45$1$37 Def0027
 S A$audio_manager$196 Def003D
+S C$audio_manager.c$53$1$39 Def0039
+S C$audio_manager.c$46$1$37 Def0028
 S C$audio_manager.c$38$1$36 Def001C
-S A$audio_manager$197 Def003E
-S C$audio_manager.c$68$1$43 Def004F
-S C$audio_manager.c$54$1$39 Def003A
-S A$audio_manager$198 Def003F
-S C$audio_manager.c$69$1$43 Def005F
-S C$audio_manager.c$47$1$38 Def0028
-S C$audio_manager.c$25$0$0 Def0000
-S A$audio_manager$199 Def0040
+S C$audio_manager.c$59$2$42 Def003E
+S C$audio_manager.c$39$1$36 Def001C
+S C$audio_manager.c$68$1$44 Def0054
+S C$audio_manager.c$55$1$39 Def003A
 S XG$engine_audio_manager_sound_cheat$0$0 Def0039
-S C$audio_manager.c$48$1$38 Def0030
-S C$audio_manager.c$49$1$38 Def0031
+S C$audio_manager.c$48$1$38 Def0028
+S C$audio_manager.c$26$0$0 Def0000
+S C$audio_manager.c$49$1$38 Def0030
 S G$engine_audio_manager_sound_right$0$0 Def001F
 S A$audio_manager$70 Def0008
 S A$audio_manager$71 Def000B
@@ -135,7 +147,7 @@ A _CABS size 0 flags 8 addr 0
 T 00 00
 R 00 00 00 00
 T 00 00 3E 0F F5 33 21 00 00 E5 CD 3A 00 F1 33 C9
-R 00 00 00 00 02 07 07 00 00 0B 00 00
+R 00 00 00 00 02 07 09 00 00 0B 00 00
 T 0E 00
 R 00 00 00 00
 T 0E 00 3E 0F F5 33 21 00 00 E5 CD 3A 00 F1 33 C9
@@ -143,28 +155,28 @@ R 00 00 00 00 02 07 01 00 00 0B 00 00
 T 1C 00
 R 00 00 00 00
 T 1C 00 C3 00 00
-R 00 00 00 00 02 03 02 00
+R 00 00 00 00 02 03 04 00
 T 1F 00
 R 00 00 00 00
-T 1F 00 21 00 00 E5 CD 4F 00 F1 C9
-R 00 00 00 00 02 03 03 00 00 07 00 00
+T 1F 00 21 00 00 E5 CD 54 00 F1 C9
+R 00 00 00 00 02 03 05 00 00 07 00 00
 T 28 00
 R 00 00 00 00
-T 28 00 21 00 00 E5 CD 4F 00 F1 C9
-R 00 00 00 00 02 03 06 00 00 07 00 00
+T 28 00 21 00 00 E5 CD 54 00 F1 C9
+R 00 00 00 00 02 03 08 00 00 07 00 00
 T 31 00
 R 00 00 00 00
-T 31 00 21 00 00 E5 CD 4F 00 F1 C9
-R 00 00 00 00 02 03 09 00 00 07 00 00
+T 31 00 21 00 00 E5 CD 54 00 F1 C9
+R 00 00 00 00 02 03 0B 00 00 07 00 00
 T 3A 00
 R 00 00 00 00
-T 3A 00 21 04 00 39 7E F5 33 CD 00 00 33 D1 C1 C5
-R 00 00 00 00 02 0A 0A 00
-T 48 00 D5 C5 CD 00 00 F1 C9
-R 00 00 00 00 02 05 05 00
-T 4F 00
+T 3A 00 3A 00 00 B7 C8 21 04 00 39 7E F5 33 CD
+R 00 00 00 00 02 03 02 00
+T 47 00 00 00 33 D1 C1 C5 D5 C5 CD 00 00 F1 C9
+R 00 00 00 00 02 02 0C 00 02 0B 07 00
+T 54 00
 R 00 00 00 00
-T 4F 00 CD 00 00 65 D1 C1 C5 D5 E5 33 C5 CD 00 00
-R 00 00 00 00 02 03 00 00 02 0E 08 00
-T 5D 00 F1 33 C9
-R 00 00 00 00
+T 54 00 3A 00 00 B7 C8 CD 00 00 65 D1 C1 C5 D5 E5
+R 00 00 00 00 02 03 03 00 02 08 00 00
+T 62 00 33 C5 CD 00 00 F1 33 C9
+R 00 00 00 00 02 05 0A 00

@@ -1,4 +1,5 @@
 #include "audio_manager.h"
+#include "hack_manager.h"
 #include "../devkit/_sms_manager.h"
 #include "../devkit/_snd_manager.h"
 #include "../banks/bank15.h"
@@ -53,17 +54,21 @@ void engine_audio_manager_sound_cheat()
 
 static void play_music( unsigned char *music, unsigned char bank )
 {
+	if( !hacker_music )
+	{
+		return;
+	}
+
 	devkit_SMS_mapROMBank( bank );
 	devkit_PSGPlayNoRepeat( music );
 }
 
 static void play_sound( unsigned char *sfx )
 {
-	//struct_hack_object *ho = &global_hack_object;
-	//if( !ho->hack_sound )
-	//{
-	//	return;
-	//}
+	if( !hacker_sound )
+	{
+		return;
+	}
 
 	devkit_PSGSFXPlay( sfx, devkit_SFX_CHANNEL2() );
 }

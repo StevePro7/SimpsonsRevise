@@ -9,7 +9,15 @@ F:Faudio_manager$play_music$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Laudio_manager.play_music$music$1$40({2}DG,SC:U),B,1,4
 S:Laudio_manager.play_music$bank$1$40({1}SC:U),B,1,6
 F:Faudio_manager$play_sound$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Laudio_manager.play_sound$sfx$1$42({2}DG,SC:U),B,1,4
+S:Laudio_manager.play_sound$sfx$1$43({2}DG,SC:U),B,1,4
+S:G$hacker_debug$0$0({1}SC:U),E,0,0
+S:G$hacker_cheat$0$0({1}SC:U),E,0,0
+S:G$hacker_random$0$0({1}SC:U),E,0,0
+S:G$hacker_music$0$0({1}SC:U),E,0,0
+S:G$hacker_sound$0$0({1}SC:U),E,0,0
+S:G$hacker_extra$0$0({1}SC:U),E,0,0
+S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0

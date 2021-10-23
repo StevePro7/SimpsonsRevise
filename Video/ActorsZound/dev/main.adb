@@ -1,6 +1,12 @@
 M:main
 F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
 S:Lmain.main$open_screen_type$1$56({1}SC:U),R,0,0,[]
+S:G$hacker_debug$0$0({1}SC:U),E,0,0
+S:G$hacker_cheat$0$0({1}SC:U),E,0,0
+S:G$hacker_random$0$0({1}SC:U),E,0,0
+S:G$hacker_music$0$0({1}SC:U),E,0,0
+S:G$hacker_sound$0$0({1}SC:U),E,0,0
+S:G$hacker_extra$0$0({1}SC:U),E,0,0
 S:G$atof$0$0({2}DF,SF:S),C,0,0
 S:G$atoi$0$0({2}DF,SI:S),C,0,0
 S:G$atol$0$0({2}DF,SL:S),C,0,0
@@ -87,6 +93,8 @@ S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_splash$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_title$0$0({2}DF,SV:S),C,0,0
+S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_input_manager_update$0$0({2}DF,SV:S),C,0,0
 S:G$engine_input_manager_hold_up$0$0({2}DF,SC:U),C,0,0
 S:G$engine_input_manager_hold_down$0$0({2}DF,SC:U),C,0,0
