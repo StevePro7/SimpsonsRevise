@@ -30,6 +30,17 @@ void engine_screen_manager_init( unsigned char open_screen_type )
 	next_screen_type = open_screen_type;
 	curr_screen_type = screen_type_none;
 
+	// Set init methods.
+	screen_splash_screen_init();
+	screen_title_screen_init();
+	screen_intro_screen_init();
+	screen_ready_screen_init();
+	screen_diff_screen_init();
+	screen_long_screen_init();
+	screen_play_screen_init();
+	screen_quiz_screen_init();
+	screen_over_screen_init();
+
 	// Set load methods.
 	load_method[ screen_type_diff ] = screen_diff_screen_load;
 	load_method[ screen_type_intro ] = screen_intro_screen_load;

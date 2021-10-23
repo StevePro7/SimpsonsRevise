@@ -3,9 +3,18 @@
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
+#include "../engine/global_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/sprite_manager.h"
 #include "../devkit/_sms_manager.h"
+
+static unsigned char screen_intro_screen_delay;
+static unsigned char cheat_count, local_cheat;
+
+void screen_intro_screen_init()
+{
+	screen_intro_screen_delay = NORMAL_DELAY;
+}
 
 void screen_intro_screen_load()
 {
