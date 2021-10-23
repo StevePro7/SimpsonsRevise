@@ -17,10 +17,11 @@ void main(void)
 	engine_content_manager_load_font();
 	//engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette();
+	engine_sound_manager_init();
 
 	open_screen_type = screen_type_splash;
-	open_screen_type = screen_type_func;
-	//open_screen_type = screen_type_test;
+	//open_screen_type = screen_type_func;
+	open_screen_type = screen_type_test;
 
 	engine_screen_manager_init( open_screen_type );
 	devkit_SMS_displayOn();

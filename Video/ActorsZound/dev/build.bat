@@ -30,7 +30,7 @@ sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 a
 cd ..
 
 cd object
-::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 actor_object.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 sound_object.c
 cd ..
 
 cd screen
@@ -74,6 +74,7 @@ engine/actor_manager.rel ^
 engine/asm_manager.rel engine/audio_manager.rel engine/content_manager.rel engine/enum_manager.rel engine/font_manager.rel ^
 engine/global_manager.rel engine/hack_manager.rel engine/input_manager.rel engine/locale_manager.rel engine/sample_manager.rel ^
 engine/screen_manager.rel ^
+object/sound_object.rel ^
 screen/func_screen.rel ^
 screen/none_screen.rel ^
 screen/splash_screen.rel ^
