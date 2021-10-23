@@ -6,12 +6,12 @@ cd ..
 cd gfx
 
 :: Tiles
-bmp2tile.exe raw\font.bmp -savetiles "font (tiles).psgcompr" -noremovedupes -planar -tileoffset 0  -savetilemap "font (tilemap).bin" -savepalette "font (palette).bin" -fullpalette -exit
+bmp2tile.exe raw/font.bmp -savetiles "font (tiles).psgcompr" -noremovedupes -planar -tileoffset 0  -savetilemap "font (tilemap).bin" -savepalette "font (palette).bin" -fullpalette -exit
 
 
-cd ..\dev
+cd ../dev
 
-folder2c ..\gfx gfx
+folder2c ../gfx gfx
 
 sdcc --debug -c -mz80 --opt-code-speed --peep-file peep-rules.txt --std-c99 gfx.c
 

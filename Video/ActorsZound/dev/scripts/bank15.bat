@@ -1,10 +1,10 @@
 cd ..
 cd banks
-cd bank15
+::cd bank15
 
 :: Convert.
 cd ..
-folder2c bank15 bank15 15
+folder2c ..\bank15 bank15
 
 
 :: Compile
