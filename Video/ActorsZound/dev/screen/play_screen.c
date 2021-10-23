@@ -26,6 +26,7 @@ void screen_play_screen_load()
 	option4_value = quiz_options[ question_value ][ 3 ];
 
 	engine_select_manager_base();
+	engine_quiz_manager_load( question_index, question_value, option1_value, option2_value, option3_value, option4_value );
 
 	//engine_font_manager_text( "PLAY SCREEN..!!", 10, 2 );
 }

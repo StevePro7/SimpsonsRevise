@@ -1,10 +1,10 @@
 ;!FILE hack_manager.asm
 XL2
-H 9 areas 38 global symbols
+H 9 areas 3B global symbols
 M hack_manager
 O -mz80
 S .__.ABS. Def0000
-A _CODE size 3F flags 0 addr 0
+A _CODE size 44 flags 0 addr 0
 S C$hack_manager.c$36$1$1 Def001E
 S C$hack_manager.c$45$1$2 Def0025
 S A$hack_manager$80 Def0000
@@ -17,7 +17,7 @@ S C$hack_manager.c$49$1$2 Def0039
 S A$hack_manager$85 Def0006
 S A$hack_manager$95 Def0012
 S A$hack_manager$86 Def0009
-S XG$engine_hack_manager_invert$0$0 Def003E
+S XG$engine_hack_manager_invert$0$0 Def0043
 S A$hack_manager$96 Def0015
 S G$engine_hack_manager_init$0$0 Def0000
 S _engine_hack_manager_init Def0000
@@ -30,22 +30,25 @@ S G$engine_hack_manager_invert$0$0 Def0025
 S A$hack_manager$133 Def0034
 S A$hack_manager$124 Def0025
 S A$hack_manager$106 Def0021
+S A$hack_manager$143 Def003E
 S A$hack_manager$134 Def0037
 S A$hack_manager$125 Def0029
-S A$hack_manager$144 Def003E
+S A$hack_manager$144 Def0041
 S A$hack_manager$126 Def002C
 S A$hack_manager$127 Def002E
 S A$hack_manager$128 Def0030
 S A$hack_manager$138 Def0039
 S A$hack_manager$129 Def0031
 S A$hack_manager$139 Def003C
+S A$hack_manager$149 Def0043
 S C$hack_manager.c$30$1$1 Def0000
 S C$hack_manager.c$41$1$1 Def0025
 S C$hack_manager.c$32$1$1 Def0006
 S _engine_hack_manager_invert Def0025
+S C$hack_manager.c$50$1$2 Def003E
 S C$hack_manager.c$33$1$1 Def000C
+S C$hack_manager.c$51$1$2 Def0043
 S C$hack_manager.c$34$1$1 Def0012
-S C$hack_manager.c$52$1$2 Def003E
 S C$hack_manager.c$35$1$1 Def0018
 S C$hack_manager.c$19$0$0 Def0000
 A _DATA size 6 flags 0 addr 0
@@ -104,5 +107,7 @@ T 25 00
 R 00 00 00 00
 T 25 00 FD 21 05 00 FD 7E 00 D6 01 3E 00 17 FD 77
 R 00 00 00 00 00 04 01 00
-T 33 00 00 21 03 00 36 00 21 04 00 36 00 C9
-R 00 00 00 00 00 04 01 00 00 09 01 00
+T 33 00 00 21 03 00 36 00 21 04 00 36 00 21 02 00
+R 00 00 00 00 00 04 01 00 00 09 01 00 00 0E 01 00
+T 41 00 36 01 C9
+R 00 00 00 00

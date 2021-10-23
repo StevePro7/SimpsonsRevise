@@ -1,10 +1,15 @@
 #include "quiz_manager.h"
+#include "enum_manager.h"
 #include "font_manager.h"
 #include "global_manager.h"
 #include "hack_manager.h"
 #include "locale_manager.h"
 #include "select_manager.h"
 #include "../devkit/_sms_manager.h"
+#include "../banks/bank2.h"
+#include "../banks/bank3.h"
+#include "../banks/bank4.h"
+#include "../banks/bank5.h"
 
 unsigned char quiz_questions[ MAX_QUESTIONS ];
 unsigned char quiz_options[ MAX_QUESTIONS ][ MAX_OPTIONS ];
@@ -83,13 +88,13 @@ void engine_quiz_manager_bank( unsigned char b )
 	//for( idx = 0; idx < MAX_OPTIONS; idx++ )
 	//{
 	//	cheat_Y = option_height[ idx ];
-	//	engine_font_manager_draw_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
+	//	engine_font_manager_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
 	//}
 
 	//if( local_cheat )
 	//{
 	//	cheat_Y = option_height[ ans ];
-	//	engine_font_manager_draw_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
+	//	engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
 	//}
 //}
 //void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
@@ -100,140 +105,140 @@ void engine_quiz_manager_bank( unsigned char b )
 	//	cheat_Y = option_height[ ans ];
 	//	if( !flag )
 	//	{
-	//		engine_font_manager_draw_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
+	//		engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
 	//	}
 	//	else
 	//	{
-	//		engine_font_manager_draw_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
+	//		engine_font_manager_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
 	//	}
 	//}
 //}
 
-//void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char opt1, unsigned char opt2, unsigned char opt3, unsigned char opt4 )
-//{
-	//unsigned char opt1_Y, opt2_Y, opt3_Y, opt4_Y;
-	//unsigned char bank;
+void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char opt1, unsigned char opt2, unsigned char opt3, unsigned char opt4 )
+{
+	unsigned char opt1_Y, opt2_Y, opt3_Y, opt4_Y;
+	unsigned char bank;
 
-	//opt1_Y = option_height[ opt1 ];
-	//opt2_Y = option_height[ opt2 ];
-	//opt3_Y = option_height[ opt3 ];
-	//opt4_Y = option_height[ opt4 ];
+	opt1_Y = option_height[ opt1 ];
+	opt2_Y = option_height[ opt2 ];
+	opt3_Y = option_height[ opt3 ];
+	opt4_Y = option_height[ opt4 ];
 
-	//// Number.
-	//engine_font_manager_draw_data_ZERO( qi + 1, QUIZ_X + 12, TITLE_Y );
+	// Number.
+	engine_font_manager_data_ZERO( qi + 1, QUIZ_X + 12, TITLE_Y );
 
-	//bank = diff_select + QUIZ_BANK;
-	//engine_quiz_manager_bank( bank );
+	bank = diff_select + QUIZ_BANK;
+	engine_quiz_manager_bank( bank );
 
-	//if( DIFF_TYPE_EASY == diff_select )
-	//{
-	//	// Question.
-	//	engine_font_manager_draw_text( bank2_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
-	//	engine_font_manager_draw_text( bank2_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
-	//	engine_font_manager_draw_text( bank2_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
+	if( diff_type_easy == diff_select )
+	{
+		// Question.
+		engine_font_manager_text( bank2_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
+		engine_font_manager_text( bank2_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
+		engine_font_manager_text( bank2_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
 
-	//	// Option A.
-	//	engine_font_manager_draw_text( bank2_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
-	//	engine_font_manager_draw_text( bank2_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
-	//	engine_font_manager_draw_text( bank2_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
+		// Option A.
+		engine_font_manager_text( bank2_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
+		engine_font_manager_text( bank2_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
+		engine_font_manager_text( bank2_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
 
-	//	// Option B.
-	//	engine_font_manager_draw_text( bank2_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
-	//	engine_font_manager_draw_text( bank2_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
-	//	engine_font_manager_draw_text( bank2_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
+		// Option B.
+		engine_font_manager_text( bank2_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
+		engine_font_manager_text( bank2_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
+		engine_font_manager_text( bank2_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
 
-	//	// Option C.
-	//	engine_font_manager_draw_text( bank2_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
-	//	engine_font_manager_draw_text( bank2_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
-	//	engine_font_manager_draw_text( bank2_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
+		// Option C.
+		engine_font_manager_text( bank2_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
+		engine_font_manager_text( bank2_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
+		engine_font_manager_text( bank2_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
 
-	//	// Option D.
-	//	engine_font_manager_draw_text( bank2_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
-	//	engine_font_manager_draw_text( bank2_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
-	//	engine_font_manager_draw_text( bank2_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
-	//}
-	//else if( DIFF_TYPE_NORM == diff_select )
-	//{
-	//	// Question.
-	//	engine_font_manager_draw_text( bank3_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
-	//	engine_font_manager_draw_text( bank3_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
-	//	engine_font_manager_draw_text( bank3_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
+		// Option D.
+		engine_font_manager_text( bank2_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
+		engine_font_manager_text( bank2_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
+		engine_font_manager_text( bank2_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
+	}
+	else if( diff_type_norm == diff_select )
+	{
+		// Question.
+		engine_font_manager_text( bank3_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
+		engine_font_manager_text( bank3_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
+		engine_font_manager_text( bank3_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
 
-	//	// Option A.
-	//	engine_font_manager_draw_text( bank3_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
-	//	engine_font_manager_draw_text( bank3_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
-	//	engine_font_manager_draw_text( bank3_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
+		// Option A.
+		engine_font_manager_text( bank3_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
+		engine_font_manager_text( bank3_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
+		engine_font_manager_text( bank3_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
 
-	//	// Option B.
-	//	engine_font_manager_draw_text( bank3_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
-	//	engine_font_manager_draw_text( bank3_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
-	//	engine_font_manager_draw_text( bank3_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
+		// Option B.
+		engine_font_manager_text( bank3_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
+		engine_font_manager_text( bank3_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
+		engine_font_manager_text( bank3_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
 
-	//	// Option C.
-	//	engine_font_manager_draw_text( bank3_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
-	//	engine_font_manager_draw_text( bank3_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
-	//	engine_font_manager_draw_text( bank3_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
+		// Option C.
+		engine_font_manager_text( bank3_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
+		engine_font_manager_text( bank3_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
+		engine_font_manager_text( bank3_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
 
-	//	// Option D.
-	//	engine_font_manager_draw_text( bank3_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
-	//	engine_font_manager_draw_text( bank3_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
-	//	engine_font_manager_draw_text( bank3_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
-	//}
-	//else if( DIFF_TYPE_HARD == diff_select )
-	//{
-	//	// Question.
-	//	engine_font_manager_draw_text( bank4_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
-	//	engine_font_manager_draw_text( bank4_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
-	//	engine_font_manager_draw_text( bank4_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
+		// Option D.
+		engine_font_manager_text( bank3_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
+		engine_font_manager_text( bank3_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
+		engine_font_manager_text( bank3_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
+	}
+	else if( diff_type_hard == diff_select )
+	{
+		// Question.
+		engine_font_manager_text( bank4_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
+		engine_font_manager_text( bank4_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
+		engine_font_manager_text( bank4_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
 
-	//	// Option A.
-	//	engine_font_manager_draw_text( bank4_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
-	//	engine_font_manager_draw_text( bank4_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
-	//	engine_font_manager_draw_text( bank4_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
+		// Option A.
+		engine_font_manager_text( bank4_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
+		engine_font_manager_text( bank4_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
+		engine_font_manager_text( bank4_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
 
-	//	// Option B.
-	//	engine_font_manager_draw_text( bank4_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
-	//	engine_font_manager_draw_text( bank4_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
-	//	engine_font_manager_draw_text( bank4_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
+		// Option B.
+		engine_font_manager_text( bank4_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
+		engine_font_manager_text( bank4_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
+		engine_font_manager_text( bank4_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
 
-	//	// Option C.
-	//	engine_font_manager_draw_text( bank4_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
-	//	engine_font_manager_draw_text( bank4_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
-	//	engine_font_manager_draw_text( bank4_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
+		// Option C.
+		engine_font_manager_text( bank4_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
+		engine_font_manager_text( bank4_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
+		engine_font_manager_text( bank4_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
 
-	//	// Option D.
-	//	engine_font_manager_draw_text( bank4_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
-	//	engine_font_manager_draw_text( bank4_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
-	//	engine_font_manager_draw_text( bank4_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
-	//}
-	//else if( DIFF_TYPE_ARGH == diff_select )
-	//{
-	//	// Question.
-	//	engine_font_manager_draw_text( bank5_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
-	//	engine_font_manager_draw_text( bank5_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
-	//	engine_font_manager_draw_text( bank5_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
+		// Option D.
+		engine_font_manager_text( bank4_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
+		engine_font_manager_text( bank4_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
+		engine_font_manager_text( bank4_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
+	}
+	else if( diff_type_argh == diff_select )
+	{
+		// Question.
+		engine_font_manager_text( bank5_quiz_line1[ qv ], QUIZ_X, QUIZ_Y + 0 );
+		engine_font_manager_text( bank5_quiz_line2[ qv ], QUIZ_X, QUIZ_Y + 1 );
+		engine_font_manager_text( bank5_quiz_line3[ qv ], QUIZ_X, QUIZ_Y + 2 );
 
-	//	// Option A.
-	//	engine_font_manager_draw_text( bank5_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
-	//	engine_font_manager_draw_text( bank5_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
-	//	engine_font_manager_draw_text( bank5_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
+		// Option A.
+		engine_font_manager_text( bank5_opt1_line1[ qv ], OPTN_X, opt1_Y + 0 );
+		engine_font_manager_text( bank5_opt1_line2[ qv ], OPTN_X, opt1_Y + 1 );
+		engine_font_manager_text( bank5_opt1_line3[ qv ], OPTN_X, opt1_Y + 2 );
 
-	//	// Option B.
-	//	engine_font_manager_draw_text( bank5_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
-	//	engine_font_manager_draw_text( bank5_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
-	//	engine_font_manager_draw_text( bank5_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
+		// Option B.
+		engine_font_manager_text( bank5_opt2_line1[ qv ], OPTN_X, opt2_Y + 0 );
+		engine_font_manager_text( bank5_opt2_line2[ qv ], OPTN_X, opt2_Y + 1 );
+		engine_font_manager_text( bank5_opt2_line3[ qv ], OPTN_X, opt2_Y + 2 );
 
-	//	// Option C.
-	//	engine_font_manager_draw_text( bank5_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
-	//	engine_font_manager_draw_text( bank5_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
-	//	engine_font_manager_draw_text( bank5_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
+		// Option C.
+		engine_font_manager_text( bank5_opt3_line1[ qv ], OPTN_X, opt3_Y + 0 );
+		engine_font_manager_text( bank5_opt3_line2[ qv ], OPTN_X, opt3_Y + 1 );
+		engine_font_manager_text( bank5_opt3_line3[ qv ], OPTN_X, opt3_Y + 2 );
 
-	//	// Option D.
-	//	engine_font_manager_draw_text( bank5_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
-	//	engine_font_manager_draw_text( bank5_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
-	//	engine_font_manager_draw_text( bank5_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
-	//}
-//}
+		// Option D.
+		engine_font_manager_text( bank5_opt4_line1[ qv ], OPTN_X, opt4_Y + 0 );
+		engine_font_manager_text( bank5_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
+		engine_font_manager_text( bank5_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
+	}
+}
 
 static void show_diff( unsigned char x, unsigned char y )
 {

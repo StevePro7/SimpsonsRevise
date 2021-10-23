@@ -22,6 +22,11 @@ void main(void)
 	engine_hack_manager_init();
 	engine_hack_manager_invert();
 
+	engine_actor_manager_init();
+	engine_quiz_manager_init();
+	engine_score_manager_init();
+	engine_select_manager_init();
+
 	//open_screen_type = screen_type_splash;
 	//open_screen_type = screen_type_func;
 	//open_screen_type = screen_type_diff;
@@ -30,7 +35,7 @@ void main(void)
 	//open_screen_type = screen_type_play;
 	//open_screen_type = screen_type_title;
 
-	engine_actor_manager_init();
+	
 	engine_screen_manager_init( open_screen_type );
 
 	// TODO - delete this after testing!!
