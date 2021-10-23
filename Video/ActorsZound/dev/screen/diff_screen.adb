@@ -4,6 +4,11 @@ F:G$screen_diff_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Ldiff_screen.screen_diff_screen_update$screen_type$1$28({2}DG,SC:U),B,1,4
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_splash$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_title$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0

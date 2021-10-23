@@ -1,5 +1,6 @@
 #include "diff_screen.h"
 #include "../engine/actor_manager.h"
+#include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/sprite_manager.h"
@@ -8,10 +9,11 @@
 void screen_diff_screen_load()
 {
 	engine_actor_manager_init();
-	//devkit_SMS_displayOff();
-	//engine_font_manager_text( "DIFF SCREEN!!", 10, 2 );
+	devkit_SMS_displayOff();
 	engine_actor_manager_draw( 15 );
-	//devkit_SMS_displayOn();
+	engine_font_manager_text( "DIFFERENT SCREEN!!", 10, 4 );
+	engine_content_manager_load_sprite_palette();
+	devkit_SMS_displayOn();
 }
 
 void screen_diff_screen_update( unsigned char *screen_type )
