@@ -14,7 +14,7 @@ void main(void)
 	devkit_SMS_useFirstHalfTilesforSprites_False();
 	devkit_SMS_VDPturnOnFeature( devkit_VDPFEATURE_HIDEFIRSTCOL() );
 
-	engine_content_manager_load_font_tiles();
+	engine_content_manager_load_font();
 	//engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette();
 
