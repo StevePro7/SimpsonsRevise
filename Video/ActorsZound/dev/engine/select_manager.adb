@@ -1,9 +1,10 @@
 M:select_manager
 F:G$engine_select_manager_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Lselect_manager.engine_select_manager_init$idx$1$8({1}SC:U),R,0,0,[e]
 F:G$engine_select_manager_base$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lselect_manager.engine_select_manager_base$idx$1$9({1}SC:U),R,0,0,[c]
+S:Lselect_manager.engine_select_manager_base$idx$1$11({1}SC:U),R,0,0,[c]
 F:G$engine_select_manager_clear$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lselect_manager.engine_select_manager_clear$high$1$12({1}SC:U),R,0,0,[b]
+S:Lselect_manager.engine_select_manager_clear$high$1$14({1}SC:U),R,0,0,[b]
 F:G$engine_select_manager_clear2$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_select_manager_load_diff$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_select_manager_load_long$0$0({2}DF,SV:S),Z,0,0,0,0,0
