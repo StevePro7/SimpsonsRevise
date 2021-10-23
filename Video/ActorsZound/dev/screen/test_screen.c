@@ -28,7 +28,6 @@ void screen_test_screen_update( unsigned char *screen_type )
 			engine_audio_manager_wrong();
 			//engine_audio_manager_cheat();
 		}
-
 	}
 
 	*screen_type = screen_type_test;

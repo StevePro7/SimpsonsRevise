@@ -1,4 +1,5 @@
 #include "actor_manager.h"
+#include "../engine/global_manager.h"
 #include "../devkit/_sms_manager.h"
 #include "../banks/bank6.h"
 #include "../banks/bank7.h"
@@ -10,7 +11,7 @@
 #define ACTOR_TILES_TOTALS 4
 #define ACTOR_TILES_BANKED 2
 
-#define MAX_ACTORS			16
+
 static void( *draw_method[ MAX_ACTORS ] )( );
 static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette );
 
