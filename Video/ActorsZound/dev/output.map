@@ -3274,7 +3274,7 @@ _CODE                               00000200    00002249 =        8777. bytes (R
      000014AB  Fdiff_screen$__str_0$0$0           diff_screen
      000014B9  A$diff_screen$91                   diff_screen
      000014B9  C$diff_screen.c$17$1$27            diff_screen
-     000014B9  C$diff_screen.c$21$1$29            diff_screen
+     000014B9  C$diff_screen.c$19$1$29            diff_screen
      000014B9  G$screen_diff_screen_update$0$0    diff_screen
      000014B9  _screen_diff_screen_update         diff_screen
      000014BC  A$diff_screen$92                   diff_screen

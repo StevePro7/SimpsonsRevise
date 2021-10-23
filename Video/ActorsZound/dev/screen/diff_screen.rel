@@ -5,8 +5,8 @@ M diff_screen
 O -mz80
 S _engine_font_manager_text Ref0000
 S _engine_actor_manager_init Ref0000
-S _engine_sprite_manager_draw_wrong Ref0000
 S .__.ABS. Def0000
+S _engine_sprite_manager_draw_select Ref0000
 A _CODE size 2E flags 0 addr 0
 S XG$screen_diff_screen_load$0$0 Def0010
 S G$screen_diff_screen_update$0$0 Def001F
@@ -18,11 +18,11 @@ S C$diff_screen.c$10$1$27 Def0000
 S _screen_diff_screen_update Def001F
 S C$diff_screen.c$12$1$27 Def0003
 S A$diff_screen$108 Def002D
-S C$diff_screen.c$21$1$29 Def001F
 S C$diff_screen.c$22$1$29 Def0027
 S C$diff_screen.c$15$1$27 Def0010
 S C$diff_screen.c$23$1$29 Def002D
 S C$diff_screen.c$17$1$27 Def001F
+S C$diff_screen.c$19$1$29 Def001F
 S XG$screen_diff_screen_update$0$0 Def002D
 S G$screen_diff_screen_load$0$0 Def0000
 S A$diff_screen$63 Def0003
@@ -64,6 +64,6 @@ R 00 00 00 00
 T 1F 00
 R 00 00 00 00
 T 1F 00 21 40 60 E5 CD 00 00 F1 D1 C1 C5 D5 AF 02
-R 00 00 00 00 02 07 02 00
+R 00 00 00 00 02 07 03 00
 T 2D 00 C9
 R 00 00 00 00

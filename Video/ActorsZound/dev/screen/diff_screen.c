@@ -16,8 +16,8 @@ void screen_diff_screen_load()
 
 void screen_diff_screen_update( unsigned char *screen_type )
 {
-	//engine_sprite_manager_draw_select( 64, 96 );
+	engine_sprite_manager_draw_select( 64, 96 );
 	//engine_sprite_manager_draw_right( 64, 96 );
-	engine_sprite_manager_draw_wrong( 64, 96 );
+	//engine_sprite_manager_draw_wrong( 64, 96 );
 	*screen_type = screen_type_diff;
 }
