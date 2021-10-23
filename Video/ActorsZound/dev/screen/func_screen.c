@@ -52,26 +52,7 @@ void screen_func_screen_update( unsigned char *screen_type )
 
 static void draw_screen( unsigned char index )
 {
-	//devkit_SMS_displayOff();
-	//unsigned char high;
-	//for( high = 1; high < 4; high++ )
-	//{
-	//	//engine_font_manager_text( "                                ", 0, high );
-	//	
-	//}
-	//for( high = 0; high < 24; high++ )
-	//{
-	//	//engine_font_manager_text( "                                ", 0, high );
-	//	  engine_font_manager_text( "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 0, high );
-	//}
-	
-
+	devkit_SMS_displayOff();
 	engine_actor_manager_draw( index );
-	
-	//engine_font_manager_text( "XXXXXXXXXX", 0, 0 );
-	//engine_font_manager_text( "XXXXXXXXXX", 0, 1 );
-	//engine_font_manager_text( "XXXXXXXXXX", 0, 2 );
-
-	engine_font_manager_text( "XXXXXXXXXX", 4, 3 );
-	//devkit_SMS_displayOn();
+	devkit_SMS_displayOn();
 }
