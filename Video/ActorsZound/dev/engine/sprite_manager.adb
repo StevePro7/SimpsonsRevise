@@ -1,0 +1,1 @@
+M:sprite_manager
