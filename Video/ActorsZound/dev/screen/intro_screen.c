@@ -1,6 +1,10 @@
 #include "intro_screen.h"
+#include "../engine/actor_manager.h"
+#include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
+#include "../engine/sprite_manager.h"
+#include "../devkit/_sms_manager.h"
 
 void screen_intro_screen_load()
 {

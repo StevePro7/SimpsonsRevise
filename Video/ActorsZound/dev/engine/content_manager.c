@@ -13,7 +13,7 @@ void engine_content_manager_load_font()
 {
 	// Font tiles.
 	devkit_SMS_loadPSGaidencompressedTiles( font__tiles__psgcompr, FONT_TILES_OFFSET );
-	//devkit_SMS_loadBGPalette( ( void * ) font__palette__bin );		// TODO - comment out when loading title or actor
+	devkit_SMS_loadBGPalette( ( void * ) font__palette__bin );		// TODO - comment out when loading title or actor
 }
 
 void engine_content_manager_load_sprites()

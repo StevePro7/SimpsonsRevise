@@ -10,8 +10,8 @@ void screen_diff_screen_load()
 {
 	engine_actor_manager_init();
 	devkit_SMS_displayOff();
-	engine_actor_manager_draw( 15 );
-	engine_font_manager_text( "DIFFERENT SCREEN!!", 10, 4 );
+	//engine_actor_manager_draw( 15 );
+	engine_font_manager_text( "SUZANNE SCREEN!!", 10, 4 );
 	engine_content_manager_load_sprite_palette();
 	devkit_SMS_displayOn();
 }

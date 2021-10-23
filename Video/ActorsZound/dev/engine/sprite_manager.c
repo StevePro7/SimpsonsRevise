@@ -3,7 +3,7 @@
 #include "../devkit/_sms_manager.h"
 
 // Private helper method.
-static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned char tile );
+static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned int tile );
 
 // Public methods DRAW.
 void engine_sprite_manager_draw_select( unsigned char x, unsigned char y )
@@ -19,7 +19,7 @@ void engine_sprite_manager_draw_wrong( unsigned char x, unsigned char y )
 	engine_sprite_manager_draw( x, y, SPRITE_TILES + 32 );
 }
 
-static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned char tile )
+static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned int tile )
 {
 	devkit_SMS_addSprite( x + 0, y + 0, tile + 0 );
 	devkit_SMS_addSprite( x + 8, y + 0, tile + 1 );
