@@ -8,6 +8,7 @@
 
 #define FONT_TILES_OFFSET		0
 #define FULL_TILES_OFFSET		64
+#define SPRITE_TILES_OFFSET		64
 
 void engine_content_manager_load_font()
 {
@@ -18,7 +19,11 @@ void engine_content_manager_load_font()
 
 void engine_content_manager_load_sprites()
 {
-	// TODO - load simpsons sprites...!
+	// Sprite tiles.
+	devkit_SMS_loadPSGaidencompressedTiles( select__tiles__psgcompr, SPRITE_TILES_OFFSET );
+	devkit_SMS_loadPSGaidencompressedTiles( right__tiles__psgcompr, SPRITE_TILES_OFFSET + 16 );
+	devkit_SMS_loadPSGaidencompressedTiles( wrong__tiles__psgcompr, SPRITE_TILES_OFFSET + 32 );
+	devkit_SMS_loadSpritePalette( ( void * ) wrong__palette__bin );
 }
 
 void engine_content_manager_load_sprite_palette()

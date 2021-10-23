@@ -7,7 +7,9 @@ cd gfx
 
 :: Tiles
 bmp2tile.exe raw/font.bmp -savetiles "font (tiles).psgcompr" -noremovedupes -planar -tileoffset 0  -savetilemap "font (tilemap).bin" -savepalette "font (palette).bin" -fullpalette -exit
-
+bmp2tile.exe raw/right.bmp -savetiles "right (tiles).psgcompr" -noremovedupes -nomirror -planar -savepalette "right (palette).bin" -spritepalette -exit
+bmp2tile.exe raw/select.png -savetiles "select (tiles).psgcompr" -noremovedupes -nomirror -planar -savepalette "select (palette).bin" -spritepalette -exit
+bmp2tile.exe raw/wrong.bmp -savetiles "wrong (tiles).psgcompr" -noremovedupes -nomirror -planar -savepalette "wrong (palette).bin" -spritepalette -exit
 
 cd ../dev
 
