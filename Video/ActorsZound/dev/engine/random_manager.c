@@ -1,10 +1,9 @@
 #include "random_manager.h"
 #include "enum_manager.h"
+#include "global_manager.h"
 #include "hack_manager.h"
+#include "quiz_manager.h"
 #include <stdlib.h>
-
-unsigned char quiz_questions[ MAX_QUESTIONS ];
-unsigned char quiz_options[ MAX_QUESTIONS ][ MAX_OPTIONS ];
 
 // Private helper methods.
 static void load_random();

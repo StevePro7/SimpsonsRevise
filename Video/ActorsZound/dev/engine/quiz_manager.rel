@@ -1,10 +1,36 @@
 XL2
-H 9 areas 1 global symbols
+H 9 areas 1B global symbols
 M quiz_manager
 O -mz80
 S .__.ABS. Def0000
 A _CODE size 0 flags 0 addr 0
-A _DATA size 0 flags 0 addr 0
+A _DATA size 108 flags 0 addr 0
+S G$question_index$0$0 Def00FE
+S G$option_height$0$0 Def00FA
+S G$question_value$0$0 Def0101
+S G$quiz_options$0$0 Def0032
+S _question_index Def00FE
+S _option_height Def00FA
+S G$question_count$0$0 Def0100
+S _quiz_options Def0032
+S _question_value Def0101
+S G$option1_value$0$0 Def0102
+S G$answer_index$0$0 Def0106
+S G$option2_value$0$0 Def0103
+S G$question_long$0$0 Def00FF
+S G$option3_value$0$0 Def0104
+S G$option4_value$0$0 Def0105
+S G$answer_value$0$0 Def0107
+S _question_count Def0100
+S _option1_value Def0102
+S G$quiz_questions$0$0 Def0000
+S _question_long Def00FF
+S _option2_value Def0103
+S _answer_index Def0106
+S _option3_value Def0104
+S _option4_value Def0105
+S _answer_value Def0107
+S _quiz_questions Def0000
 A _INITIALIZED size 0 flags 0 addr 0
 A _DABS size 0 flags 8 addr 0
 A _HOME size 0 flags 0 addr 0
@@ -12,3 +38,55 @@ A _GSINIT size 0 flags 0 addr 0
 A _GSFINAL size 0 flags 0 addr 0
 A _INITIALIZER size 0 flags 0 addr 0
 A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 32 00
+R 00 00 01 00
+T 32 00
+R 00 00 01 00
+T FA 00
+R 00 00 01 00
+T FA 00
+R 00 00 01 00
+T FE 00
+R 00 00 01 00
+T FE 00
+R 00 00 01 00
+T FF 00
+R 00 00 01 00
+T FF 00
+R 00 00 01 00
+T 00 01
+R 00 00 01 00
+T 00 01
+R 00 00 01 00
+T 01 01
+R 00 00 01 00
+T 01 01
+R 00 00 01 00
+T 02 01
+R 00 00 01 00
+T 02 01
+R 00 00 01 00
+T 03 01
+R 00 00 01 00
+T 03 01
+R 00 00 01 00
+T 04 01
+R 00 00 01 00
+T 04 01
+R 00 00 01 00
+T 05 01
+R 00 00 01 00
+T 05 01
+R 00 00 01 00
+T 06 01
+R 00 00 01 00
+T 06 01
+R 00 00 01 00
+T 07 01
+R 00 00 01 00
+T 07 01
+R 00 00 01 00
