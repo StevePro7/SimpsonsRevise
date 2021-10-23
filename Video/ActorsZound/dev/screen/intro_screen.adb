@@ -1,8 +1,12 @@
 M:intro_screen
+F:G$screen_intro_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_intro_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_intro_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lintro_screen.screen_intro_screen_update$screen_type$1$27({2}DG,SC:U),B,1,4
-S:Lintro_screen.screen_intro_screen_update$input$1$28({1}SC:U),R,0,0,[l]
+S:Lintro_screen.screen_intro_screen_update$screen_type$1$28({2}DG,SC:U),B,1,4
+S:Lintro_screen.screen_intro_screen_update$input$1$29({1}SC:U),R,0,0,[l]
+S:Fintro_screen$screen_intro_screen_delay$0$0({1}SC:U),E,0,0
+S:Fintro_screen$cheat_count$0$0({1}SC:U),E,0,0
+S:Fintro_screen$local_cheat$0$0({1}SC:U),E,0,0
 S:G$engine_audio_manager_start_music$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_finish_music$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_stop_music$0$0({2}DF,SV:S),C,0,0

@@ -1,7 +1,9 @@
 M:title_screen
+F:G$screen_title_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Ltitle_screen.screen_title_screen_update$screen_type$1$44({2}DG,SC:U),B,1,4
+S:Ltitle_screen.screen_title_screen_update$screen_type$1$45({2}DG,SC:U),B,1,4
+S:Ftitle_screen$screen_title_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0

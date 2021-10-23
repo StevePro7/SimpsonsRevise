@@ -1,7 +1,11 @@
 M:splash_screen
+F:G$screen_splash_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_splash_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_splash_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lsplash_screen.screen_splash_screen_update$screen_type$1$24({2}DG,SC:U),B,1,4
+S:Lsplash_screen.screen_splash_screen_update$screen_type$1$25({2}DG,SC:U),B,1,4
+S:G$screen_bases_screen_count$0$0({1}SC:U),E,0,0
+S:G$screen_bases_screen_timer$0$0({2}SI:U),E,0,0
+S:Fsplash_screen$screen_splash_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0

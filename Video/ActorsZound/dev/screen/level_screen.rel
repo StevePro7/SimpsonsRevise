@@ -21,10 +21,11 @@ S A$level_screen$108 Def001B
 S XG$screen_level_screen_update$0$0 Def001B
 S C$level_screen.c$20$1$6 Def0012
 S A$level_screen$60 Def0000
-S C$level_screen.c$30$1$8 Def001B
+S C$level_screen.c$30$1$8 Def0015
 S C$level_screen.c$23$1$6 Def0012
 S C$level_screen.c$14$1$6 Def0000
 S A$level_screen$71 Def0009
+S C$level_screen.c$31$1$8 Def001B
 S G$screen_level_screen_load$0$0 Def0000
 S A$level_screen$72 Def000A
 S C$level_screen.c$25$1$6 Def0015
@@ -39,7 +40,6 @@ S C$level_screen.c$19$1$6 Def000F
 S A$level_screen$67 Def0008
 S A$level_screen$86 Def0012
 S A$level_screen$78 Def000F
-S C$level_screen.c$29$1$8 Def0015
 S A$level_screen$99 Def0015
 S C$level_screen.c$8$0$0 Def0000
 S _screen_level_screen_load Def0000

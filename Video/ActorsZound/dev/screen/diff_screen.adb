@@ -1,7 +1,9 @@
 M:diff_screen
+F:G$screen_diff_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_diff_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_diff_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Ldiff_screen.screen_diff_screen_update$screen_type$1$28({2}DG,SC:U),B,1,4
+S:Ldiff_screen.screen_diff_screen_update$screen_type$1$29({2}DG,SC:U),B,1,4
+S:Fdiff_screen$screen_diff_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0

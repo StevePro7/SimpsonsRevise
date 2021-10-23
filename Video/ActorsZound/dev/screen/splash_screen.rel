@@ -1,6 +1,6 @@
 ;!FILE splash_screen.asm
 XL2
-H 9 areas 1E global symbols
+H 9 areas 28 global symbols
 M splash_screen
 O -mz80
 S _devkit_SMS_displayOn Ref0000
@@ -8,33 +8,43 @@ S _engine_content_manager_splash Ref0000
 S .__.ABS. Def0000
 S _devkit_SMS_displayOff Ref0000
 S _screen_bases_screen_init Ref0000
-A _CODE size 13 flags 0 addr 0
-S C$splash_screen.c$10$1$23 Def0000
-S C$splash_screen.c$11$1$23 Def0003
-S C$splash_screen.c$12$1$23 Def0006
-S C$splash_screen.c$13$1$23 Def0009
-S C$splash_screen.c$14$1$23 Def0009
-S _screen_splash_screen_update Def000C
-S C$splash_screen.c$16$1$23 Def000C
-S C$splash_screen.c$18$1$25 Def000C
-S C$splash_screen.c$19$1$25 Def0012
-S XG$screen_splash_screen_update$0$0 Def0012
-S A$splash_screen$60 Def0000
-S G$screen_splash_screen_load$0$0 Def0000
-S A$splash_screen$90 Def000D
-S A$splash_screen$91 Def000E
-S A$splash_screen$64 Def0003
-S A$splash_screen$92 Def000F
-S A$splash_screen$93 Def0010
-S A$splash_screen$76 Def0009
-S A$splash_screen$68 Def0006
-S A$splash_screen$98 Def0012
-S A$splash_screen$89 Def000C
-S C$splash_screen.c$8$0$0 Def0000
-S _screen_splash_screen_load Def0000
-S XG$screen_splash_screen_load$0$0 Def0009
-S G$screen_splash_screen_update$0$0 Def000C
-A _DATA size 0 flags 0 addr 0
+A _CODE size 19 flags 0 addr 0
+S A$splash_screen$121 Def0018
+S A$splash_screen$112 Def0012
+S C$splash_screen.c$20$1$24 Def000C
+S XG$screen_splash_screen_init$0$0 Def0005
+S A$splash_screen$113 Def0013
+S C$splash_screen.c$21$1$24 Def000F
+S C$splash_screen.c$13$1$23 Def0000
+S A$splash_screen$114 Def0014
+S C$splash_screen.c$22$1$24 Def000F
+S C$splash_screen.c$14$1$23 Def0005
+S A$splash_screen$115 Def0015
+S _screen_splash_screen_update Def0012
+S A$splash_screen$116 Def0016
+S C$splash_screen.c$24$1$24 Def0012
+S C$splash_screen.c$16$1$23 Def0006
+S C$splash_screen.c$18$1$24 Def0006
+S C$splash_screen.c$26$1$26 Def0012
+S C$splash_screen.c$19$1$24 Def0009
+S C$splash_screen.c$27$1$26 Def0018
+S C$splash_screen.c$11$0$0 Def0000
+S XG$screen_splash_screen_update$0$0 Def0018
+S A$splash_screen$70 Def0005
+S G$screen_splash_screen_load$0$0 Def0006
+S A$splash_screen$91 Def000C
+S A$splash_screen$64 Def0000
+S A$splash_screen$83 Def0006
+S A$splash_screen$65 Def0003
+S A$splash_screen$87 Def0009
+S A$splash_screen$99 Def000F
+S _screen_splash_screen_load Def0006
+S G$screen_splash_screen_init$0$0 Def0000
+S XG$screen_splash_screen_load$0$0 Def000F
+S _screen_splash_screen_init Def0000
+S G$screen_splash_screen_update$0$0 Def0012
+A _DATA size 1 flags 0 addr 0
+S Fsplash_screen$screen_splash_screen_delay$0$0 Def0000
 A _INITIALIZED size 0 flags 0 addr 0
 A _DABS size 0 flags 8 addr 0
 A _HOME size 0 flags 0 addr 0
@@ -43,12 +53,20 @@ A _GSFINAL size 0 flags 0 addr 0
 A _INITIALIZER size 0 flags 0 addr 0
 A _CABS size 0 flags 8 addr 0
 T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
 R 00 00 00 00
-T 00 00 CD 00 00 CD 00 00 CD 00 00 C3
+T 00 00 21 00 00 36 96 C9
+R 00 00 00 00 00 03 01 00
+T 06 00
+R 00 00 00 00
+T 06 00 CD 00 00 CD 00 00 CD 00 00 C3
 R 00 00 00 00 02 03 04 00 02 06 03 00 02 09 01 00
-T 0A 00 00 00
+T 10 00 00 00
 R 00 00 00 00 02 02 00 00
-T 0C 00
+T 12 00
 R 00 00 00 00
-T 0C 00 C1 E1 E5 C5 36 0A C9
+T 12 00 C1 E1 E5 C5 36 0A C9
 R 00 00 00 00
