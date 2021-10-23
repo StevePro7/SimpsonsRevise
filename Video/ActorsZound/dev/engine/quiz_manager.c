@@ -36,23 +36,23 @@ void engine_quiz_manager_base()
 	//}
 }
 
-void engine_quiz_manager_base2()
-{
-	//engine_quiz_manager_diff( 26, TITLE_Y - 1 );
-}
-
-void engine_quiz_manager_base3( unsigned char y )
-{
-	//engine_quiz_manager_diff( 24, y );
-}
+//void engine_quiz_manager_base2()
+//{
+//	//engine_quiz_manager_diff( 26, TITLE_Y - 1 );
+//}
+//
+//void engine_quiz_manager_base3( unsigned char y )
+//{
+//	//engine_quiz_manager_diff( 24, y );
+//}
 
 void engine_quiz_manager_bank( unsigned char b )
 {
 	devkit_SMS_mapROMBank( b );
 }
 
-void engine_quiz_manager_answer( unsigned char q )
-{
+//void engine_quiz_manager_answer( unsigned char q )
+//{
 	//if( DIFF_TYPE_EASY == diff_select )
 	//{
 	//	answer_value = bank2_soln[ q ];
@@ -72,10 +72,10 @@ void engine_quiz_manager_answer( unsigned char q )
 
 	//answer_value -= 1;		// Zero based index
 	//answer_index = quiz_options[ q ][ answer_value ];
-}
+//}
 
-void engine_quiz_manager_cheat( unsigned char ans )
-{
+//void engine_quiz_manager_cheat( unsigned char ans )
+//{
 	//unsigned char idx, cheat_Y;
 
 	//for( idx = 0; idx < MAX_OPTIONS; idx++ )
@@ -89,9 +89,9 @@ void engine_quiz_manager_cheat( unsigned char ans )
 	//	cheat_Y = option_height[ ans ];
 	//	engine_font_manager_draw_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
 	//}
-}
-void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
-{
+//}
+//void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
+//{
 	//unsigned char cheat_Y;
 	//if( local_cheat )
 	//{
@@ -105,10 +105,10 @@ void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
 	//		engine_font_manager_draw_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
 	//	}
 	//}
-}
+//}
 
-void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char opt1, unsigned char opt2, unsigned char opt3, unsigned char opt4 )
-{
+//void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char opt1, unsigned char opt2, unsigned char opt3, unsigned char opt4 )
+//{
 	//unsigned char opt1_Y, opt2_Y, opt3_Y, opt4_Y;
 	//unsigned char bank;
 
@@ -231,7 +231,7 @@ void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char
 	//	engine_font_manager_draw_text( bank5_opt4_line2[ qv ], OPTN_X, opt4_Y + 1 );
 	//	engine_font_manager_draw_text( bank5_opt4_line3[ qv ], OPTN_X, opt4_Y + 2 );
 	//}
-}
+//}
 
 static void show_diff( unsigned char x, unsigned char y )
 {

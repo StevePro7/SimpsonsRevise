@@ -1,104 +1,182 @@
 ;!FILE select_manager.asm
 XL2
-H 9 areas 71 global symbols
+H 9 areas BF global symbols
 M select_manager
 O -mz80
 S _engine_font_manager_text Ref0000
+S _engine_sprite_manager_draw_right Ref0000
+S _engine_sprite_manager_draw_wrong Ref0000
 S .__.ABS. Def0000
-A _CODE size 8D flags 0 addr 0
-S G$engine_select_manager_clear$0$0 Def0011
-S G$engine_select_manager_load_quiz$0$0 Def0000
-S _engine_select_manager_clear Def0011
-S _engine_select_manager_load_quiz Def0000
-S A$select_manager$130 Def0016
-S A$select_manager$103 Def000A
-S A$select_manager$203 Def0059
-S A$select_manager$131 Def0017
-S A$select_manager$122 Def0011
-S A$select_manager$104 Def000D
-S A$select_manager$204 Def005C
-S A$select_manager$132 Def0018
-S A$select_manager$214 Def0066
-S A$select_manager$205 Def005D
-S A$select_manager$160 Def0031
-S A$select_manager$142 Def0023
-S A$select_manager$133 Def0019
-S C$select_manager.c$36$2$10 Def0053
-S A$select_manager$206 Def0060
-S A$select_manager$170 Def003C
-S A$select_manager$161 Def0034
-S A$select_manager$143 Def0024
-S A$select_manager$134 Def001C
-S A$select_manager$207 Def0061
-S A$select_manager$171 Def003D
-S A$select_manager$162 Def0035
-S A$select_manager$144 Def0025
-S A$select_manager$135 Def001D
-S C$select_manager.c$36$3$11 Def0041
-S A$select_manager$208 Def0064
-S A$select_manager$190 Def0050
-S A$select_manager$181 Def0043
-S A$select_manager$172 Def003F
-S A$select_manager$163 Def0038
-S A$select_manager$154 Def002B
-S A$select_manager$145 Def0027
-S A$select_manager$136 Def0020
-S A$select_manager$127 Def0013
-S A$select_manager$109 Def0010
-S A$select_manager$209 Def0065
-S A$select_manager$191 Def0051
-S A$select_manager$182 Def0044
-S A$select_manager$164 Def0039
-S A$select_manager$155 Def002C
-S A$select_manager$137 Def0021
-S A$select_manager$128 Def0014
-S C$select_manager.c$38$3$11 Def0043
-S A$select_manager$192 Def0052
-S A$select_manager$183 Def0045
-S A$select_manager$165 Def003A
-S A$select_manager$156 Def002D
-S A$select_manager$138 Def0022
-S A$select_manager$129 Def0015
-S A$select_manager$184 Def0046
-S A$select_manager$157 Def002E
-S XG$engine_select_manager_clear$0$0 Def0066
-S A$select_manager$185 Def0047
-S A$select_manager$176 Def0041
-S A$select_manager$158 Def002F
-S A$select_manager$149 Def0029
-S XG$engine_select_manager_load_quiz$0$0 Def0010
-S A$select_manager$186 Def0048
-S A$select_manager$159 Def0030
-S A$select_manager$196 Def0053
-S A$select_manager$187 Def0049
-S A$select_manager$169 Def003B
-S A$select_manager$197 Def0054
-S A$select_manager$188 Def004C
-S A$select_manager$198 Def0055
-S A$select_manager$189 Def004D
-S C$select_manager.c$20$1$4 Def0000
-S A$select_manager$199 Def0057
-S C$select_manager.c$21$1$4 Def0005
-S C$select_manager.c$22$1$4 Def000A
-S C$select_manager.c$18$0$0 Def0000
-S C$select_manager.c$40$1$5 Def0059
-S C$select_manager.c$23$1$4 Def0010
-S C$select_manager.c$41$1$5 Def0066
-S C$select_manager.c$25$1$4 Def0011
-S C$select_manager.c$30$3$7 Def0013
-S C$select_manager.c$32$2$8 Def003B
-S A$select_manager$93 Def0000
-S C$select_manager.c$32$3$9 Def0029
-S A$select_manager$94 Def0003
-S C$select_manager.c$28$2$6 Def0023
-S C$select_manager.c$34$3$9 Def002B
-S Fselect_manager$__str_0$0$0 Def0067
-S C$select_manager.c$28$3$7 Def0011
-S Fselect_manager$__str_1$0$0 Def0074
-S A$select_manager$98 Def0005
-S Fselect_manager$__str_2$0$0 Def0080
-S A$select_manager$99 Def0008
-S Fselect_manager$__str_3$0$0 Def0089
+S _engine_sprite_manager_draw_select Ref0000
+A _CODE size BC flags 0 addr 0
+S _engine_select_manager_init Def0000
+S XG$engine_select_manager_draw_right$0$0 Def00AC
+S _engine_select_manager_clear2 Def007E
+S _engine_select_manager_draw_wrong Def00AD
+S XG$engine_select_manager_load_long$0$0 Def0080
+S G$engine_select_manager_clear$0$0 Def0002
+S G$engine_select_manager_load_quiz$0$0 Def0081
+S XG$engine_select_manager_init$0$0 Def0000
+S G$engine_select_manager_draw_select$0$0 Def0092
+S XG$engine_select_manager_clear2$0$0 Def007E
+S XG$engine_select_manager_draw_wrong$0$0 Def00BB
+S _engine_select_manager_clear Def0002
+S A$select_manager$200 Def0037
+S _engine_select_manager_load_quiz Def0081
+S A$select_manager$201 Def0038
+S A$select_manager$310 Def0081
+S A$select_manager$220 Def004D
+S A$select_manager$202 Def0039
+S C$select_manager.c$31$2$12 Def002C
+S A$select_manager$401 Def00BB
+S A$select_manager$320 Def008B
+S A$select_manager$311 Def0084
+S A$select_manager$230 Def0057
+S A$select_manager$221 Def004E
+S A$select_manager$212 Def0044
+S A$select_manager$203 Def003A
+S A$select_manager$321 Def008E
+S A$select_manager$222 Def0051
+S A$select_manager$213 Def0045
+S A$select_manager$204 Def003D
+S A$select_manager$150 Def000D
+S C$select_manager.c$70$1$21 Def00AD
+S G$engine_select_manager_load_diff$0$0 Def007F
+S C$select_manager.c$31$3$13 Def001A
+S A$select_manager$340 Def0095
+S A$select_manager$223 Def0052
+S A$select_manager$214 Def0046
+S A$select_manager$205 Def003E
+S A$select_manager$160 Def0016
+S A$select_manager$151 Def000E
+S C$select_manager.c$27$2$10 Def0014
+S _engine_select_manager_draw_select Def0092
+S A$select_manager$341 Def0096
+S A$select_manager$224 Def0055
+S A$select_manager$215 Def0048
+S A$select_manager$206 Def0041
+S A$select_manager$170 Def001C
+S A$select_manager$161 Def0018
+S A$select_manager$152 Def0011
+S A$select_manager$143 Def0004
+S A$select_manager$125 Def0001
+S C$select_manager.c$64$1$20 Def0092
+S C$select_manager.c$33$3$13 Def001C
+S A$select_manager$342 Def0098
+S A$select_manager$315 Def0086
+S A$select_manager$225 Def0056
+S A$select_manager$207 Def0042
+S A$select_manager$180 Def002A
+S A$select_manager$171 Def001D
+S A$select_manager$153 Def0012
+S A$select_manager$144 Def0005
+S A$select_manager$108 Def0000
+S C$select_manager.c$72$1$22 Def00AD
+S C$select_manager.c$65$1$20 Def009D
+S C$select_manager.c$27$3$11 Def0002
+S G$engine_select_manager_base$0$0 Def0001
+S A$select_manager$370 Def00AB
+S A$select_manager$343 Def0099
+S A$select_manager$316 Def0089
+S A$select_manager$280 Def007F
+S A$select_manager$208 Def0043
+S A$select_manager$181 Def002B
+S A$select_manager$172 Def001E
+S A$select_manager$154 Def0013
+S A$select_manager$145 Def0006
+S C$select_manager.c$73$1$22 Def00BB
+S C$select_manager.c$66$1$20 Def009E
+S C$select_manager.c$35$2$14 Def0044
+S A$select_manager$362 Def009E
+S A$select_manager$344 Def009C
+S A$select_manager$326 Def0091
+S A$select_manager$263 Def007E
+S A$select_manager$173 Def001F
+S A$select_manager$146 Def0007
+S C$select_manager.c$29$3$11 Def0004
+S A$select_manager$390 Def00B2
+S A$select_manager$363 Def00A1
+S A$select_manager$219 Def004A
+S A$select_manager$192 Def0032
+S A$select_manager$174 Def0020
+S A$select_manager$165 Def001A
+S A$select_manager$147 Def0008
+S A$select_manager$138 Def0002
+S C$select_manager.c$35$3$15 Def0032
+S A$select_manager$391 Def00B3
+S A$select_manager$364 Def00A3
+S A$select_manager$175 Def0021
+S A$select_manager$148 Def0009
+S C$select_manager.c$68$1$21 Def009E
+S C$select_manager.c$52$1$19 Def0081
+S XG$engine_select_manager_clear$0$0 Def0057
+S C$select_manager.c$20$0$0 Def0000
+S A$select_manager$392 Def00B4
+S A$select_manager$365 Def00A4
+S A$select_manager$185 Def002C
+S A$select_manager$176 Def0022
+S A$select_manager$158 Def0014
+S A$select_manager$149 Def000A
+S C$select_manager.c$69$1$21 Def00AC
+S C$select_manager.c$62$1$19 Def0092
+S XG$engine_select_manager_load_quiz$0$0 Def0091
+S C$select_manager.c$53$1$19 Def0086
+S C$select_manager.c$37$3$15 Def0034
+S C$select_manager.c$21$0$0 Def0001
+S A$select_manager$393 Def00B5
+S A$select_manager$375 Def00AC
+S A$select_manager$366 Def00A5
+S A$select_manager$339 Def0092
+S A$select_manager$186 Def002D
+S A$select_manager$177 Def0025
+S A$select_manager$159 Def0015
+S C$select_manager.c$54$1$19 Def008B
+S C$select_manager.c$22$0$0 Def0001
+S A$select_manager$394 Def00B6
+S A$select_manager$367 Def00A6
+S A$select_manager$349 Def009D
+S A$select_manager$187 Def002E
+S A$select_manager$178 Def0026
+S C$select_manager.c$55$1$19 Def0091
+S A$select_manager$395 Def00B7
+S A$select_manager$368 Def00A7
+S A$select_manager$197 Def0034
+S A$select_manager$188 Def0030
+S A$select_manager$179 Def0029
+S C$select_manager.c$24$0$0 Def0002
+S A$select_manager$396 Def00BA
+S A$select_manager$369 Def00A8
+S A$select_manager$297 Def0080
+S A$select_manager$198 Def0035
+S _engine_select_manager_load_diff Def007F
+S A$select_manager$388 Def00AD
+S A$select_manager$199 Def0036
+S XG$engine_select_manager_draw_select$0$0 Def009D
+S A$select_manager$389 Def00B0
+S C$select_manager.c$19$0$0 Def0000
+S _engine_select_manager_base Def0001
+S G$engine_select_manager_draw_right$0$0 Def009E
+S C$select_manager.c$40$1$9 Def0057
+S C$select_manager.c$50$1$9 Def0081
+S C$select_manager.c$42$1$9 Def007E
+S C$select_manager.c$43$1$9 Def007E
+S G$engine_select_manager_load_long$0$0 Def0080
+S C$select_manager.c$44$1$9 Def007F
+S XG$engine_select_manager_load_diff$0$0 Def007F
+S C$select_manager.c$45$1$9 Def007F
+S C$select_manager.c$46$1$9 Def0080
+S Fselect_manager$__str_0$0$0 Def0058
+S Fselect_manager$__str_1$0$0 Def0065
+S C$select_manager.c$48$1$9 Def0080
+S Fselect_manager$__str_2$0$0 Def0071
+S C$select_manager.c$39$1$9 Def004A
+S XG$engine_select_manager_base$0$0 Def0001
+S Fselect_manager$__str_3$0$0 Def007A
+S G$engine_select_manager_init$0$0 Def0000
+S _engine_select_manager_draw_right Def009E
+S G$engine_select_manager_clear2$0$0 Def007E
+S G$engine_select_manager_draw_wrong$0$0 Def00AD
+S _engine_select_manager_load_long Def0080
 A _DATA size 31 flags 0 addr 0
 S G$select_diff_option$0$0 Def0019
 S _quiz_select Def0002
@@ -163,47 +241,83 @@ T 19 00
 R 00 00 01 00
 T 00 00
 R 00 00 00 00
-T 00 00 21 02 00 36 00 21 03 00 36 00 3A 05 00 32
-R 00 00 00 00 00 03 01 00 00 08 01 00 00 0D 01 00
-T 0E 00 04 00 C9
-R 00 00 00 00 00 02 01 00
-T 11 00
+T 00 00 C9
 R 00 00 00 00
-T 11 00 06 05
+T 01 00
 R 00 00 00 00
-T 13 00
+T 01 00 C9
 R 00 00 00 00
-T 13 00 C5 C5 33 AF F5 33 21 67 00 E5 CD 00 00 F1
+T 02 00
+R 00 00 00 00
+T 02 00 06 05
+R 00 00 00 00
+T 04 00
+R 00 00 00 00
+T 04 00 C5 C5 33 AF F5 33 21 58 00 E5 CD 00 00 F1
 R 00 00 00 00 00 09 00 00 02 0D 00 00
-T 21 00 F1 C1 04 78 D6 07 38 EA 06 07
+T 12 00 F1 C1 04 78 D6 07 38 EA 06 07
 R 00 00 00 00
-T 2B 00
+T 1C 00
 R 00 00 00 00
-T 2B 00 C5 C5 33 AF F5 33 21 74 00 E5 CD 00 00 F1
+T 1C 00 C5 C5 33 AF F5 33 21 65 00 E5 CD 00 00 F1
 R 00 00 00 00 00 09 00 00 02 0D 00 00
-T 39 00 F1 C1 04 78 D6 0C 38 EA 06 0C
+T 2A 00 F1 C1 04 78 D6 0C 38 EA 06 0C
 R 00 00 00 00
-T 43 00
+T 34 00
 R 00 00 00 00
-T 43 00 C5 C5 33 AF F5 33 21 80 00 E5 CD 00 00 F1
+T 34 00 C5 C5 33 AF F5 33 21 71 00 E5 CD 00 00 F1
 R 00 00 00 00 00 09 00 00 02 0D 00 00
-T 51 00 F1 C1 04 78 D6 18 38 EA 21 07 12 E5 21
+T 42 00 F1 C1 04 78 D6 18 38 EA 21 07 12 E5 21
 R 00 00 00 00
-T 5E 00 89 00 E5 CD 00 00 F1 F1 C9
+T 4F 00 7A 00 E5 CD 00 00 F1 F1 C9
 R 00 00 00 00 00 02 00 00 02 06 00 00
-T 67 00
+T 58 00
 R 00 00 00 00
-T 67 00 20 20 20 20 20 20 20 20 20 20 20 20 00
+T 58 00 20 20 20 20 20 20 20 20 20 20 20 20 00
 R 00 00 00 00
-T 74 00
+T 65 00
 R 00 00 00 00
-T 74 00 20 20 20 20 20 20 20 20 20 20 20 00
+T 65 00 20 20 20 20 20 20 20 20 20 20 20 00
+R 00 00 00 00
+T 71 00
+R 00 00 00 00
+T 71 00 20 20 20 20 20 20 20 20 00
+R 00 00 00 00
+T 7A 00
+R 00 00 00 00
+T 7A 00 20 20 20 00
+R 00 00 00 00
+T 7E 00
+R 00 00 00 00
+T 7E 00 C9
+R 00 00 00 00
+T 7F 00
+R 00 00 00 00
+T 7F 00 C9
 R 00 00 00 00
 T 80 00
 R 00 00 00 00
-T 80 00 20 20 20 20 20 20 20 20 00
+T 80 00 C9
 R 00 00 00 00
-T 89 00
+T 81 00
 R 00 00 00 00
-T 89 00 20 20 20 00
+T 81 00 21 02 00 36 00 21 03 00 36 00 3A 05 00 32
+R 00 00 00 00 00 03 01 00 00 08 01 00 00 0D 01 00
+T 8F 00 04 00 C9
+R 00 00 00 00 00 02 01 00
+T 92 00
+R 00 00 00 00
+T 92 00 3A 04 00 57 1E 04 D5 CD 00 00 F1 C9
+R 00 00 00 00 00 03 01 00 02 0A 04 00
+T 9E 00
+R 00 00 00 00
+T 9E 00 3A 04 00 C6 04 F5 33 AF F5 33 CD 00 00 F1
+R 00 00 00 00 00 03 01 00 02 0D 01 00
+T AC 00 C9
+R 00 00 00 00
+T AD 00
+R 00 00 00 00
+T AD 00 3A 04 00 C6 04 F5 33 AF F5 33 CD 00 00 F1
+R 00 00 00 00 00 03 01 00 02 0D 02 00
+T BB 00 C9
 R 00 00 00 00
