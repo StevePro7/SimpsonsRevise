@@ -5,7 +5,6 @@
 #include "../banks/bank7.h"
 #include "../banks/bank8.h"
 #include "../banks/bank9.h"
-//#include "../gfx.h"			TODO??
 
 #define ACTOR_TILES_OFFSET 64
 #define ACTOR_TILES_TOTALS 4
