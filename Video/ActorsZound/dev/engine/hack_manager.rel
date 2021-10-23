@@ -5,14 +5,13 @@ M hack_manager
 O -mz80
 S .__.ABS. Def0000
 A _CODE size 44 flags 0 addr 0
-S C$hack_manager.c$26$1$2 Def0025
-S C$hack_manager.c$18$1$1 Def000C
-S C$hack_manager.c$19$1$1 Def0012
+S C$hack_manager.c$36$1$1 Def001E
+S C$hack_manager.c$45$1$2 Def0034
 S A$hack_manager$80 Def0000
-S C$hack_manager.c$28$1$2 Def0034
+S C$hack_manager.c$46$1$2 Def0043
 S A$hack_manager$90 Def000C
 S A$hack_manager$81 Def0003
-S C$hack_manager.c$29$1$2 Def0043
+S C$hack_manager.c$39$1$1 Def0024
 S A$hack_manager$91 Def000F
 S A$hack_manager$85 Def0006
 S A$hack_manager$95 Def0012
@@ -41,14 +40,15 @@ S A$hack_manager$137 Def003F
 S A$hack_manager$128 Def0030
 S A$hack_manager$138 Def0040
 S A$hack_manager$129 Def0031
-S C$hack_manager.c$20$1$1 Def0018
-S C$hack_manager.c$13$0$0 Def0000
-S C$hack_manager.c$21$1$1 Def001E
-S C$hack_manager.c$22$1$1 Def0024
+S C$hack_manager.c$30$1$1 Def0000
+S C$hack_manager.c$41$1$1 Def0025
+S C$hack_manager.c$32$1$1 Def0006
 S _engine_hack_manager_invert Def0025
-S C$hack_manager.c$24$1$1 Def0025
-S C$hack_manager.c$15$1$1 Def0000
-S C$hack_manager.c$17$1$1 Def0006
+S C$hack_manager.c$33$1$1 Def000C
+S C$hack_manager.c$34$1$1 Def0012
+S C$hack_manager.c$43$1$2 Def0025
+S C$hack_manager.c$35$1$1 Def0018
+S C$hack_manager.c$19$0$0 Def0000
 A _DATA size 6 flags 0 addr 0
 S G$hacker_music$0$0 Def0003
 S G$hacker_extra$0$0 Def0005

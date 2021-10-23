@@ -41,6 +41,6 @@ void engine_hack_manager_init()
 void engine_hack_manager_invert()
 {
 	hacker_music = !hacker_music;
-	//hacker_sound = !hacker_sound;
+	hacker_sound = !hacker_sound;
 	hacker_extra = !hacker_extra;
 }

@@ -4,7 +4,15 @@ F:G$engine_sound_manager_play$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lsound_manager.engine_sound_manager_play$index$1$23({1}SC:U),B,1,4
 S:Lsound_manager.engine_sound_manager_play$data$1$24({2}DG,SC:U),R,0,0,[c,b]
 S:Lsound_manager.engine_sound_manager_play$bank$1$24({1}SC:U),R,0,0,[d]
+S:G$hacker_debug$0$0({1}SC:U),E,0,0
+S:G$hacker_cheat$0$0({1}SC:U),E,0,0
+S:G$hacker_random$0$0({1}SC:U),E,0,0
+S:G$hacker_music$0$0({1}SC:U),E,0,0
+S:G$hacker_sound$0$0({1}SC:U),E,0,0
+S:G$hacker_extra$0$0({1}SC:U),E,0,0
 S:G$sound_sample_data$0$0({0}DA0d,DG,SC:U),E,0,0
+S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_sample_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_sample_manager_play$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
