@@ -45,7 +45,7 @@ typedef enum tag_enum_difficulty_type
 
 } enum_difficulty_type;
 
-enum tag_enum_select_answer_type
+typedef enum tag_enum_select_answer_type
 {
 	rand_type_random,	// 0
 	rand_type_normal,	// 1
