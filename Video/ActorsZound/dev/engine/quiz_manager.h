@@ -1,4 +1,4 @@
-#ifndef _QUIZ_OBJECT_H_
-#define _QUIZ_OBJECT_H_
+#ifndef _QUIZ_MANAGER_H_
+#define _QUIZ_MANAGER_H_
 
-#endif//_QUIZ_OBJECT_H_
+#endif//_QUIZ_MANAGER_H_

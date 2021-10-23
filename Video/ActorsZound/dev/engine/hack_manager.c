@@ -43,4 +43,10 @@ void engine_hack_manager_invert()
 	hacker_music = !hacker_music;
 	hacker_sound = !hacker_sound;
 	hacker_extra = !hacker_extra;
+
+	// TODO - remove after development complete!
+	hacker_music = 0;
+	hacker_sound = 0;
+	//hacker_extra = !hacker_extra;
+
 }

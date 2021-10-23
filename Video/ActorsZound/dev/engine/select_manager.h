@@ -1,4 +1,4 @@
-#ifndef _SELECT_OBJECT_H_
-#define _SELECT_OBJECT_H_
+#ifndef _SELECT_MANAGER_H_
+#define _SELECT_MANAGER_H_
 
-#endif//_SELECT_OBJECT_H_
+#endif//_SELECT_MANAGER_H_

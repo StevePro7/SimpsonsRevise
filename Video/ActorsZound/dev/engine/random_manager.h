@@ -1,4 +1,4 @@
-#ifndef _RANDOM_OBJECT_H_
-#define _RANDOM_OBJECT_H_
+#ifndef _RANDOM_MANAGER_H_
+#define _RANDOM_MANAGER_H_
 
-#endif//_RANDOM_OBJECT_H_
+#endif//_RANDOM_MANAGER_H_

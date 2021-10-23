@@ -3,7 +3,7 @@
 void main(void)
 {
 	// Global variables.
-	//static bool global_pause;
+	//static bool global_pause;		// TODO implement pause
 	unsigned char open_screen_type;
 
 	engine_asm_manager_clear_VRAM();
@@ -25,9 +25,8 @@ void main(void)
 	//open_screen_type = screen_type_splash;
 	//open_screen_type = screen_type_func;
 	//open_screen_type = screen_type_diff;
-	open_screen_type = screen_type_intro;
+	open_screen_type = screen_type_play;
 	//open_screen_type = screen_type_title;
-	open_screen_type = screen_type_test;
 
 	engine_screen_manager_init( open_screen_type );
 	devkit_SMS_displayOn();
