@@ -183,7 +183,6 @@
     <ClCompile Include="gfx.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="object\sound_object.c" />
-    <ClCompile Include="object\timer_object.c" />
     <ClCompile Include="psg.c" />
     <ClCompile Include="screen\diff_screen.c" />
     <ClCompile Include="screen\func_screen.c" />
@@ -244,7 +243,6 @@
     <ClInclude Include="gfx.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="object\sound_object.h" />
-    <ClInclude Include="object\timer_object.h" />
     <ClInclude Include="psg.h" />
     <ClInclude Include="screen\diff_screen.h" />
     <ClInclude Include="screen\func_screen.h" />

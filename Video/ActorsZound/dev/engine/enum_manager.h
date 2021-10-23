@@ -21,4 +21,36 @@ typedef enum tag_enum_screen_type
 
 } enum_screen_type;
 
+typedef enum tag_enum_answer_type
+{
+	answer_type_none,	// 0
+	answer_type_right,	// 1
+	answer_type_wrong,	// 2
+
+} enum_answer_type;
+
+typedef enum tag_enum_select_type
+{
+	select_type_before,	// 0
+	select_type_after,	// 1
+
+} enum_select_type;
+
+typedef enum tag_enum_difficulty_type
+{
+	diff_type_easy,	// 0
+	diff_type_norm,	// 1
+	diff_type_hard,	// 2
+	diff_type_argh,	// 3
+
+} enum_difficulty_type;
+
+enum tag_enum_select_answer_type
+{
+	rand_type_random,	// 0
+	rand_type_normal,	// 1
+	rand_type_mixed,	// 2
+
+} enum_select_answer_type;
+
 #endif//_ENUM_MANAGER_H_

@@ -1,5 +1,7 @@
 #include "timer_manager.h"
-#include "../object/timer_object.h"
+
+unsigned char screen_bases_screen_count;
+unsigned int screen_bases_screen_timer;
 
 void screen_bases_screen_init()
 {

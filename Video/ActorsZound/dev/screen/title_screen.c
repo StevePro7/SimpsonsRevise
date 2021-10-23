@@ -4,6 +4,7 @@
 #include "../engine/font_manager.h"
 #include "../engine/locale_manager.h"
 #include "../devkit/_sms_manager.h"
+#include <stdlib.h>
 
 void screen_title_screen_load()
 {
@@ -11,10 +12,10 @@ void screen_title_screen_load()
 	engine_content_manager_title();
 	engine_font_manager_text( LOCALE_VERSION, 25, 23 );
 	devkit_SMS_displayOn();
-
 }
 
 void screen_title_screen_update( unsigned char *screen_type )
 {
+	rand();
 	*screen_type = screen_type_title;
 }
