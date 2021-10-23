@@ -11,12 +11,12 @@ void main(void)
 	devkit_SMS_displayOff();
 
 	devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
-	devkit_SMS_useFirstHalfTilesforSprites_False();
+	devkit_SMS_useFirstHalfTilesforSprites_True();
 	devkit_SMS_VDPturnOnFeature( devkit_VDPFEATURE_HIDEFIRSTCOL() );
 
 	engine_content_manager_load_font();
 	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette();
+	//engine_content_manager_load_sprite_palette();
 	engine_sound_manager_init();
 
 	open_screen_type = screen_type_splash;
