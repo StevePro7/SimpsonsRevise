@@ -22,14 +22,14 @@ S:Lfont_manager.engine_font_manager_data$tile$1$29({1}SC:S),R,0,0,[c]
 S:Lfont_manager.engine_font_manager_data$quotient$1$29({2}SI:U),R,0,0,[e,d]
 S:Lfont_manager.engine_font_manager_data$remainder$1$29({1}SC:U),R,0,0,[b]
 S:Lfont_manager.engine_font_manager_data$sloc0$1$0({1}SC:U),B,1,-1
-F:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),Z,0,5,0,0,0
+F:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),Z,0,3,0,0,0
 S:Lfont_manager.engine_font_manager_data_ZERO$data$1$33({2}SI:U),B,1,4
 S:Lfont_manager.engine_font_manager_data_ZERO$x$1$33({1}SC:U),B,1,6
 S:Lfont_manager.engine_font_manager_data_ZERO$y$1$33({1}SC:U),B,1,7
 S:Lfont_manager.engine_font_manager_data_ZERO$pnt$1$34({2}DG,SC:U),R,0,0,[]
 S:Lfont_manager.engine_font_manager_data_ZERO$idx$1$34({1}SC:U),R,0,0,[b]
 S:Lfont_manager.engine_font_manager_data_ZERO$tile$1$34({1}SC:S),R,0,0,[e]
-S:Lfont_manager.engine_font_manager_data_ZERO$hold$1$34({5}DA5d,SC:U),B,1,-7
+S:Lfont_manager.engine_font_manager_data_ZERO$hold$1$34({3}DA3d,SC:U),B,1,-5
 S:Lfont_manager.engine_font_manager_data_ZERO$sloc0$1$0({2}DD,SC:U),B,1,-2
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
