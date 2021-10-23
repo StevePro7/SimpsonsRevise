@@ -4,8 +4,8 @@ H 9 areas 46 global symbols
 M test_screen
 O -mz80
 S _engine_font_manager_text Ref0000
+S _engine_audio_manager_wrong Ref0000
 S .__.ABS. Def0000
-S _engine_audio_manager_cheat Ref0000
 S _engine_input_manager_hold_up Ref0000
 S _engine_input_manager_hold_down Ref0000
 S _engine_audio_manager_right Ref0000
@@ -17,9 +17,9 @@ S A$test_screen$107 Def0030
 S C$test_screen.c$27$3$10 Def003E
 S A$test_screen$144 Def004F
 S A$test_screen$108 Def0031
+S C$test_screen.c$28$3$10 Def004B
 S A$test_screen$145 Def0050
 S A$test_screen$118 Def0037
-S C$test_screen.c$29$3$10 Def004B
 S A$test_screen$146 Def0051
 S A$test_screen$128 Def003E
 S A$test_screen$147 Def0052
@@ -107,7 +107,7 @@ R 00 00 00 00
 T 37 00 CD 00 00 7D B7 28 10 21 0A 06 E5 21 60 00
 R 00 00 00 00 02 03 03 00 00 0E 00 00
 T 45 00 E5 CD 00 00 F1 F1 CD 00 00
-R 00 00 00 00 02 04 00 00 02 09 02 00
+R 00 00 00 00 02 04 00 00 02 09 01 00
 T 4E 00
 R 00 00 00 00
 T 4E 00 C1 E1 E5 C5 36 02 C9

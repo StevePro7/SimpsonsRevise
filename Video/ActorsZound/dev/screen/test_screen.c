@@ -25,8 +25,8 @@ void screen_test_screen_update( unsigned char *screen_type )
 		if( input )
 		{
 			engine_font_manager_text( "PRESS -UP-", 10, 6 );
-			//engine_audio_manager_wrong();
-			engine_audio_manager_cheat();
+			engine_audio_manager_wrong();
+			//engine_audio_manager_cheat();
 		}
 
 	}

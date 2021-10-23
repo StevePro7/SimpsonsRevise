@@ -2775,7 +2775,7 @@ _CODE                               00000200    00001A9C =        6812. bytes (R
      00001250  A$test_screen$133                  test_screen
      00001251  A$test_screen$134                  test_screen
      00001252  A$test_screen$138                  test_screen
-     00001252  C$test_screen.c$29$3$10            test_screen
+     00001252  C$test_screen.c$28$3$10            test_screen
      00001255  A$test_screen$143                  test_screen
      00001255  C$test_screen.c$34$1$7             test_screen
      00001256  A$test_screen$144                  test_screen
