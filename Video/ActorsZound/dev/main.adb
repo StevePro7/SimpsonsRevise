@@ -82,7 +82,7 @@ S:G$devkit_SFX_CHANNELS2AND3$0$0({2}DF,SC:U),C,0,0
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_asm_manager_clear_VRAM$0$0({2}DF,SV:S),C,0,0
-S:G$engine_content_manager_load_font_tiles$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
 S:G$engine_input_manager_update$0$0({2}DF,SV:S),C,0,0
 S:G$engine_input_manager_hold_up$0$0({2}DF,SC:U),C,0,0

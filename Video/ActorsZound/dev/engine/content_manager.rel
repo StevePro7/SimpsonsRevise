@@ -5,13 +5,13 @@ M content_manager
 O -mz80
 S _devkit_SMS_loadBGPalette Ref0000
 S _devkit_SMS_loadPSGaidencompressedTiles Ref0000
-S _font_tiles__tiles__psgcompr Ref0000
+S _font__tiles__psgcompr Ref0000
 S .__.ABS. Def0000
 S _devkit_SMS_setSpritePaletteColor Ref0000
-S _font_tiles__palette__bin Ref0000
+S _font__palette__bin Ref0000
 A _CODE size 24 flags 0 addr 0
 S G$engine_content_manager_load_sprites$0$0 Def0016
-S XG$engine_content_manager_load_font_tiles$0$0 Def0015
+S XG$engine_content_manager_load_font$0$0 Def0015
 S A$content_manager$110 Def001B
 S A$content_manager$111 Def001D
 S _engine_content_manager_load_sprites Def0016
@@ -46,9 +46,9 @@ S A$content_manager$66 Def000C
 S A$content_manager$95 Def0016
 S _engine_content_manager_load_sprite_palette Def0017
 S A$content_manager$78 Def0015
-S G$engine_content_manager_load_font_tiles$0$0 Def0000
+S G$engine_content_manager_load_font$0$0 Def0000
 S XG$engine_content_manager_load_sprite_palette$0$0 Def0023
-S _engine_content_manager_load_font_tiles Def0000
+S _engine_content_manager_load_font Def0000
 A _DATA size 0 flags 0 addr 0
 A _INITIALIZED size 0 flags 0 addr 0
 A _DABS size 0 flags 8 addr 0

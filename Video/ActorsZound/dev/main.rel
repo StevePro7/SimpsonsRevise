@@ -23,7 +23,7 @@ S _engine_asm_manager_clear_VRAM Ref0000
 S _engine_content_manager_load_sprite_palette Ref0000
 S _devkit_SMS_waitForVBlank Ref0000
 S _devkit_SMS_initSprites Ref0000
-S _engine_content_manager_load_font_tiles Ref0000
+S _engine_content_manager_load_font Ref0000
 A _CODE size 49 flags 0 addr 0
 S A$main$101 Def0019
 S A$main$111 Def0021
