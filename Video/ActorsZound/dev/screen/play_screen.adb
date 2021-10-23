@@ -16,6 +16,7 @@ S:G$option3_value$0$0({1}SC:U),E,0,0
 S:G$option4_value$0$0({1}SC:U),E,0,0
 S:G$answer_index$0$0({1}SC:U),E,0,0
 S:G$answer_value$0$0({1}SC:U),E,0,0
+S:G$score_player$0$0({1}SC:U),E,0,0
 S:Fplay_screen$screen_cheat_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
@@ -25,3 +26,6 @@ S:G$engine_quiz_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_bank$0$0({2}DF,SV:S),C,0,0
+S:G$engine_score_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_score_manager_base$0$0({2}DF,SV:S),C,0,0
+S:G$engine_score_manager_update$0$0({2}DF,SV:S),C,0,0

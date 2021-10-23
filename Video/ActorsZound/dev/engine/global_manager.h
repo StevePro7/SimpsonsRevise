@@ -42,4 +42,10 @@
 #define OPTC_Y	17
 #define OPTD_Y	21
 
+#define QUIZ_X	2
+#define QUIZ_Y	5
+
+#define TITLE_X	23
+#define TITLE_Y	3
+
 #endif//_GLOBAL_MANAGER_H_

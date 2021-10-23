@@ -13,11 +13,7 @@ unsigned char question_index, question_long, question_count;
 unsigned char question_value, option1_value, option2_value, option3_value, option4_value;
 unsigned char answer_index, answer_value;
 
-#define QUIZ_X	2
-#define QUIZ_Y	5
 
-#define TITLE_X	23
-#define TITLE_Y	3
 
 // Private helper method.
 static void show_diff( unsigned char x, unsigned char y );
@@ -30,7 +26,6 @@ void engine_quiz_manager_init()
 	option_height[ 2 ] = OPTC_Y;
 	option_height[ 3 ] = OPTD_Y;
 }
-
 
 void engine_quiz_manager_base()
 {

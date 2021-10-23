@@ -23,7 +23,13 @@ unsigned char select_long_option[ MAX_OPTIONS ] = { LOCALE_LONG_OPT1, LOCALE_LON
 void engine_select_manager_init()
 {}
 void engine_select_manager_base()
-{}
+{
+	unsigned char idx;
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		engine_font_manager_text( select_text_option[ idx ], QUIZ_X, select_high_option[ idx ] );
+	}
+}
 
 void engine_select_manager_clear()
 {

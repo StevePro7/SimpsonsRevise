@@ -1,42 +1,45 @@
 ;!FILE play_screen.asm
 XL2
-H 9 areas 22 global symbols
+H 9 areas 25 global symbols
 M play_screen
 O -mz80
+S _engine_score_manager_base Ref0000
 S .__.ABS. Def0000
 S _engine_quiz_manager_base2 Ref0000
 S _engine_quiz_manager_base Ref0000
-A _CODE size 13 flags 0 addr 0
-S XG$screen_play_screen_update$0$0 Def0012
-S C$play_screen.c$11$1$7 Def0000
-S C$play_screen.c$12$1$7 Def0005
-S C$play_screen.c$21$1$8 Def0009
-S A$play_screen$62 Def0000
-S C$play_screen.c$14$1$7 Def0006
+A _CODE size 16 flags 0 addr 0
+S XG$screen_play_screen_update$0$0 Def0015
+S C$play_screen.c$12$1$7 Def0000
+S C$play_screen.c$13$1$7 Def0005
+S C$play_screen.c$22$1$8 Def000C
 S G$screen_play_screen_load$0$0 Def0006
-S A$play_screen$81 Def0006
-S A$play_screen$63 Def0003
-S C$play_screen.c$23$1$8 Def000C
-S C$play_screen.c$16$1$8 Def0006
-S C$play_screen.c$17$1$8 Def0009
-S A$play_screen$68 Def0005
-S A$play_screen$89 Def0009
-S C$play_screen.c$9$0$0 Def0000
+S A$play_screen$63 Def0000
+S C$play_screen.c$15$1$7 Def0006
+S A$play_screen$82 Def0006
+S A$play_screen$64 Def0003
+S C$play_screen.c$24$1$8 Def000F
+S C$play_screen.c$17$1$8 Def0006
+S A$play_screen$94 Def000C
+S C$play_screen.c$18$1$8 Def0009
+S A$play_screen$86 Def0009
+S C$play_screen.c$19$1$8 Def000C
+S A$play_screen$69 Def0005
 S _screen_play_screen_load Def0006
 S G$screen_play_screen_init$0$0 Def0000
-S XG$screen_play_screen_load$0$0 Def0009
+S XG$screen_play_screen_load$0$0 Def000C
 S _screen_play_screen_init Def0000
-S G$screen_play_screen_update$0$0 Def000C
-S A$play_screen$111 Def0012
-S A$play_screen$102 Def000C
-S A$play_screen$103 Def000D
-S C$play_screen.c$25$1$10 Def000C
+S G$screen_play_screen_update$0$0 Def000F
+S A$play_screen$110 Def0012
+S A$play_screen$111 Def0013
 S XG$screen_play_screen_init$0$0 Def0005
-S A$play_screen$104 Def000E
-S C$play_screen.c$26$1$10 Def0012
-S A$play_screen$105 Def000F
-S A$play_screen$106 Def0010
-S _screen_play_screen_update Def000C
+S C$play_screen.c$26$1$10 Def000F
+S C$play_screen.c$27$1$10 Def0015
+S _screen_play_screen_update Def000F
+S A$play_screen$116 Def0015
+S A$play_screen$107 Def000F
+S A$play_screen$108 Def0010
+S A$play_screen$109 Def0011
+S C$play_screen.c$10$0$0 Def0000
 A _DATA size 1 flags 0 addr 0
 S Fplay_screen$screen_cheat_screen_delay$0$0 Def0000
 A _INITIALIZED size 0 flags 0 addr 0
@@ -56,9 +59,9 @@ T 00 00 21 00 00 36 28 C9
 R 00 00 00 00 00 03 01 00
 T 06 00
 R 00 00 00 00
-T 06 00 CD 00 00 C3 00 00
-R 00 00 00 00 02 03 02 00 02 06 01 00
-T 0C 00
+T 06 00 CD 00 00 CD 00 00 C3 00 00
+R 00 00 00 00 02 03 03 00 02 06 02 00 02 09 00 00
+T 0F 00
 R 00 00 00 00
-T 0C 00 C1 E1 E5 C5 36 06 C9
+T 0F 00 C1 E1 E5 C5 36 06 C9
 R 00 00 00 00
