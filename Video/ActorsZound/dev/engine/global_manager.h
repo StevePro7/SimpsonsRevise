@@ -35,4 +35,11 @@
 // Actors.
 #define MAX_ACTORS			16
 
+// Additional.
+#define OPTN_X	4
+#define OPTA_Y	9
+#define OPTB_Y	13
+#define OPTC_Y	17
+#define OPTD_Y	21
+
 #endif//_GLOBAL_MANAGER_H_

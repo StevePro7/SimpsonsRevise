@@ -2,7 +2,7 @@ M:title_screen
 F:G$screen_title_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Ltitle_screen.screen_title_screen_update$screen_type$1$45({2}DG,SC:U),B,1,4
+S:Ltitle_screen.screen_title_screen_update$screen_type$1$46({2}DG,SC:U),B,1,4
 S:Ftitle_screen$screen_title_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
@@ -12,6 +12,7 @@ S:G$engine_content_manager_title$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0

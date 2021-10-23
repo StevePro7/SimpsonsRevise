@@ -38,6 +38,7 @@ S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base$0$0({2}DF,SV:S),C,0,0
+S:G$engine_quiz_manager_base2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_bank$0$0({2}DF,SV:S),C,0,0
 S:G$atof$0$0({2}DF,SF:S),C,0,0
 S:G$atoi$0$0({2}DF,SI:S),C,0,0

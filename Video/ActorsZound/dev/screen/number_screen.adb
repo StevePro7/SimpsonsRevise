@@ -1,12 +1,13 @@
 M:number_screen
 F:G$screen_number_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_number_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lnumber_screen.screen_number_screen_update$screen_type$1$25({2}DG,SC:U),B,1,4
+S:Lnumber_screen.screen_number_screen_update$screen_type$1$26({2}DG,SC:U),B,1,4
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0

@@ -1,11 +1,12 @@
 M:quiz_manager
 F:G$engine_quiz_manager_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_quiz_manager_base$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_quiz_manager_base2$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_quiz_manager_bank$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lquiz_manager.engine_quiz_manager_bank$b$1$28({1}SC:U),B,1,4
+S:Lquiz_manager.engine_quiz_manager_bank$b$1$29({1}SC:U),B,1,4
 F:Fquiz_manager$show_diff$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lquiz_manager.show_diff$x$1$30({1}SC:U),B,1,4
-S:Lquiz_manager.show_diff$y$1$30({1}SC:U),B,1,5
+S:Lquiz_manager.show_diff$x$1$31({1}SC:U),B,1,4
+S:Lquiz_manager.show_diff$y$1$31({1}SC:U),B,1,5
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_random$0$0({1}SC:U),E,0,0

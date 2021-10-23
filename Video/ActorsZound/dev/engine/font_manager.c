@@ -1,12 +1,11 @@
 #include "font_manager.h"
 #include "../devkit/_sms_manager.h"
-//#include "../banks/bank6.h"
 #include "../gfx.h"
 
 #define TEXT_ROOT	32		// 32 is " " in ASCII.
 #define DATA_ROOT	16		// 16 is "0" (48=16+32)
 #define UNIT_ROOT	10		// 10 is decimal
-#define DATA_LONG	5		// 4 placeholder
+#define DATA_LONG	3		// 7 placeholder
 
 void engine_font_manager_char( const unsigned char ch, unsigned char x, unsigned char y )
 {

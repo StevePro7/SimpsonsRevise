@@ -8,15 +8,16 @@ S .__.ABS. Def0000
 A _CODE size 29 flags 0 addr 0
 S A$long_screen$80 Def0006
 S A$long_screen$62 Def0003
-S C$long_screen.c$15$1$6 Def0006
+S C$long_screen.c$21$1$9 Def0028
 S G$screen_long_screen_load$0$0 Def0006
 S A$long_screen$81 Def0009
-S C$long_screen.c$16$1$6 Def0013
+S C$long_screen.c$15$1$7 Def0006
 S A$long_screen$91 Def0013
 S A$long_screen$82 Def000A
+S C$long_screen.c$16$1$7 Def0013
 S A$long_screen$83 Def000D
-S C$long_screen.c$18$1$6 Def0022
 S A$long_screen$84 Def000E
+S C$long_screen.c$18$1$7 Def0022
 S A$long_screen$85 Def0011
 S A$long_screen$67 Def0005
 S A$long_screen$86 Def0012
@@ -35,13 +36,12 @@ S _screen_long_screen_update Def0022
 S A$long_screen$117 Def0028
 S A$long_screen$108 Def0022
 S A$long_screen$109 Def0023
-S C$long_screen.c$10$1$5 Def0000
 S XG$screen_long_screen_update$0$0 Def0028
-S C$long_screen.c$11$1$5 Def0005
-S C$long_screen.c$13$1$5 Def0006
-S C$long_screen.c$20$1$8 Def0022
+S C$long_screen.c$10$1$6 Def0000
+S C$long_screen.c$11$1$6 Def0005
+S C$long_screen.c$13$1$6 Def0006
 S A$long_screen$61 Def0000
-S C$long_screen.c$21$1$8 Def0028
+S C$long_screen.c$20$1$9 Def0022
 A _DATA size 1 flags 0 addr 0
 S Flong_screen$screen_long_screen_delay$0$0 Def0000
 A _INITIALIZED size 0 flags 0 addr 0

@@ -3,17 +3,7 @@
 
 #include "global_manager.h"
 
-#define QUIZ_X	2
-#define QUIZ_Y	5
 
-#define TITLE_X	23
-#define TITLE_Y	3
-
-#define OPTN_X	4
-#define OPTA_Y	9
-#define OPTB_Y	13
-#define OPTC_Y	17
-#define OPTD_Y	21
 
 #define QUIZ_BANK	2
 
@@ -27,7 +17,7 @@ extern unsigned char answer_index, answer_value;
 // Public methods.
 void engine_quiz_manager_init();
 void engine_quiz_manager_base();
-//void engine_quiz_manager_base2();
+void engine_quiz_manager_base2();
 //void engine_quiz_manager_base3( unsigned char y );
 void engine_quiz_manager_bank( unsigned char b );
 //void engine_quiz_manager_answer( unsigned char q );

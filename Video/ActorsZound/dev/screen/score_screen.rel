@@ -9,13 +9,13 @@ A _CODE size 24 flags 0 addr 0
 S XG$screen_score_screen_load$0$0 Def000D
 S G$screen_score_screen_update$0$0 Def001D
 S _screen_score_screen_update Def001D
-S C$score_screen.c$10$1$5 Def001D
 S XG$screen_score_screen_update$0$0 Def0023
+S C$score_screen.c$10$1$6 Def001D
 S A$score_screen$60 Def0007
-S C$score_screen.c$12$1$7 Def001D
 S A$score_screen$61 Def0008
-S C$score_screen.c$13$1$7 Def0023
+S C$score_screen.c$12$1$8 Def001D
 S A$score_screen$62 Def000B
+S C$score_screen.c$13$1$8 Def0023
 S G$screen_score_screen_load$0$0 Def0000
 S A$score_screen$63 Def000C
 S A$score_screen$57 Def0000
@@ -31,8 +31,8 @@ S A$score_screen$88 Def0020
 S C$score_screen.c$5$0$0 Def0000
 S A$score_screen$89 Def0021
 S _screen_score_screen_load Def0000
-S C$score_screen.c$7$1$5 Def0000
-S C$score_screen.c$8$1$5 Def000D
+S C$score_screen.c$7$1$6 Def0000
+S C$score_screen.c$8$1$6 Def000D
 A _DATA size 0 flags 0 addr 0
 A _INITIALIZED size 0 flags 0 addr 0
 A _DABS size 0 flags 8 addr 0

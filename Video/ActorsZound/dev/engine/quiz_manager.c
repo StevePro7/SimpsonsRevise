@@ -1,5 +1,6 @@
 #include "quiz_manager.h"
 #include "font_manager.h"
+#include "global_manager.h"
 #include "hack_manager.h"
 #include "locale_manager.h"
 #include "select_manager.h"
@@ -11,6 +12,12 @@ unsigned char option_height[ MAX_OPTIONS ];
 unsigned char question_index, question_long, question_count;
 unsigned char question_value, option1_value, option2_value, option3_value, option4_value;
 unsigned char answer_index, answer_value;
+
+#define QUIZ_X	2
+#define QUIZ_Y	5
+
+#define TITLE_X	23
+#define TITLE_Y	3
 
 // Private helper method.
 static void show_diff( unsigned char x, unsigned char y );
@@ -36,10 +43,10 @@ void engine_quiz_manager_base()
 	}
 }
 
-//void engine_quiz_manager_base2()
-//{
-//	//engine_quiz_manager_diff( 26, TITLE_Y - 1 );
-//}
+void engine_quiz_manager_base2()
+{
+	show_diff( 26, TITLE_Y - 1 );
+}
 //
 //void engine_quiz_manager_base3( unsigned char y )
 //{
