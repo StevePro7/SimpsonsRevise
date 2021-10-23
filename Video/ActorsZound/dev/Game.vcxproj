@@ -173,10 +173,12 @@
     <ClCompile Include="engine\sample_manager.c" />
     <ClCompile Include="engine\screen_manager.c" />
     <ClCompile Include="engine\sound_manager.c" />
+    <ClCompile Include="engine\timer_manager.c" />
     <ClCompile Include="game.c" />
     <ClCompile Include="gfx.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="object\sound_object.c" />
+    <ClCompile Include="object\timer_object.c" />
     <ClCompile Include="psg.c" />
     <ClCompile Include="screen\func_screen.c" />
     <ClCompile Include="screen\none_screen.c" />
@@ -216,10 +218,12 @@
     <ClInclude Include="engine\sample_manager.h" />
     <ClInclude Include="engine\screen_manager.h" />
     <ClInclude Include="engine\sound_manager.h" />
+    <ClInclude Include="engine\timer_manager.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="gfx.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="object\sound_object.h" />
+    <ClInclude Include="object\timer_object.h" />
     <ClInclude Include="psg.h" />
     <ClInclude Include="screen\func_screen.h" />
     <ClInclude Include="screen\none_screen.h" />

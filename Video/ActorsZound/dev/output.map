@@ -46,14 +46,14 @@ Area                                    Addr        Size        Decimal Bytes (A
      000000BE  G$VDPDataPort$0$0                  asm_manager
      000000BF  G$VDPControlPort$0$0               asm_manager
      0000012A  l__HEADER5                      
-     00000142  l__DATA                         
+     00000145  l__DATA                         
      00000200  s__CODE                         
      000019C6  l__BANK13                       
-     00001BD2  l__CODE                         
-     00001DD2  s__HOME                         
-     00001DD2  s__INITIALIZER                  
-     00001DE8  s__GSINIT                       
-     00001DF7  s__GSFINAL                      
+     00001BE3  l__CODE                         
+     00001DE3  s__HOME                         
+     00001DE3  s__INITIALIZER                  
+     00001DF9  s__GSINIT                       
+     00001E08  s__GSFINAL                      
      00001F88  l__BANK15                       
      00002245  l__BANK9                        
      000022E4  l__BANK8                        
@@ -93,10 +93,10 @@ Area                                    Addr        Size        Decimal Bytes (A
      00008000  s__BANK8                        
      00008000  s__BANK9                        
      0000C000  s__DATA                         
-     0000C142  s__INITIALIZED                  
-     0000C158  s__BSEG                         
-     0000C158  s__BSS                          
-     0000C158  s__HEAP                         
+     0000C145  s__INITIALIZED                  
+     0000C15B  s__BSEG                         
+     0000C15B  s__BSS                          
+     0000C15B  s__HEAP                         
      0000FFFC  G$SRAM_bank_to_be_mapped_on_slot   _sms_manager
      0000FFFC  _SRAM_bank_to_be_mapped_on_slot2   SMSlib_loadTileMap
      0000FFFF  G$ROM_bank_to_be_mapped_on_slot2   _sms_manager
@@ -107,7 +107,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -143,40 +143,40 @@ _CODE                               00000200    00001BD2 =        7122. bytes (R
      0000022E  A$main$116                         main
      0000022E  C$main.c$20$1$56                   main
      00000231  A$main$120                         main
-     00000231  C$main.c$26$1$56                   main
+     00000231  C$main.c$27$1$56                   main
      00000233  A$main$121                         main
      00000234  A$main$122                         main
      00000235  A$main$123                         main
      00000238  A$main$124                         main
      00000239  A$main$128                         main
-     00000239  C$main.c$27$1$56                   main
+     00000239  C$main.c$28$1$56                   main
      0000023C  A$main$133                         main
-     0000023C  C$main.c$30$3$58                   main
+     0000023C  C$main.c$31$3$58                   main
      0000023F  A$main$137                         main
-     0000023F  C$main.c$31$3$58                   main
+     0000023F  C$main.c$32$3$58                   main
      00000242  A$main$141                         main
-     00000242  C$main.c$33$3$58                   main
+     00000242  C$main.c$34$3$58                   main
      00000245  A$main$145                         main
-     00000245  C$main.c$35$3$58                   main
+     00000245  C$main.c$36$3$58                   main
      00000248  A$main$149                         main
-     00000248  C$main.c$36$3$58                   main
+     00000248  C$main.c$37$3$58                   main
      0000024B  A$main$153                         main
 ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000024B  C$main.c$37$3$58                   main
+     0000024B  C$main.c$38$3$58                   main
      0000024E  A$main$157                         main
-     0000024E  C$main.c$39$3$58                   main
+     0000024E  C$main.c$40$3$58                   main
      00000251  A$main$161                         main
-     00000251  C$main.c$40$3$58                   main
+     00000251  C$main.c$41$3$58                   main
      00000254  A$main$166                         main
-     00000254  C$main.c$42$2$57                   main
+     00000254  C$main.c$43$2$57                   main
      00000254  XG$main$0$0                        main
      00000256  _PSGStop                           PSGlib
      0000027D  _PSGResume                         PSGlib
@@ -226,7 +226,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -286,7 +286,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -346,7 +346,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -406,7 +406,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -466,7 +466,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -526,7 +526,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -586,7 +586,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -646,7 +646,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -706,7 +706,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -766,7 +766,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -826,7 +826,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -886,7 +886,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -946,7 +946,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1006,7 +1006,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1066,7 +1066,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1126,7 +1126,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1186,7 +1186,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1246,7 +1246,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1306,7 +1306,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1366,7 +1366,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1426,7 +1426,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1486,7 +1486,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1546,7 +1546,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1606,7 +1606,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1666,7 +1666,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1726,7 +1726,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1786,7 +1786,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1846,7 +1846,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1906,7 +1906,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1966,7 +1966,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2026,7 +2026,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2086,7 +2086,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2146,7 +2146,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2206,7 +2206,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2266,7 +2266,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2326,7 +2326,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2386,7 +2386,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2446,7 +2446,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2506,7 +2506,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2566,7 +2566,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2626,7 +2626,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -2662,427 +2662,440 @@ _CODE                               00000200    00001BD2 =        7122. bytes (R
      000011CB  C$sound_manager.c$26$1$24          sound_manager
      000011CB  XG$engine_sound_manager_play$0$0   sound_manager
      000011CD  A$sound_manager$127                sound_manager
-     000011D0  G$sound_sample_bank$0$0            sound_object
-     000011D0  _sound_sample_bank                 sound_object
-     000011D6  A$func_screen$65                   func_screen
-     000011D6  C$func_screen.c$12$0$0             func_screen
-     000011D6  C$func_screen.c$14$1$25            func_screen
-     000011D6  G$screen_func_screen_load$0$0      func_screen
-     000011D6  _screen_func_screen_load           func_screen
-     000011D9  A$func_screen$69                   func_screen
-     000011D9  C$func_screen.c$15$1$25            func_screen
-     000011DC  A$func_screen$70                   func_screen
-     000011DD  A$func_screen$71                   func_screen
-     000011DE  A$func_screen$72                   func_screen
-     000011E1  A$func_screen$73                   func_screen
-     000011E2  A$func_screen$78                   func_screen
-     000011E2  C$func_screen.c$16$1$25            func_screen
-     000011E2  XG$screen_func_screen_load$0$0     func_screen
-     000011E3  A$func_screen$91                   func_screen
-     000011E3  C$func_screen.c$18$1$25            func_screen
-     000011E3  C$func_screen.c$20$1$27            func_screen
+     000011D0  A$timer_manager$55                 timer_manager
+     000011D0  C$timer_manager.c$4$0$0            timer_manager
+     000011D0  C$timer_manager.c$6$1$1            timer_manager
+     000011D0  G$screen_bases_screen_init$0$0     timer_manager
+     000011D0  _screen_bases_screen_init          timer_manager
+     000011D3  A$timer_manager$56                 timer_manager
+     000011D5  A$timer_manager$60                 timer_manager
+     000011D5  C$timer_manager.c$7$1$1            timer_manager
+     000011D8  A$timer_manager$61                 timer_manager
+     000011DB  A$timer_manager$66                 timer_manager
+     000011DB  C$timer_manager.c$8$1$1            timer_manager
+     000011DB  XG$screen_bases_screen_init$0$0    timer_manager
+     000011DC  G$sound_sample_bank$0$0            sound_object
+     000011DC  _sound_sample_bank                 sound_object
+     000011E2  A$func_screen$65                   func_screen
+     000011E2  C$func_screen.c$12$0$0             func_screen
+     000011E2  C$func_screen.c$14$1$25            func_screen
+     000011E2  G$screen_func_screen_load$0$0      func_screen
+     000011E2  _screen_func_screen_load           func_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000011E3  G$screen_func_screen_update$0$0    func_screen
-     000011E3  _screen_func_screen_update         func_screen
-     000011E6  A$func_screen$95                   func_screen
-     000011E6  C$func_screen.c$21$1$27            func_screen
-     000011E7  A$func_screen$96                   func_screen
-     000011E8  A$func_screen$97                   func_screen
-     000011EA  A$func_screen$101                  func_screen
-     000011EA  C$func_screen.c$23$2$28            func_screen
-     000011EE  A$func_screen$102                  func_screen
-     000011F1  A$func_screen$103                  func_screen
-     000011F3  A$func_screen$104                  func_screen
-     000011F5  A$func_screen$108                  func_screen
-     000011F5  C$func_screen.c$25$3$29            func_screen
-     000011F9  A$func_screen$109                  func_screen
-     000011FB  A$func_screen$114                  func_screen
-     000011FB  C$func_screen.c$29$3$30            func_screen
-     000011FE  A$func_screen$115                  func_screen
-     000011FF  A$func_screen$120                  func_screen
-     000011FF  C$func_screen.c$31$2$28            func_screen
-     00001202  A$func_screen$121                  func_screen
-     00001203  A$func_screen$122                  func_screen
-     00001204  A$func_screen$123                  func_screen
-     00001207  A$func_screen$124                  func_screen
-     00001208  A$func_screen$125                  func_screen
-     0000120A  A$func_screen$130                  func_screen
-     0000120A  C$func_screen.c$35$2$31            func_screen
-     0000120D  A$func_screen$134                  func_screen
-     0000120D  C$func_screen.c$36$2$31            func_screen
-     0000120E  A$func_screen$135                  func_screen
-     0000120F  A$func_screen$136                  func_screen
-     00001211  A$func_screen$140                  func_screen
-     00001211  C$func_screen.c$38$3$32            func_screen
-     00001215  A$func_screen$141                  func_screen
-     00001218  A$func_screen$142                  func_screen
-     00001219  A$func_screen$143                  func_screen
-     0000121B  A$func_screen$147                  func_screen
-     0000121B  C$func_screen.c$40$4$33            func_screen
-     0000121F  A$func_screen$148                  func_screen
-     00001221  A$func_screen$153                  func_screen
-     00001221  C$func_screen.c$44$4$34            func_screen
-     00001224  A$func_screen$154                  func_screen
-     00001225  A$func_screen$159                  func_screen
-     00001225  C$func_screen.c$46$3$32            func_screen
-     00001228  A$func_screen$160                  func_screen
-     00001229  A$func_screen$161                  func_screen
-     0000122A  A$func_screen$162                  func_screen
-     0000122D  A$func_screen$163                  func_screen
-     0000122E  A$func_screen$168                  func_screen
-     0000122E  C$func_screen.c$50$1$27            func_screen
-     0000122F  A$func_screen$169                  func_screen
-     00001230  A$func_screen$170                  func_screen
+     000011E5  A$func_screen$69                   func_screen
+     000011E5  C$func_screen.c$15$1$25            func_screen
+     000011E8  A$func_screen$70                   func_screen
+     000011E9  A$func_screen$71                   func_screen
+     000011EA  A$func_screen$72                   func_screen
+     000011ED  A$func_screen$73                   func_screen
+     000011EE  A$func_screen$78                   func_screen
+     000011EE  C$func_screen.c$16$1$25            func_screen
+     000011EE  XG$screen_func_screen_load$0$0     func_screen
+     000011EF  A$func_screen$91                   func_screen
+     000011EF  C$func_screen.c$18$1$25            func_screen
+     000011EF  C$func_screen.c$20$1$27            func_screen
+     000011EF  G$screen_func_screen_update$0$0    func_screen
+     000011EF  _screen_func_screen_update         func_screen
+     000011F2  A$func_screen$95                   func_screen
+     000011F2  C$func_screen.c$21$1$27            func_screen
+     000011F3  A$func_screen$96                   func_screen
+     000011F4  A$func_screen$97                   func_screen
+     000011F6  A$func_screen$101                  func_screen
+     000011F6  C$func_screen.c$23$2$28            func_screen
+     000011FA  A$func_screen$102                  func_screen
+     000011FD  A$func_screen$103                  func_screen
+     000011FF  A$func_screen$104                  func_screen
+     00001201  A$func_screen$108                  func_screen
+     00001201  C$func_screen.c$25$3$29            func_screen
+     00001205  A$func_screen$109                  func_screen
+     00001207  A$func_screen$114                  func_screen
+     00001207  C$func_screen.c$29$3$30            func_screen
+     0000120A  A$func_screen$115                  func_screen
+     0000120B  A$func_screen$120                  func_screen
+     0000120B  C$func_screen.c$31$2$28            func_screen
+     0000120E  A$func_screen$121                  func_screen
+     0000120F  A$func_screen$122                  func_screen
+     00001210  A$func_screen$123                  func_screen
+     00001213  A$func_screen$124                  func_screen
+     00001214  A$func_screen$125                  func_screen
+     00001216  A$func_screen$130                  func_screen
+     00001216  C$func_screen.c$35$2$31            func_screen
+     00001219  A$func_screen$134                  func_screen
+     00001219  C$func_screen.c$36$2$31            func_screen
+     0000121A  A$func_screen$135                  func_screen
+     0000121B  A$func_screen$136                  func_screen
+     0000121D  A$func_screen$140                  func_screen
+     0000121D  C$func_screen.c$38$3$32            func_screen
+     00001221  A$func_screen$141                  func_screen
+     00001224  A$func_screen$142                  func_screen
+     00001225  A$func_screen$143                  func_screen
+     00001227  A$func_screen$147                  func_screen
+     00001227  C$func_screen.c$40$4$33            func_screen
+     0000122B  A$func_screen$148                  func_screen
+     0000122D  A$func_screen$153                  func_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001231  A$func_screen$171                  func_screen
-     00001232  A$func_screen$172                  func_screen
-     00001234  A$func_screen$177                  func_screen
-     00001234  C$func_screen.c$51$1$27            func_screen
-     00001234  XG$screen_func_screen_update$0$0   func_screen
-     00001235  A$func_screen$190                  func_screen
-     00001235  C$func_screen.c$53$1$27            func_screen
-     00001235  C$func_screen.c$55$1$36            func_screen
-     00001235  Ffunc_screen$draw_screen$0$0       func_screen
-     00001238  A$func_screen$194                  func_screen
-     00001238  C$func_screen.c$56$1$36            func_screen
-     0000123B  A$func_screen$195                  func_screen
-     0000123C  A$func_screen$196                  func_screen
-     0000123D  A$func_screen$197                  func_screen
-     0000123E  A$func_screen$198                  func_screen
-     0000123F  A$func_screen$199                  func_screen
-     00001242  A$func_screen$200                  func_screen
-     00001243  A$func_screen$208                  func_screen
-     00001243  C$func_screen.c$57$1$36            func_screen
-     00001243  C$func_screen.c$58$1$36            func_screen
-     00001243  XFfunc_screen$draw_screen$0$0      func_screen
-     00001246  A$none_screen$57                   none_screen
-     00001246  C$none_screen.c$5$0$0              none_screen
-     00001246  C$none_screen.c$7$1$5              none_screen
-     00001246  G$screen_none_screen_load$0$0      none_screen
-     00001246  _screen_none_screen_load           none_screen
-     00001249  A$none_screen$58                   none_screen
-     0000124A  A$none_screen$59                   none_screen
-     0000124D  A$none_screen$60                   none_screen
-     0000124E  A$none_screen$61                   none_screen
-     00001251  A$none_screen$62                   none_screen
-     00001252  A$none_screen$63                   none_screen
-     00001253  A$none_screen$68                   none_screen
-     00001253  C$none_screen.c$8$1$5              none_screen
-     00001253  XG$screen_none_screen_load$0$0     none_screen
-     00001254  Fnone_screen$__str_0$0$0           none_screen
-     00001262  A$none_screen$85                   none_screen
-     00001262  C$none_screen.c$10$1$5             none_screen
-     00001262  C$none_screen.c$12$1$7             none_screen
-     00001262  G$screen_none_screen_update$0$0    none_screen
-     00001262  _screen_none_screen_update         none_screen
-     00001263  A$none_screen$86                   none_screen
-     00001264  A$none_screen$87                   none_screen
-     00001265  A$none_screen$88                   none_screen
-     00001266  A$none_screen$89                   none_screen
-     00001267  A$none_screen$90                   none_screen
-     00001268  A$none_screen$95                   none_screen
-     00001268  C$none_screen.c$13$1$7             none_screen
-     00001268  XG$screen_none_screen_update$0$0   none_screen
-     00001269  A$splash_screen$57                 splash_screen
-     00001269  C$splash_screen.c$5$0$0            splash_screen
+     0000122D  C$func_screen.c$44$4$34            func_screen
+     00001230  A$func_screen$154                  func_screen
+     00001231  A$func_screen$159                  func_screen
+     00001231  C$func_screen.c$46$3$32            func_screen
+     00001234  A$func_screen$160                  func_screen
+     00001235  A$func_screen$161                  func_screen
+     00001236  A$func_screen$162                  func_screen
+     00001239  A$func_screen$163                  func_screen
+     0000123A  A$func_screen$168                  func_screen
+     0000123A  C$func_screen.c$50$1$27            func_screen
+     0000123B  A$func_screen$169                  func_screen
+     0000123C  A$func_screen$170                  func_screen
+     0000123D  A$func_screen$171                  func_screen
+     0000123E  A$func_screen$172                  func_screen
+     00001240  A$func_screen$177                  func_screen
+     00001240  C$func_screen.c$51$1$27            func_screen
+     00001240  XG$screen_func_screen_update$0$0   func_screen
+     00001241  A$func_screen$190                  func_screen
+     00001241  C$func_screen.c$53$1$27            func_screen
+     00001241  C$func_screen.c$55$1$36            func_screen
+     00001241  Ffunc_screen$draw_screen$0$0       func_screen
+     00001244  A$func_screen$194                  func_screen
+     00001244  C$func_screen.c$56$1$36            func_screen
+     00001247  A$func_screen$195                  func_screen
+     00001248  A$func_screen$196                  func_screen
+     00001249  A$func_screen$197                  func_screen
+     0000124A  A$func_screen$198                  func_screen
+     0000124B  A$func_screen$199                  func_screen
+     0000124E  A$func_screen$200                  func_screen
+     0000124F  A$func_screen$208                  func_screen
+     0000124F  C$func_screen.c$57$1$36            func_screen
+     0000124F  C$func_screen.c$58$1$36            func_screen
+     0000124F  XFfunc_screen$draw_screen$0$0      func_screen
+     00001252  A$none_screen$57                   none_screen
+     00001252  C$none_screen.c$5$0$0              none_screen
+     00001252  C$none_screen.c$7$1$5              none_screen
+     00001252  G$screen_none_screen_load$0$0      none_screen
+     00001252  _screen_none_screen_load           none_screen
+     00001255  A$none_screen$58                   none_screen
+     00001256  A$none_screen$59                   none_screen
+     00001259  A$none_screen$60                   none_screen
+     0000125A  A$none_screen$61                   none_screen
+     0000125D  A$none_screen$62                   none_screen
+     0000125E  A$none_screen$63                   none_screen
+     0000125F  A$none_screen$68                   none_screen
+     0000125F  C$none_screen.c$8$1$5              none_screen
+     0000125F  XG$screen_none_screen_load$0$0     none_screen
+     00001260  Fnone_screen$__str_0$0$0           none_screen
+     0000126E  A$none_screen$85                   none_screen
+     0000126E  C$none_screen.c$10$1$5             none_screen
+     0000126E  C$none_screen.c$12$1$7             none_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001269  C$splash_screen.c$7$1$5            splash_screen
-     00001269  G$screen_splash_screen_load$0$0    splash_screen
-     00001269  _screen_splash_screen_load         splash_screen
-     0000126C  A$splash_screen$58                 splash_screen
-     0000126D  A$splash_screen$59                 splash_screen
-     00001270  A$splash_screen$60                 splash_screen
-     00001271  A$splash_screen$61                 splash_screen
-     00001274  A$splash_screen$62                 splash_screen
-     00001275  A$splash_screen$63                 splash_screen
-     00001276  A$splash_screen$68                 splash_screen
-     00001276  C$splash_screen.c$8$1$5            splash_screen
-     00001276  XG$screen_splash_screen_load$0$0   splash_screen
-     00001277  Fsplash_screen$__str_0$0$0         splash_screen
-     00001287  A$splash_screen$85                 splash_screen
-     00001287  C$splash_screen.c$10$1$5           splash_screen
-     00001287  C$splash_screen.c$12$1$7           splash_screen
-     00001287  G$screen_splash_screen_update$0$   splash_screen
-     00001287  _screen_splash_screen_update       splash_screen
-     00001288  A$splash_screen$86                 splash_screen
-     00001289  A$splash_screen$87                 splash_screen
-     0000128A  A$splash_screen$88                 splash_screen
-     0000128B  A$splash_screen$89                 splash_screen
-     0000128D  A$splash_screen$94                 splash_screen
-     0000128D  C$splash_screen.c$13$1$7           splash_screen
-     0000128D  XG$screen_splash_screen_update$0   splash_screen
-     0000128E  A$test_screen$67                   test_screen
-     0000128E  C$test_screen.c$11$1$6             test_screen
-     0000128E  C$test_screen.c$9$0$0              test_screen
-     0000128E  G$screen_test_screen_load$0$0      test_screen
-     0000128E  _screen_test_screen_load           test_screen
-     00001291  A$test_screen$68                   test_screen
-     00001292  A$test_screen$69                   test_screen
-     00001295  A$test_screen$70                   test_screen
-     00001296  A$test_screen$71                   test_screen
-     00001299  A$test_screen$72                   test_screen
-     0000129A  A$test_screen$73                   test_screen
-     0000129B  A$test_screen$78                   test_screen
-     0000129B  C$test_screen.c$12$1$6             test_screen
-     0000129B  XG$screen_test_screen_load$0$0     test_screen
-     0000129C  Ftest_screen$__str_0$0$0           test_screen
-     000012AC  A$test_screen$95                   test_screen
-     000012AC  C$test_screen.c$14$1$6             test_screen
-     000012AC  C$test_screen.c$16$1$8             test_screen
-     000012AC  G$screen_test_screen_update$0$0    test_screen
-     000012AC  _screen_test_screen_update         test_screen
-     000012AF  A$test_screen$99                   test_screen
-     000012AF  C$test_screen.c$17$1$8             test_screen
-     000012B0  A$test_screen$100                  test_screen
-     000012B1  A$test_screen$101                  test_screen
-     000012B3  A$test_screen$105                  test_screen
-     000012B3  C$test_screen.c$19$2$9             test_screen
+     0000126E  G$screen_none_screen_update$0$0    none_screen
+     0000126E  _screen_none_screen_update         none_screen
+     0000126F  A$none_screen$86                   none_screen
+     00001270  A$none_screen$87                   none_screen
+     00001271  A$none_screen$88                   none_screen
+     00001272  A$none_screen$89                   none_screen
+     00001273  A$none_screen$90                   none_screen
+     00001274  A$none_screen$95                   none_screen
+     00001274  C$none_screen.c$13$1$7             none_screen
+     00001274  XG$screen_none_screen_update$0$0   none_screen
+     00001275  A$splash_screen$58                 splash_screen
+     00001275  C$splash_screen.c$6$0$0            splash_screen
+     00001275  C$splash_screen.c$8$1$5            splash_screen
+     00001275  G$screen_splash_screen_load$0$0    splash_screen
+     00001275  _screen_splash_screen_load         splash_screen
+     00001278  A$splash_screen$62                 splash_screen
+     00001278  C$splash_screen.c$9$1$5            splash_screen
+     0000127B  A$splash_screen$63                 splash_screen
+     0000127C  A$splash_screen$64                 splash_screen
+     0000127F  A$splash_screen$65                 splash_screen
+     00001280  A$splash_screen$66                 splash_screen
+     00001283  A$splash_screen$67                 splash_screen
+     00001284  A$splash_screen$68                 splash_screen
+     00001285  A$splash_screen$73                 splash_screen
+     00001285  C$splash_screen.c$10$1$5           splash_screen
+     00001285  XG$screen_splash_screen_load$0$0   splash_screen
+     00001286  Fsplash_screen$__str_0$0$0         splash_screen
+     00001298  A$splash_screen$90                 splash_screen
+     00001298  C$splash_screen.c$12$1$5           splash_screen
+     00001298  C$splash_screen.c$14$1$7           splash_screen
+     00001298  G$screen_splash_screen_update$0$   splash_screen
+     00001298  _screen_splash_screen_update       splash_screen
+     00001299  A$splash_screen$91                 splash_screen
+     0000129A  A$splash_screen$92                 splash_screen
+     0000129B  A$splash_screen$93                 splash_screen
+     0000129C  A$splash_screen$94                 splash_screen
+     0000129E  A$splash_screen$99                 splash_screen
+     0000129E  C$splash_screen.c$15$1$7           splash_screen
+     0000129E  XG$screen_splash_screen_update$0   splash_screen
+     0000129F  A$test_screen$67                   test_screen
+     0000129F  C$test_screen.c$11$1$6             test_screen
+     0000129F  C$test_screen.c$9$0$0              test_screen
+     0000129F  G$screen_test_screen_load$0$0      test_screen
+     0000129F  _screen_test_screen_load           test_screen
+     000012A2  A$test_screen$68                   test_screen
+     000012A3  A$test_screen$69                   test_screen
+     000012A6  A$test_screen$70                   test_screen
+     000012A7  A$test_screen$71                   test_screen
+     000012AA  A$test_screen$72                   test_screen
+     000012AB  A$test_screen$73                   test_screen
+     000012AC  A$test_screen$78                   test_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     000012B6  A$test_screen$106                  test_screen
-     000012B7  A$test_screen$107                  test_screen
-     000012BA  A$test_screen$108                  test_screen
-     000012BB  A$test_screen$109                  test_screen
-     000012BE  A$test_screen$110                  test_screen
-     000012BF  A$test_screen$111                  test_screen
-     000012C0  A$test_screen$115                  test_screen
-     000012C0  C$test_screen.c$20$2$9             test_screen
-     000012C1  A$test_screen$116                  test_screen
-     000012C2  A$test_screen$117                  test_screen
-     000012C3  A$test_screen$118                  test_screen
-     000012C6  A$test_screen$119                  test_screen
-     000012C7  A$test_screen$120                  test_screen
-     000012CA  A$test_screen$125                  test_screen
-     000012CA  C$test_screen.c$24$2$10            test_screen
-     000012CD  A$test_screen$129                  test_screen
-     000012CD  C$test_screen.c$25$2$10            test_screen
-     000012CE  A$test_screen$130                  test_screen
-     000012CF  A$test_screen$131                  test_screen
-     000012D1  A$test_screen$135                  test_screen
-     000012D1  C$test_screen.c$27$3$11            test_screen
-     000012D4  A$test_screen$136                  test_screen
-     000012D5  A$test_screen$137                  test_screen
-     000012D8  A$test_screen$138                  test_screen
-     000012D9  A$test_screen$139                  test_screen
-     000012DC  A$test_screen$140                  test_screen
-     000012DD  A$test_screen$144                  test_screen
-     000012DD  C$test_screen.c$28$3$11            test_screen
-     000012DF  A$test_screen$145                  test_screen
-     000012E0  A$test_screen$146                  test_screen
-     000012E1  A$test_screen$147                  test_screen
-     000012E4  A$test_screen$148                  test_screen
-     000012E5  A$test_screen$149                  test_screen
-     000012E7  A$test_screen$154                  test_screen
-     000012E7  C$test_screen.c$32$3$12            test_screen
-     000012EA  A$test_screen$158                  test_screen
-     000012EA  C$test_screen.c$33$3$12            test_screen
-     000012EB  A$test_screen$159                  test_screen
-     000012EC  A$test_screen$160                  test_screen
-     000012EE  A$test_screen$164                  test_screen
-     000012EE  C$test_screen.c$35$4$13            test_screen
-     000012F1  A$test_screen$165                  test_screen
-     000012F2  A$test_screen$166                  test_screen
-     000012F5  A$test_screen$167                  test_screen
-     000012F6  A$test_screen$168                  test_screen
-     000012F9  A$test_screen$169                  test_screen
-     000012FA  A$test_screen$173                  test_screen
-     000012FA  C$test_screen.c$36$4$13            test_screen
-     000012FC  A$test_screen$174                  test_screen
-     000012FD  A$test_screen$175                  test_screen
-     000012FE  A$test_screen$176                  test_screen
+     000012AC  C$test_screen.c$12$1$6             test_screen
+     000012AC  XG$screen_test_screen_load$0$0     test_screen
+     000012AD  Ftest_screen$__str_0$0$0           test_screen
+     000012BD  A$test_screen$95                   test_screen
+     000012BD  C$test_screen.c$14$1$6             test_screen
+     000012BD  C$test_screen.c$16$1$8             test_screen
+     000012BD  G$screen_test_screen_update$0$0    test_screen
+     000012BD  _screen_test_screen_update         test_screen
+     000012C0  A$test_screen$99                   test_screen
+     000012C0  C$test_screen.c$17$1$8             test_screen
+     000012C1  A$test_screen$100                  test_screen
+     000012C2  A$test_screen$101                  test_screen
+     000012C4  A$test_screen$105                  test_screen
+     000012C4  C$test_screen.c$19$2$9             test_screen
+     000012C7  A$test_screen$106                  test_screen
+     000012C8  A$test_screen$107                  test_screen
+     000012CB  A$test_screen$108                  test_screen
+     000012CC  A$test_screen$109                  test_screen
+     000012CF  A$test_screen$110                  test_screen
+     000012D0  A$test_screen$111                  test_screen
+     000012D1  A$test_screen$115                  test_screen
+     000012D1  C$test_screen.c$20$2$9             test_screen
+     000012D2  A$test_screen$116                  test_screen
+     000012D3  A$test_screen$117                  test_screen
+     000012D4  A$test_screen$118                  test_screen
+     000012D7  A$test_screen$119                  test_screen
+     000012D8  A$test_screen$120                  test_screen
+     000012DB  A$test_screen$125                  test_screen
+     000012DB  C$test_screen.c$24$2$10            test_screen
+     000012DE  A$test_screen$129                  test_screen
+     000012DE  C$test_screen.c$25$2$10            test_screen
+     000012DF  A$test_screen$130                  test_screen
+     000012E0  A$test_screen$131                  test_screen
+     000012E2  A$test_screen$135                  test_screen
+     000012E2  C$test_screen.c$27$3$11            test_screen
+     000012E5  A$test_screen$136                  test_screen
+     000012E6  A$test_screen$137                  test_screen
+     000012E9  A$test_screen$138                  test_screen
+     000012EA  A$test_screen$139                  test_screen
+     000012ED  A$test_screen$140                  test_screen
+     000012EE  A$test_screen$144                  test_screen
+     000012EE  C$test_screen.c$28$3$11            test_screen
+     000012F0  A$test_screen$145                  test_screen
+     000012F1  A$test_screen$146                  test_screen
+     000012F2  A$test_screen$147                  test_screen
+     000012F5  A$test_screen$148                  test_screen
+     000012F6  A$test_screen$149                  test_screen
+     000012F8  A$test_screen$154                  test_screen
+     000012F8  C$test_screen.c$32$3$12            test_screen
+     000012FB  A$test_screen$158                  test_screen
+     000012FB  C$test_screen.c$33$3$12            test_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001301  A$test_screen$177                  test_screen
-     00001302  A$test_screen$178                  test_screen
-     00001304  A$test_screen$183                  test_screen
-     00001304  C$test_screen.c$40$4$14            test_screen
-     00001307  A$test_screen$187                  test_screen
-     00001307  C$test_screen.c$41$4$14            test_screen
-     00001308  A$test_screen$188                  test_screen
-     00001309  A$test_screen$189                  test_screen
-     0000130B  A$test_screen$193                  test_screen
-     0000130B  C$test_screen.c$43$5$15            test_screen
-     0000130E  A$test_screen$194                  test_screen
-     0000130F  A$test_screen$195                  test_screen
-     00001312  A$test_screen$196                  test_screen
-     00001313  A$test_screen$197                  test_screen
-     00001316  A$test_screen$198                  test_screen
-     00001317  A$test_screen$202                  test_screen
-     00001317  C$test_screen.c$44$5$15            test_screen
-     00001319  A$test_screen$203                  test_screen
-     0000131A  A$test_screen$204                  test_screen
-     0000131B  A$test_screen$205                  test_screen
-     0000131E  A$test_screen$206                  test_screen
-     0000131F  A$test_screen$207                  test_screen
-     00001321  A$test_screen$212                  test_screen
-     00001321  C$test_screen.c$48$5$16            test_screen
-     00001324  A$test_screen$216                  test_screen
-     00001324  C$test_screen.c$49$5$16            test_screen
-     00001325  A$test_screen$217                  test_screen
-     00001326  A$test_screen$218                  test_screen
-     00001328  A$test_screen$222                  test_screen
-     00001328  C$test_screen.c$51$6$17            test_screen
-     0000132B  A$test_screen$223                  test_screen
-     0000132C  A$test_screen$224                  test_screen
-     0000132F  A$test_screen$225                  test_screen
-     00001330  A$test_screen$226                  test_screen
-     00001333  A$test_screen$227                  test_screen
-     00001334  A$test_screen$231                  test_screen
-     00001334  C$test_screen.c$52$6$17            test_screen
-     00001336  A$test_screen$232                  test_screen
-     00001337  A$test_screen$233                  test_screen
-     00001338  A$test_screen$234                  test_screen
-     0000133B  A$test_screen$235                  test_screen
-     0000133C  A$test_screen$236                  test_screen
-     0000133E  A$test_screen$241                  test_screen
-     0000133E  C$test_screen.c$56$6$18            test_screen
-     00001341  A$test_screen$245                  test_screen
-     00001341  C$test_screen.c$57$6$18            test_screen
-     00001342  A$test_screen$246                  test_screen
-     00001343  A$test_screen$247                  test_screen
-     00001345  A$test_screen$251                  test_screen
-     00001345  C$test_screen.c$59$7$19            test_screen
-     00001348  A$test_screen$252                  test_screen
+     000012FC  A$test_screen$159                  test_screen
+     000012FD  A$test_screen$160                  test_screen
+     000012FF  A$test_screen$164                  test_screen
+     000012FF  C$test_screen.c$35$4$13            test_screen
+     00001302  A$test_screen$165                  test_screen
+     00001303  A$test_screen$166                  test_screen
+     00001306  A$test_screen$167                  test_screen
+     00001307  A$test_screen$168                  test_screen
+     0000130A  A$test_screen$169                  test_screen
+     0000130B  A$test_screen$173                  test_screen
+     0000130B  C$test_screen.c$36$4$13            test_screen
+     0000130D  A$test_screen$174                  test_screen
+     0000130E  A$test_screen$175                  test_screen
+     0000130F  A$test_screen$176                  test_screen
+     00001312  A$test_screen$177                  test_screen
+     00001313  A$test_screen$178                  test_screen
+     00001315  A$test_screen$183                  test_screen
+     00001315  C$test_screen.c$40$4$14            test_screen
+     00001318  A$test_screen$187                  test_screen
+     00001318  C$test_screen.c$41$4$14            test_screen
+     00001319  A$test_screen$188                  test_screen
+     0000131A  A$test_screen$189                  test_screen
+     0000131C  A$test_screen$193                  test_screen
+     0000131C  C$test_screen.c$43$5$15            test_screen
+     0000131F  A$test_screen$194                  test_screen
+     00001320  A$test_screen$195                  test_screen
+     00001323  A$test_screen$196                  test_screen
+     00001324  A$test_screen$197                  test_screen
+     00001327  A$test_screen$198                  test_screen
+     00001328  A$test_screen$202                  test_screen
+     00001328  C$test_screen.c$44$5$15            test_screen
+     0000132A  A$test_screen$203                  test_screen
+     0000132B  A$test_screen$204                  test_screen
+     0000132C  A$test_screen$205                  test_screen
+     0000132F  A$test_screen$206                  test_screen
+     00001330  A$test_screen$207                  test_screen
+     00001332  A$test_screen$212                  test_screen
+     00001332  C$test_screen.c$48$5$16            test_screen
+     00001335  A$test_screen$216                  test_screen
+     00001335  C$test_screen.c$49$5$16            test_screen
+     00001336  A$test_screen$217                  test_screen
+     00001337  A$test_screen$218                  test_screen
+     00001339  A$test_screen$222                  test_screen
+     00001339  C$test_screen.c$51$6$17            test_screen
+     0000133C  A$test_screen$223                  test_screen
+     0000133D  A$test_screen$224                  test_screen
+     00001340  A$test_screen$225                  test_screen
+     00001341  A$test_screen$226                  test_screen
+     00001344  A$test_screen$227                  test_screen
+     00001345  A$test_screen$231                  test_screen
+     00001345  C$test_screen.c$52$6$17            test_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001349  A$test_screen$253                  test_screen
-     0000134C  A$test_screen$254                  test_screen
-     0000134D  A$test_screen$255                  test_screen
-     00001350  A$test_screen$256                  test_screen
-     00001351  A$test_screen$260                  test_screen
-     00001351  C$test_screen.c$60$7$19            test_screen
-     00001353  A$test_screen$261                  test_screen
-     00001354  A$test_screen$262                  test_screen
-     00001355  A$test_screen$263                  test_screen
-     00001358  A$test_screen$264                  test_screen
-     00001359  A$test_screen$269                  test_screen
-     00001359  C$test_screen.c$68$1$8             test_screen
-     0000135A  A$test_screen$270                  test_screen
-     0000135B  A$test_screen$271                  test_screen
-     0000135C  A$test_screen$272                  test_screen
-     0000135D  A$test_screen$273                  test_screen
-     0000135F  A$test_screen$278                  test_screen
-     0000135F  C$test_screen.c$69$1$8             test_screen
-     0000135F  XG$screen_test_screen_update$0$0   test_screen
-     00001360  Ftest_screen$__str_1$0$0           test_screen
-     0000136C  Ftest_screen$__str_2$0$0           test_screen
-     00001378  Ftest_screen$__str_3$0$0           test_screen
-     00001384  Ftest_screen$__str_4$0$0           test_screen
-     00001390  Ftest_screen$__str_5$0$0           test_screen
-     0000139C  Ftest_screen$__str_6$0$0           test_screen
-     000013A8  G$font__palette__bin$0$0           gfx
-     000013A8  _font__palette__bin                gfx
-     000013B8  G$font__tilemap__bin$0$0           gfx
-     000013B8  _font__tilemap__bin                gfx
-     00001438  G$font__tiles__psgcompr$0$0        gfx
-     00001438  _font__tiles__psgcompr             gfx
-     000016CF  G$sfx_cheat_psg$0$0                psg
-     000016CF  _sfx_cheat_psg                     psg
-     000016F2  G$sfx_right_psg$0$0                psg
-     000016F2  _sfx_right_psg                     psg
-     00001712  G$sfx_wrong_psg$0$0                psg
-     00001712  _sfx_wrong_psg                     psg
-     00001735  __divuint                          
-     0000173D  __divuchar                         
-     00001744  __divu8                            
-     00001747  __divu16                           
-     00001776  _UNSAFE_SMS_copySpritestoSAT       SMSlib_UNSAFE
-     0000178E  _UNSAFE_SMS_VRAMmemcpy32           SMSlib_UNSAFE
-     000017AB  _UNSAFE_SMS_VRAMmemcpy64           SMSlib_UNSAFE
-     000017C8  _UNSAFE_SMS_VRAMmemcpy128          SMSlib_UNSAFE
-     000017E5  _SMS_init                          SMSlib
-     00001839  _VDPReg_init                       SMSlib
-     00001844  _SMS_VDPType                       SMSlib
-     0000184C  _SMS_VDPturnOnFeature              SMSlib
-     00001863  _SMS_VDPturnOffFeature             SMSlib
-     0000187C  _SMS_setBGScrollX                  SMSlib
+     00001347  A$test_screen$232                  test_screen
+     00001348  A$test_screen$233                  test_screen
+     00001349  A$test_screen$234                  test_screen
+     0000134C  A$test_screen$235                  test_screen
+     0000134D  A$test_screen$236                  test_screen
+     0000134F  A$test_screen$241                  test_screen
+     0000134F  C$test_screen.c$56$6$18            test_screen
+     00001352  A$test_screen$245                  test_screen
+     00001352  C$test_screen.c$57$6$18            test_screen
+     00001353  A$test_screen$246                  test_screen
+     00001354  A$test_screen$247                  test_screen
+     00001356  A$test_screen$251                  test_screen
+     00001356  C$test_screen.c$59$7$19            test_screen
+     00001359  A$test_screen$252                  test_screen
+     0000135A  A$test_screen$253                  test_screen
+     0000135D  A$test_screen$254                  test_screen
+     0000135E  A$test_screen$255                  test_screen
+     00001361  A$test_screen$256                  test_screen
+     00001362  A$test_screen$260                  test_screen
+     00001362  C$test_screen.c$60$7$19            test_screen
+     00001364  A$test_screen$261                  test_screen
+     00001365  A$test_screen$262                  test_screen
+     00001366  A$test_screen$263                  test_screen
+     00001369  A$test_screen$264                  test_screen
+     0000136A  A$test_screen$269                  test_screen
+     0000136A  C$test_screen.c$68$1$8             test_screen
+     0000136B  A$test_screen$270                  test_screen
+     0000136C  A$test_screen$271                  test_screen
+     0000136D  A$test_screen$272                  test_screen
+     0000136E  A$test_screen$273                  test_screen
+     00001370  A$test_screen$278                  test_screen
+     00001370  C$test_screen.c$69$1$8             test_screen
+     00001370  XG$screen_test_screen_update$0$0   test_screen
+     00001371  Ftest_screen$__str_1$0$0           test_screen
+     0000137D  Ftest_screen$__str_2$0$0           test_screen
+     00001389  Ftest_screen$__str_3$0$0           test_screen
+     00001395  Ftest_screen$__str_4$0$0           test_screen
+     000013A1  Ftest_screen$__str_5$0$0           test_screen
+     000013AD  Ftest_screen$__str_6$0$0           test_screen
+     000013B9  G$font__palette__bin$0$0           gfx
+     000013B9  _font__palette__bin                gfx
+     000013C9  G$font__tilemap__bin$0$0           gfx
+     000013C9  _font__tilemap__bin                gfx
+     00001449  G$font__tiles__psgcompr$0$0        gfx
+     00001449  _font__tiles__psgcompr             gfx
+     000016E0  G$sfx_cheat_psg$0$0                psg
+     000016E0  _sfx_cheat_psg                     psg
+     00001703  G$sfx_right_psg$0$0                psg
+     00001703  _sfx_right_psg                     psg
+     00001723  G$sfx_wrong_psg$0$0                psg
+     00001723  _sfx_wrong_psg                     psg
 ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00000200    00001BD2 =        7122. bytes (REL,CON)
+_CODE                               00000200    00001BE3 =        7139. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001886  _SMS_setBGScrollY                  SMSlib
-     00001890  _SMS_setBackdropColor              SMSlib
-     0000189A  _SMS_useFirstHalfTilesforSprites   SMSlib
-     000018AE  _SMS_setSpriteMode                 SMSlib
-     000018F3  _SMS_setBGPaletteColor             SMSlib
-     00001907  _SMS_setSpritePaletteColor         SMSlib
-     0000191B  _SMS_loadBGPalette                 SMSlib
-     0000192F  _SMS_loadSpritePalette             SMSlib
-     00001943  _SMS_setColor                      SMSlib
-     00001947  _SMS_initSprites                   SMSlib
-     0000194D  _SMS_addSprite                     SMSlib
-     000019A2  _SMS_finalizeSprites               SMSlib
-     000019B4  _SMS_copySpritestoSAT              SMSlib
-     000019DD  _SMS_waitForVBlank                 SMSlib
-     000019EA  _SMS_getKeysStatus                 SMSlib
-     000019EE  _SMS_getKeysPressed                SMSlib
-     00001A0B  _SMS_getKeysHeld                   SMSlib
-     00001A22  _SMS_getKeysReleased               SMSlib
-     00001A3F  _SMS_queryPauseRequested           SMSlib
-     00001A47  _SMS_resetPauseRequest             SMSlib
-     00001A4D  _SMS_setLineInterruptHandler       SMSlib
-     00001A5E  _SMS_setLineCounter                SMSlib
-     00001A6D  _SMS_getVCount                     SMSlib
-     00001A71  _SMS_getHCount                     SMSlib
-     00001A75  _SMS_isr                           SMSlib
-     00001AAB  _SMS_nmi_isr                       SMSlib
-     00001ABE  _SMS_loadSTMcompressedTileMapAre   SMSlib_STMcomp
-     00001C9F  ___sdcc_call_hl                    
-     00001CA0  _SMS_loadPSGaidencompressedTiles   SMSlib_PSGaiden
-     00001D82  _SMS_loadTileMap                   SMSlib_loadTileMap
-     00001DBB  __moduchar                         
-     00001DC7  __moduint                          
-
+     00001746  __divuint                          
+     0000174E  __divuchar                         
+     00001755  __divu8                            
+     00001758  __divu16                           
+     00001787  _UNSAFE_SMS_copySpritestoSAT       SMSlib_UNSAFE
+     0000179F  _UNSAFE_SMS_VRAMmemcpy32           SMSlib_UNSAFE
+     000017BC  _UNSAFE_SMS_VRAMmemcpy64           SMSlib_UNSAFE
+     000017D9  _UNSAFE_SMS_VRAMmemcpy128          SMSlib_UNSAFE
+     000017F6  _SMS_init                          SMSlib
+     0000184A  _VDPReg_init                       SMSlib
+     00001855  _SMS_VDPType                       SMSlib
+     0000185D  _SMS_VDPturnOnFeature              SMSlib
+     00001874  _SMS_VDPturnOffFeature             SMSlib
+     0000188D  _SMS_setBGScrollX                  SMSlib
+     00001897  _SMS_setBGScrollY                  SMSlib
+     000018A1  _SMS_setBackdropColor              SMSlib
+     000018AB  _SMS_useFirstHalfTilesforSprites   SMSlib
+     000018BF  _SMS_setSpriteMode                 SMSlib
+     00001904  _SMS_setBGPaletteColor             SMSlib
+     00001918  _SMS_setSpritePaletteColor         SMSlib
+     0000192C  _SMS_loadBGPalette                 SMSlib
+     00001940  _SMS_loadSpritePalette             SMSlib
+     00001954  _SMS_setColor                      SMSlib
+     00001958  _SMS_initSprites                   SMSlib
+     0000195E  _SMS_addSprite                     SMSlib
+     000019B3  _SMS_finalizeSprites               SMSlib
+     000019C5  _SMS_copySpritestoSAT              SMSlib
+     000019EE  _SMS_waitForVBlank                 SMSlib
+     000019FB  _SMS_getKeysStatus                 SMSlib
+     000019FF  _SMS_getKeysPressed                SMSlib
+     00001A1C  _SMS_getKeysHeld                   SMSlib
+     00001A33  _SMS_getKeysReleased               SMSlib
+     00001A50  _SMS_queryPauseRequested           SMSlib
+     00001A58  _SMS_resetPauseRequest             SMSlib
+     00001A5E  _SMS_setLineInterruptHandler       SMSlib
+     00001A6F  _SMS_setLineCounter                SMSlib
+     00001A7E  _SMS_getVCount                     SMSlib
+     00001A82  _SMS_getHCount                     SMSlib
+     00001A86  _SMS_isr                           SMSlib
+     00001ABC  _SMS_nmi_isr                       SMSlib
+     00001ACF  _SMS_loadSTMcompressedTileMapAre   SMSlib_STMcomp
+     00001CB0  ___sdcc_call_hl                    
+     00001CB1  _SMS_loadPSGaidencompressedTiles   SMSlib_PSGaiden
+     00001D93  _SMS_loadTileMap                   SMSlib_loadTileMap
+     00001DCC  __moduchar                         
+     00001DD8  __moduint                          
 ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
 Hexadecimal  [32-Bits]
 
@@ -3151,33 +3164,33 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_INITIALIZER                        00001DD2    00000016 =          22. bytes (REL,CON)
+_INITIALIZER                        00001DE3    00000016 =          22. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001DD2  Finput_manager$__xinit_curr_joyp   input_manager
-     00001DD4  Finput_manager$__xinit_prev_joyp   input_manager
-     00001DD6  Fsound_object$__xinit_sound_samp   sound_object
-     00001DE2  Ffunc_screen$__xinit_index$0$0     func_screen
-     00001DE3  Ftest_screen$__xinit_index$0$0     test_screen
+     00001DE3  Finput_manager$__xinit_curr_joyp   input_manager
+     00001DE5  Finput_manager$__xinit_prev_joyp   input_manager
+     00001DE7  Fsound_object$__xinit_sound_samp   sound_object
+     00001DF3  Ffunc_screen$__xinit_index$0$0     func_screen
+     00001DF4  Ftest_screen$__xinit_index$0$0     test_screen
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 60.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_GSINIT                             00001DE8    0000000F =          15. bytes (REL,CON)
+_GSINIT                             00001DF9    0000000F =          15. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001DE8  gsinit                             crt0
+     00001DF9  gsinit                             crt0
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 61.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_GSFINAL                            00001DF7    00000001 =           1. bytes (REL,CON)
+_GSFINAL                            00001E08    00000001 =           1. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -3186,7 +3199,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_DATA                               0000C000    00000142 =         322. bytes (REL,CON)
+_DATA                               0000C000    00000145 =         325. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -3224,35 +3237,40 @@ _DATA                               0000C000    00000142 =         322. bytes (R
      0000C046  Fscreen_manager$next_screen_type   screen_manager
      0000C047  Fscreen_manager$load_method$0$0    screen_manager
      0000C04F  Fscreen_manager$update_method$0$   screen_manager
-     0000C057  _VDPBlank                          SMSlib
-     0000C058  _SMS_VDPFlags                      SMSlib
-     0000C059  _PauseRequested                    SMSlib
-     0000C05A  _VDPType                           SMSlib
-     0000C05B  _KeysStatus                        SMSlib
-     0000C05D  _PreviousKeysStatus                SMSlib
-     0000C05F  _SpriteTableY                      SMSlib
-     0000C09F  _SpriteTableXN                     SMSlib
-     0000C11F  _SpriteNextFree                    SMSlib
-     0000C120  _SMS_theLineInterruptHandler       SMSlib
-     0000C122  _decompBuffer                      SMSlib_PSGaiden
+     0000C057  G$screen_bases_screen_count$0$0    timer_object
+     0000C057  _screen_bases_screen_count         timer_object
+     0000C058  G$screen_bases_screen_timer$0$0    timer_object
+     0000C058  _screen_bases_screen_timer         timer_object
+     0000C05A  _VDPBlank                          SMSlib
+     0000C05B  _SMS_VDPFlags                      SMSlib
+     0000C05C  _PauseRequested                    SMSlib
+     0000C05D  _VDPType                           SMSlib
+     0000C05E  _KeysStatus                        SMSlib
+     0000C060  _PreviousKeysStatus                SMSlib
+     0000C062  _SpriteTableY                      SMSlib
+     0000C0A2  _SpriteTableXN                     SMSlib
+     0000C122  _SpriteNextFree                    SMSlib
+     0000C123  _SMS_theLineInterruptHandler       SMSlib
+     0000C125  _decompBuffer                      SMSlib_PSGaiden
+
 ASxxxx Linker V03.00 + NoICE + sdld,  page 63.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_INITIALIZED                        0000C142    00000016 =          22. bytes (REL,CON)
+_INITIALIZED                        0000C145    00000016 =          22. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000C142  Finput_manager$curr_joypad1$0$0    input_manager
-     0000C144  Finput_manager$prev_joypad1$0$0    input_manager
-     0000C146  G$sound_sample_data$0$0            sound_object
-     0000C146  _sound_sample_data                 sound_object
-     0000C152  Ffunc_screen$index$0$0             func_screen
-     0000C153  Ftest_screen$index$0$0             test_screen
-     0000C154  _VDPReg                            SMSlib
-     0000C156  _spritesHeight                     SMSlib
-     0000C157  _spritesWidth                      SMSlib
+     0000C145  Finput_manager$curr_joypad1$0$0    input_manager
+     0000C147  Finput_manager$prev_joypad1$0$0    input_manager
+     0000C149  G$sound_sample_data$0$0            sound_object
+     0000C149  _sound_sample_data                 sound_object
+     0000C155  Ffunc_screen$index$0$0             func_screen
+     0000C156  Ftest_screen$index$0$0             test_screen
+     0000C157  _VDPReg                            SMSlib
+     0000C159  _spritesHeight                     SMSlib
+     0000C15A  _spritesWidth                      SMSlib
 ASxxxx Linker V03.00 + NoICE + sdld,  page 64.
 Hexadecimal  [32-Bits]
 
@@ -3736,7 +3754,9 @@ engine/locale_manager.rel                 [ locale_manager ]
 engine/sample_manager.rel                 [ sample_manager ]
 engine/screen_manager.rel                 [ screen_manager ]
 engine/sound_manager.rel                  [ sound_manager ]
+engine/timer_manager.rel                  [ timer_manager ]
 object/sound_object.rel                   [ sound_object ]
+object/timer_object.rel                   [ timer_object ]
 screen/func_screen.rel                    [ func_screen ]
 screen/none_screen.rel                    [ none_screen ]
 screen/splash_screen.rel                  [ splash_screen ]
