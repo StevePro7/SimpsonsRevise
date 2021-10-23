@@ -24,6 +24,13 @@ extern unsigned char question_index, question_long, question_count;
 extern unsigned char question_value, option1_value, option2_value, option3_value, option4_value;
 extern unsigned char answer_index, answer_value;
 
+// Public methods.
+void engine_quiz_manager_init();
 
+//void engine_quiz_manager_base();
+//void engine_quiz_manager_base2();
+//void engine_quiz_manager_base3( unsigned char y );
+
+void engine_quiz_manager_bank( unsigned char b );
 
 #endif//_QUIZ_MANAGER_H_
