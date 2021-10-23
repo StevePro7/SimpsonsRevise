@@ -27,7 +27,7 @@ void main(void)
 	//open_screen_type = screen_type_diff;
 	open_screen_type = screen_type_intro;
 	//open_screen_type = screen_type_title;
-	//open_screen_type = screen_type_test;
+	open_screen_type = screen_type_test;
 
 	engine_screen_manager_init( open_screen_type );
 	devkit_SMS_displayOn();

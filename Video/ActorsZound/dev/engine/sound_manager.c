@@ -1,4 +1,5 @@
 #include "sound_manager.h"
+#include "hack_manager.h"
 #include "sample_manager.h"
 #include "../devkit/_sms_manager.h"
 #include "../object/sound_object.h"
@@ -20,6 +21,11 @@ void engine_sound_manager_play( unsigned char index )
 
 	data = sound_sample_data[ index ];
 	bank = sound_sample_bank[ index ];
+
+	if( !hacker_sound )
+	{
+		return;
+	}
 
 	devkit_SMS_mapROMBank( bank );
 	engine_sample_manager_play( data );
