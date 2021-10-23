@@ -53,7 +53,7 @@ void engine_audio_manager_sound_cheat()
 
 static void play_music( unsigned char *music, unsigned char bank )
 {
-	devkit_SMS_mapROMBank( music_psg_bank );
+	devkit_SMS_mapROMBank( bank );
 	devkit_PSGPlayNoRepeat( music );
 }
 

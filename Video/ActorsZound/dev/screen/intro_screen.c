@@ -17,7 +17,8 @@ void screen_intro_screen_update( unsigned char *screen_type )
 	unsigned char input = engine_input_manager_hold_up();
 	if( input )
 	{
-		engine_audio_manager_start_music();
+		//engine_audio_manager_start_music();
+		engine_audio_manager_finish_music();
 		engine_font_manager_text( "PLAY MUSIC", 10, 8 );
 	}
 

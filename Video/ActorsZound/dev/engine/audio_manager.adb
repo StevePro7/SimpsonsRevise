@@ -5,8 +5,11 @@ F:G$engine_audio_manager_stop_music$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_audio_manager_sound_right$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_audio_manager_sound_wrong$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_audio_manager_sound_cheat$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:Faudio_manager$play_music$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Laudio_manager.play_music$music$1$40({2}DG,SC:U),B,1,4
+S:Laudio_manager.play_music$bank$1$40({1}SC:U),B,1,6
 F:Faudio_manager$play_sound$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Laudio_manager.play_sound$sfx$1$39({2}DG,SC:U),B,1,4
+S:Laudio_manager.play_sound$sfx$1$42({2}DG,SC:U),B,1,4
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0
