@@ -8,7 +8,7 @@
 void screen_title_screen_load()
 {
 	devkit_SMS_displayOff();
-	engine_content_manager_load_title();
+	engine_content_manager_title();
 	engine_font_manager_text( LOCALE_VERSION, 25, 23 );
 	devkit_SMS_displayOn();
 

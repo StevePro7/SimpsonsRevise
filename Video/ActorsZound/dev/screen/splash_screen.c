@@ -1,12 +1,16 @@
 #include "splash_screen.h"
+#include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/timer_manager.h"
+#include "../devkit/_sms_manager.h"
 
 void screen_splash_screen_load()
 {
 	screen_bases_screen_init();
-	engine_font_manager_text( "SPLASH SCREEN..!!", 10, 2 );
+	devkit_SMS_displayOff();
+	engine_content_manager_splash();
+	devkit_SMS_displayOn();
 }
 
 void screen_splash_screen_update( unsigned char *screen_type )
