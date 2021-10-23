@@ -32,3 +32,5 @@ S:G$engine_quiz_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_bank$0$0({2}DF,SV:S),C,0,0
 S:G$engine_random_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_random_manager_load$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_clear$0$0({2}DF,SV:S),C,0,0

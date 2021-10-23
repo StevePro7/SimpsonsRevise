@@ -10,4 +10,9 @@ extern unsigned char select_high_option[ MAX_OPTIONS ];
 extern unsigned char select_text_option[ MAX_OPTIONS ][ 3 ];
 extern unsigned char select_diff_option[ MAX_OPTIONS ][ 6 ];
 
+// Public methods.
+void engine_select_manager_load_quiz();
+
+void engine_select_manager_clear();
+
 #endif//_SELECT_MANAGER_H_

@@ -38,6 +38,8 @@ S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_clear$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0
