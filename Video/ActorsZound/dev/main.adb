@@ -93,6 +93,7 @@ S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_splash$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_title$0$0({2}DF,SV:S),C,0,0
+S:G$engine_debug_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_input_manager_update$0$0({2}DF,SV:S),C,0,0

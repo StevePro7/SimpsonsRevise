@@ -18,6 +18,7 @@ sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 a
 sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 asm_manager.c
 sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 audio_manager.c
 sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 content_manager.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 debug_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 enum_manager.c
 sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 font_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 global_manager.c
@@ -89,7 +90,8 @@ banks/bank10.rel banks/bank11.rel banks/bank12.rel banks/bank13.rel ^
 banks/bank14.rel banks/bank15.rel ^
 devkit/_sms_manager.rel devkit/_snd_manager.rel ^
 engine/actor_manager.rel ^
-engine/asm_manager.rel engine/audio_manager.rel engine/content_manager.rel engine/enum_manager.rel engine/font_manager.rel ^
+engine/asm_manager.rel engine/audio_manager.rel engine/content_manager.rel engine/debug_manager.rel ^
+engine/enum_manager.rel engine/font_manager.rel ^
 engine/global_manager.rel engine/hack_manager.rel engine/input_manager.rel engine/locale_manager.rel ^
 engine/quiz_manager.rel engine/random_manager.rel engine/sample_manager.rel engine/score_manager.rel engine/select_manager.rel ^
 engine/screen_manager.rel engine/sound_manager.rel engine/sprite_manager.rel engine/timer_manager.rel ^

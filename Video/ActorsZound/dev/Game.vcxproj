@@ -164,6 +164,7 @@
     <ClCompile Include="engine\asm_manager.c" />
     <ClCompile Include="engine\audio_manager.c" />
     <ClCompile Include="engine\content_manager.c" />
+    <ClCompile Include="engine\debug_manager.c" />
     <ClCompile Include="engine\enum_manager.c" />
     <ClCompile Include="engine\font_manager.c" />
     <ClCompile Include="engine\global_manager.c" />
@@ -224,6 +225,7 @@
     <ClInclude Include="engine\asm_manager.h" />
     <ClInclude Include="engine\audio_manager.h" />
     <ClInclude Include="engine\content_manager.h" />
+    <ClInclude Include="engine\debug_manager.h" />
     <ClInclude Include="engine\enum_manager.h" />
     <ClInclude Include="engine\font_manager.h" />
     <ClInclude Include="engine\global_manager.h" />

@@ -32,6 +32,10 @@ void main(void)
 
 	engine_actor_manager_init();
 	engine_screen_manager_init( open_screen_type );
+
+	// TODO - delete this after testing!!
+	engine_debug_manager_init();
+
 	devkit_SMS_displayOn();
 	for (;;)
 	{
