@@ -15,8 +15,8 @@ void main(void)
 	devkit_SMS_VDPturnOnFeature( devkit_VDPFEATURE_HIDEFIRSTCOL() );
 
 	engine_content_manager_load_font();
-	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette();	// TODO move to title after splash
+	//engine_content_manager_load_sprites();
+	//engine_content_manager_load_sprite_palette();	// TODO move to title after splash
 	engine_sound_manager_init();
 
 	open_screen_type = screen_type_splash;
