@@ -7,7 +7,7 @@ S _engine_font_manager_text Ref0000
 S _devkit_SMS_displayOn Ref0000
 S .__.ABS. Def0000
 S _devkit_SMS_displayOff Ref0000
-S _engine_content_manager_load_title Ref0000
+S _engine_content_manager_title Ref0000
 A _CODE size 22 flags 0 addr 0
 S XG$screen_title_screen_load$0$0 Def0013
 S G$screen_title_screen_update$0$0 Def001B
