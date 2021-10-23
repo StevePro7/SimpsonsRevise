@@ -1,6 +1,6 @@
 ;!FILE none_screen.asm
 XL2
-H 9 areas 1E global symbols
+H 9 areas 1D global symbols
 M none_screen
 O -mz80
 S _engine_font_manager_text Ref0000
@@ -8,12 +8,11 @@ S .__.ABS. Def0000
 A _CODE size 23 flags 0 addr 0
 S A$none_screen$62 Def000B
 S G$screen_none_screen_load$0$0 Def0000
-S A$none_screen$90 Def0021
 S A$none_screen$63 Def000C
 S A$none_screen$57 Def0000
+S A$none_screen$94 Def0022
 S A$none_screen$85 Def001C
 S A$none_screen$58 Def0003
-S A$none_screen$95 Def0022
 S A$none_screen$86 Def001D
 S A$none_screen$68 Def000D
 S A$none_screen$59 Def0004
@@ -52,5 +51,5 @@ T 0E 00 4E 4F 4E 45 20 53 43 52 45 45 4E 21 21 00
 R 00 00 00 00
 T 1C 00
 R 00 00 00 00
-T 1C 00 D1 C1 C5 D5 AF 02 C9
+T 1C 00 C1 E1 E5 C5 36 0C C9
 R 00 00 00 00

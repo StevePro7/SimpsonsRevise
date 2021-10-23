@@ -99,10 +99,6 @@ object/sound_object.rel object/timer_object.rel ^
 screen/diff_screen.rel screen/func_screen.rel screen/intro_screen.rel screen/level_screen.rel screen/long_screen.rel ^
 screen/none_screen.rel screen/number_screen.rel screen/over_screen.rel screen/play_screen.rel screen/quiz_screen.rel ^
 screen/ready_screen.rel screen/score_screen.rel screen/splash_screen.rel screen/test_screen.rel screen/title_screen.rel ^
-screen/func_screen.rel ^
-screen/none_screen.rel ^
-screen/splash_screen.rel ^
-screen/test_screen.rel ^
 gfx.rel psg.rel
 
 :: Execute
