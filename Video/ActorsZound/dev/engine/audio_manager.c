@@ -11,27 +11,31 @@
 #endif
 
 #define music_psg				music_psg
+#define finish_psg				finish_psg
 
 #define sfx_cheat_psg			sfx_cheat_psg
 #define sfx_right_psg			sfx_right_psg
 #define sfx_wrong_psg			sfx_wrong_psg
 
 // Private helper functions.
-//static void play_music( unsigned char *mus, unsigned char bank );
-//static void play_music_norepeat( unsigned char *mus, unsigned char bank );
+static void play_music( unsigned char *music, unsigned char bank );
 static void play_sound( unsigned char *sfx );
 
 
 void engine_audio_manager_start_music()
 {
-	devkit_SMS_mapROMBank( music_psg_bank );
-	devkit_PSGPlayNoRepeat( ( unsigned char* ) music_psg );
+	play_music( ( unsigned char* ) music_psg, music_psg_bank );
 }
 
 void engine_audio_manager_finish_music()
-{}
+{
+	play_music( ( unsigned char* ) finish_psg, finish_psg_bank );
+}
+
 void engine_audio_manager_stop_music()
-{}
+{
+	devkit_PSGStop();
+}
 
 
 void engine_audio_manager_sound_right()
@@ -45,6 +49,12 @@ void engine_audio_manager_sound_wrong()
 void engine_audio_manager_sound_cheat()
 {
 	play_sound( ( unsigned char* ) sfx_cheat_psg );
+}
+
+static void play_music( unsigned char *music, unsigned char bank )
+{
+	devkit_SMS_mapROMBank( music_psg_bank );
+	devkit_PSGPlayNoRepeat( music );
 }
 
 static void play_sound( unsigned char *sfx )
