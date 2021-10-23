@@ -24,9 +24,14 @@ sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 c
 ::::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 hack_manager.c
 ::::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 input_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 locale_manager.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 quiz_manager.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 random_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 sample_manager.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 score_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 screen_manager.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 select_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 sound_manager.c
+sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 sprite_manager.c
 ::sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 timer_manager.c
 cd ..
 
@@ -86,8 +91,9 @@ banks/bank14.rel banks/bank15.rel ^
 devkit/_sms_manager.rel devkit/_snd_manager.rel ^
 engine/actor_manager.rel ^
 engine/asm_manager.rel engine/audio_manager.rel engine/content_manager.rel engine/enum_manager.rel engine/font_manager.rel ^
-engine/global_manager.rel engine/hack_manager.rel engine/input_manager.rel engine/locale_manager.rel engine/sample_manager.rel ^
-engine/screen_manager.rel engine/sound_manager.rel engine/timer_manager.rel ^
+engine/global_manager.rel engine/hack_manager.rel engine/input_manager.rel engine/locale_manager.rel ^
+engine/quiz_manager.rel engine/random_manager.rel engine/sample_manager.rel engine/score_manager.rel engine/select_manager.rel ^
+engine/screen_manager.rel engine/sound_manager.rel engine/sprite_manager.rel engine/timer_manager.rel ^
 object/sound_object.rel object/timer_object.rel ^
 screen/diff_screen.rel screen/func_screen.rel screen/intro_screen.rel screen/level_screen.rel screen/long_screen.rel ^
 screen/none_screen.rel screen/number_screen.rel screen/over_screen.rel screen/play_screen.rel screen/quiz_screen.rel ^
