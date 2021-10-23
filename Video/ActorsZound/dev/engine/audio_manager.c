@@ -1,5 +1,7 @@
 #include "audio_manager.h"
+#include "../devkit/_sms_manager.h"
 #include "../devkit/_snd_manager.h"
+#include "../banks/bank15.h"
 #include "../psg.h"
 
 // IMPORTANT disable compiler warning 110
@@ -7,6 +9,8 @@
 #else
 #pragma disable_warning 196
 #endif
+
+#define music_psg				music_psg
 
 #define sfx_cheat_psg			sfx_cheat_psg
 #define sfx_right_psg			sfx_right_psg
@@ -18,19 +22,30 @@
 static void play_sound( unsigned char *sfx );
 
 
-void engine_audio_manager_cheat()
+void engine_audio_manager_start_music()
 {
-	play_sound( ( unsigned char* ) sfx_cheat_psg );
+	devkit_SMS_mapROMBank( music_psg_bank );
+	devkit_PSGPlayNoRepeat( ( unsigned char* ) music_psg );
 }
-void engine_audio_manager_right()
+
+void engine_audio_manager_finish_music()
+{}
+void engine_audio_manager_stop_music()
+{}
+
+
+void engine_audio_manager_sound_right()
 {
 	play_sound( ( unsigned char* ) sfx_right_psg );
 }
-void engine_audio_manager_wrong()
+void engine_audio_manager_sound_wrong()
 {
 	play_sound( ( unsigned char* ) sfx_wrong_psg );
 }
-
+void engine_audio_manager_sound_cheat()
+{
+	play_sound( ( unsigned char* ) sfx_cheat_psg );
+}
 
 static void play_sound( unsigned char *sfx )
 {
