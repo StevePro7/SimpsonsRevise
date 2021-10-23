@@ -10,7 +10,7 @@ void screen_number_screen_load()
 	//engine_font_manager_text( "NUMBER SCREEN!!", 10, 2 );
 
 	devkit_SMS_displayOff();
-	engine_actor_manager_draw( 7 );
+	engine_actor_manager_draw( 8 );
 	devkit_SMS_displayOn();
 }
 

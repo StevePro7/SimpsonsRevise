@@ -1392,34 +1392,34 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000C43  C$_snd_manager.c$77$1$58           _snd_manager
      00000C43  XG$devkit_SFX_CHANNELS2AND3$0$0    _snd_manager
      00000C44  A$actor_manager$63                 actor_manager
-     00000C44  C$actor_manager.c$23$0$0           actor_manager
-     00000C44  C$actor_manager.c$25$1$21          actor_manager
+     00000C44  C$actor_manager.c$22$0$0           actor_manager
+     00000C44  C$actor_manager.c$24$1$21          actor_manager
      00000C44  G$engine_actor_manager_init$0$0    actor_manager
      00000C44  _engine_actor_manager_init         actor_manager
      00000C47  A$actor_manager$64                 actor_manager
      00000C4A  A$actor_manager$68                 actor_manager
-     00000C4A  C$actor_manager.c$26$1$21          actor_manager
+     00000C4A  C$actor_manager.c$25$1$21          actor_manager
      00000C4D  A$actor_manager$69                 actor_manager
      00000C50  A$actor_manager$73                 actor_manager
-     00000C50  C$actor_manager.c$27$1$21          actor_manager
+     00000C50  C$actor_manager.c$26$1$21          actor_manager
      00000C53  A$actor_manager$74                 actor_manager
      00000C56  A$actor_manager$78                 actor_manager
-     00000C56  C$actor_manager.c$28$1$21          actor_manager
+     00000C56  C$actor_manager.c$27$1$21          actor_manager
      00000C59  A$actor_manager$79                 actor_manager
      00000C5C  A$actor_manager$83                 actor_manager
-     00000C5C  C$actor_manager.c$29$1$21          actor_manager
+     00000C5C  C$actor_manager.c$28$1$21          actor_manager
      00000C5F  A$actor_manager$84                 actor_manager
      00000C62  A$actor_manager$88                 actor_manager
-     00000C62  C$actor_manager.c$30$1$21          actor_manager
+     00000C62  C$actor_manager.c$29$1$21          actor_manager
      00000C65  A$actor_manager$89                 actor_manager
      00000C68  A$actor_manager$93                 actor_manager
-     00000C68  C$actor_manager.c$31$1$21          actor_manager
+     00000C68  C$actor_manager.c$30$1$21          actor_manager
      00000C6B  A$actor_manager$94                 actor_manager
      00000C6E  A$actor_manager$98                 actor_manager
-     00000C6E  C$actor_manager.c$32$1$21          actor_manager
+     00000C6E  C$actor_manager.c$31$1$21          actor_manager
      00000C71  A$actor_manager$99                 actor_manager
      00000C74  A$actor_manager$103                actor_manager
-     00000C74  C$actor_manager.c$33$1$21          actor_manager
+     00000C74  C$actor_manager.c$32$1$21          actor_manager
      00000C77  A$actor_manager$104                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
 Hexadecimal  [32-Bits]
@@ -1431,37 +1431,37 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00000C7A  A$actor_manager$108                actor_manager
-     00000C7A  C$actor_manager.c$34$1$21          actor_manager
+     00000C7A  C$actor_manager.c$33$1$21          actor_manager
      00000C7D  A$actor_manager$109                actor_manager
      00000C80  A$actor_manager$113                actor_manager
-     00000C80  C$actor_manager.c$35$1$21          actor_manager
+     00000C80  C$actor_manager.c$34$1$21          actor_manager
      00000C83  A$actor_manager$114                actor_manager
      00000C86  A$actor_manager$118                actor_manager
-     00000C86  C$actor_manager.c$36$1$21          actor_manager
+     00000C86  C$actor_manager.c$35$1$21          actor_manager
      00000C89  A$actor_manager$119                actor_manager
      00000C8C  A$actor_manager$123                actor_manager
-     00000C8C  C$actor_manager.c$37$1$21          actor_manager
+     00000C8C  C$actor_manager.c$36$1$21          actor_manager
      00000C8F  A$actor_manager$124                actor_manager
      00000C92  A$actor_manager$128                actor_manager
-     00000C92  C$actor_manager.c$38$1$21          actor_manager
+     00000C92  C$actor_manager.c$37$1$21          actor_manager
      00000C95  A$actor_manager$129                actor_manager
      00000C98  A$actor_manager$133                actor_manager
-     00000C98  C$actor_manager.c$39$1$21          actor_manager
+     00000C98  C$actor_manager.c$38$1$21          actor_manager
      00000C9B  A$actor_manager$134                actor_manager
      00000C9E  A$actor_manager$138                actor_manager
-     00000C9E  C$actor_manager.c$40$1$21          actor_manager
+     00000C9E  C$actor_manager.c$39$1$21          actor_manager
      00000CA1  A$actor_manager$139                actor_manager
      00000CA4  A$actor_manager$144                actor_manager
-     00000CA4  C$actor_manager.c$41$1$21          actor_manager
+     00000CA4  C$actor_manager.c$40$1$21          actor_manager
      00000CA4  XG$engine_actor_manager_init$0$0   actor_manager
      00000CA5  A$actor_manager$154                actor_manager
-     00000CA5  C$actor_manager.c$43$1$21          actor_manager
+     00000CA5  C$actor_manager.c$42$1$21          actor_manager
      00000CA5  G$engine_actor_manager_draw$0$0    actor_manager
      00000CA5  _engine_actor_manager_draw         actor_manager
      00000CA7  A$actor_manager$155                actor_manager
      00000CAB  A$actor_manager$156                actor_manager
      00000CAD  A$actor_manager$160                actor_manager
-     00000CAD  C$actor_manager.c$45$1$23          actor_manager
+     00000CAD  C$actor_manager.c$44$1$23          actor_manager
      00000CB0  A$actor_manager$161                actor_manager
      00000CB3  A$actor_manager$162                actor_manager
      00000CB5  A$actor_manager$163                actor_manager
@@ -1471,12 +1471,12 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000CB9  A$actor_manager$167                actor_manager
      00000CBA  A$actor_manager$168                actor_manager
      00000CBB  A$actor_manager$173                actor_manager
-     00000CBB  C$actor_manager.c$46$1$23          actor_manager
+     00000CBB  C$actor_manager.c$45$1$23          actor_manager
      00000CBB  XG$engine_actor_manager_draw$0$0   actor_manager
      00000CBD  A$actor_manager$174                actor_manager
      00000CC0  A$actor_manager$187                actor_manager
-     00000CC0  C$actor_manager.c$48$1$23          actor_manager
-     00000CC0  C$actor_manager.c$50$1$25          actor_manager
+     00000CC0  C$actor_manager.c$47$1$23          actor_manager
+     00000CC0  C$actor_manager.c$49$1$25          actor_manager
      00000CC0  Factor_manager$draw_impl$0$0       actor_manager
      00000CC3  A$actor_manager$188                actor_manager
      00000CC4  A$actor_manager$189                actor_manager
@@ -1494,7 +1494,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000CC7  A$actor_manager$192                actor_manager
      00000CCA  A$actor_manager$193                actor_manager
      00000CCB  A$actor_manager$197                actor_manager
-     00000CCB  C$actor_manager.c$51$1$25          actor_manager
+     00000CCB  C$actor_manager.c$50$1$25          actor_manager
      00000CCE  A$actor_manager$198                actor_manager
      00000CCF  A$actor_manager$199                actor_manager
      00000CD0  A$actor_manager$200                actor_manager
@@ -1506,7 +1506,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000CDA  A$actor_manager$206                actor_manager
      00000CDB  A$actor_manager$207                actor_manager
      00000CDC  A$actor_manager$211                actor_manager
-     00000CDC  C$actor_manager.c$52$1$25          actor_manager
+     00000CDC  C$actor_manager.c$51$1$25          actor_manager
      00000CDF  A$actor_manager$212                actor_manager
      00000CE0  A$actor_manager$213                actor_manager
      00000CE1  A$actor_manager$214                actor_manager
@@ -1518,7 +1518,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000CEB  A$actor_manager$220                actor_manager
      00000CEC  A$actor_manager$221                actor_manager
      00000CED  A$actor_manager$225                actor_manager
-     00000CED  C$actor_manager.c$53$1$25          actor_manager
+     00000CED  C$actor_manager.c$52$1$25          actor_manager
      00000CF0  A$actor_manager$226                actor_manager
      00000CF1  A$actor_manager$227                actor_manager
      00000CF2  A$actor_manager$228                actor_manager
@@ -1527,11 +1527,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000CF5  A$actor_manager$231                actor_manager
      00000CF8  A$actor_manager$232                actor_manager
      00000CF9  A$actor_manager$237                actor_manager
-     00000CF9  C$actor_manager.c$54$1$25          actor_manager
+     00000CF9  C$actor_manager.c$53$1$25          actor_manager
      00000CF9  XFactor_manager$draw_impl$0$0      actor_manager
      00000CFA  A$actor_manager$250                actor_manager
-     00000CFA  C$actor_manager.c$56$1$25          actor_manager
-     00000CFA  C$actor_manager.c$58$1$26          actor_manager
+     00000CFA  C$actor_manager.c$55$1$25          actor_manager
+     00000CFA  C$actor_manager.c$57$1$26          actor_manager
      00000CFA  Factor_manager$draw_actor00$0$0    actor_manager
      00000CFD  A$actor_manager$251                actor_manager
      00000CFE  A$actor_manager$252                actor_manager
@@ -1555,11 +1555,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000D10  A$actor_manager$261                actor_manager
      00000D11  A$actor_manager$262                actor_manager
      00000D12  A$actor_manager$267                actor_manager
-     00000D12  C$actor_manager.c$59$1$26          actor_manager
+     00000D12  C$actor_manager.c$58$1$26          actor_manager
      00000D12  XFactor_manager$draw_actor00$0$0   actor_manager
      00000D13  A$actor_manager$280                actor_manager
-     00000D13  C$actor_manager.c$60$1$26          actor_manager
-     00000D13  C$actor_manager.c$62$1$27          actor_manager
+     00000D13  C$actor_manager.c$59$1$26          actor_manager
+     00000D13  C$actor_manager.c$61$1$27          actor_manager
      00000D13  Factor_manager$draw_actor01$0$0    actor_manager
      00000D16  A$actor_manager$281                actor_manager
      00000D17  A$actor_manager$282                actor_manager
@@ -1574,11 +1574,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000D29  A$actor_manager$291                actor_manager
      00000D2A  A$actor_manager$292                actor_manager
      00000D2B  A$actor_manager$297                actor_manager
-     00000D2B  C$actor_manager.c$63$1$27          actor_manager
+     00000D2B  C$actor_manager.c$62$1$27          actor_manager
      00000D2B  XFactor_manager$draw_actor01$0$0   actor_manager
      00000D2C  A$actor_manager$310                actor_manager
-     00000D2C  C$actor_manager.c$64$1$27          actor_manager
-     00000D2C  C$actor_manager.c$66$1$28          actor_manager
+     00000D2C  C$actor_manager.c$63$1$27          actor_manager
+     00000D2C  C$actor_manager.c$65$1$28          actor_manager
      00000D2C  Factor_manager$draw_actor02$0$0    actor_manager
      00000D2F  A$actor_manager$311                actor_manager
      00000D30  A$actor_manager$312                actor_manager
@@ -1593,11 +1593,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000D42  A$actor_manager$321                actor_manager
      00000D43  A$actor_manager$322                actor_manager
      00000D44  A$actor_manager$327                actor_manager
-     00000D44  C$actor_manager.c$67$1$28          actor_manager
+     00000D44  C$actor_manager.c$66$1$28          actor_manager
      00000D44  XFactor_manager$draw_actor02$0$0   actor_manager
      00000D45  A$actor_manager$340                actor_manager
-     00000D45  C$actor_manager.c$68$1$28          actor_manager
-     00000D45  C$actor_manager.c$70$1$29          actor_manager
+     00000D45  C$actor_manager.c$67$1$28          actor_manager
+     00000D45  C$actor_manager.c$69$1$29          actor_manager
      00000D45  Factor_manager$draw_actor03$0$0    actor_manager
      00000D48  A$actor_manager$341                actor_manager
      00000D49  A$actor_manager$342                actor_manager
@@ -1621,11 +1621,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000D5B  A$actor_manager$351                actor_manager
      00000D5C  A$actor_manager$352                actor_manager
      00000D5D  A$actor_manager$357                actor_manager
-     00000D5D  C$actor_manager.c$71$1$29          actor_manager
+     00000D5D  C$actor_manager.c$70$1$29          actor_manager
      00000D5D  XFactor_manager$draw_actor03$0$0   actor_manager
      00000D5E  A$actor_manager$370                actor_manager
-     00000D5E  C$actor_manager.c$72$1$29          actor_manager
-     00000D5E  C$actor_manager.c$74$1$30          actor_manager
+     00000D5E  C$actor_manager.c$71$1$29          actor_manager
+     00000D5E  C$actor_manager.c$73$1$30          actor_manager
      00000D5E  Factor_manager$draw_actor04$0$0    actor_manager
      00000D61  A$actor_manager$371                actor_manager
      00000D62  A$actor_manager$372                actor_manager
@@ -1640,11 +1640,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000D74  A$actor_manager$381                actor_manager
      00000D75  A$actor_manager$382                actor_manager
      00000D76  A$actor_manager$387                actor_manager
-     00000D76  C$actor_manager.c$75$1$30          actor_manager
+     00000D76  C$actor_manager.c$74$1$30          actor_manager
      00000D76  XFactor_manager$draw_actor04$0$0   actor_manager
      00000D77  A$actor_manager$400                actor_manager
-     00000D77  C$actor_manager.c$76$1$30          actor_manager
-     00000D77  C$actor_manager.c$78$1$31          actor_manager
+     00000D77  C$actor_manager.c$75$1$30          actor_manager
+     00000D77  C$actor_manager.c$77$1$31          actor_manager
      00000D77  Factor_manager$draw_actor05$0$0    actor_manager
      00000D7A  A$actor_manager$401                actor_manager
      00000D7B  A$actor_manager$402                actor_manager
@@ -1659,7 +1659,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000D8D  A$actor_manager$411                actor_manager
      00000D8E  A$actor_manager$412                actor_manager
      00000D8F  A$actor_manager$417                actor_manager
-     00000D8F  C$actor_manager.c$79$1$31          actor_manager
+     00000D8F  C$actor_manager.c$78$1$31          actor_manager
      00000D8F  XFactor_manager$draw_actor05$0$0   actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
 Hexadecimal  [32-Bits]
@@ -1671,8 +1671,8 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00000D90  A$actor_manager$430                actor_manager
-     00000D90  C$actor_manager.c$80$1$31          actor_manager
-     00000D90  C$actor_manager.c$82$1$32          actor_manager
+     00000D90  C$actor_manager.c$79$1$31          actor_manager
+     00000D90  C$actor_manager.c$81$1$32          actor_manager
      00000D90  Factor_manager$draw_actor06$0$0    actor_manager
      00000D93  A$actor_manager$431                actor_manager
      00000D94  A$actor_manager$432                actor_manager
@@ -1687,11 +1687,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000DA6  A$actor_manager$441                actor_manager
      00000DA7  A$actor_manager$442                actor_manager
      00000DA8  A$actor_manager$447                actor_manager
-     00000DA8  C$actor_manager.c$83$1$32          actor_manager
+     00000DA8  C$actor_manager.c$82$1$32          actor_manager
      00000DA8  XFactor_manager$draw_actor06$0$0   actor_manager
      00000DA9  A$actor_manager$460                actor_manager
-     00000DA9  C$actor_manager.c$84$1$32          actor_manager
-     00000DA9  C$actor_manager.c$86$1$33          actor_manager
+     00000DA9  C$actor_manager.c$83$1$32          actor_manager
+     00000DA9  C$actor_manager.c$85$1$33          actor_manager
      00000DA9  Factor_manager$draw_actor07$0$0    actor_manager
      00000DAC  A$actor_manager$461                actor_manager
      00000DAD  A$actor_manager$462                actor_manager
@@ -1706,11 +1706,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000DBF  A$actor_manager$471                actor_manager
      00000DC0  A$actor_manager$472                actor_manager
      00000DC1  A$actor_manager$477                actor_manager
-     00000DC1  C$actor_manager.c$87$1$33          actor_manager
+     00000DC1  C$actor_manager.c$86$1$33          actor_manager
      00000DC1  XFactor_manager$draw_actor07$0$0   actor_manager
      00000DC2  A$actor_manager$490                actor_manager
-     00000DC2  C$actor_manager.c$89$1$33          actor_manager
-     00000DC2  C$actor_manager.c$91$1$34          actor_manager
+     00000DC2  C$actor_manager.c$88$1$33          actor_manager
+     00000DC2  C$actor_manager.c$90$1$34          actor_manager
      00000DC2  Factor_manager$draw_actor08$0$0    actor_manager
      00000DC5  A$actor_manager$491                actor_manager
      00000DC6  A$actor_manager$492                actor_manager
@@ -1734,11 +1734,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000DD8  A$actor_manager$501                actor_manager
      00000DD9  A$actor_manager$502                actor_manager
      00000DDA  A$actor_manager$507                actor_manager
-     00000DDA  C$actor_manager.c$92$1$34          actor_manager
+     00000DDA  C$actor_manager.c$91$1$34          actor_manager
      00000DDA  XFactor_manager$draw_actor08$0$0   actor_manager
      00000DDB  A$actor_manager$520                actor_manager
-     00000DDB  C$actor_manager.c$93$1$34          actor_manager
-     00000DDB  C$actor_manager.c$95$1$35          actor_manager
+     00000DDB  C$actor_manager.c$92$1$34          actor_manager
+     00000DDB  C$actor_manager.c$94$1$35          actor_manager
      00000DDB  Factor_manager$draw_actor09$0$0    actor_manager
      00000DDE  A$actor_manager$521                actor_manager
      00000DDF  A$actor_manager$522                actor_manager
@@ -1753,11 +1753,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000DF1  A$actor_manager$531                actor_manager
      00000DF2  A$actor_manager$532                actor_manager
      00000DF3  A$actor_manager$537                actor_manager
-     00000DF3  C$actor_manager.c$96$1$35          actor_manager
+     00000DF3  C$actor_manager.c$95$1$35          actor_manager
      00000DF3  XFactor_manager$draw_actor09$0$0   actor_manager
      00000DF4  A$actor_manager$550                actor_manager
-     00000DF4  C$actor_manager.c$97$1$35          actor_manager
-     00000DF4  C$actor_manager.c$99$1$36          actor_manager
+     00000DF4  C$actor_manager.c$96$1$35          actor_manager
+     00000DF4  C$actor_manager.c$98$1$36          actor_manager
      00000DF4  Factor_manager$draw_actor10$0$0    actor_manager
      00000DF7  A$actor_manager$551                actor_manager
      00000DF8  A$actor_manager$552                actor_manager
@@ -1772,11 +1772,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000E0A  A$actor_manager$561                actor_manager
      00000E0B  A$actor_manager$562                actor_manager
      00000E0C  A$actor_manager$567                actor_manager
-     00000E0C  C$actor_manager.c$100$1$36         actor_manager
+     00000E0C  C$actor_manager.c$99$1$36          actor_manager
      00000E0C  XFactor_manager$draw_actor10$0$0   actor_manager
      00000E0D  A$actor_manager$580                actor_manager
-     00000E0D  C$actor_manager.c$101$1$36         actor_manager
-     00000E0D  C$actor_manager.c$103$1$37         actor_manager
+     00000E0D  C$actor_manager.c$100$1$36         actor_manager
+     00000E0D  C$actor_manager.c$102$1$37         actor_manager
      00000E0D  Factor_manager$draw_actor11$0$0    actor_manager
      00000E10  A$actor_manager$581                actor_manager
      00000E11  A$actor_manager$582                actor_manager
@@ -1800,11 +1800,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000E23  A$actor_manager$591                actor_manager
      00000E24  A$actor_manager$592                actor_manager
      00000E25  A$actor_manager$597                actor_manager
-     00000E25  C$actor_manager.c$104$1$37         actor_manager
+     00000E25  C$actor_manager.c$103$1$37         actor_manager
      00000E25  XFactor_manager$draw_actor11$0$0   actor_manager
      00000E26  A$actor_manager$610                actor_manager
-     00000E26  C$actor_manager.c$105$1$37         actor_manager
-     00000E26  C$actor_manager.c$107$1$38         actor_manager
+     00000E26  C$actor_manager.c$104$1$37         actor_manager
+     00000E26  C$actor_manager.c$106$1$38         actor_manager
      00000E26  Factor_manager$draw_actor12$0$0    actor_manager
      00000E29  A$actor_manager$611                actor_manager
      00000E2A  A$actor_manager$612                actor_manager
@@ -1819,11 +1819,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000E3C  A$actor_manager$621                actor_manager
      00000E3D  A$actor_manager$622                actor_manager
      00000E3E  A$actor_manager$627                actor_manager
-     00000E3E  C$actor_manager.c$108$1$38         actor_manager
+     00000E3E  C$actor_manager.c$107$1$38         actor_manager
      00000E3E  XFactor_manager$draw_actor12$0$0   actor_manager
      00000E3F  A$actor_manager$640                actor_manager
-     00000E3F  C$actor_manager.c$109$1$38         actor_manager
-     00000E3F  C$actor_manager.c$111$1$39         actor_manager
+     00000E3F  C$actor_manager.c$108$1$38         actor_manager
+     00000E3F  C$actor_manager.c$110$1$39         actor_manager
      00000E3F  Factor_manager$draw_actor13$0$0    actor_manager
      00000E42  A$actor_manager$641                actor_manager
      00000E43  A$actor_manager$642                actor_manager
@@ -1838,7 +1838,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000E55  A$actor_manager$651                actor_manager
      00000E56  A$actor_manager$652                actor_manager
      00000E57  A$actor_manager$657                actor_manager
-     00000E57  C$actor_manager.c$112$1$39         actor_manager
+     00000E57  C$actor_manager.c$111$1$39         actor_manager
      00000E57  XFactor_manager$draw_actor13$0$0   actor_manager
      00000E58  A$actor_manager$670                actor_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
@@ -1850,8 +1850,8 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000E58  C$actor_manager.c$113$1$39         actor_manager
-     00000E58  C$actor_manager.c$115$1$40         actor_manager
+     00000E58  C$actor_manager.c$112$1$39         actor_manager
+     00000E58  C$actor_manager.c$114$1$40         actor_manager
      00000E58  Factor_manager$draw_actor14$0$0    actor_manager
      00000E5B  A$actor_manager$671                actor_manager
      00000E5C  A$actor_manager$672                actor_manager
@@ -1866,11 +1866,11 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000E6E  A$actor_manager$681                actor_manager
      00000E6F  A$actor_manager$682                actor_manager
      00000E70  A$actor_manager$687                actor_manager
-     00000E70  C$actor_manager.c$116$1$40         actor_manager
+     00000E70  C$actor_manager.c$115$1$40         actor_manager
      00000E70  XFactor_manager$draw_actor14$0$0   actor_manager
      00000E71  A$actor_manager$700                actor_manager
-     00000E71  C$actor_manager.c$117$1$40         actor_manager
-     00000E71  C$actor_manager.c$119$1$41         actor_manager
+     00000E71  C$actor_manager.c$116$1$40         actor_manager
+     00000E71  C$actor_manager.c$118$1$41         actor_manager
      00000E71  Factor_manager$draw_actor15$0$0    actor_manager
      00000E74  A$actor_manager$701                actor_manager
      00000E75  A$actor_manager$702                actor_manager
@@ -1885,7 +1885,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00000E87  A$actor_manager$711                actor_manager
      00000E88  A$actor_manager$712                actor_manager
      00000E89  A$actor_manager$717                actor_manager
-     00000E89  C$actor_manager.c$120$1$41         actor_manager
+     00000E89  C$actor_manager.c$119$1$41         actor_manager
      00000E89  XFactor_manager$draw_actor15$0$0   actor_manager
      00000E8A  A$asm_manager$59                   asm_manager
      00000E8A  C$asm_manager.c$11$0$0             asm_manager
@@ -4278,7 +4278,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      000018D3  XG$screen_level_screen_load$0$0    level_screen
      000018D6  A$level_screen$99                  level_screen
      000018D6  C$level_screen.c$25$1$6            level_screen
-     000018D6  C$level_screen.c$28$1$8            level_screen
+     000018D6  C$level_screen.c$29$1$8            level_screen
      000018D6  G$screen_level_screen_update$0$0   level_screen
      000018D6  _screen_level_screen_update        level_screen
      000018D7  A$level_screen$100                 level_screen
@@ -4385,7 +4385,7 @@ _CODE                               00000200    000026D4 =        9940. bytes (R
      00001934  A$number_screen$91                 number_screen
      00001935  A$number_screen$92                 number_screen
      00001937  A$number_screen$97                 number_screen
-     00001937  C$number_screen.c$20$1$26          number_screen
+     00001937  C$number_screen.c$21$1$26          number_screen
      00001937  XG$screen_number_screen_update$0   number_screen
      00001938  A$over_screen$57                   over_screen
      00001938  C$over_screen.c$5$0$0              over_screen

@@ -58,7 +58,7 @@ sdcc --debug -c -mz80 --opt-code-speed --peep-file ../peep-rules.txt --std-c99 n
 cd ..
 
 
-sdcc --debug -c -mz80 --opt-code-speed --peep-file peep-rules.txt --std-c99 main.c
+::sdcc --debug -c -mz80 --opt-code-speed --peep-file peep-rules.txt --std-c99 main.c
 
 
 :: Calculate the difference in cSeconds

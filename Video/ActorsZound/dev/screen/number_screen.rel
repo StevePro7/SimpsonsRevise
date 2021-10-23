@@ -9,8 +9,8 @@ S .__.ABS. Def0000
 S _devkit_SMS_displayOff Ref0000
 A _CODE size 15 flags 0 addr 0
 S C$number_screen.c$12$1$24 Def0000
-S C$number_screen.c$20$1$26 Def0014
 S C$number_screen.c$13$1$24 Def0003
+S C$number_screen.c$21$1$26 Def0014
 S C$number_screen.c$14$1$24 Def000B
 S _screen_number_screen_update Def000E
 S C$number_screen.c$15$1$24 Def000B
@@ -45,7 +45,7 @@ A _INITIALIZER size 0 flags 0 addr 0
 A _CABS size 0 flags 8 addr 0
 T 00 00
 R 00 00 00 00
-T 00 00 CD 00 00 3E 07 F5 33 CD 00 00 33 C3 00 00
+T 00 00 CD 00 00 3E 08 F5 33 CD 00 00 33 C3 00 00
 R 00 00 00 00 02 03 03 00 02 0A 01 00 02 0E 00 00
 T 0E 00
 R 00 00 00 00
