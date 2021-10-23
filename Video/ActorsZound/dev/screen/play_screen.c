@@ -12,7 +12,11 @@ void screen_play_screen_init()
 
 void screen_play_screen_load()
 {
+	//engine_quiz_manager_base();
+
 	engine_font_manager_text( "PLAY SCREEN..!!", 10, 2 );
+	engine_font_manager_data( 17, 10, 4 );
+	engine_font_manager_data_ZERO( 17, 10, 5 );
 }
 
 void screen_play_screen_update( unsigned char *screen_type )

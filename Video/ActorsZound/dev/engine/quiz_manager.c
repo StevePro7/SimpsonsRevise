@@ -27,13 +27,13 @@ void engine_quiz_manager_init()
 
 void engine_quiz_manager_base()
 {
-	//engine_font_manager_draw_text( LOCALE_QUESTION, QUIZ_X, TITLE_Y );
-	//if( hacker_extra )
-	//{
-	//	// Display total number of questions.
-	//	engine_font_manager_draw_text( LOCALE_FSLASH_SYM, QUIZ_X + 13, TITLE_Y );
-	//	engine_font_manager_draw_data_ZERO( question_long, QUIZ_X + 16, TITLE_Y );
-	//}
+	engine_font_manager_text( LOCALE_QUESTION, QUIZ_X, TITLE_Y );
+	if( hacker_extra )
+	{
+		// Display total number of questions.
+		engine_font_manager_text( LOCALE_FSLASH_SYM, QUIZ_X + 13, TITLE_Y );
+		engine_font_manager_data_ZERO( question_long, QUIZ_X + 16, TITLE_Y );
+	}
 }
 
 //void engine_quiz_manager_base2()

@@ -2,10 +2,10 @@ M:quiz_manager
 F:G$engine_quiz_manager_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_quiz_manager_base$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_quiz_manager_bank$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lquiz_manager.engine_quiz_manager_bank$b$1$26({1}SC:U),B,1,4
+S:Lquiz_manager.engine_quiz_manager_bank$b$1$28({1}SC:U),B,1,4
 F:Fquiz_manager$show_diff$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lquiz_manager.show_diff$x$1$28({1}SC:U),B,1,4
-S:Lquiz_manager.show_diff$y$1$28({1}SC:U),B,1,5
+S:Lquiz_manager.show_diff$x$1$30({1}SC:U),B,1,4
+S:Lquiz_manager.show_diff$y$1$30({1}SC:U),B,1,5
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_random$0$0({1}SC:U),E,0,0
@@ -37,6 +37,7 @@ S:G$answer_value$0$0({1}SC:U),E,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_init$0$0({2}DF,SV:S),C,0,0

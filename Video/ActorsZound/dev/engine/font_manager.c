@@ -57,3 +57,23 @@ void engine_font_manager_data( unsigned int data, unsigned char x, unsigned char
 		devkit_SMS_setTile( *pnt + tile );
 	}
 }
+
+void engine_font_manager_data_ZERO( unsigned int data, unsigned char x, unsigned char y )
+{
+	const unsigned char *pnt = font__tilemap__bin;
+
+	unsigned char idx;
+	signed char tile;
+
+	char hold[ DATA_LONG ];
+	for( idx = 0; idx < DATA_LONG; ++idx )
+	{
+		hold[ idx ] = data % UNIT_ROOT;
+		data /= UNIT_ROOT;
+
+		tile = hold[ idx ] + DATA_ROOT;
+
+		devkit_SMS_setNextTileatXY( x--, y );
+		devkit_SMS_setTile( *pnt + tile );
+	}
+}
