@@ -69,6 +69,23 @@ void screen_intro_screen_update( unsigned char *screen_type )
 		return;
 	}
 
+	if( !hacker_cheat && !local_cheat )
+	{
+		input = engine_input_manager_hold_fire2();
+		if( input )
+		{
+			cheat_count++;
+			if( cheat_count >= CHEAT_TOTAL )
+			{
+				engine_font_manager_text( LOCALE_CHEAT, 25, 10 );
+				engine_font_manager_text( LOCALE_MODE, 25, 11 );
+
+				engine_audio_manager_sound_cheat();
+				local_cheat = 1;
+			}
+		}
+	}
+
 	rand();
 	*screen_type = screen_type_intro;
 }
