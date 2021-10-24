@@ -28,8 +28,8 @@ void main(void)
 	engine_select_manager_init();
 	engine_sound_manager_init();
 
-	//open_screen_type = screen_type_splash;
-	open_screen_type = screen_type_title;
+	open_screen_type = screen_type_splash;
+	//open_screen_type = screen_type_title;
 	//open_screen_type = screen_type_level;
 	engine_screen_manager_init( open_screen_type );
 
