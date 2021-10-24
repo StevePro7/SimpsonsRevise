@@ -7,11 +7,10 @@
 #include "../engine/score_manager.h"
 #include "../engine/select_manager.h"
 
-// IMPORTANT disable compiler warning 110
+// IMPORTANT disable compiler warning 4244
 #ifdef _CONSOLE
 #pragma warning( disable : 4244 ) 
 #endif
-
 
 void screen_score_screen_load()
 {
