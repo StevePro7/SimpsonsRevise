@@ -2,8 +2,8 @@ M:diff_screen
 F:G$screen_diff_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_diff_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_diff_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Ldiff_screen.screen_diff_screen_update$screen_type$1$48({2}DG,SC:U),B,1,4
-S:Ldiff_screen.screen_diff_screen_update$input$1$49({1}SC:U),R,0,0,[l]
+S:Ldiff_screen.screen_diff_screen_update$screen_type$1$49({2}DG,SC:U),B,1,4
+S:Ldiff_screen.screen_diff_screen_update$input$1$50({1}SC:U),R,0,0,[l]
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$diff_select$0$0({1}SC:U),E,0,0
 S:G$long_select$0$0({1}SC:U),E,0,0

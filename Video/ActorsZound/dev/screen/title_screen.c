@@ -23,12 +23,6 @@ void screen_title_screen_load()
 	screen_bases_screen_init();
 
 	devkit_SMS_displayOff();
-
-	//TODO delete
-	//engine_asm_manager_clear_VRAM();
-	//engine_content_manager_load_font();
-	//TODO delete
-
 	engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette( COLOR_WHITE );
 

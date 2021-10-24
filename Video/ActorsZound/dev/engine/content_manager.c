@@ -26,7 +26,6 @@ void engine_content_manager_load_sprites()
 
 void engine_content_manager_load_sprite_palette( unsigned char color )
 {
-	//devkit_SMS_setSpritePaletteColor( 0, 3, 3, 3 );
 	devkit_SMS_setSpritePaletteColor( 0, color, color, color );
 }
 
