@@ -8,12 +8,13 @@ S:Lselect_manager.engine_select_manager_clear$high$1$16({1}SC:U),R,0,0,[b]
 F:G$engine_select_manager_clear2$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lselect_manager.engine_select_manager_clear2$high$1$23({1}SC:U),R,0,0,[b]
 F:G$engine_select_manager_load_diff$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Lselect_manager.engine_select_manager_load_diff$idx$1$28({1}SC:U),R,0,0,[c]
 F:G$engine_select_manager_load_long$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_select_manager_move_up$0$0({2}DF,SC:U),Z,0,0,0,0,0
-S:Lselect_manager.engine_select_manager_move_up$select_choice$1$31({1}SC:U),B,1,4
+S:Lselect_manager.engine_select_manager_move_up$select_choice$1$33({1}SC:U),B,1,4
 F:G$engine_select_manager_move_down$0$0({2}DF,SC:U),Z,0,0,0,0,0
-S:Lselect_manager.engine_select_manager_move_down$select_choice$1$35({1}SC:U),B,1,4
+S:Lselect_manager.engine_select_manager_move_down$select_choice$1$37({1}SC:U),B,1,4
 F:G$engine_select_manager_draw_select$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_select_manager_draw_right$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_select_manager_draw_wrong$0$0({2}DF,SV:S),Z,0,0,0,0,0
