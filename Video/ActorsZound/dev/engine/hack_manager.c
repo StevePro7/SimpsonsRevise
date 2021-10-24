@@ -46,6 +46,6 @@ void engine_hack_manager_invert()
 
 	// TODO - remove after development complete!
 	hacker_music = 0;
-	hacker_sound = 0;
+//	hacker_sound = 0;
 	hacker_random = 1; // rand_type_normal;
 }

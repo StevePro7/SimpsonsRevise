@@ -32,12 +32,15 @@ S:G$screen_bases_screen_count$0$0({1}SC:U),E,0,0
 S:G$screen_bases_screen_timer$0$0({2}SI:U),E,0,0
 S:Fquiz_screen$screen_quiz_screen_delay$0$0({1}SC:U),E,0,0
 S:Fquiz_screen$screen_quiz_screen_state$0$0({1}SC:U),E,0,0
+S:G$engine_audio_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_start_music$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_finish_music$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_stop_music$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_sound_right$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_sound_wrong$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_sound_cheat$0$0({2}DF,SV:S),C,0,0
+S:G$engine_audio_manager_sound_woohoo$0$0({2}DF,SV:S),C,0,0
+S:G$engine_audio_manager_sound_doh$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0

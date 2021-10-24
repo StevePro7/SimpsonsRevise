@@ -1,5 +1,7 @@
 #include "audio_manager.h"
+#include "global_manager.h"
 #include "hack_manager.h"
+#include "sound_manager.h"
 #include "../devkit/_sms_manager.h"
 #include "../devkit/_snd_manager.h"
 #include "../banks/bank15.h"
@@ -22,6 +24,14 @@
 static void play_music( unsigned char *music, unsigned char bank );
 static void play_sound( unsigned char *sfx );
 
+static unsigned char prevRight, currRight;
+static unsigned char prevWrong, currWrong;
+
+void engine_audio_manager_init()
+{
+	prevRight = 0; 	currRight = 0;
+	prevWrong = 0; 	currWrong = 1;
+}
 
 void engine_audio_manager_start_music()
 {
@@ -50,6 +60,14 @@ void engine_audio_manager_sound_wrong()
 void engine_audio_manager_sound_cheat()
 {
 	play_sound( ( unsigned char* ) sfx_cheat_psg );
+}
+void engine_audio_manager_sound_woohoo()
+{
+	engine_sound_manager_play( currRight );
+}
+void engine_audio_manager_sound_doh()
+{
+	engine_sound_manager_play( currWrong + MAX_RIGHT );
 }
 
 static void play_music( unsigned char *music, unsigned char bank )

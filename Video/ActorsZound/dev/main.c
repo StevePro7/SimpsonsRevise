@@ -17,15 +17,17 @@ void main(void)
 	engine_content_manager_load_font();
 	engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette();	// TODO move to title after splash
-	engine_sound_manager_init();
 
+	// Initialize.
 	engine_hack_manager_init();
 	engine_hack_manager_invert();
 
 	engine_actor_manager_init();
+	engine_audio_manager_init();
 	engine_quiz_manager_init();
 	engine_score_manager_init();
 	engine_select_manager_init();
+	engine_sound_manager_init();
 
 	//open_screen_type = screen_type_splash;
 	//open_screen_type = screen_type_func;

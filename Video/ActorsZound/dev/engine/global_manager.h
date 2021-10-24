@@ -35,6 +35,10 @@
 // Actors.
 #define MAX_ACTORS			16
 
+// Audio
+#define MAX_RIGHT			3
+#define MAX_WRONG			3
+
 // Additional.
 #define OPTN_X	4
 #define OPTA_Y	9

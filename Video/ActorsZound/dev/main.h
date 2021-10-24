@@ -9,6 +9,7 @@
 #include "devkit/_snd_manager.h"
 
 #include "engine/actor_manager.h"
+#include "engine/audio_manager.h"
 #include "engine/asm_manager.h"
 #include "engine/content_manager.h"
 #include "engine/debug_manager.h"

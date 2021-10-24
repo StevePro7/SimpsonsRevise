@@ -30,15 +30,17 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
-	// TODO - audio is not working!
+	// TODO - hook up
 	if( answer_type_right == screen_quiz_screen_state )
 	{
-		engine_audio_manager_sound_right();
+		//engine_audio_manager_sound_right();
+		engine_audio_manager_sound_woohoo();
 		engine_score_manager_update();
 	}
 	else
 	{
-		engine_audio_manager_sound_wrong();
+		//engine_audio_manager_sound_wrong();
+		engine_audio_manager_sound_doh();
 	}
 
 	//engine_font_manager_text( "QUIZ SCREEN..!!", 10, 2 );
