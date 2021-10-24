@@ -12,7 +12,7 @@ void screen_number_screen_load()
 	engine_actor_manager_load();
 	
 	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette( COLOR_WHITE );
+	//engine_content_manager_load_sprite_palette( COLOR_WHITE );
 	devkit_SMS_displayOn();
 }
 
