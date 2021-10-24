@@ -110,6 +110,7 @@ S:G$devkit_SFX_CHANNEL2$0$0({2}DF,SC:U),C,0,0
 S:G$devkit_SFX_CHANNEL3$0$0({2}DF,SC:U),C,0,0
 S:G$devkit_SFX_CHANNELS2AND3$0$0({2}DF,SC:U),C,0,0
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_actor_manager_load$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_start_music$0$0({2}DF,SV:S),C,0,0

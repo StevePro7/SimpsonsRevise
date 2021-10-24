@@ -102,7 +102,11 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 				return;
 			}
 
-			*screen_type = screen_type_play;
+			// OLD
+			//*screen_type = screen_type_play;
+
+			// NEW
+			*screen_type = screen_type_number;
 			return;
 		}
 	}

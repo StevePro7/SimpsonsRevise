@@ -5,11 +5,11 @@
 #include "../banks/bank7.h"
 #include "../banks/bank8.h"
 #include "../banks/bank9.h"
+#include <stdlib.h>
 
 #define ACTOR_TILES_OFFSET 64
 #define ACTOR_TILES_TOTALS 4
 #define ACTOR_TILES_BANKED 2
-
 
 static void( *draw_method[ MAX_ACTORS ] )( );
 static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette );
@@ -18,6 +18,9 @@ static void draw_actor00(); static void draw_actor01(); static void draw_actor02
 static void draw_actor04(); static void draw_actor05(); static void draw_actor06(); static void draw_actor07();
 static void draw_actor08(); static void draw_actor09(); static void draw_actor10(); static void draw_actor11();
 static void draw_actor12(); static void draw_actor13(); static void draw_actor14(); static void draw_actor15();
+
+static unsigned char prevActor;
+static unsigned char currActor;
 
 void engine_actor_manager_init()
 {
@@ -37,6 +40,24 @@ void engine_actor_manager_init()
 	draw_method[ 13 ] = draw_actor13;
 	draw_method[ 14 ] = draw_actor14;
 	draw_method[ 15 ] = draw_actor15;
+
+	prevActor = 0;
+	currActor = 0;
+}
+
+void engine_actor_manager_load()
+{
+	while( 1 )
+	{
+		currActor = rand() % MAX_ACTORS;
+		if( currActor != prevActor )
+		{
+			break;
+		}
+	}
+
+	draw_method[ currActor ]();
+	prevActor = currActor;
 }
 
 void engine_actor_manager_draw( unsigned char index )

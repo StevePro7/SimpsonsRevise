@@ -10,12 +10,13 @@ void screen_number_screen_load()
 	//engine_font_manager_text( "NUMBER SCREEN!!", 10, 2 );
 
 	devkit_SMS_displayOff();
-	engine_actor_manager_draw( 8 );
+	//engine_actor_manager_draw( 8 );
+	engine_actor_manager_load();
 	devkit_SMS_displayOn();
 }
 
 void screen_number_screen_update( unsigned char *screen_type )
 {
-	*screen_type = screen_type_number;
-	//*screen_type = screen_type_play;
+	//*screen_type = screen_type_number;
+	*screen_type = screen_type_play;
 }

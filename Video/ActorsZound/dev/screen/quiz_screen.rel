@@ -18,9 +18,9 @@ S _engine_score_manager_update Ref0000
 S _engine_select_manager_draw_right Ref0000
 S _screen_bases_screen_init Ref0000
 A _CODE size DA flags 0 addr 0
-S C$quiz_screen.c$106$3$28 Def00D3
 S A$quiz_screen$110 Def001E
 S A$quiz_screen$101 Def000D
+S C$quiz_screen.c$109$3$28 Def00D0
 S A$quiz_screen$210 Def006F
 S A$quiz_screen$102 Def0010
 S A$quiz_screen$310 Def00D9
@@ -155,14 +155,14 @@ S A$quiz_screen$79 Def0005
 S _screen_quiz_screen_load Def0006
 S G$screen_quiz_screen_init$0$0 Def0000
 S XG$screen_quiz_screen_load$0$0 Def002A
-S C$quiz_screen.c$110$1$19 Def00D5
 S C$quiz_screen.c$101$1$19 Def0068
 S _screen_quiz_screen_init Def0000
-S C$quiz_screen.c$111$1$19 Def00D9
+S C$quiz_screen.c$110$3$28 Def00D3
 S G$screen_quiz_screen_update$0$0 Def002B
+S C$quiz_screen.c$114$1$19 Def00D5
 S C$quiz_screen.c$101$4$29 Def00CB
+S C$quiz_screen.c$115$1$19 Def00D9
 S C$quiz_screen.c$102$4$29 Def00CE
-S C$quiz_screen.c$105$3$28 Def00D0
 A _DATA size 3 flags 0 addr 0
 S Fquiz_screen$screen_quiz_screen_state$0$0 Def0001
 S Fquiz_screen$screen_quiz_screen_delay$0$0 Def0000
@@ -258,7 +258,7 @@ T CF 00 08
 R 00 00 00 00
 T D0 00
 R 00 00 00 00
-T D0 00 3E 06 02 18 03
+T D0 00 3E 04 02 18 03
 R 00 00 00 00
 T D5 00
 R 00 00 00 00
