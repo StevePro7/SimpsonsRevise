@@ -1,9 +1,12 @@
 #include "title_screen.h"
+#include "../engine/audio_manager.h"
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
+#include "../engine/hack_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/locale_manager.h"
+#include "../engine/timer_manager.h"
 #include "../devkit/_sms_manager.h"
 #include <stdlib.h>
 
@@ -16,14 +19,28 @@ void screen_title_screen_init()
 
 void screen_title_screen_load()
 {
+	screen_bases_screen_init();
+
 	devkit_SMS_displayOff();
 	engine_content_manager_title();
-	engine_font_manager_text( LOCALE_VERSION, 25, 23 );
+	if( hacker_extra )
+	{
+		engine_font_manager_text( LOCALE_VERSION, 25, 23 );
+	}
+
 	devkit_SMS_displayOn();
+	engine_audio_manager_start_music();
 }
 
 void screen_title_screen_update( unsigned char *screen_type )
 {
 	rand();
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer >= screen_title_screen_delay )
+	{
+		*screen_type = screen_type_intro;
+		return;
+	}
+
 	*screen_type = screen_type_title;
 }

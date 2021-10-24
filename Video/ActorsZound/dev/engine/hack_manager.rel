@@ -52,10 +52,10 @@ S C$hack_manager.c$30$1$1 Def0000
 S C$hack_manager.c$41$1$1 Def0025
 S C$hack_manager.c$32$1$1 Def0006
 S _engine_hack_manager_invert Def0025
-S C$hack_manager.c$50$1$2 Def0052
 S C$hack_manager.c$33$1$1 Def000C
-S C$hack_manager.c$51$1$2 Def0057
+S C$hack_manager.c$51$1$2 Def0052
 S C$hack_manager.c$34$1$1 Def0012
+S C$hack_manager.c$52$1$2 Def0057
 S C$hack_manager.c$43$1$2 Def0025
 S C$hack_manager.c$35$1$1 Def0018
 S C$hack_manager.c$19$0$0 Def0000

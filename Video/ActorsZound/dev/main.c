@@ -32,10 +32,10 @@ void main(void)
 	//open_screen_type = screen_type_splash;
 	//open_screen_type = screen_type_func;
 	//open_screen_type = screen_type_diff;
-	open_screen_type = screen_type_level;
+	//open_screen_type = screen_type_level;
 	//open_screen_type = screen_type_number;
 	//open_screen_type = screen_type_play;
-	//open_screen_type = screen_type_title;
+	open_screen_type = screen_type_title;
 
 	
 	engine_screen_manager_init( open_screen_type );

@@ -7,6 +7,7 @@
 #include "../engine/input_manager.h"
 #include "../engine/sprite_manager.h"
 #include "../devkit/_sms_manager.h"
+#include <stdlib.h>
 
 static unsigned char screen_intro_screen_delay;
 static unsigned char cheat_count;
@@ -31,5 +32,6 @@ void screen_intro_screen_update( unsigned char *screen_type )
 		engine_font_manager_text( "PLAY MUSIC", 10, 8 );
 	}
 
+	rand();
 	*screen_type = screen_type_intro;
 }

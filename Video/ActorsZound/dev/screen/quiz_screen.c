@@ -32,14 +32,6 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
-	//if( answer_type_right == screen_quiz_screen_state )
-	//{
-	//	engine_select_manager_draw_right();
-	//}
-	//else
-	//{
-	//	engine_select_manager_draw_wrong();
-	//}
 	firstTime = 0;
 }
 
