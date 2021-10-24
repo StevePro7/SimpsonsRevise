@@ -87,6 +87,14 @@ void engine_select_manager_load_diff()
 }
 void engine_select_manager_load_long()
 {
+	unsigned char idx;
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		engine_font_manager_data( select_long_option[ idx ], QUIZ_X + LONG_DELTA, select_high_option[ idx ] );
+	}
+
+	select_choice = long_select;
+	select_height = select_option[ select_choice ];
 }
 
 void engine_select_manager_load_quiz()
