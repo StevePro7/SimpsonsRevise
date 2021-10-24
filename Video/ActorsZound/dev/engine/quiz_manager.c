@@ -58,45 +58,45 @@ void engine_quiz_manager_bank( unsigned char b )
 	devkit_SMS_mapROMBank( b );
 }
 
-//void engine_quiz_manager_answer( unsigned char q )
-//{
-	//if( DIFF_TYPE_EASY == diff_select )
-	//{
-	//	answer_value = bank2_soln[ q ];
-	//}
-	//else if( DIFF_TYPE_NORM == diff_select )
-	//{
-	//	answer_value = bank3_soln[ q ];
-	//}
-	//else if( DIFF_TYPE_HARD == diff_select )
-	//{
-	//	answer_value = bank4_soln[ q ];
-	//}
-	//else if( DIFF_TYPE_ARGH == diff_select )
-	//{
-	//	answer_value = bank5_soln[ q ];
-	//}
+void engine_quiz_manager_answer( unsigned char q )
+{
+	if( diff_type_easy == diff_select )
+	{
+		answer_value = bank2_soln[ q ];
+	}
+	else if( diff_type_norm == diff_select )
+	{
+		answer_value = bank3_soln[ q ];
+	}
+	else if( diff_type_hard == diff_select )
+	{
+		answer_value = bank4_soln[ q ];
+	}
+	else if( diff_type_argh == diff_select )
+	{
+		answer_value = bank5_soln[ q ];
+	}
 
-	//answer_value -= 1;		// Zero based index
-	//answer_index = quiz_options[ q ][ answer_value ];
-//}
+	answer_value -= 1;		// Zero based index
+	answer_index = quiz_options[ q ][ answer_value ];
+}
 
-//void engine_quiz_manager_cheat( unsigned char ans )
-//{
-	//unsigned char idx, cheat_Y;
+void engine_quiz_manager_cheat( unsigned char ans )
+{
+	unsigned char idx, cheat_Y;
 
-	//for( idx = 0; idx < MAX_OPTIONS; idx++ )
-	//{
-	//	cheat_Y = option_height[ idx ];
-	//	engine_font_manager_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
-	//}
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		cheat_Y = option_height[ idx ];
+		engine_font_manager_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
+	}
 
-	//if( local_cheat )
-	//{
-	//	cheat_Y = option_height[ ans ];
-	//	engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
-	//}
-//}
+	if( local_cheat )
+	{
+		cheat_Y = option_height[ ans ];
+		engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
+	}
+}
 //void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
 //{
 	//unsigned char cheat_Y;
