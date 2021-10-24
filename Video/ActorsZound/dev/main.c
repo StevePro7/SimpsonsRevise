@@ -11,12 +11,10 @@ void main(void)
 	engine_asm_manager_clear_VRAM();
 
 	devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
-	//devkit_SMS_useFirstHalfTilesforSprites_False();
 	devkit_SMS_useFirstHalfTilesforSprites_True();
 
 	engine_content_manager_load_font();
 	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette();	// TODO move to title after splash
 
 	// Initialize.
 	engine_hack_manager_init();
@@ -29,10 +27,10 @@ void main(void)
 	engine_select_manager_init();
 	engine_sound_manager_init();
 
-	//open_screen_type = screen_type_splash;
+	open_screen_type = screen_type_splash;
 	//open_screen_type = screen_type_func;
 	//open_screen_type = screen_type_diff;
-	open_screen_type = screen_type_level;
+	//open_screen_type = screen_type_level;
 	//open_screen_type = screen_type_number;
 	//open_screen_type = screen_type_play;
 	//open_screen_type = screen_type_title;
