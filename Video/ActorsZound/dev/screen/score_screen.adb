@@ -4,6 +4,7 @@ S:Lscore_screen.screen_score_screen_load$percent$1$14({4}SF:S),R,0,0,[l,h,e,d]
 S:Lscore_screen.screen_score_screen_load$sloc0$1$0({4}SF:S),B,1,-4
 F:G$screen_score_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lscore_screen.screen_score_screen_update$screen_type$1$16({2}DG,SC:U),B,1,4
+S:Lscore_screen.screen_score_screen_update$input$1$17({1}SC:U),R,0,0,[c]
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
 S:G$quiz_options$0$0({200}DA50d,DA4d,SC:U),E,0,0
@@ -32,6 +33,19 @@ S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
+S:G$engine_input_manager_update$0$0({2}DF,SV:S),C,0,0
+S:G$engine_input_manager_hold_up$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_hold_down$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_hold_left$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_hold_right$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_hold_fire1$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_hold_fire2$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_move_up$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_move_down$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_move_left$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_move_right$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_move_fire1$0$0({2}DF,SC:U),C,0,0
+S:G$engine_input_manager_move_fire2$0$0({2}DF,SC:U),C,0,0
 S:G$engine_quiz_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base2$0$0({2}DF,SV:S),C,0,0
