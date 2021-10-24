@@ -3,6 +3,7 @@
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
+#include "../engine/input_manager.h"
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
 #include "../engine/select_manager.h"
@@ -61,6 +62,31 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 	else
 	{
 		engine_select_manager_draw_wrong();
+	}
+
+	input = engine_input_manager_hold_fire1();
+	if( input )
+	{
+		level = 1;
+	}
+
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer >= screen_quiz_screen_delay )
+	{
+		level = 1;
+	}
+
+	if( level )
+	{
+		question_index++;
+		if( question_index >= question_long )
+		{
+			*screen_type = screen_type_over;
+			return;
+		}
+
+		*screen_type = screen_type_play;
+		return;
 	}
 
 	*screen_type = screen_type_quiz;
