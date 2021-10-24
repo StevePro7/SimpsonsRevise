@@ -2,8 +2,8 @@ M:intro_screen
 F:G$screen_intro_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_intro_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_intro_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lintro_screen.screen_intro_screen_update$screen_type$1$49({2}DG,SC:U),B,1,4
-S:Lintro_screen.screen_intro_screen_update$input$1$50({1}SC:U),R,0,0,[l]
+S:Lintro_screen.screen_intro_screen_update$screen_type$1$50({2}DG,SC:U),B,1,4
+S:Lintro_screen.screen_intro_screen_update$input$1$51({1}SC:U),R,0,0,[l]
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0
@@ -20,6 +20,7 @@ S:G$select_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_high_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_text_option$0$0({12}DA4d,DA3d,SC:U),E,0,0
 S:G$select_diff_option$0$0({24}DA4d,DA6d,SC:U),E,0,0
+S:G$select_long_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$screen_bases_screen_count$0$0({1}SC:U),E,0,0
 S:G$screen_bases_screen_timer$0$0({2}SI:U),E,0,0
 S:Fintro_screen$screen_intro_screen_delay$0$0({1}SC:U),E,0,0

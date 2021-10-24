@@ -29,6 +29,7 @@ S:G$select_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_high_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_text_option$0$0({12}DA4d,DA3d,SC:U),E,0,0
 S:G$select_diff_option$0$0({24}DA4d,DA6d,SC:U),E,0,0
+S:G$select_long_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
 S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
