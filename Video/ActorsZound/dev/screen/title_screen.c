@@ -37,8 +37,8 @@ void screen_title_screen_update( unsigned char *screen_type )
 	screen_bases_screen_timer++;
 	if( screen_bases_screen_timer >= screen_title_screen_delay )
 	{
-		//*screen_type = screen_type_intro;
-		//return;
+		*screen_type = screen_type_intro;
+		return;
 	}
 
 	rand();

@@ -3,6 +3,7 @@ F:G$screen_title_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Ltitle_screen.screen_title_screen_update$screen_type$1$47({2}DG,SC:U),B,1,4
+S:Ltitle_screen.screen_title_screen_update$sloc0$1$0({2}SI:U),B,1,-2
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_random$0$0({1}SC:U),E,0,0
