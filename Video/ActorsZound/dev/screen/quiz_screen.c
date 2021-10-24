@@ -11,6 +11,7 @@
 
 static unsigned char screen_quiz_screen_delay;
 static unsigned char screen_quiz_screen_state;
+static unsigned char firstTime;
 
 void screen_quiz_screen_init()
 {
@@ -31,17 +32,15 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
-	// TODO - test that we get different sfx and don't repeat
-	if( answer_type_right == screen_quiz_screen_state )
-	{
-		engine_audio_manager_sound_woohoo();
-		engine_score_manager_update();
-	}
-	else
-	{
-		//engine_audio_manager_sound_wrong();
-		engine_audio_manager_sound_doh();
-	}
+	//if( answer_type_right == screen_quiz_screen_state )
+	//{
+	//	engine_select_manager_draw_right();
+	//}
+	//else
+	//{
+	//	engine_select_manager_draw_wrong();
+	//}
+	firstTime = 0;
 }
 
 void screen_quiz_screen_update( unsigned char *screen_type )
@@ -64,29 +63,48 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 		engine_select_manager_draw_wrong();
 	}
 
-	input = engine_input_manager_hold_fire1();
-	if( input )
+	firstTime++;
+	if( 2 == firstTime )
 	{
-		level = 1;
-	}
-
-	screen_bases_screen_timer++;
-	if( screen_bases_screen_timer >= screen_quiz_screen_delay )
-	{
-		level = 1;
-	}
-
-	if( level )
-	{
-		question_index++;
-		if( question_index >= question_long )
+		if( answer_type_right == screen_quiz_screen_state )
 		{
-			*screen_type = screen_type_over;
-			return;
+			engine_score_manager_update();
+			engine_audio_manager_sound_woohoo();
+		}
+		else
+		{
+			engine_audio_manager_sound_doh();
 		}
 
-		*screen_type = screen_type_play;
-		return;
+		firstTime = 3;
+	}
+
+	if( firstTime >= 3)
+	{
+		input = engine_input_manager_hold_fire1();
+		if( input )
+		{
+			level = 1;
+		}
+
+		screen_bases_screen_timer++;
+		if( screen_bases_screen_timer >= screen_quiz_screen_delay )
+		{
+			level = 1;
+		}
+
+		if( level )
+		{
+			question_index++;
+			if( question_index >= question_long )
+			{
+				*screen_type = screen_type_over;
+				return;
+			}
+
+			*screen_type = screen_type_play;
+			return;
+		}
 	}
 
 	*screen_type = screen_type_quiz;

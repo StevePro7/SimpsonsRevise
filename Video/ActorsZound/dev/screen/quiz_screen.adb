@@ -2,9 +2,9 @@ M:quiz_screen
 F:G$screen_quiz_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_quiz_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_quiz_screen_update$0$0({2}DF,SV:S),Z,0,1,0,0,0
-S:Lquiz_screen.screen_quiz_screen_update$screen_type$1$20({2}DG,SC:U),B,1,4
-S:Lquiz_screen.screen_quiz_screen_update$input$1$21({1}SC:U),R,0,0,[l]
-S:Lquiz_screen.screen_quiz_screen_update$level$1$21({1}SC:U),B,1,-1
+S:Lquiz_screen.screen_quiz_screen_update$screen_type$1$18({2}DG,SC:U),B,1,4
+S:Lquiz_screen.screen_quiz_screen_update$input$1$19({1}SC:U),R,0,0,[l]
+S:Lquiz_screen.screen_quiz_screen_update$level$1$19({1}SC:U),B,1,-1
 S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
@@ -34,6 +34,7 @@ S:G$screen_bases_screen_count$0$0({1}SC:U),E,0,0
 S:G$screen_bases_screen_timer$0$0({2}SI:U),E,0,0
 S:Fquiz_screen$screen_quiz_screen_delay$0$0({1}SC:U),E,0,0
 S:Fquiz_screen$screen_quiz_screen_state$0$0({1}SC:U),E,0,0
+S:Fquiz_screen$firstTime$0$0({1}SC:U),E,0,0
 S:G$engine_audio_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_start_music$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_finish_music$0$0({2}DF,SV:S),C,0,0
