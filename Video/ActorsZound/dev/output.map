@@ -152,15 +152,15 @@ _CODE                               00000200    00003B33 =       15155. bytes (R
      0000023B  A$main$143                         main
      0000023B  C$main.c$28$1$64                   main
      0000023E  A$main$147                         main
-     0000023E  C$main.c$39$1$64                   main
+     0000023E  C$main.c$35$1$64                   main
      00000240  A$main$148                         main
      00000241  A$main$149                         main
      00000242  A$main$150                         main
      00000245  A$main$151                         main
      00000246  A$main$155                         main
-     00000246  C$main.c$42$1$64                   main
+     00000246  C$main.c$38$1$64                   main
      00000249  A$main$159                         main
-     00000249  C$main.c$44$1$64                   main
+     00000249  C$main.c$40$1$64                   main
 ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
 Hexadecimal  [32-Bits]
 
@@ -171,23 +171,23 @@ _CODE                               00000200    00003B33 =       15155. bytes (R
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      0000024C  A$main$164                         main
-     0000024C  C$main.c$47$3$66                   main
+     0000024C  C$main.c$43$3$66                   main
      0000024F  A$main$168                         main
-     0000024F  C$main.c$48$3$66                   main
+     0000024F  C$main.c$44$3$66                   main
      00000252  A$main$172                         main
-     00000252  C$main.c$50$3$66                   main
+     00000252  C$main.c$46$3$66                   main
      00000255  A$main$176                         main
-     00000255  C$main.c$52$3$66                   main
+     00000255  C$main.c$48$3$66                   main
      00000258  A$main$180                         main
-     00000258  C$main.c$53$3$66                   main
+     00000258  C$main.c$49$3$66                   main
      0000025B  A$main$184                         main
-     0000025B  C$main.c$54$3$66                   main
+     0000025B  C$main.c$50$3$66                   main
      0000025E  A$main$188                         main
-     0000025E  C$main.c$56$3$66                   main
+     0000025E  C$main.c$52$3$66                   main
      00000261  A$main$192                         main
-     00000261  C$main.c$57$3$66                   main
+     00000261  C$main.c$53$3$66                   main
      00000264  A$main$197                         main
-     00000264  C$main.c$59$2$65                   main
+     00000264  C$main.c$55$2$65                   main
      00000264  XG$main$0$0                        main
      00000266  _PSGStop                           PSGlib
      0000028D  _PSGResume                         PSGlib
