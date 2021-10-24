@@ -4,7 +4,7 @@ cd bank14
 
 :: Setup.
 bmp2tile.exe raw/splash.bmp    -savetiles "splash (tiles).psgcompr"    -removedupes -nomirror -planar -tileoffset 112 -savetilemap "splash (tilemap).stmcompr"   -savepalette "splash (palette).bin"   -fullpalette -exit
-bmp2tile.exe raw/simpsons.bmp  -savetiles "simpsons (tiles).psgcompr"  -removedupes -nomirror -planar -tileoffset 112  -savetilemap "simpsons (tilemap).stmcompr" -savepalette "simpsons (palette).bin" -fullpalette -exit
+bmp2tile.exe raw/simpsons.bmp  -savetiles "simpsons (tiles).psgcompr"  -removedupes -nomirror -planar -tileoffset 96  -savetilemap "simpsons (tilemap).stmcompr" -savepalette "simpsons (palette).bin" -fullpalette -exit
 
 
 :: Convert.
