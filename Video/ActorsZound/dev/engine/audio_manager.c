@@ -32,7 +32,7 @@ void engine_audio_manager_init()
 {
 	prevRight = 0; 	currRight = 0;
 	prevWrong = 0;
-	currWrong = 2;
+	currWrong = 1;
 	engine_font_manager_data( currWrong, 10, 0 );
 }
 
@@ -70,7 +70,9 @@ void engine_audio_manager_sound_woohoo()
 }
 void engine_audio_manager_sound_doh()
 {
-	unsigned char sound = currWrong;// ( unsigned char ) ( +MAX_RIGHT );
+	//unsigned char sound = currWrong;// ( unsigned char ) ( +MAX_RIGHT );
+	//unsigned char sound = ( unsigned char ) ( currWrong + MAX_RIGHT );
+	unsigned char sound = currWrong + MAX_RIGHT;
 	engine_font_manager_data( sound, 10, 1 );
 	engine_sound_manager_play( sound );
 	//engine_sound_manager_play( 4 );
