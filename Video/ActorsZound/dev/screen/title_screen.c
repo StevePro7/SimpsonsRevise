@@ -1,4 +1,5 @@
 #include "title_screen.h"
+#include "../engine/asm_manager.h"
 #include "../engine/audio_manager.h"
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
@@ -22,6 +23,13 @@ void screen_title_screen_load()
 	screen_bases_screen_init();
 
 	devkit_SMS_displayOff();
+
+	//engine_asm_manager_clear_VRAM();
+	//engine_content_manager_load_font();
+	
+	engine_content_manager_load_sprites1();
+	engine_content_manager_load_sprite_palette();
+
 	engine_content_manager_title();
 	if( hacker_extra )
 	{

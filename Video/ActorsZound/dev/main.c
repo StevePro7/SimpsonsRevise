@@ -6,17 +6,17 @@ void main(void)
 	//static bool global_pause;		// TODO implement pause
 	unsigned char open_screen_type;
 
-	engine_asm_manager_clear_VRAM();
 	devkit_SMS_init();
 	devkit_SMS_displayOff();
+	engine_asm_manager_clear_VRAM();
 
 	devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
 	//devkit_SMS_useFirstHalfTilesforSprites_False();
 	devkit_SMS_useFirstHalfTilesforSprites_True();
 
 	engine_content_manager_load_font();
-	engine_content_manager_load_sprites1();
-	engine_content_manager_load_sprite_palette();	// TODO move to title after splash
+	//engine_content_manager_load_sprites1();
+	//engine_content_manager_load_sprite_palette();	// TODO move to title after splash
 
 	// Initialize.
 	engine_hack_manager_init();
