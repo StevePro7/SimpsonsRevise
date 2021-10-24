@@ -2052,17 +2052,17 @@ _CODE                               00000200    000030B7 =       12471. bytes (R
      00000F0E  A$audio_manager$268                audio_manager
      00000F11  A$audio_manager$269                audio_manager
      00000F12  A$audio_manager$274                audio_manager
-     00000F12  C$audio_manager.c$71$1$43          audio_manager
+     00000F12  C$audio_manager.c$72$1$43          audio_manager
      00000F12  XG$engine_audio_manager_sound_do   audio_manager
      00000F13  A$audio_manager$287                audio_manager
-     00000F13  C$audio_manager.c$73$1$43          audio_manager
-     00000F13  C$audio_manager.c$75$1$45          audio_manager
+     00000F13  C$audio_manager.c$74$1$43          audio_manager
+     00000F13  C$audio_manager.c$76$1$45          audio_manager
      00000F13  Faudio_manager$play_music$0$0      audio_manager
      00000F16  A$audio_manager$288                audio_manager
      00000F17  A$audio_manager$292                audio_manager
-     00000F17  C$audio_manager.c$77$2$46          audio_manager
+     00000F17  C$audio_manager.c$78$2$46          audio_manager
      00000F18  A$audio_manager$296                audio_manager
-     00000F18  C$audio_manager.c$80$1$45          audio_manager
+     00000F18  C$audio_manager.c$81$1$45          audio_manager
      00000F1B  A$audio_manager$297                audio_manager
      00000F1C  A$audio_manager$298                audio_manager
      00000F1D  A$audio_manager$299                audio_manager
@@ -2070,7 +2070,7 @@ _CODE                               00000200    000030B7 =       12471. bytes (R
      00000F1F  A$audio_manager$301                audio_manager
      00000F22  A$audio_manager$302                audio_manager
      00000F23  A$audio_manager$306                audio_manager
-     00000F23  C$audio_manager.c$81$1$45          audio_manager
+     00000F23  C$audio_manager.c$82$1$45          audio_manager
      00000F24  A$audio_manager$307                audio_manager
      00000F25  A$audio_manager$308                audio_manager
      00000F26  A$audio_manager$309                audio_manager
@@ -2078,7 +2078,7 @@ _CODE                               00000200    000030B7 =       12471. bytes (R
      00000F28  A$audio_manager$311                audio_manager
      00000F2B  A$audio_manager$312                audio_manager
      00000F2C  A$audio_manager$317                audio_manager
-     00000F2C  C$audio_manager.c$82$1$45          audio_manager
+     00000F2C  C$audio_manager.c$83$1$45          audio_manager
      00000F2C  XFaudio_manager$play_music$0$0     audio_manager
      00000F2D  A$audio_manager$330                audio_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
@@ -2090,14 +2090,14 @@ _CODE                               00000200    000030B7 =       12471. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000F2D  C$audio_manager.c$84$1$45          audio_manager
-     00000F2D  C$audio_manager.c$86$1$48          audio_manager
+     00000F2D  C$audio_manager.c$85$1$45          audio_manager
+     00000F2D  C$audio_manager.c$87$1$48          audio_manager
      00000F2D  Faudio_manager$play_sound$0$0      audio_manager
      00000F30  A$audio_manager$331                audio_manager
      00000F31  A$audio_manager$335                audio_manager
-     00000F31  C$audio_manager.c$88$2$49          audio_manager
+     00000F31  C$audio_manager.c$89$2$49          audio_manager
      00000F32  A$audio_manager$339                audio_manager
-     00000F32  C$audio_manager.c$91$1$48          audio_manager
+     00000F32  C$audio_manager.c$92$1$48          audio_manager
      00000F35  A$audio_manager$340                audio_manager
      00000F36  A$audio_manager$341                audio_manager
      00000F37  A$audio_manager$342                audio_manager
@@ -2110,7 +2110,7 @@ _CODE                               00000200    000030B7 =       12471. bytes (R
      00000F40  A$audio_manager$349                audio_manager
      00000F41  A$audio_manager$350                audio_manager
      00000F42  A$audio_manager$355                audio_manager
-     00000F42  C$audio_manager.c$92$1$48          audio_manager
+     00000F42  C$audio_manager.c$93$1$48          audio_manager
      00000F42  XFaudio_manager$play_sound$0$0     audio_manager
      00000F43  A$content_manager$65               content_manager
      00000F43  C$content_manager.c$12$0$0         content_manager

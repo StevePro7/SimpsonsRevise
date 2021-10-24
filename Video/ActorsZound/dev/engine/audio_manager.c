@@ -30,7 +30,7 @@ static unsigned char prevWrong, currWrong;
 void engine_audio_manager_init()
 {
 	prevRight = 0; 	currRight = 0;
-	prevWrong = 0; 	currWrong = 1;
+	prevWrong = 0; 	currWrong = 2;
 }
 
 void engine_audio_manager_start_music()
@@ -68,6 +68,7 @@ void engine_audio_manager_sound_woohoo()
 void engine_audio_manager_sound_doh()
 {
 	engine_sound_manager_play( currWrong + MAX_RIGHT );
+	//engine_sound_manager_play( 4 );
 }
 
 static void play_music( unsigned char *music, unsigned char bank )
