@@ -7,9 +7,9 @@
 #include "../gfx.h"
 
 #define FONT_TILES_OFFSET		0
-#define FULL_TILES_OFFSET		64
+#define FULL_TILES_OFFSET		96
 
-static void load_sprites( unsigned int tilefrom );
+//static void load_sprites( unsigned int tilefrom );
 
 void engine_content_manager_load_font()
 {
@@ -20,12 +20,15 @@ void engine_content_manager_load_font()
 
 void engine_content_manager_load_sprites1()
 {
-	load_sprites(SPRITE_TILES1 );
+	devkit_SMS_loadPSGaidencompressedTiles( select__tiles__psgcompr, SPRITE_TILES );
+	devkit_SMS_loadPSGaidencompressedTiles( right__tiles__psgcompr, SPRITE_TILES + 16 );
+	devkit_SMS_loadPSGaidencompressedTiles( wrong__tiles__psgcompr, SPRITE_TILES + 32 );
+	devkit_SMS_loadSpritePalette( ( void * ) wrong__palette__bin );
 }
-void engine_content_manager_load_sprites2()
-{
-	load_sprites( SPRITE_TILES2 );
-}
+//void engine_content_manager_load_sprites2()
+//{
+//	load_sprites( SPRITE_TILES2 );
+//}
 
 void engine_content_manager_load_sprite_palette()
 {
@@ -47,12 +50,12 @@ void engine_content_manager_title()
 	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) simpsons__tilemap__stmcompr );
 	devkit_SMS_loadBGPalette( ( void * ) simpsons__palette__bin );
 }
-
-static void load_sprites( unsigned int tilefrom )
-{
-	// Sprite tiles.
-	devkit_SMS_loadPSGaidencompressedTiles( select__tiles__psgcompr, tilefrom );
-	devkit_SMS_loadPSGaidencompressedTiles( right__tiles__psgcompr, tilefrom + 16 );
-	devkit_SMS_loadPSGaidencompressedTiles( wrong__tiles__psgcompr, tilefrom + 32 );
-	devkit_SMS_loadSpritePalette( ( void * ) wrong__palette__bin );
-}
+//
+//static void load_sprites( unsigned int tilefrom )
+//{
+//	// Sprite tiles.
+//	devkit_SMS_loadPSGaidencompressedTiles( select__tiles__psgcompr, tilefrom );
+//	//devkit_SMS_loadPSGaidencompressedTiles( right__tiles__psgcompr, tilefrom + 16 );
+//	devkit_SMS_loadPSGaidencompressedTiles( wrong__tiles__psgcompr, tilefrom + 32 );
+//	devkit_SMS_loadSpritePalette( ( void * ) wrong__palette__bin );
+//}

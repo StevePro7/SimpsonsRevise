@@ -123,7 +123,7 @@ S:G$engine_audio_manager_sound_woohoo$0$0({2}DF,SV:S),C,0,0
 S:G$engine_audio_manager_sound_doh$0$0({2}DF,SV:S),C,0,0
 S:G$engine_asm_manager_clear_VRAM$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
-S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0
+S:G$engine_content_manager_load_sprites1$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_splash$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_title$0$0({2}DF,SV:S),C,0,0
@@ -166,9 +166,12 @@ S:G$engine_select_manager_load_long$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_move_up$0$0({2}DF,SC:U),C,0,0
 S:G$engine_select_manager_move_down$0$0({2}DF,SC:U),C,0,0
-S:G$engine_select_manager_draw_select$0$0({2}DF,SV:S),C,0,0
-S:G$engine_select_manager_draw_right$0$0({2}DF,SV:S),C,0,0
-S:G$engine_select_manager_draw_wrong$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_draw_select1$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_draw_right1$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_draw_wrong1$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_draw_select2$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_draw_right2$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_draw_wrong2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_sound_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_sound_manager_play$0$0({2}DF,SV:S),C,0,0
 S:G$main$0$0({2}DF,SV:S),C,0,0

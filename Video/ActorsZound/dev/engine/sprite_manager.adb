@@ -2,12 +2,15 @@ M:sprite_manager
 F:G$engine_sprite_manager_draw_select$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lsprite_manager.engine_sprite_manager_draw_select$x$1$23({1}SC:U),B,1,4
 S:Lsprite_manager.engine_sprite_manager_draw_select$y$1$23({1}SC:U),B,1,5
+S:Lsprite_manager.engine_sprite_manager_draw_select$tilefrom$1$23({2}SI:U),B,1,6
 F:G$engine_sprite_manager_draw_right$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lsprite_manager.engine_sprite_manager_draw_right$x$1$25({1}SC:U),B,1,4
 S:Lsprite_manager.engine_sprite_manager_draw_right$y$1$25({1}SC:U),B,1,5
+S:Lsprite_manager.engine_sprite_manager_draw_right$tilefrom$1$25({2}SI:U),B,1,6
 F:G$engine_sprite_manager_draw_wrong$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lsprite_manager.engine_sprite_manager_draw_wrong$x$1$27({1}SC:U),B,1,4
 S:Lsprite_manager.engine_sprite_manager_draw_wrong$y$1$27({1}SC:U),B,1,5
+S:Lsprite_manager.engine_sprite_manager_draw_wrong$tilefrom$1$27({2}SI:U),B,1,6
 F:Fsprite_manager$engine_sprite_manager_draw$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lsprite_manager.engine_sprite_manager_draw$x$1$29({1}SC:U),B,1,4
 S:Lsprite_manager.engine_sprite_manager_draw$y$1$29({1}SC:U),B,1,5

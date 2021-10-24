@@ -15,9 +15,12 @@ F:G$engine_select_manager_move_up$0$0({2}DF,SC:U),Z,0,0,0,0,0
 S:Lselect_manager.engine_select_manager_move_up$select_choice$1$33({1}SC:U),B,1,4
 F:G$engine_select_manager_move_down$0$0({2}DF,SC:U),Z,0,0,0,0,0
 S:Lselect_manager.engine_select_manager_move_down$select_choice$1$37({1}SC:U),B,1,4
-F:G$engine_select_manager_draw_select$0$0({2}DF,SV:S),Z,0,0,0,0,0
-F:G$engine_select_manager_draw_right$0$0({2}DF,SV:S),Z,0,0,0,0,0
-F:G$engine_select_manager_draw_wrong$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_select_manager_draw_select1$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_select_manager_draw_right1$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_select_manager_draw_wrong1$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_select_manager_draw_select2$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_select_manager_draw_right2$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_select_manager_draw_wrong2$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:G$select_high_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_text_option$0$0({12}DA4d,DA3d,SC:U),E,0,0
 S:G$select_diff_option$0$0({24}DA4d,DA6d,SC:U),E,0,0

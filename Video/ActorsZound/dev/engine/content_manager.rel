@@ -23,26 +23,24 @@ S _devkit_SMS_loadSpritePalette Ref0000
 S _simpsons__palette__bin Ref0000
 S _devkit_SMS_mapROMBank Ref0000
 A _CODE size A7 flags 0 addr 0
-S G$engine_content_manager_load_sprites$0$0 Def0016
+S _engine_content_manager_load_sprites1 Def0016
 S G$engine_content_manager_splash$0$0 Def0051
 S XG$engine_content_manager_load_font$0$0 Def0015
+S XG$engine_content_manager_load_sprites1$0$0 Def0043
 S A$content_manager$100 Def001E
 S A$content_manager$200 Def007A
 S A$content_manager$110 Def002D
 S A$content_manager$101 Def0021
-S C$content_manager.c$30$1$21 Def0044
-S C$content_manager.c$22$1$20 Def0016
 S A$content_manager$120 Def003A
-S C$content_manager.c$31$1$21 Def0050
-S C$content_manager.c$23$1$20 Def0022
-S _engine_content_manager_load_sprites Def0016
+S C$content_manager.c$23$1$20 Def0016
 S A$content_manager$220 Def007F
-S C$content_manager.c$24$1$20 Def002E
+S C$content_manager.c$40$1$22 Def0051
+S C$content_manager.c$33$1$20 Def0044
+S C$content_manager.c$24$1$20 Def0022
 S A$content_manager$230 Def008C
 S A$content_manager$221 Def0080
-S C$content_manager.c$41$1$22 Def007C
-S C$content_manager.c$33$1$21 Def0051
-S C$content_manager.c$25$1$20 Def003B
+S C$content_manager.c$41$1$22 Def0059
+S C$content_manager.c$25$1$20 Def002E
 S _engine_content_manager_splash Def0051
 S A$content_manager$240 Def0099
 S A$content_manager$231 Def008F
@@ -51,7 +49,9 @@ S A$content_manager$150 Def004E
 S A$content_manager$132 Def0043
 S A$content_manager$114 Def002E
 S A$content_manager$105 Def0022
-S C$content_manager.c$26$1$20 Def0043
+S C$content_manager.c$50$1$23 Def0091
+S C$content_manager.c$42$1$22 Def0066
+S C$content_manager.c$26$1$20 Def003B
 S A$content_manager$241 Def009C
 S A$content_manager$232 Def0090
 S A$content_manager$205 Def007B
@@ -59,21 +59,24 @@ S A$content_manager$151 Def004F
 S A$content_manager$124 Def003B
 S A$content_manager$115 Def0031
 S A$content_manager$106 Def0025
+S C$content_manager.c$51$1$23 Def009E
+S C$content_manager.c$43$1$22 Def0073
+S C$content_manager.c$35$1$21 Def0044
+S C$content_manager.c$27$1$20 Def0043
 S A$content_manager$242 Def009D
 S A$content_manager$170 Def0053
 S A$content_manager$125 Def003E
 S A$content_manager$116 Def0032
 S A$content_manager$107 Def0026
-S C$content_manager.c$43$1$23 Def007C
-S C$content_manager.c$35$1$22 Def0051
-S C$content_manager.c$28$1$20 Def0044
+S C$content_manager.c$52$1$23 Def00A6
+S C$content_manager.c$44$1$22 Def007B
+S C$content_manager.c$36$1$21 Def0050
 S A$content_manager$180 Def0060
 S A$content_manager$171 Def0054
 S A$content_manager$126 Def003F
 S A$content_manager$117 Def0035
 S A$content_manager$108 Def0029
-S C$content_manager.c$44$1$23 Def0084
-S C$content_manager.c$36$1$22 Def0059
+S C$content_manager.c$21$1$19 Def0016
 S A$content_manager$226 Def0084
 S A$content_manager$190 Def006D
 S A$content_manager$181 Def0061
@@ -82,8 +85,8 @@ S A$content_manager$145 Def0044
 S A$content_manager$127 Def0042
 S A$content_manager$118 Def0036
 S A$content_manager$109 Def002A
-S C$content_manager.c$45$1$23 Def0091
-S C$content_manager.c$37$1$22 Def0066
+S C$content_manager.c$46$1$22 Def007C
+S C$content_manager.c$38$1$21 Def0051
 S A$content_manager$254 Def00A6
 S A$content_manager$236 Def0091
 S A$content_manager$227 Def0087
@@ -93,8 +96,6 @@ S A$content_manager$182 Def0064
 S A$content_manager$173 Def0058
 S A$content_manager$146 Def0047
 S A$content_manager$119 Def0039
-S C$content_manager.c$46$1$23 Def009E
-S C$content_manager.c$38$1$22 Def0073
 S A$content_manager$246 Def009E
 S A$content_manager$237 Def0094
 S A$content_manager$228 Def0088
@@ -103,28 +104,26 @@ S A$content_manager$192 Def0071
 S A$content_manager$183 Def0065
 S A$content_manager$156 Def0050
 S A$content_manager$147 Def0048
-S C$content_manager.c$47$1$23 Def00A6
-S C$content_manager.c$39$1$22 Def007B
-S C$content_manager.c$15$1$19 Def0000
 S A$content_manager$247 Def00A1
 S A$content_manager$238 Def0095
 S A$content_manager$229 Def008B
 S A$content_manager$193 Def0072
 S A$content_manager$148 Def004A
-S C$content_manager.c$16$1$19 Def000D
+S C$content_manager.c$48$1$23 Def007C
 S A$content_manager$248 Def00A2
 S A$content_manager$239 Def0098
 S A$content_manager$149 Def004B
-S C$content_manager.c$17$1$19 Def0015
-S C$content_manager.c$12$0$0 Def0000
+S C$content_manager.c$49$1$23 Def0084
+S C$content_manager.c$17$1$19 Def0000
 S A$content_manager$249 Def00A5
 S A$content_manager$177 Def0059
-S XG$engine_content_manager_load_sprites$0$0 Def0043
+S C$content_manager.c$18$1$19 Def000D
 S A$content_manager$187 Def0066
 S A$content_manager$178 Def005C
 S A$content_manager$169 Def0051
 S G$engine_content_manager_title$0$0 Def007C
-S C$content_manager.c$19$1$19 Def0016
+S C$content_manager.c$19$1$19 Def0015
+S C$content_manager.c$14$0$0 Def0000
 S A$content_manager$197 Def0073
 S A$content_manager$188 Def0069
 S A$content_manager$179 Def005D
@@ -153,6 +152,7 @@ S A$content_manager$98 Def001A
 S A$content_manager$99 Def001D
 S G$engine_content_manager_load_font$0$0 Def0000
 S XG$engine_content_manager_title$0$0 Def00A6
+S G$engine_content_manager_load_sprites1$0$0 Def0016
 S XG$engine_content_manager_load_sprite_palette$0$0 Def0050
 S _engine_content_manager_load_font Def0000
 A _DATA size 0 flags 0 addr 0
@@ -171,9 +171,9 @@ T 0E 00 00 00 C5 CD 00 00 F1 C9
 R 00 00 00 00 02 02 0F 00 02 06 04 00
 T 16 00
 R 00 00 00 00
-T 16 00 21 A0 01 E5 21 00 00 E5 CD 00 00 F1 21
+T 16 00 21 40 00 E5 21 00 00 E5 CD 00 00 F1 21
 R 00 00 00 00 02 07 0A 00 02 0B 06 00
-T 23 00 B0 01 E3 21 00 00 E5 CD 00 00 F1 21 C0 01
+T 23 00 50 00 E3 21 00 00 E5 CD 00 00 F1 21 60 00
 R 00 00 00 00 02 06 00 00 02 0A 06 00
 T 31 00 E3 21 00 00 E5 CD 00 00 F1 F1 01 00 00 C5
 R 00 00 00 00 02 04 05 00 02 08 06 00 02 0D 0C 00
@@ -185,7 +185,7 @@ T 44 00 21 03 03 E5 2E 00 E5 CD 00 00 F1 F1 C9
 R 00 00 00 00 02 0A 0B 00
 T 51 00
 R 00 00 00 00
-T 51 00 3E 0E F5 33 CD 00 00 33 21 40 00 E5 21
+T 51 00 3E 0E F5 33 CD 00 00 33 21 60 00 E5 21
 R 00 00 00 00 02 07 12 00
 T 5E 00 00 00 E5 CD 00 00 F1 F1 01 00 00 C5 21
 R 00 00 00 00 02 02 0D 00 02 06 06 00 02 0B 01 00
@@ -195,7 +195,7 @@ T 78 00 00 00 F1 C9
 R 00 00 00 00 02 02 04 00
 T 7C 00
 R 00 00 00 00
-T 7C 00 3E 0E F5 33 CD 00 00 33 21 40 00 E5 21
+T 7C 00 3E 0E F5 33 CD 00 00 33 21 60 00 E5 21
 R 00 00 00 00 02 07 12 00
 T 89 00 00 00 E5 CD 00 00 F1 F1 01 00 00 C5 21
 R 00 00 00 00 02 02 09 00 02 06 06 00 02 0B 0E 00
