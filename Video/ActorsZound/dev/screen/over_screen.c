@@ -1,7 +1,9 @@
 #include "over_screen.h"
+#include "../engine/audio_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
+#include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
@@ -49,9 +51,38 @@ void screen_over_screen_load()
 	percent = ( float ) score_player / ( float ) question_count * 100;
 	engine_font_manager_data_ZERO( percent, SUMMARY_DATA_X, 18 );
 	engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 18 );
+
+	engine_audio_manager_finish_music();
 }
 
 void screen_over_screen_update( unsigned char *screen_type )
 {
+	unsigned char input = 0;
+	unsigned char level = 0;
+
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer < screen_over_screen_delay1 )
+	{
+		return;
+	}
+
+	input = engine_input_manager_hold_fire1();
+	if( input )
+	{
+		level = 1;
+	}
+
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer >= screen_over_screen_delay2 )
+	{
+		level = 1;
+	}
+
+	if( level )
+	{
+		*screen_type = screen_type_title;
+		return;
+	}
+
 	*screen_type = screen_type_over;
 }
