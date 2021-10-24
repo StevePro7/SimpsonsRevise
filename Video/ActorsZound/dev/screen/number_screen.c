@@ -6,12 +6,8 @@
 
 void screen_number_screen_load()
 {
-	// TODO implement the logic to change actors
-	//engine_font_manager_text( "NUMBER SCREEN!!", 10, 2 );
-
 	devkit_SMS_displayOff();
-	//engine_actor_manager_draw( 8 );
-	engine_actor_manager_load();
+//	engine_actor_manager_load();
 	devkit_SMS_displayOn();
 }
 
