@@ -47,11 +47,11 @@ void engine_quiz_manager_base2()
 {
 	show_diff( 26, TITLE_Y - 1 );
 }
-//
-//void engine_quiz_manager_base3( unsigned char y )
-//{
-//	//engine_quiz_manager_diff( 24, y );
-//}
+
+void engine_quiz_manager_base3( unsigned char y )
+{
+	show_diff( 24, y );
+}
 
 void engine_quiz_manager_bank( unsigned char b )
 {
