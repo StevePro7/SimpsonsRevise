@@ -7,7 +7,6 @@ S:G$hacker_random$0$0({1}SC:U),E,0,0
 S:G$hacker_music$0$0({1}SC:U),E,0,0
 S:G$hacker_sound$0$0({1}SC:U),E,0,0
 S:G$hacker_extra$0$0({1}SC:U),E,0,0
-S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
 S:G$quiz_options$0$0({200}DA50d,DA4d,SC:U),E,0,0

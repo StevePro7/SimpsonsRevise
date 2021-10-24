@@ -3,7 +3,6 @@ F:G$screen_title_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_title_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Ltitle_screen.screen_title_screen_update$screen_type$1$46({2}DG,SC:U),B,1,4
-S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:Ftitle_screen$screen_title_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0

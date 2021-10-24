@@ -13,7 +13,6 @@ S:Laudio_manager.play_music$music$1$68({2}DG,SC:U),B,1,4
 S:Laudio_manager.play_music$bank$1$68({1}SC:U),B,1,6
 F:Faudio_manager$play_sound$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Laudio_manager.play_sound$sfx$1$71({2}DG,SC:U),B,1,4
-S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0

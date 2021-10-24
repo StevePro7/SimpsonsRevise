@@ -15,7 +15,6 @@ F:Frandom_manager$load_mixed$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lrandom_manager.load_mixed$idx$1$56({1}SC:U),R,0,0,[e]
 S:Lrandom_manager.load_mixed$opt$1$56({1}SC:U),R,0,0,[b]
 S:Lrandom_manager.load_mixed$rnd$6$63({1}SC:U),R,0,0,[e]
-S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0

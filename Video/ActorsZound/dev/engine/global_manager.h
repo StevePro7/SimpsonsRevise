@@ -52,6 +52,6 @@
 #define TITLE_X	23
 #define TITLE_Y	3
 
-extern unsigned char cheat_count, local_cheat;
+extern unsigned char local_cheat;
 
 #endif//_GLOBAL_MANAGER_H_

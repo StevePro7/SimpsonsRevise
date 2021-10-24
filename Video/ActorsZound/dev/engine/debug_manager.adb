@@ -1,6 +1,5 @@
 M:debug_manager
 F:G$engine_debug_manager_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
 S:G$quiz_options$0$0({200}DA50d,DA4d,SC:U),E,0,0

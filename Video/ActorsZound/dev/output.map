@@ -47,7 +47,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      000000BF  G$VDPControlPort$0$0               asm_manager
      0000012A  l__HEADER5                      
      00000200  s__CODE                         
-     000002A0  l__DATA                         
+     0000029E  l__DATA                         
      000019C6  l__BANK13                       
      00001F88  l__BANK15                       
      00002245  l__BANK9                        
@@ -93,10 +93,10 @@ Area                                    Addr        Size        Decimal Bytes (A
      00008000  s__BANK8                        
      00008000  s__BANK9                        
      0000C000  s__DATA                         
-     0000C2A0  s__INITIALIZED                  
-     0000C2E6  s__BSEG                         
-     0000C2E6  s__BSS                          
-     0000C2E6  s__HEAP                         
+     0000C29E  s__INITIALIZED                  
+     0000C2E4  s__BSEG                         
+     0000C2E4  s__BSS                          
+     0000C2E4  s__HEAP                         
      0000FFFC  G$SRAM_bank_to_be_mapped_on_slot   _sms_manager
      0000FFFC  _SRAM_bank_to_be_mapped_on_slot2   SMSlib_loadTileMap
      0000FFFF  G$ROM_bank_to_be_mapped_on_slot2   _sms_manager
@@ -6084,23 +6084,23 @@ _CODE                               00000200    0000319C =       12700. bytes (R
      0000215C  C$func_screen.c$57$1$37            func_screen
      0000215C  C$func_screen.c$58$1$37            func_screen
      0000215C  XFfunc_screen$draw_screen$0$0      func_screen
-     0000215F  A$intro_screen$69                  intro_screen
+     0000215F  A$intro_screen$66                  intro_screen
      0000215F  C$intro_screen.c$14$0$0            intro_screen
      0000215F  C$intro_screen.c$16$1$27           intro_screen
      0000215F  G$screen_intro_screen_init$0$0     intro_screen
      0000215F  _screen_intro_screen_init          intro_screen
-     00002162  A$intro_screen$70                  intro_screen
-     00002164  A$intro_screen$75                  intro_screen
+     00002162  A$intro_screen$67                  intro_screen
+     00002164  A$intro_screen$72                  intro_screen
      00002164  C$intro_screen.c$17$1$27           intro_screen
      00002164  XG$screen_intro_screen_init$0$0    intro_screen
-     00002165  A$intro_screen$88                  intro_screen
+     00002165  A$intro_screen$85                  intro_screen
      00002165  C$intro_screen.c$19$1$27           intro_screen
      00002165  C$intro_screen.c$21$1$28           intro_screen
      00002165  G$screen_intro_screen_load$0$0     intro_screen
      00002165  _screen_intro_screen_load          intro_screen
-     00002168  A$intro_screen$89                  intro_screen
-     00002169  A$intro_screen$90                  intro_screen
-     0000216C  A$intro_screen$91                  intro_screen
+     00002168  A$intro_screen$86                  intro_screen
+     00002169  A$intro_screen$87                  intro_screen
+     0000216C  A$intro_screen$88                  intro_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 103.
 Hexadecimal  [32-Bits]
 
@@ -6110,39 +6110,39 @@ _CODE                               00000200    0000319C =       12700. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000216D  A$intro_screen$92                  intro_screen
-     00002170  A$intro_screen$93                  intro_screen
-     00002171  A$intro_screen$94                  intro_screen
-     00002172  A$intro_screen$99                  intro_screen
+     0000216D  A$intro_screen$89                  intro_screen
+     00002170  A$intro_screen$90                  intro_screen
+     00002171  A$intro_screen$91                  intro_screen
+     00002172  A$intro_screen$96                  intro_screen
      00002172  C$intro_screen.c$22$1$28           intro_screen
      00002172  XG$screen_intro_screen_load$0$0    intro_screen
      00002173  Fintro_screen$__str_0$0$0          intro_screen
-     00002182  A$intro_screen$116                 intro_screen
+     00002182  A$intro_screen$113                 intro_screen
      00002182  C$intro_screen.c$24$1$28           intro_screen
      00002182  C$intro_screen.c$26$1$30           intro_screen
      00002182  G$screen_intro_screen_update$0$0   intro_screen
      00002182  _screen_intro_screen_update        intro_screen
-     00002185  A$intro_screen$120                 intro_screen
+     00002185  A$intro_screen$117                 intro_screen
      00002185  C$intro_screen.c$27$1$30           intro_screen
-     00002186  A$intro_screen$121                 intro_screen
-     00002187  A$intro_screen$122                 intro_screen
-     00002189  A$intro_screen$126                 intro_screen
+     00002186  A$intro_screen$118                 intro_screen
+     00002187  A$intro_screen$119                 intro_screen
+     00002189  A$intro_screen$123                 intro_screen
      00002189  C$intro_screen.c$30$2$31           intro_screen
-     0000218C  A$intro_screen$130                 intro_screen
+     0000218C  A$intro_screen$127                 intro_screen
      0000218C  C$intro_screen.c$31$2$31           intro_screen
-     0000218F  A$intro_screen$131                 intro_screen
-     00002190  A$intro_screen$132                 intro_screen
-     00002193  A$intro_screen$133                 intro_screen
-     00002194  A$intro_screen$134                 intro_screen
-     00002197  A$intro_screen$135                 intro_screen
-     00002198  A$intro_screen$136                 intro_screen
-     00002199  A$intro_screen$141                 intro_screen
+     0000218F  A$intro_screen$128                 intro_screen
+     00002190  A$intro_screen$129                 intro_screen
+     00002193  A$intro_screen$130                 intro_screen
+     00002194  A$intro_screen$131                 intro_screen
+     00002197  A$intro_screen$132                 intro_screen
+     00002198  A$intro_screen$133                 intro_screen
+     00002199  A$intro_screen$138                 intro_screen
      00002199  C$intro_screen.c$34$1$30           intro_screen
-     0000219A  A$intro_screen$142                 intro_screen
-     0000219B  A$intro_screen$143                 intro_screen
-     0000219C  A$intro_screen$144                 intro_screen
-     0000219D  A$intro_screen$145                 intro_screen
-     0000219F  A$intro_screen$150                 intro_screen
+     0000219A  A$intro_screen$139                 intro_screen
+     0000219B  A$intro_screen$140                 intro_screen
+     0000219C  A$intro_screen$141                 intro_screen
+     0000219D  A$intro_screen$142                 intro_screen
+     0000219F  A$intro_screen$147                 intro_screen
      0000219F  C$intro_screen.c$35$1$30           intro_screen
      0000219F  XG$screen_intro_screen_update$0$   intro_screen
      000021A0  Fintro_screen$__str_1$0$0          intro_screen
@@ -7309,7 +7309,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_DATA                               0000C000    000002A0 =         672. bytes (REL,CON)
+_DATA                               0000C000    0000029E =         670. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -7347,141 +7347,138 @@ _DATA                               0000C000    000002A0 =         672. bytes (R
      0000C046  Faudio_manager$currRight$0$0       audio_manager
      0000C047  Faudio_manager$prevWrong$0$0       audio_manager
      0000C048  Faudio_manager$currWrong$0$0       audio_manager
-     0000C049  G$cheat_count$0$0                  global_manager
-     0000C049  _cheat_count                       global_manager
-     0000C04A  G$local_cheat$0$0                  global_manager
-     0000C04A  _local_cheat                       global_manager
-     0000C04B  G$hacker_debug$0$0                 hack_manager
-     0000C04B  _hacker_debug                      hack_manager
-     0000C04C  G$hacker_cheat$0$0                 hack_manager
-     0000C04C  _hacker_cheat                      hack_manager
-     0000C04D  G$hacker_random$0$0                hack_manager
-     0000C04D  _hacker_random                     hack_manager
-     0000C04E  G$hacker_music$0$0                 hack_manager
-     0000C04E  _hacker_music                      hack_manager
-     0000C04F  G$hacker_sound$0$0                 hack_manager
-     0000C04F  _hacker_sound                      hack_manager
-     0000C050  G$hacker_extra$0$0                 hack_manager
-     0000C050  _hacker_extra                      hack_manager
+     0000C049  G$local_cheat$0$0                  global_manager
+     0000C049  _local_cheat                       global_manager
+     0000C04A  G$hacker_debug$0$0                 hack_manager
+     0000C04A  _hacker_debug                      hack_manager
+     0000C04B  G$hacker_cheat$0$0                 hack_manager
+     0000C04B  _hacker_cheat                      hack_manager
+     0000C04C  G$hacker_random$0$0                hack_manager
+     0000C04C  _hacker_random                     hack_manager
+     0000C04D  G$hacker_music$0$0                 hack_manager
+     0000C04D  _hacker_music                      hack_manager
+     0000C04E  G$hacker_sound$0$0                 hack_manager
+     0000C04E  _hacker_sound                      hack_manager
+     0000C04F  G$hacker_extra$0$0                 hack_manager
+     0000C04F  _hacker_extra                      hack_manager
+     0000C050  G$quiz_questions$0$0               quiz_manager
+     0000C050  _quiz_questions                    quiz_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 132.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_DATA                               0000C000    000002A0 =         672. bytes (REL,CON)
+_DATA                               0000C000    0000029E =         670. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000C051  G$quiz_questions$0$0               quiz_manager
-     0000C051  _quiz_questions                    quiz_manager
-     0000C083  G$quiz_options$0$0                 quiz_manager
-     0000C083  _quiz_options                      quiz_manager
-     0000C14B  G$option_height$0$0                quiz_manager
-     0000C14B  _option_height                     quiz_manager
-     0000C14F  G$question_index$0$0               quiz_manager
-     0000C14F  _question_index                    quiz_manager
-     0000C150  G$question_long$0$0                quiz_manager
-     0000C150  _question_long                     quiz_manager
-     0000C151  G$question_count$0$0               quiz_manager
-     0000C151  _question_count                    quiz_manager
-     0000C152  G$question_value$0$0               quiz_manager
-     0000C152  _question_value                    quiz_manager
-     0000C153  G$option1_value$0$0                quiz_manager
-     0000C153  _option1_value                     quiz_manager
-     0000C154  G$option2_value$0$0                quiz_manager
-     0000C154  _option2_value                     quiz_manager
-     0000C155  G$option3_value$0$0                quiz_manager
-     0000C155  _option3_value                     quiz_manager
-     0000C156  G$option4_value$0$0                quiz_manager
-     0000C156  _option4_value                     quiz_manager
-     0000C157  G$answer_index$0$0                 quiz_manager
-     0000C157  _answer_index                      quiz_manager
-     0000C158  G$answer_value$0$0                 quiz_manager
-     0000C158  _answer_value                      quiz_manager
-     0000C159  G$score_player$0$0                 score_manager
-     0000C159  _score_player                      score_manager
-     0000C15A  G$diff_select$0$0                  select_manager
-     0000C15A  _diff_select                       select_manager
-     0000C15B  G$long_select$0$0                  select_manager
-     0000C15B  _long_select                       select_manager
-     0000C15C  G$quiz_select$0$0                  select_manager
-     0000C15C  _quiz_select                       select_manager
-     0000C15D  G$select_choice$0$0                select_manager
-     0000C15D  _select_choice                     select_manager
-     0000C15E  G$select_height$0$0                select_manager
-     0000C15E  _select_height                     select_manager
-     0000C15F  G$select_option$0$0                select_manager
-     0000C15F  _select_option                     select_manager
-     0000C163  Fscreen_manager$curr_screen_type   screen_manager
-     0000C164  Fscreen_manager$next_screen_type   screen_manager
-     0000C165  Fscreen_manager$load_method$0$0    screen_manager
-     0000C183  Fscreen_manager$update_method$0$   screen_manager
-     0000C1A1  G$screen_bases_screen_count$0$0    timer_manager
-     0000C1A1  _screen_bases_screen_count         timer_manager
-     0000C1A2  G$screen_bases_screen_timer$0$0    timer_manager
-     0000C1A2  _screen_bases_screen_timer         timer_manager
-     0000C1A4  Fdiff_screen$screen_diff_screen_   diff_screen
-     0000C1A5  Fintro_screen$screen_intro_scree   intro_screen
-     0000C1A6  Fintro_screen$cheat_count$0$0      intro_screen
+     0000C082  G$quiz_options$0$0                 quiz_manager
+     0000C082  _quiz_options                      quiz_manager
+     0000C14A  G$option_height$0$0                quiz_manager
+     0000C14A  _option_height                     quiz_manager
+     0000C14E  G$question_index$0$0               quiz_manager
+     0000C14E  _question_index                    quiz_manager
+     0000C14F  G$question_long$0$0                quiz_manager
+     0000C14F  _question_long                     quiz_manager
+     0000C150  G$question_count$0$0               quiz_manager
+     0000C150  _question_count                    quiz_manager
+     0000C151  G$question_value$0$0               quiz_manager
+     0000C151  _question_value                    quiz_manager
+     0000C152  G$option1_value$0$0                quiz_manager
+     0000C152  _option1_value                     quiz_manager
+     0000C153  G$option2_value$0$0                quiz_manager
+     0000C153  _option2_value                     quiz_manager
+     0000C154  G$option3_value$0$0                quiz_manager
+     0000C154  _option3_value                     quiz_manager
+     0000C155  G$option4_value$0$0                quiz_manager
+     0000C155  _option4_value                     quiz_manager
+     0000C156  G$answer_index$0$0                 quiz_manager
+     0000C156  _answer_index                      quiz_manager
+     0000C157  G$answer_value$0$0                 quiz_manager
+     0000C157  _answer_value                      quiz_manager
+     0000C158  G$score_player$0$0                 score_manager
+     0000C158  _score_player                      score_manager
+     0000C159  G$diff_select$0$0                  select_manager
+     0000C159  _diff_select                       select_manager
+     0000C15A  G$long_select$0$0                  select_manager
+     0000C15A  _long_select                       select_manager
+     0000C15B  G$quiz_select$0$0                  select_manager
+     0000C15B  _quiz_select                       select_manager
+     0000C15C  G$select_choice$0$0                select_manager
+     0000C15C  _select_choice                     select_manager
+     0000C15D  G$select_height$0$0                select_manager
+     0000C15D  _select_height                     select_manager
+     0000C15E  G$select_option$0$0                select_manager
+     0000C15E  _select_option                     select_manager
+     0000C162  Fscreen_manager$curr_screen_type   screen_manager
+     0000C163  Fscreen_manager$next_screen_type   screen_manager
+     0000C164  Fscreen_manager$load_method$0$0    screen_manager
+     0000C182  Fscreen_manager$update_method$0$   screen_manager
+     0000C1A0  G$screen_bases_screen_count$0$0    timer_manager
+     0000C1A0  _screen_bases_screen_count         timer_manager
+     0000C1A1  G$screen_bases_screen_timer$0$0    timer_manager
+     0000C1A1  _screen_bases_screen_timer         timer_manager
+     0000C1A3  Fdiff_screen$screen_diff_screen_   diff_screen
+     0000C1A4  Fintro_screen$screen_intro_scree   intro_screen
+     0000C1A5  Fintro_screen$cheat_count$0$0      intro_screen
+     0000C1A6  Flong_screen$screen_long_screen_   long_screen
+     0000C1A7  Fover_screen$screen_over_screen_   over_screen
 ASxxxx Linker V03.00 + NoICE + sdld,  page 133.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_DATA                               0000C000    000002A0 =         672. bytes (REL,CON)
+_DATA                               0000C000    0000029E =         670. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000C1A7  Fintro_screen$local_cheat$0$0      intro_screen
-     0000C1A8  Flong_screen$screen_long_screen_   long_screen
-     0000C1A9  Fover_screen$screen_over_screen_   over_screen
-     0000C1AA  Fover_screen$screen_over_screen_   over_screen
-     0000C1AC  Fplay_screen$screen_cheat_screen   play_screen
-     0000C1AD  Fquiz_screen$screen_quiz_screen_   quiz_screen
-     0000C1AE  Fquiz_screen$screen_quiz_screen_   quiz_screen
-     0000C1AF  Fquiz_screen$firstTime$0$0         quiz_screen
+     0000C1A8  Fover_screen$screen_over_screen_   over_screen
+     0000C1AA  Fplay_screen$screen_cheat_screen   play_screen
+     0000C1AB  Fquiz_screen$screen_quiz_screen_   quiz_screen
+     0000C1AC  Fquiz_screen$screen_quiz_screen_   quiz_screen
+     0000C1AD  Fquiz_screen$firstTime$0$0         quiz_screen
+     0000C1AE  Fready_screen$screen_ready_scree   ready_screen
      0000C1B0  Fready_screen$screen_ready_scree   ready_screen
-     0000C1B2  Fready_screen$screen_ready_scree   ready_screen
-     0000C1B3  Fsplash_screen$screen_splash_scr   splash_screen
-     0000C1B4  Ftitle_screen$screen_title_scree   title_screen
-     0000C1B5  _VDPBlank                          SMSlib
-     0000C1B6  _SMS_VDPFlags                      SMSlib
-     0000C1B7  _PauseRequested                    SMSlib
-     0000C1B8  _VDPType                           SMSlib
-     0000C1B9  _KeysStatus                        SMSlib
-     0000C1BB  _PreviousKeysStatus                SMSlib
-     0000C1BD  _SpriteTableY                      SMSlib
-     0000C1FD  _SpriteTableXN                     SMSlib
-     0000C27D  _SpriteNextFree                    SMSlib
-     0000C27E  _SMS_theLineInterruptHandler       SMSlib
-     0000C280  _decompBuffer                      SMSlib_PSGaiden
+     0000C1B1  Fsplash_screen$screen_splash_scr   splash_screen
+     0000C1B2  Ftitle_screen$screen_title_scree   title_screen
+     0000C1B3  _VDPBlank                          SMSlib
+     0000C1B4  _SMS_VDPFlags                      SMSlib
+     0000C1B5  _PauseRequested                    SMSlib
+     0000C1B6  _VDPType                           SMSlib
+     0000C1B7  _KeysStatus                        SMSlib
+     0000C1B9  _PreviousKeysStatus                SMSlib
+     0000C1BB  _SpriteTableY                      SMSlib
+     0000C1FB  _SpriteTableXN                     SMSlib
+     0000C27B  _SpriteNextFree                    SMSlib
+     0000C27C  _SMS_theLineInterruptHandler       SMSlib
+     0000C27E  _decompBuffer                      SMSlib_PSGaiden
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 134.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_INITIALIZED                        0000C2A0    00000046 =          70. bytes (REL,CON)
+_INITIALIZED                        0000C29E    00000046 =          70. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     0000C2A0  Finput_manager$curr_joypad1$0$0    input_manager
-     0000C2A2  Finput_manager$prev_joypad1$0$0    input_manager
-     0000C2A4  G$select_high_option$0$0           select_manager
-     0000C2A4  _select_high_option                select_manager
-     0000C2A8  G$select_text_option$0$0           select_manager
-     0000C2A8  _select_text_option                select_manager
-     0000C2B4  G$select_diff_option$0$0           select_manager
-     0000C2B4  _select_diff_option                select_manager
-     0000C2CC  G$select_long_option$0$0           select_manager
-     0000C2CC  _select_long_option                select_manager
-     0000C2D0  G$sound_sample_data$0$0            sound_object
-     0000C2D0  _sound_sample_data                 sound_object
-     0000C2DC  Ffunc_screen$index$0$0             func_screen
-     0000C2DD  Ftest_screen$index$0$0             test_screen
-     0000C2DE  _VDPReg                            SMSlib
-     0000C2E0  _spritesHeight                     SMSlib
-     0000C2E1  _spritesWidth                      SMSlib
+     0000C29E  Finput_manager$curr_joypad1$0$0    input_manager
+     0000C2A0  Finput_manager$prev_joypad1$0$0    input_manager
+     0000C2A2  G$select_high_option$0$0           select_manager
+     0000C2A2  _select_high_option                select_manager
+     0000C2A6  G$select_text_option$0$0           select_manager
+     0000C2A6  _select_text_option                select_manager
+     0000C2B2  G$select_diff_option$0$0           select_manager
+     0000C2B2  _select_diff_option                select_manager
+     0000C2CA  G$select_long_option$0$0           select_manager
+     0000C2CA  _select_long_option                select_manager
+     0000C2CE  G$sound_sample_data$0$0            sound_object
+     0000C2CE  _sound_sample_data                 sound_object
+     0000C2DA  Ffunc_screen$index$0$0             func_screen
+     0000C2DB  Ftest_screen$index$0$0             test_screen
+     0000C2DC  _VDPReg                            SMSlib
+     0000C2DE  _spritesHeight                     SMSlib
+     0000C2DF  _spritesWidth                      SMSlib
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 135.
 Hexadecimal  [32-Bits]

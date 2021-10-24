@@ -6,7 +6,6 @@ S:Lfunc_screen.screen_func_screen_update$input$1$28({1}SC:U),R,0,0,[l]
 F:Ffunc_screen$draw_screen$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lfunc_screen.draw_screen$index$1$36({1}SC:U),B,1,4
 S:Ffunc_screen$index$0$0({1}SC:U),E,0,0
-S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
