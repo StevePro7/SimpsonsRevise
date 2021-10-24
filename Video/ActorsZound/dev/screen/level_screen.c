@@ -1,4 +1,5 @@
 #include "level_screen.h"
+#include "../engine/asm_manager.h"
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
@@ -24,9 +25,16 @@ void screen_level_screen_load()
 
 	engine_select_manager_clear();
 
-	devkit_SMS_displayOff();
-	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette( COLOR_WHITE );
+
+	//devkit_SMS_displayOff();
+	//engine_asm_manager_clear_VRAM();
+
+	//devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
+	//devkit_SMS_useFirstHalfTilesforSprites_True();
+
+	//engine_content_manager_load_font();
+	//engine_content_manager_load_sprites();
+	//engine_content_manager_load_sprite_palette( COLOR_WHITE );
 	//devkit_SMS_displayOn();
 }
 

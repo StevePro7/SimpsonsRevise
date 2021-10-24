@@ -26,43 +26,43 @@ A _CODE size B5 flags 0 addr 0
 S G$engine_content_manager_load_sprites$0$0 Def0016
 S G$engine_content_manager_splash$0$0 Def005F
 S XG$engine_content_manager_load_font$0$0 Def0015
+S C$content_manager.c$20$1$20 Def0016
 S A$content_manager$100 Def001E
 S A$content_manager$200 Def0080
 S A$content_manager$110 Def002D
 S A$content_manager$101 Def0021
-S C$content_manager.c$21$1$21 Def0016
 S A$content_manager$120 Def003A
-S C$content_manager.c$22$1$21 Def0022
+S C$content_manager.c$22$1$21 Def0016
 S _engine_content_manager_load_sprites Def0016
-S C$content_manager.c$30$1$23 Def005E
-S C$content_manager.c$23$1$21 Def002E
-S C$content_manager.c$15$1$20 Def0000
+S C$content_manager.c$30$1$23 Def0044
+S C$content_manager.c$23$1$21 Def0022
 S A$content_manager$212 Def0089
-S C$content_manager.c$24$1$21 Def003B
-S C$content_manager.c$16$1$20 Def000D
+S C$content_manager.c$31$1$23 Def005E
+S C$content_manager.c$24$1$21 Def002E
+S C$content_manager.c$16$1$20 Def0000
 S _engine_content_manager_splash Def005F
 S A$content_manager$204 Def0081
 S A$content_manager$150 Def0051
 S A$content_manager$132 Def0043
 S A$content_manager$114 Def002E
 S A$content_manager$105 Def0022
-S C$content_manager.c$40$1$24 Def008A
-S C$content_manager.c$32$1$23 Def005F
-S C$content_manager.c$25$1$21 Def0043
-S C$content_manager.c$17$1$20 Def0015
+S C$content_manager.c$25$1$21 Def003B
+S C$content_manager.c$17$1$20 Def000D
 S A$content_manager$205 Def0084
 S A$content_manager$151 Def0054
 S A$content_manager$124 Def003B
 S A$content_manager$115 Def0031
 S A$content_manager$106 Def0025
+S C$content_manager.c$41$1$24 Def008A
+S C$content_manager.c$33$1$23 Def005F
+S C$content_manager.c$26$1$21 Def0043
+S C$content_manager.c$18$1$20 Def0015
 S A$content_manager$233 Def0092
 S A$content_manager$206 Def0085
 S A$content_manager$152 Def0055
 S A$content_manager$125 Def003E
 S A$content_manager$116 Def0032
 S A$content_manager$107 Def0026
-S C$content_manager.c$27$1$21 Def0044
-S C$content_manager.c$19$1$20 Def0016
 S A$content_manager$261 Def00B4
 S A$content_manager$243 Def009F
 S A$content_manager$234 Def0095
@@ -73,8 +73,7 @@ S A$content_manager$153 Def0056
 S A$content_manager$126 Def003F
 S A$content_manager$117 Def0035
 S A$content_manager$108 Def0029
-S C$content_manager.c$42$1$25 Def008A
-S C$content_manager.c$34$1$24 Def005F
+S C$content_manager.c$28$1$21 Def0044
 S A$content_manager$253 Def00AC
 S A$content_manager$244 Def00A2
 S A$content_manager$235 Def0096
@@ -86,8 +85,8 @@ S A$content_manager$145 Def0044
 S A$content_manager$127 Def0042
 S A$content_manager$118 Def0036
 S A$content_manager$109 Def002A
-S C$content_manager.c$43$1$25 Def0092
-S C$content_manager.c$35$1$24 Def0067
+S C$content_manager.c$43$1$25 Def008A
+S C$content_manager.c$35$1$24 Def005F
 S A$content_manager$254 Def00AF
 S A$content_manager$245 Def00A3
 S A$content_manager$236 Def0099
@@ -95,17 +94,16 @@ S A$content_manager$227 Def008D
 S A$content_manager$155 Def0058
 S A$content_manager$146 Def0048
 S A$content_manager$119 Def0039
-S C$content_manager.c$44$1$25 Def009F
-S C$content_manager.c$36$1$24 Def0074
+S C$content_manager.c$44$1$25 Def0092
+S C$content_manager.c$36$1$24 Def0067
 S A$content_manager$255 Def00B0
 S A$content_manager$246 Def00A6
 S A$content_manager$237 Def009A
 S A$content_manager$228 Def008E
 S A$content_manager$156 Def0059
 S A$content_manager$147 Def004A
-S C$content_manager.c$45$1$25 Def00AC
-S C$content_manager.c$37$1$24 Def0081
-S C$content_manager.c$29$1$23 Def0044
+S C$content_manager.c$45$1$25 Def009F
+S C$content_manager.c$37$1$24 Def0074
 S A$content_manager$256 Def00B3
 S A$content_manager$247 Def00A7
 S A$content_manager$238 Def009D
@@ -113,8 +111,8 @@ S A$content_manager$229 Def0091
 S A$content_manager$184 Def0067
 S A$content_manager$157 Def005C
 S A$content_manager$148 Def004D
-S C$content_manager.c$46$1$25 Def00B4
-S C$content_manager.c$38$1$24 Def0089
+S C$content_manager.c$46$1$25 Def00AC
+S C$content_manager.c$38$1$24 Def0081
 S A$content_manager$248 Def00AA
 S A$content_manager$239 Def009E
 S A$content_manager$194 Def0074
@@ -122,12 +120,14 @@ S A$content_manager$185 Def006A
 S A$content_manager$176 Def005F
 S A$content_manager$158 Def005D
 S A$content_manager$149 Def0050
-S C$content_manager.c$12$0$0 Def0000
+S C$content_manager.c$47$1$25 Def00B4
+S C$content_manager.c$39$1$24 Def0089
 S A$content_manager$249 Def00AB
 S A$content_manager$195 Def0077
 S A$content_manager$186 Def006B
 S A$content_manager$177 Def0061
 S XG$engine_content_manager_load_sprites$0$0 Def0043
+S C$content_manager.c$13$0$0 Def0000
 S A$content_manager$196 Def0078
 S A$content_manager$187 Def006E
 S A$content_manager$178 Def0062
@@ -194,7 +194,7 @@ T 52 00 7E 00 F5 33 AF F5 33 CD 00 00 F1 F1 C9
 R 00 00 00 00 02 0A 0B 00
 T 5F 00
 R 00 00 00 00
-T 5F 00 3E 0E F5 33 CD 00 00 33 21 60 00 E5 21
+T 5F 00 3E 0E F5 33 CD 00 00 33 21 70 00 E5 21
 R 00 00 00 00 02 07 12 00
 T 6C 00 00 00 E5 CD 00 00 F1 F1 01 00 00 C5 21
 R 00 00 00 00 02 02 0D 00 02 06 06 00 02 0B 01 00
@@ -204,7 +204,7 @@ T 86 00 00 00 F1 C9
 R 00 00 00 00 02 02 04 00
 T 8A 00
 R 00 00 00 00
-T 8A 00 3E 0E F5 33 CD 00 00 33 21 60 00 E5 21
+T 8A 00 3E 0E F5 33 CD 00 00 33 21 70 00 E5 21
 R 00 00 00 00 02 07 12 00
 T 97 00 00 00 E5 CD 00 00 F1 F1 01 00 00 C5 21
 R 00 00 00 00 02 02 09 00 02 06 06 00 02 0B 0E 00

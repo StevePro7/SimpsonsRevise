@@ -7,7 +7,8 @@
 #include "../gfx.h"
 
 #define FONT_TILES_OFFSET		0
-#define FULL_TILES_OFFSET		96
+//#define FULL_TILES_OFFSET		96
+#define FULL_TILES_OFFSET		112
 
 void engine_content_manager_load_font()
 {
