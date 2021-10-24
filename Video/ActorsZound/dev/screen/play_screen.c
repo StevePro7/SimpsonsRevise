@@ -62,5 +62,17 @@ void screen_play_screen_update( unsigned char *screen_type )
 			screen_bases_screen_timer = 0;
 		}
 	}
+
+	input = engine_input_manager_hold_up();
+	if( input )
+	{
+		quiz_select = engine_select_manager_move_up( quiz_select );
+	}
+	input = engine_input_manager_hold_down();
+	if( input )
+	{
+		quiz_select = engine_select_manager_move_down( quiz_select );
+	}
+
 	*screen_type = screen_type_play;
 }

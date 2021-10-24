@@ -78,9 +78,35 @@ void engine_select_manager_load_quiz()
 }
 
 
-//unsigned char engine_select_manager_move_up( unsigned char select_choice );
-//unsigned char engine_select_manager_move_down( unsigned char select_choice );
+unsigned char engine_select_manager_move_up( unsigned char select_choice )
+{
+	if( 0 == select_choice )
+	{
+		select_choice = ( MAX_OPTIONS - 1 );
+	}
+	else
+	{
+		select_choice--;
+	}
 
+	select_height = select_option[ select_choice ];
+	return select_choice;
+}
+
+unsigned char engine_select_manager_move_down( unsigned char select_choice )
+{
+	if( ( MAX_OPTIONS - 1 ) == select_choice )
+	{
+		select_choice = 0;
+	}
+	else
+	{
+		select_choice++;
+	}
+
+	select_height = select_option[ select_choice ];
+	return select_choice;
+}
 
 void engine_select_manager_draw_select()
 {

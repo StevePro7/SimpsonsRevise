@@ -2,8 +2,8 @@ M:play_screen
 F:G$screen_play_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_play_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_play_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lplay_screen.screen_play_screen_update$screen_type$1$13({2}DG,SC:U),B,1,4
-S:Lplay_screen.screen_play_screen_update$input$1$14({1}SC:U),R,0,0,[l]
+S:Lplay_screen.screen_play_screen_update$screen_type$1$15({2}DG,SC:U),B,1,4
+S:Lplay_screen.screen_play_screen_update$input$1$16({1}SC:U),R,0,0,[l]
 S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
@@ -67,6 +67,8 @@ S:G$engine_select_manager_clear2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_diff$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_long$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_move_up$0$0({2}DF,SC:U),C,0,0
+S:G$engine_select_manager_move_down$0$0({2}DF,SC:U),C,0,0
 S:G$engine_select_manager_draw_select$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_draw_right$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_draw_wrong$0$0({2}DF,SV:S),C,0,0
