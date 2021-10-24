@@ -65,5 +65,17 @@ void screen_long_screen_update( unsigned char *screen_type )
 		}
 	}
 
+	if( select_type_after == screen_long_screen_state )
+	{
+		engine_select_manager_draw_right();
+
+		screen_bases_screen_timer++;
+		if( screen_bases_screen_timer >= screen_long_screen_delay )
+		{
+			*screen_type = screen_type_ready;
+			return;
+		}
+	}
+
 	*screen_type = screen_type_long;
 }

@@ -31,6 +31,7 @@ S:G$select_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_high_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_text_option$0$0({12}DA4d,DA3d,SC:U),E,0,0
 S:G$select_diff_option$0$0({24}DA4d,DA6d,SC:U),E,0,0
+S:G$select_long_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$atof$0$0({2}DF,SF:S),C,0,0
 S:G$atoi$0$0({2}DF,SI:S),C,0,0
 S:G$atol$0$0({2}DF,SL:S),C,0,0
