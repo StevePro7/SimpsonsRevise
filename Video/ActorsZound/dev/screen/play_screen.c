@@ -2,9 +2,11 @@
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
+#include "../engine/input_manager.h"
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
 #include "../engine/select_manager.h"
+#include "../engine/timer_manager.h"
 
 static unsigned char screen_cheat_screen_delay;
 
@@ -34,5 +36,31 @@ void screen_play_screen_load()
 
 void screen_play_screen_update( unsigned char *screen_type )
 {
+	unsigned char input = 0;
+	input = engine_input_manager_hold_fire1();
+	if( input )
+	{
+		*screen_type = screen_type_quiz;
+		return;
+	}
+
+	input = engine_input_manager_hold_fire2();
+	if( input )
+	{
+		*screen_type = screen_type_score;
+		return;
+	}
+
+	engine_select_manager_draw_select();
+	// TODO
+	if( local_cheat )
+	{
+		if( screen_bases_screen_timer >= screen_cheat_screen_delay )
+		{
+			engine_quiz_manager_cheat2( answer_index, screen_bases_screen_count );
+			screen_bases_screen_count = !screen_bases_screen_count;
+			screen_bases_screen_timer = 0;
+		}
+	}
 	*screen_type = screen_type_play;
 }
