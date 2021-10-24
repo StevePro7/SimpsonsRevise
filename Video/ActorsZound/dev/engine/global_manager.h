@@ -39,18 +39,23 @@
 #define MAX_RIGHT			3
 #define MAX_WRONG			3
 
+// Audio
+#define COLOR_BLACK			0
+#define COLOR_WHITE			3
+
+
 // Additional.
-#define OPTN_X	4
-#define OPTA_Y	9
-#define OPTB_Y	13
-#define OPTC_Y	17
-#define OPTD_Y	21
+#define OPTN_X				4
+#define OPTA_Y				9
+#define OPTB_Y				13
+#define OPTC_Y				17
+#define OPTD_Y				21
 
-#define QUIZ_X	2
-#define QUIZ_Y	5
+#define QUIZ_X				2
+#define QUIZ_Y				5
 
-#define TITLE_X	23
-#define TITLE_Y	3
+#define TITLE_X				23
+#define TITLE_Y				3
 
 extern unsigned char local_cheat;
 

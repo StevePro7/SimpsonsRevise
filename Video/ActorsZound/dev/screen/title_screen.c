@@ -30,7 +30,7 @@ void screen_title_screen_load()
 	//TODO delete
 
 	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette( 3 );
+	engine_content_manager_load_sprite_palette( COLOR_WHITE );
 
 	engine_content_manager_title();
 	if( hacker_extra )

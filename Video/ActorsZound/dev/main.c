@@ -15,7 +15,7 @@ void main(void)
 
 	engine_content_manager_load_font();
 	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette( 3 );
+	engine_content_manager_load_sprite_palette( COLOR_WHITE );
 
 	// Initialize.
 	engine_hack_manager_init();
