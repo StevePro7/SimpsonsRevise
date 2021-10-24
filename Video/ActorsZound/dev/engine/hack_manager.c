@@ -48,5 +48,6 @@ void engine_hack_manager_invert()
 //	hacker_music = 0;
 //	hacker_sound = 0;
 //	hacker_extra = 0;
+	hacker_cheat = 1;
 	hacker_random = 1; // rand_type_normal;
 }

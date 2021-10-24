@@ -4,8 +4,11 @@
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
+#include "../engine/hack_manager.h"
 #include "../engine/input_manager.h"
-#include "../engine/sprite_manager.h"
+#include "../engine/locale_manager.h"
+#include "../engine/select_manager.h"
+#include "../engine/timer_manager.h"
 #include "../devkit/_sms_manager.h"
 #include <stdlib.h>
 
@@ -19,17 +22,51 @@ void screen_intro_screen_init()
 
 void screen_intro_screen_load()
 {
-	engine_font_manager_text( "INTRO SCREEN!!", 10, 2 );
+	local_cheat = 0;
+	cheat_count = 0;
+	screen_bases_screen_init();
+
+	engine_select_manager_clear();
+	engine_font_manager_text( LOCALE_PRESS, 2, 13 );
+	engine_font_manager_text( LOCALE_START, 2, 14 );
+
+	if( hacker_cheat )
+	{
+		engine_font_manager_text( LOCALE_CHEAT, 25, 10 );
+		engine_font_manager_text( LOCALE_MODE, 25, 11 );
+
+		engine_audio_manager_sound_cheat();
+		local_cheat = 1;
+	}
 }
 
 void screen_intro_screen_update( unsigned char *screen_type )
 {
-	unsigned char input = engine_input_manager_hold_up();
+	unsigned char input = 0;
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer >= screen_intro_screen_delay )
+	{
+		if( screen_bases_screen_count )
+		{
+			engine_font_manager_text( LOCALE_PRESS, 2, 13 );
+			engine_font_manager_text( LOCALE_START, 2, 14 );
+		}
+		else
+		{
+			engine_font_manager_text( LOCALE_BLANK5, 2, 13 );
+			engine_font_manager_text( LOCALE_BLANK5, 2, 14 );
+		}
+
+		screen_bases_screen_count = !screen_bases_screen_count;
+		screen_bases_screen_timer = 0;
+	}
+
+	input = engine_input_manager_hold_fire1();
 	if( input )
 	{
-		//engine_audio_manager_start_music();
-		engine_audio_manager_finish_music();
-		engine_font_manager_text( "PLAY MUSIC", 10, 8 );
+		engine_audio_manager_sound_right();
+		*screen_type = screen_type_diff;
+		return;
 	}
 
 	rand();

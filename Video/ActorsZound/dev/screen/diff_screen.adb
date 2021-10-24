@@ -6,6 +6,7 @@ S:Ldiff_screen.screen_diff_screen_update$screen_type$1$30({2}DG,SC:U),B,1,4
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:Fdiff_screen$screen_diff_screen_delay$0$0({1}SC:U),E,0,0
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_actor_manager_load$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_font$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),C,0,0

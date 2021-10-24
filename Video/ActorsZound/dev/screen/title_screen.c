@@ -34,7 +34,6 @@ void screen_title_screen_load()
 
 void screen_title_screen_update( unsigned char *screen_type )
 {
-	rand();
 	screen_bases_screen_timer++;
 	if( screen_bases_screen_timer >= screen_title_screen_delay )
 	{
@@ -42,5 +41,6 @@ void screen_title_screen_update( unsigned char *screen_type )
 		return;
 	}
 
+	rand();
 	*screen_type = screen_type_title;
 }
