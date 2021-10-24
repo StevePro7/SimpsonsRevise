@@ -1,8 +1,10 @@
 M:level_screen
 F:G$screen_level_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Llevel_screen.screen_level_screen_load$bank$1$8({1}SC:U),R,0,0,[b]
+S:Llevel_screen.screen_level_screen_load$bank$1$14({1}SC:U),R,0,0,[b]
 F:G$screen_level_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Llevel_screen.screen_level_screen_update$screen_type$1$9({2}DG,SC:U),B,1,4
+S:Llevel_screen.screen_level_screen_update$screen_type$1$15({2}DG,SC:U),B,1,4
+S:G$cheat_count$0$0({1}SC:U),E,0,0
+S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
 S:G$quiz_options$0$0({200}DA50d,DA4d,SC:U),E,0,0
 S:G$option_height$0$0({4}DA4d,SC:U),E,0,0
@@ -32,7 +34,11 @@ S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_base2$0$0({2}DF,SV:S),C,0,0
+S:G$engine_quiz_manager_base3$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_bank$0$0({2}DF,SV:S),C,0,0
+S:G$engine_quiz_manager_answer$0$0({2}DF,SV:S),C,0,0
+S:G$engine_quiz_manager_cheat$0$0({2}DF,SV:S),C,0,0
+S:G$engine_quiz_manager_cheat2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_load$0$0({2}DF,SV:S),C,0,0
 S:G$engine_random_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_random_manager_load$0$0({2}DF,SV:S),C,0,0
@@ -43,6 +49,8 @@ S:G$engine_select_manager_clear2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_diff$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_long$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_move_up$0$0({2}DF,SC:U),C,0,0
+S:G$engine_select_manager_move_down$0$0({2}DF,SC:U),C,0,0
 S:G$engine_select_manager_draw_select$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_draw_right$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_draw_wrong$0$0({2}DF,SV:S),C,0,0

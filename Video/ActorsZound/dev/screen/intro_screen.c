@@ -9,7 +9,7 @@
 #include "../devkit/_sms_manager.h"
 
 static unsigned char screen_intro_screen_delay;
-static unsigned char cheat_count, local_cheat;
+static unsigned char cheat_count;
 
 void screen_intro_screen_init()
 {

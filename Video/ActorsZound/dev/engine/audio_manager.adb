@@ -8,11 +8,12 @@ F:G$engine_audio_manager_sound_wrong$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_audio_manager_sound_cheat$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_audio_manager_sound_woohoo$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_audio_manager_sound_doh$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Laudio_manager.engine_audio_manager_sound_doh$sound$1$47({1}SC:U),R,0,0,[b]
 F:Faudio_manager$play_music$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Laudio_manager.play_music$music$1$44({2}DG,SC:U),B,1,4
-S:Laudio_manager.play_music$bank$1$44({1}SC:U),B,1,6
+S:Laudio_manager.play_music$music$1$48({2}DG,SC:U),B,1,4
+S:Laudio_manager.play_music$bank$1$48({1}SC:U),B,1,6
 F:Faudio_manager$play_sound$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Laudio_manager.play_sound$sfx$1$47({2}DG,SC:U),B,1,4
+S:Laudio_manager.play_sound$sfx$1$51({2}DG,SC:U),B,1,4
 S:G$cheat_count$0$0({1}SC:U),E,0,0
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
@@ -25,6 +26,10 @@ S:Faudio_manager$prevRight$0$0({1}SC:U),E,0,0
 S:Faudio_manager$currRight$0$0({1}SC:U),E,0,0
 S:Faudio_manager$prevWrong$0$0({1}SC:U),E,0,0
 S:Faudio_manager$currWrong$0$0({1}SC:U),E,0,0
+S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_sound_manager_init$0$0({2}DF,SV:S),C,0,0

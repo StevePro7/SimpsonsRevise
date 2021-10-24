@@ -3,6 +3,8 @@ F:G$screen_over_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_over_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_over_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lover_screen.screen_over_screen_update$screen_type$1$8({2}DG,SC:U),B,1,4
+S:G$cheat_count$0$0({1}SC:U),E,0,0
+S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:Fover_screen$screen_over_screen_delay1$0$0({1}SC:U),E,0,0
 S:Fover_screen$screen_over_screen_delay2$0$0({2}SI:U),E,0,0
 S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0

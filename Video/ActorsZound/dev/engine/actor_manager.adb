@@ -23,6 +23,8 @@ F:Factor_manager$draw_actor12$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor13$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor14$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:Factor_manager$draw_actor15$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:G$cheat_count$0$0({1}SC:U),E,0,0
+S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:Factor_manager$draw_method$0$0({32}DA16d,DC,DF,SV:S),E,0,0
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0

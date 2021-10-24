@@ -1,5 +1,6 @@
 #include "audio_manager.h"
 #include "global_manager.h"
+#include "font_manager.h"
 #include "hack_manager.h"
 #include "sound_manager.h"
 #include "../devkit/_sms_manager.h"
@@ -30,7 +31,9 @@ static unsigned char prevWrong, currWrong;
 void engine_audio_manager_init()
 {
 	prevRight = 0; 	currRight = 0;
-	prevWrong = 0; 	currWrong = 2;
+	prevWrong = 0;
+	currWrong = 2;
+	engine_font_manager_data( currWrong, 10, 0 );
 }
 
 void engine_audio_manager_start_music()
@@ -67,7 +70,9 @@ void engine_audio_manager_sound_woohoo()
 }
 void engine_audio_manager_sound_doh()
 {
-	engine_sound_manager_play( currWrong + MAX_RIGHT );
+	unsigned char sound = currWrong;// ( unsigned char ) ( +MAX_RIGHT );
+	engine_font_manager_data( sound, 10, 1 );
+	engine_sound_manager_play( sound );
 	//engine_sound_manager_play( 4 );
 }
 
