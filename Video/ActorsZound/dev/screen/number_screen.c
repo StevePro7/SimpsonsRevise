@@ -7,7 +7,7 @@
 void screen_number_screen_load()
 {
 	devkit_SMS_displayOff();
-//	engine_actor_manager_load();
+	engine_actor_manager_load();
 	devkit_SMS_displayOn();
 }
 
