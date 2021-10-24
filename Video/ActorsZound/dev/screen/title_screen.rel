@@ -3,12 +3,12 @@ XL2
 H 9 areas 64 global symbols
 M title_screen
 O -mz80
-S _engine_content_manager_load_sprites1 Ref0000
 S _rand Ref0000
 S _engine_font_manager_text Ref0000
 S _devkit_SMS_displayOn Ref0000
 S _engine_audio_manager_start_music Ref0000
 S _hacker_extra Ref0000
+S _engine_content_manager_load_sprites Ref0000
 S .__.ABS. Def0000
 S _devkit_SMS_displayOff Ref0000
 S _engine_content_manager_title Ref0000
@@ -123,15 +123,15 @@ R 00 00 00 00 00 03 01 00
 T 06 00
 R 00 00 00 00
 T 06 00 CD 00 00 CD 00 00 CD 00 00 CD
-R 00 00 00 00 02 03 0B 00 02 06 07 00 02 09 00 00
+R 00 00 00 00 02 03 0B 00 02 06 07 00 02 09 05 00
 T 10 00 00 00 CD 00 00 3A 00 00 B7 28 0D 21 19 17
-R 00 00 00 00 02 02 0A 00 02 05 08 00 02 08 05 00
+R 00 00 00 00 02 02 0A 00 02 05 08 00 02 08 04 00
 T 1E 00 E5 21 2E 00 E5 CD 00 00 F1 F1
-R 00 00 00 00 00 04 00 00 02 08 02 00
+R 00 00 00 00 00 04 00 00 02 08 01 00
 T 28 00
 R 00 00 00 00
 T 28 00 CD 00 00 C3 00 00
-R 00 00 00 00 02 03 03 00 02 06 04 00
+R 00 00 00 00 02 03 02 00 02 06 03 00
 T 2E 00
 R 00 00 00 00
 T 2E 00 56 32 2E 30 00
@@ -153,7 +153,7 @@ R 00 00 00 00
 T 6F 00
 R 00 00 00 00
 T 6F 00 C5 CD 00 00 C1 3E 0B 02
-R 00 00 00 00 02 04 01 00
+R 00 00 00 00 02 04 00 00
 T 77 00
 R 00 00 00 00
 T 77 00 F1 C9

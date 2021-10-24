@@ -1,6 +1,6 @@
 M:content_manager
 F:G$engine_content_manager_load_font$0$0({2}DF,SV:S),Z,0,0,0,0,0
-F:G$engine_content_manager_load_sprites1$0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$engine_content_manager_load_sprites$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_content_manager_splash$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_content_manager_title$0$0({2}DF,SV:S),Z,0,0,0,0,0

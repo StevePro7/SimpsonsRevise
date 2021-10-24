@@ -15,7 +15,7 @@ void main(void)
 	devkit_SMS_useFirstHalfTilesforSprites_True();
 
 	engine_content_manager_load_font();
-	engine_content_manager_load_sprites1();
+	engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette();	// TODO move to title after splash
 
 	// Initialize.

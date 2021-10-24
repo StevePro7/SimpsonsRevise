@@ -6,8 +6,6 @@
 
 // Sprites.
 #define SPRITE_TILES		64
-#define SPRITE_TILES1		64
-#define SPRITE_TILES2		256
 
 // Delay.
 #define SPLASH_DELAY		150

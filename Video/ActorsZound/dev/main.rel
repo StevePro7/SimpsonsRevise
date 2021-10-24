@@ -6,7 +6,6 @@ O -mz80
 S _engine_input_manager_update Ref0000
 S _engine_screen_manager_init Ref0000
 S _engine_select_manager_init Ref0000
-S _engine_content_manager_load_sprites1 Ref0000
 S _devkit_SMS_copySpritestoSAT Ref0000
 S _engine_debug_manager_init Ref0000
 S _devkit_SMS_displayOn Ref0000
@@ -14,6 +13,7 @@ S _engine_quiz_manager_init Ref0000
 S _devkit_SMS_init Ref0000
 S _devkit_PSGSFXFrame Ref0000
 S _engine_screen_manager_update Ref0000
+S _engine_content_manager_load_sprites Ref0000
 S _devkit_SMS_finalizeSprites Ref0000
 S _engine_audio_manager_init Ref0000
 S _devkit_SMS_useFirstHalfTilesforSprites_True Ref0000
@@ -113,24 +113,24 @@ A _CABS size 0 flags 8 addr 0
 T 00 00
 R 00 00 00 00
 T 00 00 CD 00 00 CD 00 00 CD 00 00 CD
-R 00 00 00 00 02 03 08 00 02 06 14 00 02 09 16 00
+R 00 00 00 00 02 03 07 00 02 06 14 00 02 09 16 00
 T 0A 00 00 00 45 C5 33 CD 00 00 33 CD 00 00 CD
 R 00 00 00 00 02 02 15 00 02 08 13 00 02 0C 0D 00
 T 17 00 00 00 CD 00 00 CD 00 00 CD
-R 00 00 00 00 02 02 1C 00 02 05 03 00 02 08 18 00
+R 00 00 00 00 02 02 1C 00 02 05 0A 00 02 08 18 00
 T 20 00 00 00 CD 00 00 CD 00 00 CD
 R 00 00 00 00 02 02 0E 00 02 05 1B 00 02 08 10 00
 T 29 00 00 00 CD 00 00 CD 00 00 CD
-R 00 00 00 00 02 02 0C 00 02 05 07 00 02 08 11 00
-T 32 00 00 00 CD 00 00 3E 02 F5 33 CD 00 00 33 CD
+R 00 00 00 00 02 02 0C 00 02 05 06 00 02 08 11 00
+T 32 00 00 00 CD 00 00 3E 0B F5 33 CD 00 00 33 CD
 R 00 00 00 00 02 02 02 00 02 05 17 00 02 0C 01 00
 T 40 00 00 00 CD 00 00
-R 00 00 00 00 02 02 05 00 02 05 06 00
+R 00 00 00 00 02 02 04 00 02 05 05 00
 T 45 00
 R 00 00 00 00
 T 45 00 CD 00 00 CD 00 00 CD 00 00 CD
-R 00 00 00 00 02 03 1A 00 02 06 00 00 02 09 0A 00
+R 00 00 00 00 02 03 1A 00 02 06 00 00 02 09 09 00
 T 4F 00 00 00 CD 00 00 CD 00 00 CD
-R 00 00 00 00 02 02 0B 00 02 05 19 00 02 08 04 00
+R 00 00 00 00 02 02 0B 00 02 05 19 00 02 08 03 00
 T 58 00 00 00 CD 00 00 18 E6
-R 00 00 00 00 02 02 0F 00 02 05 09 00
+R 00 00 00 00 02 02 0F 00 02 05 08 00

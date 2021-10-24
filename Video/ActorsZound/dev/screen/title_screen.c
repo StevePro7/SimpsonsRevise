@@ -29,7 +29,7 @@ void screen_title_screen_load()
 	//engine_content_manager_load_font();
 	//TODO delete
 
-	engine_content_manager_load_sprites1();
+	engine_content_manager_load_sprites();
 	engine_content_manager_load_sprite_palette();
 
 	engine_content_manager_title();

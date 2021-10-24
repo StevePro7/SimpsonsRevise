@@ -52,9 +52,9 @@ Area                                    Addr        Size        Decimal Bytes (A
      00001F88  l__BANK15                       
      00002245  l__BANK9                        
      000022E4  l__BANK8                        
-     00002713  l__BANK6                        
+     0000271A  l__BANK6                        
      000027BE  l__BANK14                       
-     00002962  l__BANK7                        
+     0000296B  l__BANK7                        
      0000300A  l__BANK11                       
      00003B73  l__CODE                         
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
@@ -2200,7 +2200,7 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00000FCF  C$audio_manager.c$113$1$72         audio_manager
      00000FCF  XFaudio_manager$play_sound$0$0     audio_manager
      00000FD0  A$content_manager$65               content_manager
-     00000FD0  C$content_manager.c$14$0$0         content_manager
+     00000FD0  C$content_manager.c$12$0$0         content_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
 Hexadecimal  [32-Bits]
 
@@ -2210,7 +2210,7 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00000FD0  C$content_manager.c$17$1$19        content_manager
+     00000FD0  C$content_manager.c$15$1$19        content_manager
      00000FD0  G$engine_content_manager_load_fo   content_manager
      00000FD0  _engine_content_manager_load_fon   content_manager
      00000FD3  A$content_manager$66               content_manager
@@ -2220,16 +2220,16 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00000FDB  A$content_manager$70               content_manager
      00000FDC  A$content_manager$71               content_manager
      00000FDD  A$content_manager$75               content_manager
-     00000FDD  C$content_manager.c$18$1$19        content_manager
+     00000FDD  C$content_manager.c$16$1$19        content_manager
      00000FE0  A$content_manager$76               content_manager
      00000FE1  A$content_manager$77               content_manager
      00000FE4  A$content_manager$78               content_manager
      00000FE5  A$content_manager$83               content_manager
-     00000FE5  C$content_manager.c$19$1$19        content_manager
+     00000FE5  C$content_manager.c$17$1$19        content_manager
      00000FE5  XG$engine_content_manager_load_f   content_manager
      00000FE6  A$content_manager$96               content_manager
-     00000FE6  C$content_manager.c$21$1$19        content_manager
-     00000FE6  C$content_manager.c$23$1$20        content_manager
+     00000FE6  C$content_manager.c$19$1$19        content_manager
+     00000FE6  C$content_manager.c$21$1$20        content_manager
      00000FE6  G$engine_content_manager_load_sp   content_manager
      00000FE6  _engine_content_manager_load_spr   content_manager
      00000FE9  A$content_manager$97               content_manager
@@ -2238,14 +2238,14 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00000FEE  A$content_manager$100              content_manager
      00000FF1  A$content_manager$101              content_manager
      00000FF2  A$content_manager$105              content_manager
-     00000FF2  C$content_manager.c$24$1$20        content_manager
+     00000FF2  C$content_manager.c$22$1$20        content_manager
      00000FF5  A$content_manager$106              content_manager
      00000FF6  A$content_manager$107              content_manager
      00000FF9  A$content_manager$108              content_manager
      00000FFA  A$content_manager$109              content_manager
      00000FFD  A$content_manager$110              content_manager
      00000FFE  A$content_manager$114              content_manager
-     00000FFE  C$content_manager.c$25$1$20        content_manager
+     00000FFE  C$content_manager.c$23$1$20        content_manager
      00001001  A$content_manager$115              content_manager
      00001002  A$content_manager$116              content_manager
      00001005  A$content_manager$117              content_manager
@@ -2253,12 +2253,12 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00001009  A$content_manager$119              content_manager
      0000100A  A$content_manager$120              content_manager
      0000100B  A$content_manager$124              content_manager
-     0000100B  C$content_manager.c$26$1$20        content_manager
+     0000100B  C$content_manager.c$24$1$20        content_manager
      0000100E  A$content_manager$125              content_manager
      0000100F  A$content_manager$126              content_manager
      00001012  A$content_manager$127              content_manager
      00001013  A$content_manager$132              content_manager
-     00001013  C$content_manager.c$27$1$20        content_manager
+     00001013  C$content_manager.c$25$1$20        content_manager
      00001013  XG$engine_content_manager_load_s   content_manager
      00001014  A$content_manager$145              content_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
@@ -2270,8 +2270,8 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00001014  C$content_manager.c$33$1$20        content_manager
-     00001014  C$content_manager.c$35$1$21        content_manager
+     00001014  C$content_manager.c$27$1$20        content_manager
+     00001014  C$content_manager.c$29$1$21        content_manager
      00001014  G$engine_content_manager_load_sp   content_manager
      00001014  _engine_content_manager_load_spr   content_manager
      00001017  A$content_manager$146              content_manager
@@ -2281,11 +2281,11 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      0000101E  A$content_manager$150              content_manager
      0000101F  A$content_manager$151              content_manager
      00001020  A$content_manager$156              content_manager
-     00001020  C$content_manager.c$36$1$21        content_manager
+     00001020  C$content_manager.c$30$1$21        content_manager
      00001020  XG$engine_content_manager_load_s   content_manager
      00001021  A$content_manager$169              content_manager
-     00001021  C$content_manager.c$38$1$21        content_manager
-     00001021  C$content_manager.c$40$1$22        content_manager
+     00001021  C$content_manager.c$32$1$21        content_manager
+     00001021  C$content_manager.c$34$1$22        content_manager
      00001021  G$engine_content_manager_splash$   content_manager
      00001021  _engine_content_manager_splash     content_manager
      00001023  A$content_manager$170              content_manager
@@ -2293,7 +2293,7 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00001025  A$content_manager$172              content_manager
      00001028  A$content_manager$173              content_manager
      00001029  A$content_manager$177              content_manager
-     00001029  C$content_manager.c$41$1$22        content_manager
+     00001029  C$content_manager.c$35$1$22        content_manager
      0000102C  A$content_manager$178              content_manager
      0000102D  A$content_manager$179              content_manager
      00001030  A$content_manager$180              content_manager
@@ -2301,7 +2301,7 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00001034  A$content_manager$182              content_manager
      00001035  A$content_manager$183              content_manager
      00001036  A$content_manager$187              content_manager
-     00001036  C$content_manager.c$42$1$22        content_manager
+     00001036  C$content_manager.c$36$1$22        content_manager
      00001039  A$content_manager$188              content_manager
      0000103A  A$content_manager$189              content_manager
      0000103D  A$content_manager$190              content_manager
@@ -2309,16 +2309,16 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00001041  A$content_manager$192              content_manager
      00001042  A$content_manager$193              content_manager
      00001043  A$content_manager$197              content_manager
-     00001043  C$content_manager.c$43$1$22        content_manager
+     00001043  C$content_manager.c$37$1$22        content_manager
      00001046  A$content_manager$198              content_manager
      00001047  A$content_manager$199              content_manager
      0000104A  A$content_manager$200              content_manager
      0000104B  A$content_manager$205              content_manager
-     0000104B  C$content_manager.c$44$1$22        content_manager
+     0000104B  C$content_manager.c$38$1$22        content_manager
      0000104B  XG$engine_content_manager_splash   content_manager
      0000104C  A$content_manager$218              content_manager
-     0000104C  C$content_manager.c$46$1$22        content_manager
-     0000104C  C$content_manager.c$48$1$23        content_manager
+     0000104C  C$content_manager.c$40$1$22        content_manager
+     0000104C  C$content_manager.c$42$1$23        content_manager
      0000104C  G$engine_content_manager_title$0   content_manager
      0000104C  _engine_content_manager_title      content_manager
 ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
@@ -2335,7 +2335,7 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      00001050  A$content_manager$221              content_manager
      00001053  A$content_manager$222              content_manager
      00001054  A$content_manager$226              content_manager
-     00001054  C$content_manager.c$49$1$23        content_manager
+     00001054  C$content_manager.c$43$1$23        content_manager
      00001057  A$content_manager$227              content_manager
      00001058  A$content_manager$228              content_manager
      0000105B  A$content_manager$229              content_manager
@@ -2343,7 +2343,7 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      0000105F  A$content_manager$231              content_manager
      00001060  A$content_manager$232              content_manager
      00001061  A$content_manager$236              content_manager
-     00001061  C$content_manager.c$50$1$23        content_manager
+     00001061  C$content_manager.c$44$1$23        content_manager
      00001064  A$content_manager$237              content_manager
      00001065  A$content_manager$238              content_manager
      00001068  A$content_manager$239              content_manager
@@ -2351,12 +2351,12 @@ _CODE                               00000200    00003B73 =       15219. bytes (R
      0000106C  A$content_manager$241              content_manager
      0000106D  A$content_manager$242              content_manager
      0000106E  A$content_manager$246              content_manager
-     0000106E  C$content_manager.c$51$1$23        content_manager
+     0000106E  C$content_manager.c$45$1$23        content_manager
      00001071  A$content_manager$247              content_manager
      00001072  A$content_manager$248              content_manager
      00001075  A$content_manager$249              content_manager
      00001076  A$content_manager$254              content_manager
-     00001076  C$content_manager.c$52$1$23        content_manager
+     00001076  C$content_manager.c$46$1$23        content_manager
      00001076  XG$engine_content_manager_title$   content_manager
      00001077  A$debug_manager$55                 debug_manager
      00001077  C$debug_manager.c$4$0$0            debug_manager
@@ -8732,7 +8732,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK6                              00008000    00002713 =       10003. bytes (REL,CON)
+_BANK6                              00008000    0000271A =       10010. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -8752,20 +8752,20 @@ _BANK6                              00008000    00002713 =       10003. bytes (R
      000090A9  _actor02__palette__bin             bank6
      000090B9  G$actor02__tilemap__stmcompr$0$0   bank6
      000090B9  _actor02__tilemap__stmcompr        bank6
-     00009114  G$actor02__tiles__psgcompr$0$0     bank6
-     00009114  _actor02__tiles__psgcompr          bank6
-     00009B29  G$actor03__palette__bin$0$0        bank6
-     00009B29  _actor03__palette__bin             bank6
-     00009B39  G$actor03__tilemap__stmcompr$0$0   bank6
-     00009B39  _actor03__tilemap__stmcompr        bank6
-     00009BA2  G$actor03__tiles__psgcompr$0$0     bank6
-     00009BA2  _actor03__tiles__psgcompr          bank6
+     00009116  G$actor02__tiles__psgcompr$0$0     bank6
+     00009116  _actor02__tiles__psgcompr          bank6
+     00009B2B  G$actor03__palette__bin$0$0        bank6
+     00009B2B  _actor03__palette__bin             bank6
+     00009B3B  G$actor03__tilemap__stmcompr$0$0   bank6
+     00009B3B  _actor03__tilemap__stmcompr        bank6
+     00009BA9  G$actor03__tiles__psgcompr$0$0     bank6
+     00009BA9  _actor03__tiles__psgcompr          bank6
 ASxxxx Linker V03.00 + NoICE + sdld,  page 158.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK7                              00008000    00002962 =       10594. bytes (REL,CON)
+_BANK7                              00008000    0000296B =       10603. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -8773,26 +8773,26 @@ _BANK7                              00008000    00002962 =       10594. bytes (R
      00008000  _actor04__palette__bin             bank7
      00008010  G$actor04__tilemap__stmcompr$0$0   bank7
      00008010  _actor04__tilemap__stmcompr        bank7
-     0000807B  G$actor04__tiles__psgcompr$0$0     bank7
-     0000807B  _actor04__tiles__psgcompr          bank7
-     00008AC6  G$actor05__palette__bin$0$0        bank7
-     00008AC6  _actor05__palette__bin             bank7
-     00008AD6  G$actor05__tilemap__stmcompr$0$0   bank7
-     00008AD6  _actor05__tilemap__stmcompr        bank7
-     00008B34  G$actor05__tiles__psgcompr$0$0     bank7
-     00008B34  _actor05__tiles__psgcompr          bank7
-     00009463  G$actor06__palette__bin$0$0        bank7
-     00009463  _actor06__palette__bin             bank7
-     00009473  G$actor06__tilemap__stmcompr$0$0   bank7
-     00009473  _actor06__tilemap__stmcompr        bank7
-     000094D4  G$actor06__tiles__psgcompr$0$0     bank7
-     000094D4  _actor06__tiles__psgcompr          bank7
-     00009F96  G$actor07__palette__bin$0$0        bank7
-     00009F96  _actor07__palette__bin             bank7
-     00009FA6  G$actor07__tilemap__stmcompr$0$0   bank7
-     00009FA6  _actor07__tilemap__stmcompr        bank7
-     0000A016  G$actor07__tiles__psgcompr$0$0     bank7
-     0000A016  _actor07__tiles__psgcompr          bank7
+     0000807F  G$actor04__tiles__psgcompr$0$0     bank7
+     0000807F  _actor04__tiles__psgcompr          bank7
+     00008ACA  G$actor05__palette__bin$0$0        bank7
+     00008ACA  _actor05__palette__bin             bank7
+     00008ADA  G$actor05__tilemap__stmcompr$0$0   bank7
+     00008ADA  _actor05__tilemap__stmcompr        bank7
+     00008B39  G$actor05__tiles__psgcompr$0$0     bank7
+     00008B39  _actor05__tiles__psgcompr          bank7
+     00009468  G$actor06__palette__bin$0$0        bank7
+     00009468  _actor06__palette__bin             bank7
+     00009478  G$actor06__tilemap__stmcompr$0$0   bank7
+     00009478  _actor06__tilemap__stmcompr        bank7
+     000094DB  G$actor06__tiles__psgcompr$0$0     bank7
+     000094DB  _actor06__tiles__psgcompr          bank7
+     00009F9D  G$actor07__palette__bin$0$0        bank7
+     00009F9D  _actor07__palette__bin             bank7
+     00009FAD  G$actor07__tilemap__stmcompr$0$0   bank7
+     00009FAD  _actor07__tilemap__stmcompr        bank7
+     0000A01F  G$actor07__tiles__psgcompr$0$0     bank7
+     0000A01F  _actor07__tiles__psgcompr          bank7
 ASxxxx Linker V03.00 + NoICE + sdld,  page 159.
 Hexadecimal  [32-Bits]
 

@@ -127,28 +127,15 @@ unsigned char engine_select_manager_move_down( unsigned char select_choice )
 	return select_choice;
 }
 
-void engine_select_manager_draw_select1()
+void engine_select_manager_draw_select()
 {
-	engine_sprite_manager_draw_select( SELECT_X, select_height, SPRITE_TILES1 );
+	engine_sprite_manager_draw_select( SELECT_X, select_height );
 }
-void engine_select_manager_draw_right1()
+void engine_select_manager_draw_right()
 {
-	engine_sprite_manager_draw_right( ANSWER_X, select_height + 4, SPRITE_TILES1 );
+	engine_sprite_manager_draw_right( ANSWER_X, select_height + 4 );
 }
-void engine_select_manager_draw_wrong1()
+void engine_select_manager_draw_wrong()
 {
-	engine_sprite_manager_draw_wrong( ANSWER_X, select_height + 4, SPRITE_TILES1 );
-}
-
-void engine_select_manager_draw_select2()
-{
-	engine_sprite_manager_draw_select( SELECT_X, select_height, SPRITE_TILES2 );
-}
-void engine_select_manager_draw_right2()
-{
-	engine_sprite_manager_draw_right( ANSWER_X, select_height + 4, SPRITE_TILES2 );
-}
-void engine_select_manager_draw_wrong2()
-{
-	engine_sprite_manager_draw_wrong( ANSWER_X, select_height + 4, SPRITE_TILES2 );
+	engine_sprite_manager_draw_wrong( ANSWER_X, select_height + 4 );
 }

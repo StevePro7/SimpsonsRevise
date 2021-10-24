@@ -7,9 +7,9 @@
 #include "../banks/bank9.h"
 #include <stdlib.h>
 
-#define ACTOR_TILES_OFFSET 64
-#define ACTOR_TILES_TOTALS 4
-#define ACTOR_TILES_BANKED 2
+#define ACTOR_TILES_OFFSET	128
+#define ACTOR_TILES_TOTALS	4
+#define ACTOR_TILES_BANKED	2
 
 static void( *draw_method[ MAX_ACTORS ] )( );
 static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette );

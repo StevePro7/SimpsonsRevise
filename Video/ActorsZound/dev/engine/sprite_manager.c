@@ -6,17 +6,17 @@
 static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned int tile );
 
 // Public methods DRAW.
-void engine_sprite_manager_draw_select( unsigned char x, unsigned char y, unsigned int tilefrom )
+void engine_sprite_manager_draw_select( unsigned char x, unsigned char y )
 {
-	engine_sprite_manager_draw( x, y, tilefrom + 0 );
+	engine_sprite_manager_draw( x, y, SPRITE_TILES + 0 );
 }
-void engine_sprite_manager_draw_right( unsigned char x, unsigned char y, unsigned int tilefrom )
+void engine_sprite_manager_draw_right( unsigned char x, unsigned char y )
 {
-	engine_sprite_manager_draw( x, y, tilefrom + 16 );
+	engine_sprite_manager_draw( x, y, SPRITE_TILES + 16 );
 }
-void engine_sprite_manager_draw_wrong( unsigned char x, unsigned char y, unsigned int tilefrom )
+void engine_sprite_manager_draw_wrong( unsigned char x, unsigned char y )
 {
-	engine_sprite_manager_draw( x, y, tilefrom + 32 );
+	engine_sprite_manager_draw( x, y, SPRITE_TILES + 32 );
 }
 
 static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned int tile )
