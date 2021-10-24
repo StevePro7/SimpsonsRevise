@@ -24,9 +24,12 @@ void engine_select_manager_load_long();
 void engine_select_manager_load_quiz();
 unsigned char engine_select_manager_move_up( unsigned char select_choice );
 unsigned char engine_select_manager_move_down( unsigned char select_choice );
-void engine_select_manager_draw_select();
-void engine_select_manager_draw_right();
-void engine_select_manager_draw_wrong();
+void engine_select_manager_draw_select1();
+void engine_select_manager_draw_right1();
+void engine_select_manager_draw_wrong1();
+void engine_select_manager_draw_select2();
+void engine_select_manager_draw_right2();
+void engine_select_manager_draw_wrong2();
 
 
 #endif//_SELECT_MANAGER_H_

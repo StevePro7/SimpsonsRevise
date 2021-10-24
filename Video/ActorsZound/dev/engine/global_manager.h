@@ -5,7 +5,8 @@
 #define MAX_SCREEENS		15
 
 // Sprites.
-#define SPRITE_TILES		416
+#define SPRITE_TILES1		416
+#define SPRITE_TILES2		256
 
 // Delay.
 #define SPLASH_DELAY		150

@@ -3554,9 +3554,9 @@ L:C$diff_screen.c$60$2$50:2202
 L:C$diff_screen.c$62$3$53:2206
 L:C$diff_screen.c$63$3$53:2209
 L:C$diff_screen.c$67$1$49:220E
-L:C$diff_screen.c$69$2$54:2214
-L:C$diff_screen.c$72$1$49:2217
-L:C$diff_screen.c$73$1$49:221D
+L:C$diff_screen.c$70$2$54:2214
+L:C$diff_screen.c$73$1$49:2217
+L:C$diff_screen.c$74$1$49:221D
 L:XG$screen_diff_screen_update$0$0:221D
 L:C$func_screen.c$12$0$0:221E
 L:C$func_screen.c$14$1$26:221E

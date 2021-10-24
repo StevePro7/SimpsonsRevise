@@ -6177,16 +6177,16 @@ _CODE                               00000200    00003AFA =       15098. bytes (R
      00002211  A$diff_screen$221                  diff_screen
      00002212  A$diff_screen$222                  diff_screen
      00002214  A$diff_screen$226                  diff_screen
-     00002214  C$diff_screen.c$69$2$54            diff_screen
+     00002214  C$diff_screen.c$70$2$54            diff_screen
      00002217  A$diff_screen$231                  diff_screen
-     00002217  C$diff_screen.c$72$1$49            diff_screen
+     00002217  C$diff_screen.c$73$1$49            diff_screen
      00002218  A$diff_screen$232                  diff_screen
      00002219  A$diff_screen$233                  diff_screen
      0000221A  A$diff_screen$234                  diff_screen
      0000221B  A$diff_screen$235                  diff_screen
      0000221C  A$diff_screen$236                  diff_screen
      0000221D  A$diff_screen$241                  diff_screen
-     0000221D  C$diff_screen.c$73$1$49            diff_screen
+     0000221D  C$diff_screen.c$74$1$49            diff_screen
      0000221D  XG$screen_diff_screen_update$0$0   diff_screen
      0000221E  A$func_screen$65                   func_screen
      0000221E  C$func_screen.c$12$0$0             func_screen

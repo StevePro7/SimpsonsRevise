@@ -48,11 +48,11 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 
 	if( answer_type_right == screen_quiz_screen_state )
 	{
-		engine_select_manager_draw_right();
+		engine_select_manager_draw_right2();
 	}
 	else
 	{
-		engine_select_manager_draw_wrong();
+		engine_select_manager_draw_wrong2();
 	}
 
 	firstTime++;

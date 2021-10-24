@@ -38,7 +38,7 @@ void screen_diff_screen_update( unsigned char *screen_type )
 
 	if( select_type_before == screen_diff_screen_state )
 	{
-		engine_select_manager_draw_select();
+		engine_select_manager_draw_select1();
 		input = engine_input_manager_hold_up();
 		if( input )
 		{
@@ -66,7 +66,7 @@ void screen_diff_screen_update( unsigned char *screen_type )
 
 	if( select_type_after == screen_diff_screen_state )
 	{
-		engine_select_manager_draw_right();
+		engine_select_manager_draw_right1();
 	}
 
 	*screen_type = screen_type_diff;
