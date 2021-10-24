@@ -1,5 +1,5 @@
 #include "diff_screen.h"
-#include "../engine/actor_manager.h"
+#include "../engine/audio_manager.h"
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
@@ -49,6 +49,24 @@ void screen_diff_screen_update( unsigned char *screen_type )
 		{
 			diff_select = engine_select_manager_move_down( diff_select );
 		}
+		// IMPORTANT - don't allow to go back here as invalidates cheat mode!
+		//input = engine_input_manager_hold_fire2( curr_joypad1, prev_joypad1 );
+		//if(input)
+		//{
+		//	*screen_type = SCREEN_TYPE_INTRO;
+		//	return;
+		//}
+		input = engine_input_manager_hold_fire1();
+		if( input )
+		{
+			engine_audio_manager_sound_right();
+			screen_diff_screen_state = select_type_after;
+		}
+	}
+
+	if( select_type_after == screen_diff_screen_state )
+	{
+		engine_select_manager_draw_right();
 	}
 
 	*screen_type = screen_type_diff;

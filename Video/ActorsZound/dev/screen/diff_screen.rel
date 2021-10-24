@@ -1,103 +1,123 @@
 ;!FILE diff_screen.asm
 XL2
-H 9 areas 62 global symbols
+H 9 areas 76 global symbols
 M diff_screen
 O -mz80
 S _rand Ref0000
+S _engine_audio_manager_sound_right Ref0000
 S _engine_select_manager_move_up Ref0000
 S _engine_font_manager_text Ref0000
 S _engine_select_manager_clear Ref0000
 S _diff_select Ref0000
+S _engine_input_manager_hold_fire1 Ref0000
 S _engine_select_manager_draw_select Ref0000
 S _engine_select_manager_move_down Ref0000
 S .__.ABS. Def0000
 S _engine_select_manager_load_diff Ref0000
 S _engine_input_manager_hold_up Ref0000
 S _engine_select_manager_base Ref0000
+S _engine_select_manager_draw_right Ref0000
 S _engine_input_manager_hold_down Ref0000
 S _screen_bases_screen_init Ref0000
-A _CODE size 70 flags 0 addr 0
+A _CODE size 88 flags 0 addr 0
 S XG$screen_diff_screen_load$0$0 Def0021
 S _screen_diff_screen_init Def0000
 S G$screen_diff_screen_update$0$0 Def002F
-S A$diff_screen$200 Def006C
-S A$diff_screen$110 Def0014
-S A$diff_screen$201 Def006D
-S A$diff_screen$111 Def0017
-S A$diff_screen$102 Def000E
-S A$diff_screen$202 Def006E
-S A$diff_screen$112 Def0018
+S A$diff_screen$100 Def0009
+S A$diff_screen$200 Def0069
+S A$diff_screen$101 Def000C
+S A$diff_screen$210 Def0070
+S A$diff_screen$220 Def0078
 S XG$screen_diff_screen_init$0$0 Def0005
-S A$diff_screen$113 Def001B
-S A$diff_screen$141 Def002F
-S A$diff_screen$114 Def001C
-S A$diff_screen$160 Def003F
-S A$diff_screen$151 Def0038
-S A$diff_screen$124 Def0021
-S A$diff_screen$115 Def001F
-S A$diff_screen$106 Def0011
+S A$diff_screen$221 Def007B
+S A$diff_screen$113 Def0014
+S A$diff_screen$231 Def0081
+S A$diff_screen$222 Def007C
+S A$diff_screen$204 Def006C
+S A$diff_screen$150 Def0036
+S A$diff_screen$114 Def0017
+S A$diff_screen$105 Def000E
+S A$diff_screen$241 Def0087
+S A$diff_screen$232 Def0082
+S A$diff_screen$214 Def0073
+S A$diff_screen$205 Def006D
+S A$diff_screen$115 Def0018
+S C$diff_screen.c$41$2$50 Def0038
 S _screen_diff_screen_update Def002F
-S A$diff_screen$170 Def004B
-S A$diff_screen$161 Def0040
-S A$diff_screen$116 Def0020
-S C$diff_screen.c$41$2$51 Def0038
-S A$diff_screen$207 Def006F
-S A$diff_screen$180 Def0055
-S A$diff_screen$171 Def004F
-S C$diff_screen.c$42$2$51 Def003B
-S C$diff_screen.c$20$1$47 Def0005
-S A$diff_screen$190 Def0061
-S A$diff_screen$181 Def0056
-S A$diff_screen$145 Def0032
-S C$diff_screen.c$54$1$50 Def0069
-S C$diff_screen.c$43$2$51 Def003E
-S A$diff_screen$191 Def0062
-S A$diff_screen$182 Def0057
-S A$diff_screen$155 Def003B
-S A$diff_screen$146 Def0035
-S C$diff_screen.c$55$1$50 Def006F
-S C$diff_screen.c$50$3$53 Def0059
-S C$diff_screen.c$37$1$50 Def002F
-S C$diff_screen.c$30$1$48 Def0014
-S C$diff_screen.c$22$1$47 Def0006
-S A$diff_screen$192 Def0066
-S A$diff_screen$165 Def0042
-S A$diff_screen$147 Def0036
-S C$diff_screen.c$31$1$48 Def0021
-S A$diff_screen$166 Def0045
-S C$diff_screen.c$39$1$50 Def0032
-S C$diff_screen.c$32$1$48 Def0021
-S A$diff_screen$176 Def0052
-S A$diff_screen$167 Def0046
-S C$diff_screen.c$47$2$51 Def0052
-S C$diff_screen.c$45$3$52 Def0042
-S C$diff_screen.c$24$1$48 Def0006
-S A$diff_screen$186 Def0059
-S A$diff_screen$168 Def0047
-S A$diff_screen$159 Def003E
-S C$diff_screen.c$48$2$51 Def0055
-S C$diff_screen.c$34$1$48 Def002F
-S C$diff_screen.c$25$1$48 Def0009
-S A$diff_screen$187 Def005C
-S A$diff_screen$169 Def004A
-S A$diff_screen$197 Def0069
-S A$diff_screen$188 Def005D
-S C$diff_screen.c$27$1$48 Def000E
-S C$diff_screen.c$19$1$47 Def0000
-S A$diff_screen$198 Def006A
-S A$diff_screen$189 Def005E
-S C$diff_screen.c$28$1$48 Def0011
-S A$diff_screen$199 Def006B
-S XG$screen_diff_screen_update$0$0 Def006F
+S A$diff_screen$233 Def0083
+S A$diff_screen$215 Def0076
+S A$diff_screen$206 Def006E
+S A$diff_screen$170 Def0046
+S A$diff_screen$116 Def001B
+S C$diff_screen.c$60$2$50 Def006C
+S C$diff_screen.c$42$2$50 Def003B
+S C$diff_screen.c$20$1$46 Def0005
+S A$diff_screen$234 Def0084
+S A$diff_screen$171 Def0047
+S A$diff_screen$162 Def003E
+S A$diff_screen$144 Def002F
+S A$diff_screen$117 Def001C
+S C$diff_screen.c$43$2$50 Def003E
+S A$diff_screen$235 Def0085
+S A$diff_screen$226 Def007E
+S A$diff_screen$190 Def005C
+S A$diff_screen$172 Def004A
+S A$diff_screen$163 Def003F
+S A$diff_screen$154 Def0038
+S A$diff_screen$127 Def0021
+S A$diff_screen$118 Def001F
+S A$diff_screen$109 Def0011
+S C$diff_screen.c$50$3$52 Def0059
+S C$diff_screen.c$30$1$47 Def0014
+S C$diff_screen.c$22$1$46 Def0006
+S A$diff_screen$236 Def0086
+S A$diff_screen$191 Def005D
+S A$diff_screen$173 Def004B
+S A$diff_screen$164 Def0040
+S A$diff_screen$119 Def0020
+S C$diff_screen.c$31$1$47 Def0021
+S A$diff_screen$192 Def005E
+S A$diff_screen$183 Def0055
+S A$diff_screen$174 Def004F
+S C$diff_screen.c$32$1$47 Def0021
+S A$diff_screen$193 Def0061
+S A$diff_screen$184 Def0056
+S A$diff_screen$148 Def0032
+S C$diff_screen.c$47$2$50 Def0052
+S C$diff_screen.c$45$3$51 Def0042
+S C$diff_screen.c$24$1$47 Def0006
+S A$diff_screen$194 Def0062
+S A$diff_screen$185 Def0057
+S A$diff_screen$158 Def003B
+S A$diff_screen$149 Def0035
+S C$diff_screen.c$62$3$53 Def0070
+S C$diff_screen.c$48$2$50 Def0055
+S C$diff_screen.c$34$1$47 Def002F
+S C$diff_screen.c$25$1$47 Def0009
+S A$diff_screen$195 Def0066
+S A$diff_screen$168 Def0042
+S C$diff_screen.c$63$3$53 Def0073
+S A$diff_screen$169 Def0045
+S C$diff_screen.c$59$2$50 Def0069
+S C$diff_screen.c$27$1$47 Def000E
+S C$diff_screen.c$19$1$46 Def0000
+S A$diff_screen$179 Def0052
+S C$diff_screen.c$28$1$47 Def0011
+S A$diff_screen$189 Def0059
+S C$diff_screen.c$72$1$49 Def0081
+S XG$screen_diff_screen_update$0$0 Def0087
+S C$diff_screen.c$73$1$49 Def0087
+S C$diff_screen.c$37$1$49 Def002F
 S C$diff_screen.c$17$0$0 Def0000
-S A$diff_screen$80 Def0005
+S C$diff_screen.c$69$2$54 Def007E
+S C$diff_screen.c$39$1$49 Def0032
+S C$diff_screen.c$67$1$49 Def0078
 S G$screen_diff_screen_load$0$0 Def0006
-S A$diff_screen$74 Def0000
-S A$diff_screen$93 Def0006
-S A$diff_screen$75 Def0003
+S A$diff_screen$83 Def0005
+S A$diff_screen$77 Def0000
+S A$diff_screen$96 Def0006
+S A$diff_screen$78 Def0003
 S Fdiff_screen$__str_0$0$0 Def0024
-S A$diff_screen$97 Def0009
-S A$diff_screen$98 Def000C
 S _screen_diff_screen_load Def0006
 S G$screen_diff_screen_init$0$0 Def0000
 A _DATA size 2 flags 0 addr 0
@@ -125,30 +145,40 @@ R 00 00 00 00 00 03 01 00
 T 06 00
 R 00 00 00 00
 T 06 00 CD 00 00 21 01 00 36 00 CD 00 00 CD
-R 00 00 00 00 02 03 0C 00 00 06 01 00 02 0B 03 00
+R 00 00 00 00 02 03 0F 00 00 06 01 00 02 0B 04 00
 T 12 00 00 00 21 02 06 E5 21 24 00 E5 CD 00 00 F1
-R 00 00 00 00 02 02 0A 00 00 09 00 00 02 0D 02 00
+R 00 00 00 00 02 02 0C 00 00 09 00 00 02 0D 03 00
 T 20 00 F1 C3 00 00
-R 00 00 00 00 02 04 08 00
+R 00 00 00 00 02 04 0A 00
 T 24 00
 R 00 00 00 00
 T 24 00 44 49 46 46 49 43 55 4C 54 59 00
 R 00 00 00 00
 T 2F 00
 R 00 00 00 00
-T 2F 00 CD 00 00 3A 01 00 B7 20 31 CD 00 00 CD
-R 00 00 00 00 02 03 00 00 00 06 01 00 02 0C 05 00
+T 2F 00 CD 00 00 3A 01 00 B7 20 40 CD 00 00 CD
+R 00 00 00 00 02 03 00 00 00 06 01 00 02 0C 07 00
 T 3C 00 00 00 7D B7 28 10 3A 00 00 F5 33 CD 00 00
-R 00 00 00 00 02 02 09 00 02 09 04 00 02 0E 01 00
+R 00 00 00 00 02 02 0B 00 02 09 05 00 02 0E 02 00
 T 4A 00 33 FD 21 00 00 FD 75 00
-R 00 00 00 00 02 05 04 00
+R 00 00 00 00 02 05 05 00
 T 52 00
 R 00 00 00 00
 T 52 00 CD 00 00 7D B7 28 10 3A 00 00 F5 33 CD
-R 00 00 00 00 02 03 0B 00 02 0A 04 00
+R 00 00 00 00 02 03 0E 00 02 0A 05 00
 T 5F 00 00 00 33 FD 21 00 00 FD 75 00
-R 00 00 00 00 02 02 06 00 02 07 04 00
+R 00 00 00 00 02 02 08 00 02 07 05 00
 T 69 00
 R 00 00 00 00
-T 69 00 D1 C1 C5 D5 AF 02 C9
+T 69 00 CD 00 00 7D B7 28 08 CD 00 00 21 01 00 36
+R 00 00 00 00 02 03 06 00 02 0A 01 00 00 0D 01 00
+T 77 00 01
+R 00 00 00 00
+T 78 00
+R 00 00 00 00
+T 78 00 3A 01 00 3D 20 03 CD 00 00
+R 00 00 00 00 00 03 01 00 02 09 0D 00
+T 81 00
+R 00 00 00 00
+T 81 00 D1 C1 C5 D5 AF 02 C9
 R 00 00 00 00
