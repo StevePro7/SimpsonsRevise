@@ -2,9 +2,9 @@ M:splash_screen
 F:G$screen_splash_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_splash_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_splash_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lsplash_screen.screen_splash_screen_update$screen_type$1$26({2}DG,SC:U),B,1,4
-S:Lsplash_screen.screen_splash_screen_update$input$1$27({1}SC:U),R,0,0,[l]
-S:Lsplash_screen.screen_splash_screen_update$level$1$27({1}SC:U),R,0,0,[c]
+S:Lsplash_screen.screen_splash_screen_update$screen_type$1$27({2}DG,SC:U),B,1,4
+S:Lsplash_screen.screen_splash_screen_update$input$1$28({1}SC:U),R,0,0,[l]
+S:Lsplash_screen.screen_splash_screen_update$level$1$28({1}SC:U),R,0,0,[c]
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$screen_bases_screen_count$0$0({1}SC:U),E,0,0
 S:G$screen_bases_screen_timer$0$0({2}SI:U),E,0,0

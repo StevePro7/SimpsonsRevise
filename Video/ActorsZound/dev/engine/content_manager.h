@@ -3,7 +3,7 @@
 
 void engine_content_manager_load_font();
 void engine_content_manager_load_sprites();
-void engine_content_manager_load_sprite_palette();
+void engine_content_manager_load_sprite_palette( unsigned char color );
 
 void engine_content_manager_splash();
 void engine_content_manager_title();

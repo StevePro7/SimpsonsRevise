@@ -8,9 +8,6 @@
 void screen_number_screen_load()
 {
 	devkit_SMS_displayOff();
-	engine_content_manager_load_sprites();
-	engine_content_manager_load_sprite_palette();
-
 	engine_actor_manager_load();
 	devkit_SMS_displayOn();
 }

@@ -1,7 +1,7 @@
 M:number_screen
 F:G$screen_number_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_number_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
-S:Lnumber_screen.screen_number_screen_update$screen_type$1$26({2}DG,SC:U),B,1,4
+S:Lnumber_screen.screen_number_screen_update$screen_type$1$27({2}DG,SC:U),B,1,4
 S:G$engine_actor_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_load$0$0({2}DF,SV:S),C,0,0
 S:G$engine_actor_manager_draw$0$0({2}DF,SV:S),C,0,0

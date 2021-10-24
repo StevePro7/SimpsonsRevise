@@ -1,6 +1,6 @@
 M:main
 F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
-S:Lmain.main$open_screen_type$1$64({1}SC:U),R,0,0,[]
+S:Lmain.main$open_screen_type$1$65({1}SC:U),R,0,0,[]
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_random$0$0({1}SC:U),E,0,0

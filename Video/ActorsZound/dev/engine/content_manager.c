@@ -24,9 +24,10 @@ void engine_content_manager_load_sprites()
 	devkit_SMS_loadSpritePalette( ( void * ) wrong__palette__bin );
 }
 
-void engine_content_manager_load_sprite_palette()
+void engine_content_manager_load_sprite_palette( unsigned char color )
 {
-	devkit_SMS_setSpritePaletteColor( 0, 3, 3, 3 );
+	//devkit_SMS_setSpritePaletteColor( 0, 3, 3, 3 );
+	devkit_SMS_setSpritePaletteColor( 0, color, color, color );
 }
 
 void engine_content_manager_splash()
