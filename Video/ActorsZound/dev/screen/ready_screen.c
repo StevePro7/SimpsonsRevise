@@ -7,6 +7,7 @@
 #include "../engine/locale_manager.h"
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
+#include "../engine/sound_manager.h"
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 #include <stdlib.h>
@@ -96,11 +97,11 @@ void screen_ready_screen_update( unsigned char *screen_type )
 	{
 		engine_select_manager_clear();
 		engine_audio_manager_stop_music();
+		engine_sound_manager_init();
 
 		*screen_type = screen_type_level;
 		return;
 	}
-
 
 	*screen_type = screen_type_ready;
 }
