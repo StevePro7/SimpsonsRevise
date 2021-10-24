@@ -30,10 +30,9 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
-	// TODO - hook up
+	// TODO - test that we get different sfx and don't repeat
 	if( answer_type_right == screen_quiz_screen_state )
 	{
-		//engine_audio_manager_sound_right();
 		engine_audio_manager_sound_woohoo();
 		engine_score_manager_update();
 	}
@@ -42,11 +41,27 @@ void screen_quiz_screen_load()
 		//engine_audio_manager_sound_wrong();
 		engine_audio_manager_sound_doh();
 	}
-
-	//engine_font_manager_text( "QUIZ SCREEN..!!", 10, 2 );
 }
 
 void screen_quiz_screen_update( unsigned char *screen_type )
 {
+	// Logic: display right or wrong sprite for delay.
+	// Increment question counter
+	// After the delay check this
+	// if all questions answered then game over
+	// otherwise then resume next question
+
+	unsigned char input = 0;
+	unsigned char level = 0;
+
+	if( answer_type_right == screen_quiz_screen_state )
+	{
+		engine_select_manager_draw_right();
+	}
+	else
+	{
+		engine_select_manager_draw_wrong();
+	}
+
 	*screen_type = screen_type_quiz;
 }

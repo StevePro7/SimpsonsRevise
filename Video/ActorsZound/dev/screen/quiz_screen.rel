@@ -1,65 +1,76 @@
 ;!FILE quiz_screen.asm
 XL2
-H 9 areas 3F global symbols
+H 9 areas 4A global symbols
 M quiz_screen
 O -mz80
 S _engine_audio_manager_sound_woohoo Ref0000
 S _quiz_select Ref0000
+S _engine_select_manager_draw_wrong Ref0000
 S .__.ABS. Def0000
 S _question_count Ref0000
 S _engine_audio_manager_sound_doh Ref0000
 S _answer_index Ref0000
 S _engine_score_manager_update Ref0000
+S _engine_select_manager_draw_right Ref0000
 S _screen_bases_screen_init Ref0000
-A _CODE size 3C flags 0 addr 0
-S A$quiz_screen$110 Def0023
-S A$quiz_screen$102 Def0019
-S A$quiz_screen$121 Def002C
-S A$quiz_screen$103 Def001C
+A _CODE size 4A flags 0 addr 0
+S A$quiz_screen$100 Def0017
+S A$quiz_screen$111 Def0020
+S A$quiz_screen$112 Def0023
 S XG$screen_quiz_screen_init$0$0 Def0005
-S A$quiz_screen$104 Def001E
-S C$quiz_screen.c$51$1$21 Def0035
+S A$quiz_screen$104 Def0019
 S C$quiz_screen.c$21$1$15 Def0006
 S A$quiz_screen$150 Def0039
-S C$quiz_screen.c$52$1$21 Def003B
+S A$quiz_screen$123 Def002C
+S A$quiz_screen$105 Def001C
 S C$quiz_screen.c$22$1$15 Def000A
-S A$quiz_screen$133 Def0032
-S A$quiz_screen$115 Def0025
+S A$quiz_screen$160 Def0040
+S A$quiz_screen$106 Def001E
 S _screen_quiz_screen_update Def0035
-S A$quiz_screen$125 Def002F
-S A$quiz_screen$116 Def0028
 S C$quiz_screen.c$30$2$17 Def0020
 S C$quiz_screen.c$24$1$15 Def000D
 S C$quiz_screen.c$16$1$14 Def0000
-S A$quiz_screen$117 Def0029
+S A$quiz_screen$135 Def0032
+S A$quiz_screen$117 Def0025
 S C$quiz_screen.c$34$1$15 Def0025
 S C$quiz_screen.c$17$1$14 Def0005
-S A$quiz_screen$109 Def0020
-S A$quiz_screen$155 Def003B
-S A$quiz_screen$146 Def0035
+S A$quiz_screen$154 Def003B
+S A$quiz_screen$127 Def002F
+S A$quiz_screen$118 Def0028
+S C$quiz_screen.c$44$1$15 Def0032
+S A$quiz_screen$155 Def003E
+S A$quiz_screen$119 Def0029
+S C$quiz_screen.c$66$1$21 Def0043
+S C$quiz_screen.c$63$2$23 Def0040
+S C$quiz_screen.c$57$1$21 Def0035
 S C$quiz_screen.c$19$1$14 Def0006
-S A$quiz_screen$147 Def0036
+S A$quiz_screen$174 Def0049
+S A$quiz_screen$165 Def0043
+S C$quiz_screen.c$67$1$21 Def0049
+S C$quiz_screen.c$46$1$15 Def0035
 S C$quiz_screen.c$26$2$16 Def0019
-S A$quiz_screen$148 Def0037
-S C$quiz_screen.c$47$1$15 Def0032
+S A$quiz_screen$166 Def0044
+S A$quiz_screen$148 Def0035
+S C$quiz_screen.c$42$2$19 Def0032
+S A$quiz_screen$167 Def0045
 S A$quiz_screen$149 Def0038
-S C$quiz_screen.c$43$2$19 Def0032
-S C$quiz_screen.c$49$1$15 Def0035
-S C$quiz_screen.c$37$2$18 Def002C
+S A$quiz_screen$168 Def0046
+S C$quiz_screen.c$59$2$22 Def003B
+S C$quiz_screen.c$36$2$18 Def002C
+S A$quiz_screen$169 Def0047
+S C$quiz_screen.c$37$2$18 Def002F
 S C$quiz_screen.c$14$0$0 Def0000
-S C$quiz_screen.c$38$2$18 Def002F
-S XG$screen_quiz_screen_update$0$0 Def003B
+S XG$screen_quiz_screen_update$0$0 Def0049
+S A$quiz_screen$70 Def0003
 S G$screen_quiz_screen_load$0$0 Def0006
-S A$quiz_screen$91 Def000A
-S A$quiz_screen$73 Def0005
-S A$quiz_screen$67 Def0000
-S A$quiz_screen$95 Def000D
-S A$quiz_screen$86 Def0006
-S A$quiz_screen$68 Def0003
-S A$quiz_screen$96 Def0010
-S A$quiz_screen$87 Def0009
-S A$quiz_screen$97 Def0014
-S A$quiz_screen$98 Def0017
+S A$quiz_screen$93 Def000A
+S A$quiz_screen$75 Def0005
+S A$quiz_screen$69 Def0000
+S A$quiz_screen$97 Def000D
+S A$quiz_screen$88 Def0006
+S A$quiz_screen$98 Def0010
+S A$quiz_screen$89 Def0009
+S A$quiz_screen$99 Def0014
 S _screen_quiz_screen_load Def0006
 S G$screen_quiz_screen_init$0$0 Def0000
 S XG$screen_quiz_screen_load$0$0 Def0032
@@ -90,9 +101,9 @@ R 00 00 00 00 00 03 01 00
 T 06 00
 R 00 00 00 00
 T 06 00 21 00 00 34 CD 00 00 3A 00 00 FD 21
-R 00 00 00 00 02 03 03 00 02 07 07 00 02 0A 01 00
+R 00 00 00 00 02 03 04 00 02 07 09 00 02 0A 01 00
 T 12 00 00 00 FD 96 00 20 07 21 01 00 36 01 18 05
-R 00 00 00 00 02 02 05 00 00 0A 01 00
+R 00 00 00 00 02 02 06 00 00 0A 01 00
 T 20 00
 R 00 00 00 00
 T 20 00 21 01 00 36 02
@@ -100,10 +111,18 @@ R 00 00 00 00 00 03 01 00
 T 25 00
 R 00 00 00 00
 T 25 00 3A 01 00 3D C2 00 00 CD 00 00 C3
-R 00 00 00 00 00 03 01 00 02 07 04 00 02 0A 00 00
+R 00 00 00 00 00 03 01 00 02 07 05 00 02 0A 00 00
 T 30 00 00 00 C3 00 00
-R 00 00 00 00 02 02 06 00 02 05 04 00
+R 00 00 00 00 02 02 07 00 02 05 05 00
 T 35 00
 R 00 00 00 00
-T 35 00 C1 E1 E5 C5 36 07 C9
+T 35 00 3A 01 00 3D 20 05 CD 00 00 18 03
+R 00 00 00 00 00 03 01 00 02 09 08 00
+T 40 00
+R 00 00 00 00
+T 40 00 CD 00 00
+R 00 00 00 00 02 03 02 00
+T 43 00
+R 00 00 00 00
+T 43 00 C1 E1 E5 C5 36 07 C9
 R 00 00 00 00
