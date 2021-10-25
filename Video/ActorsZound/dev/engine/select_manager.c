@@ -95,6 +95,7 @@ void engine_select_manager_load_long()
 	for( idx = 0; idx < MAX_OPTIONS; idx++ )
 	{
 		engine_font_manager_data( select_long_option[ idx ], QUIZ_X + LONG_DELTA, select_high_option[ idx ] );
+		engine_font_manager_char( ' ', QUIZ_X + LONG_DELTA + 1, select_high_option[ idx ] );
 	}
 
 	select_choice = long_select;

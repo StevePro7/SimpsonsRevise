@@ -49,6 +49,15 @@ void screen_test_screen_update( unsigned char *screen_type )
 			engine_font_manager_text( "#02", 7, 0 );
 
 			engine_font_manager_text( LOCALE_QUESTIONS, 2, 6 );
+			engine_select_manager_load_long();
+		}
+		else
+		{
+			input = engine_input_manager_hold_fire1();
+			if( input )
+			{
+				engine_font_manager_text( "#03", 7, 0 );
+			}
 		}
 	}
 
