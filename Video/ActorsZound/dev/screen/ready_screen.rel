@@ -1,6 +1,6 @@
 ;!FILE ready_screen.asm
 XL2
-H 9 areas 127 global symbols
+H 9 areas 128 global symbols
 M ready_screen
 O -mz80
 S _rand Ref0000
@@ -21,7 +21,7 @@ S _question_long Ref0000
 S _engine_sound_manager_init Ref0000
 S _screen_bases_screen_timer Ref0000
 S _screen_bases_screen_init Ref0000
-A _CODE size 1D2 flags 0 addr 0
+A _CODE size 1DB flags 0 addr 0
 S C$ready_screen.c$100$2$44 Def019A
 S C$ready_screen.c$110$2$45 Def01AA
 S _screen_ready_screen_init Def0000
@@ -293,6 +293,7 @@ S _screen_ready_screen_load Def000C
 S Fready_screen$__str_6$0$0 Def01BB
 S Fready_screen$__str_7$0$0 Def01C7
 S Fready_screen$__str_8$0$0 Def01D0
+S Fready_screen$__str_9$0$0 Def01D9
 S G$screen_ready_screen_init$0$0 Def0000
 S XG$screen_ready_screen_load$0$0 Def00A0
 A _DATA size 5 flags 0 addr 0
@@ -383,7 +384,7 @@ T F1 00 21 B5 01 E5 CD 00 00 F1 21 01 0B E3 21
 R 00 00 00 00 00 03 00 00 02 07 02 00
 T FE 00 BB 01 E5 CD 00 00 F1 21 01 0C E3 21 B5 01
 R 00 00 00 00 00 02 00 00 02 06 02 00 00 0E 00 00
-T 0C 01 E5 CD 00 00 F1 21 02 12 E3 21 B5 01 E5 CD
+T 0C 01 E5 CD 00 00 F1 21 02 12 E3 21 C7 01 E5 CD
 R 00 00 00 00 02 04 02 00 00 0C 00 00
 T 1A 01 00 00 F1 F1 E1 E5 36 03 C3 B0 01
 R 00 00 00 00 02 02 02 00 00 0B 00 00
@@ -397,7 +398,7 @@ T 30 01 FD 21 03 00 FD 34 00 21 02 00 FD 7E 00 96
 R 00 00 00 00 00 04 01 00 00 0A 01 00
 T 3E 01 38 40 FD 21 04 00 FD 34 00 3E 03 FD 96 00
 R 00 00 00 00 00 06 01 00
-T 4C 01 30 16 C5 21 02 12 E5 21 C7 01 E5 CD 00 00
+T 4C 01 30 16 C5 21 02 12 E5 21 D0 01 E5 CD 00 00
 R 00 00 00 00 00 0A 00 00 02 0E 02 00
 T 5A 01 F1 F1 C1 21 04 00 36 00 18 17
 R 00 00 00 00 00 06 01 00
@@ -405,7 +406,7 @@ T 64 01
 R 00 00 00 00
 T 64 01 3A 04 00 C6 06 47 C5 3E 12 F5 33 C5 33 21
 R 00 00 00 00 00 03 01 00
-T 72 01 D0 01 E5 CD 00 00 F1 F1 C1
+T 72 01 D9 01 E5 CD 00 00 F1 F1 C1
 R 00 00 00 00 00 02 00 00 02 06 02 00
 T 7B 01
 R 00 00 00 00
@@ -445,9 +446,13 @@ T BB 01 20 20 20 20 20 20 20 20 20 20 20 00
 R 00 00 00 00
 T C7 01
 R 00 00 00 00
-T C7 01 52 45 41 44 59 20 20 20 00
+T C7 01 20 20 20 20 20 20 20 20 00
 R 00 00 00 00
 T D0 01
 R 00 00 00 00
-T D0 01 2E 00
+T D0 01 52 45 41 44 59 20 20 20 00
+R 00 00 00 00
+T D9 01
+R 00 00 00 00
+T D9 01 2E 00
 R 00 00 00 00
