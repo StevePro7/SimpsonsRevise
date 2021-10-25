@@ -16,13 +16,12 @@ void screen_test_screen_load()
 	engine_content_manager_title();
 	engine_font_manager_text( LOCALE_VERSION, 25, 23 );
 
+	// intro
 	engine_font_manager_text( LOCALE_PRESS, 2, 13 );
 	engine_font_manager_text( LOCALE_START, 2, 14 );
 
 	engine_font_manager_text( LOCALE_CHEAT, 25, 10 );
 	engine_font_manager_text( LOCALE_MODE, 25, 11 );
-
-	//engine_font_manager_text( "SOUND TIME OK!!", 10, 3 );
 }
 
 void screen_test_screen_update( unsigned char *screen_type )

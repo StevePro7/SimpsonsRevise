@@ -24,9 +24,11 @@ void screen_diff_screen_load()
 	screen_bases_screen_init();
 	screen_diff_screen_state = select_type_before;
 
-	engine_select_manager_clear();
-	engine_select_manager_base();
+	//engine_select_manager_clear();	// TODO delete
+	engine_font_manager_text( LOCALE_BLANK5, 2, 13 );
+	engine_font_manager_text( LOCALE_BLANK5, 2, 14 );
 
+	engine_select_manager_base();
 	engine_font_manager_text( LOCALE_DIFFICULTY, 2, 6 );
 	engine_select_manager_load_diff();
 }
