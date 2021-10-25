@@ -97,7 +97,7 @@ void screen_ready_screen_update( unsigned char *screen_type )
 
 	if( level )
 	{
-		engine_select_manager_clear();
+		//engine_select_manager_clear();
 		engine_audio_manager_stop_music();
 		engine_sound_manager_init();
 

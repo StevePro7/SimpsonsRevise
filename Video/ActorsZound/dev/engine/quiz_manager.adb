@@ -23,10 +23,10 @@ S:Lquiz_manager.engine_quiz_manager_load$opt1$1$56({1}SC:U),B,1,6
 S:Lquiz_manager.engine_quiz_manager_load$opt2$1$56({1}SC:U),B,1,7
 S:Lquiz_manager.engine_quiz_manager_load$opt3$1$56({1}SC:U),B,1,8
 S:Lquiz_manager.engine_quiz_manager_load$opt4$1$56({1}SC:U),B,1,9
-S:Lquiz_manager.engine_quiz_manager_load$opt1_Y$1$57({1}SC:U),B,1,-1
-S:Lquiz_manager.engine_quiz_manager_load$opt2_Y$1$57({1}SC:U),B,1,-2
-S:Lquiz_manager.engine_quiz_manager_load$opt3_Y$1$57({1}SC:U),B,1,-3
-S:Lquiz_manager.engine_quiz_manager_load$opt4_Y$1$57({1}SC:U),B,1,-4
+S:Lquiz_manager.engine_quiz_manager_load$opt1_Y$1$57({1}SC:U),B,1,-2
+S:Lquiz_manager.engine_quiz_manager_load$opt2_Y$1$57({1}SC:U),B,1,-4
+S:Lquiz_manager.engine_quiz_manager_load$opt3_Y$1$57({1}SC:U),B,1,-1
+S:Lquiz_manager.engine_quiz_manager_load$opt4_Y$1$57({1}SC:U),B,1,-3
 S:Lquiz_manager.engine_quiz_manager_load$bank$1$57({1}SC:U),R,0,0,[b]
 F:Fquiz_manager$show_diff$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lquiz_manager.show_diff$x$1$62({1}SC:U),B,1,4
@@ -69,8 +69,8 @@ S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_base$0$0({2}DF,SV:S),C,0,0
-S:G$engine_select_manager_clear$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_clear2$0$0({2}DF,SV:S),C,0,0
+S:G$engine_select_manager_clear3$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_diff$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_long$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_quiz$0$0({2}DF,SV:S),C,0,0

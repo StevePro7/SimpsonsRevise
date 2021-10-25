@@ -23,7 +23,7 @@ void screen_level_screen_load()
 	engine_random_manager_load();
 	engine_select_manager_load_quiz();
 
-	engine_select_manager_clear();
+	//engine_select_manager_clear();	// TODO delete
 
 
 	//devkit_SMS_displayOff();
