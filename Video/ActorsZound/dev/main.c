@@ -29,9 +29,9 @@ void main(void)
 	engine_sound_manager_init();
 
 	//open_screen_type = screen_type_splash;
-	open_screen_type = screen_type_title;
+	//open_screen_type = screen_type_title;
 	//open_screen_type = screen_type_level;
-	//open_screen_type = screen_type_test;
+	open_screen_type = screen_type_test;
 	engine_screen_manager_init( open_screen_type );
 
 	// TODO - delete this after testing!!

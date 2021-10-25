@@ -26,7 +26,7 @@ void screen_long_screen_load()
 	//engine_select_manager_clear();	// TODO delete
 	engine_font_manager_text( LOCALE_QUESTIONS, 2, 6 );
 	engine_select_manager_load_long();
-	//engine_select_manager_base();		// TODO delete
+	engine_select_manager_base();
 }
 
 void screen_long_screen_update( unsigned char *screen_type )

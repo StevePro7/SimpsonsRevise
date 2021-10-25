@@ -28,7 +28,8 @@ void screen_ready_screen_load()
 	screen_bases_screen_init();
 
 	// Clear space.
-	engine_select_manager_clear();
+	//engine_select_manager_clear();	// TODO delete
+	engine_select_manager_clear3();
 
 	engine_font_manager_text( LOCALE_DIFFICULTY, 2, 6 );
 	engine_font_manager_text( LOCALE_ARROW_LEFT, 1, 7 );
@@ -60,6 +61,7 @@ void screen_ready_screen_update( unsigned char *screen_type )
 	input = engine_input_manager_hold_fire2();
 	if( input )
 	{
+
 		*screen_type = screen_type_long;
 		return;
 	}
