@@ -26,7 +26,7 @@ void screen_level_screen_load()
 	//engine_select_manager_clear();	// TODO delete
 
 
-	devkit_SMS_displayOff();
+	//devkit_SMS_displayOff();
 	//engine_asm_manager_clear_VRAM();
 
 	//devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
@@ -35,11 +35,7 @@ void screen_level_screen_load()
 	//engine_content_manager_load_font();
 	//engine_content_manager_load_sprites();
 	//engine_content_manager_load_sprite_palette( COLOR_WHITE );
-	
-
-
-	engine_content_manager_load_sprites();
-	devkit_SMS_displayOn();
+	//devkit_SMS_displayOn();
 }
 
 void screen_level_screen_update( unsigned char *screen_type )

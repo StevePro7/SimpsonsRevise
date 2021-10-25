@@ -46,14 +46,7 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 	unsigned char input = 0;
 	unsigned char level = 0;
 
-	if( answer_type_right == screen_quiz_screen_state )
-	{
-		engine_select_manager_draw_right();
-	}
-	else
-	{
-		engine_select_manager_draw_wrong();
-	}
+	
 
 	firstTime++;
 	if( 2 == firstTime )
@@ -102,6 +95,16 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 			return;
 		}
 	}
+
+	if( answer_type_right == screen_quiz_screen_state )
+	{
+		engine_select_manager_draw_right();
+	}
+	else
+	{
+		engine_select_manager_draw_wrong();
+	}
+
 
 	*screen_type = screen_type_quiz;
 }

@@ -17,6 +17,7 @@ void screen_play_screen_init()
 
 void screen_play_screen_load()
 {
+	screen_bases_screen_init();
 	engine_quiz_manager_base();
 	engine_quiz_manager_base2();
 	engine_score_manager_base();
@@ -52,7 +53,8 @@ void screen_play_screen_update( unsigned char *screen_type )
 	}
 
 	engine_select_manager_draw_select();
-	// TODO
+
+	screen_bases_screen_timer++;
 	if( local_cheat )
 	{
 		if( screen_bases_screen_timer >= screen_cheat_screen_delay )
