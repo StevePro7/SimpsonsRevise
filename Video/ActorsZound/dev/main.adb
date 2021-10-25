@@ -1,6 +1,6 @@
 M:main
 F:G$main$0$0({2}DF,SV:S),C,0,0,0,0,0
-S:Lmain.main$open_screen_type$1$65({1}SC:U),R,0,0,[]
+S:Lmain.main$open_screen_type$1$69({1}SC:U),R,0,0,[]
 S:G$hacker_debug$0$0({1}SC:U),E,0,0
 S:G$hacker_cheat$0$0({1}SC:U),E,0,0
 S:G$hacker_random$0$0({1}SC:U),E,0,0
@@ -32,6 +32,7 @@ S:G$select_high_option$0$0({4}DA4d,SC:U),E,0,0
 S:G$select_text_option$0$0({12}DA4d,DA3d,SC:U),E,0,0
 S:G$select_diff_option$0$0({24}DA4d,DA6d,SC:U),E,0,0
 S:G$select_long_option$0$0({4}DA4d,SC:U),E,0,0
+S:Lmain.main$global_pause$1$69({1}:S),E,0,0
 S:G$atof$0$0({2}DF,SF:S),C,0,0
 S:G$atoi$0$0({2}DF,SI:S),C,0,0
 S:G$atol$0$0({2}DF,SL:S),C,0,0
@@ -129,6 +130,10 @@ S:G$engine_content_manager_load_sprite_palette$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_splash$0$0({2}DF,SV:S),C,0,0
 S:G$engine_content_manager_title$0$0({2}DF,SV:S),C,0,0
 S:G$engine_debug_manager_init$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_char$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_text$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data$0$0({2}DF,SV:S),C,0,0
+S:G$engine_font_manager_data_ZERO$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_hack_manager_invert$0$0({2}DF,SV:S),C,0,0
 S:G$engine_input_manager_update$0$0({2}DF,SV:S),C,0,0

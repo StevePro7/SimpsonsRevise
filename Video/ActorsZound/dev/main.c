@@ -3,7 +3,7 @@
 void main(void)
 {
 	// Global variables.
-	//static bool global_pause;		// TODO implement pause
+	static bool global_pause;
 	unsigned char open_screen_type;
 
 	devkit_SMS_init();
@@ -15,7 +15,6 @@ void main(void)
 
 	engine_content_manager_load_font();
 	engine_content_manager_load_sprites();
-	//engine_content_manager_load_sprite_palette( COLOR_WHITE );	// todo delete this but keep black!
 
 	// Initialize.
 	engine_hack_manager_init();
@@ -30,16 +29,39 @@ void main(void)
 
 	//open_screen_type = screen_type_splash;
 	open_screen_type = screen_type_title;
-	//open_screen_type = screen_type_level;
-	//open_screen_type = screen_type_test;
 	engine_screen_manager_init( open_screen_type );
-
-	// TODO - delete this after testing!!
-	engine_debug_manager_init();
 
 	devkit_SMS_displayOn();
 	for (;;)
 	{
+		if( devkit_SMS_queryPauseRequested() )
+		{
+			devkit_SMS_resetPauseRequest();
+			global_pause = !global_pause;
+			if( global_pause )
+			{
+				if( hacker_debug )
+				{
+					engine_font_manager_text( LOCALE_PAUSED, 13, 12 );
+				}
+				devkit_PSGSilenceChannels();
+			}
+			else
+			{
+				if( hacker_debug )
+				{
+					engine_font_manager_text( LOCALE_RESUME, 13, 12 );
+				}
+				devkit_PSGRestoreVolumes();
+			}
+		}
+
+		if( global_pause )
+		{
+			continue;
+		}
+
+
 		devkit_SMS_initSprites();
 		engine_input_manager_update();
 
