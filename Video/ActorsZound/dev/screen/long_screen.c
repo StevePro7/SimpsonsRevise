@@ -50,6 +50,12 @@ void screen_long_screen_update( unsigned char *screen_type )
 		input = engine_input_manager_hold_fire2();
 		if( input )
 		{
+			// Clean up.
+			engine_font_manager_text( LOCALE_BLANK5, 1, 7 );
+			engine_font_manager_text( LOCALE_BLANK11, 1, 11 );
+			engine_font_manager_text( LOCALE_BLANK5, 1, 12 );
+			engine_font_manager_text( LOCALE_BLANK5, 2, 18 );
+
 			*screen_type = screen_type_diff;
 			return;
 		}
