@@ -72,11 +72,9 @@ void screen_test_screen_update( unsigned char *screen_type )
 
 				engine_font_manager_text( LOCALE_GET, 2, 17 );
 				engine_font_manager_text( LOCALE_READY, 2, 18 );
-
 			}
 		}
 	}
-
 
 	*screen_type = screen_type_test;
 }

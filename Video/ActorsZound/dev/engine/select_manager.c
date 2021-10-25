@@ -44,6 +44,7 @@ void engine_select_manager_base()
 	}
 }
 
+// TODO can I get rid of this function?
 void engine_select_manager_clear()
 {
 	unsigned char high;
