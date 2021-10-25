@@ -27,8 +27,8 @@ void main(void)
 	engine_select_manager_init();
 	engine_sound_manager_init();
 
-	//open_screen_type = screen_type_splash;
-	open_screen_type = screen_type_title;
+	open_screen_type = screen_type_splash;
+	//open_screen_type = screen_type_title;
 	engine_screen_manager_init( open_screen_type );
 
 	devkit_SMS_displayOn();
@@ -40,18 +40,10 @@ void main(void)
 			global_pause = !global_pause;
 			if( global_pause )
 			{
-				if( hacker_debug )
-				{
-					engine_font_manager_text( LOCALE_PAUSED, 13, 12 );
-				}
 				devkit_PSGSilenceChannels();
 			}
 			else
 			{
-				if( hacker_debug )
-				{
-					engine_font_manager_text( LOCALE_RESUME, 13, 12 );
-				}
 				devkit_PSGRestoreVolumes();
 			}
 		}
