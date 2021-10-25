@@ -1,10 +1,11 @@
 M:ready_screen
 F:G$screen_ready_screen_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_ready_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
-F:G$screen_ready_screen_update$0$0({2}DF,SV:S),Z,0,1,0,0,0
+F:G$screen_ready_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lready_screen.screen_ready_screen_update$screen_type$1$37({2}DG,SC:U),B,1,4
-S:Lready_screen.screen_ready_screen_update$input$1$38({1}SC:U),R,0,0,[l]
-S:Lready_screen.screen_ready_screen_update$level$1$38({1}SC:U),B,1,-1
+S:Lready_screen.screen_ready_screen_update$input$1$38({1}SC:U),R,0,0,[b]
+S:Lready_screen.screen_ready_screen_update$level$1$38({1}SC:U),R,0,0,[c]
+S:Lready_screen.screen_ready_screen_update$sloc0$1$0({2}DG,SC:U),B,1,-2
 S:G$local_cheat$0$0({1}SC:U),E,0,0
 S:G$quiz_questions$0$0({50}DA50d,SC:U),E,0,0
 S:G$quiz_options$0$0({200}DA50d,DA4d,SC:U),E,0,0
