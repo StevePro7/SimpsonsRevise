@@ -46,8 +46,6 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 	unsigned char input = 0;
 	unsigned char level = 0;
 
-	
-
 	firstTime++;
 	if( 2 == firstTime )
 	{

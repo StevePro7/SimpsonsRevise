@@ -1,6 +1,6 @@
 ;!FILE quiz_screen.asm
 XL2
-H 9 areas A6 global symbols
+H 9 areas B4 global symbols
 M quiz_screen
 O -mz80
 S _engine_audio_manager_sound_woohoo Ref0000
@@ -17,141 +17,153 @@ S _screen_bases_screen_timer Ref0000
 S _engine_score_manager_update Ref0000
 S _engine_select_manager_draw_right Ref0000
 S _screen_bases_screen_init Ref0000
-A _CODE size DE flags 0 addr 0
-S C$quiz_screen.c$109$1$19 Def00D9
-S A$quiz_screen$200 Def0069
+A _CODE size F2 flags 0 addr 0
+S C$quiz_screen.c$105$3$29 Def00D6
+S C$quiz_screen.c$106$3$29 Def00D9
 S A$quiz_screen$110 Def001E
 S A$quiz_screen$101 Def000D
-S A$quiz_screen$300 Def00D5
-S A$quiz_screen$201 Def006C
+S A$quiz_screen$300 Def00D8
 S A$quiz_screen$102 Def0010
-S A$quiz_screen$301 Def00D8
-S A$quiz_screen$220 Def0082
-S A$quiz_screen$211 Def0071
+S A$quiz_screen$310 Def00DE
 S A$quiz_screen$121 Def0025
 S A$quiz_screen$103 Def0014
 S C$quiz_screen.c$21$1$14 Def0006
 S XG$screen_quiz_screen_init$0$0 Def0005
-S A$quiz_screen$230 Def0091
-S A$quiz_screen$221 Def0084
-S A$quiz_screen$212 Def0075
+S A$quiz_screen$311 Def00DF
+S A$quiz_screen$230 Def0087
+S A$quiz_screen$203 Def006D
 S A$quiz_screen$122 Def0028
 S A$quiz_screen$104 Def0017
-S A$quiz_screen$240 Def00A1
-S A$quiz_screen$231 Def0094
-S A$quiz_screen$213 Def0077
-S A$quiz_screen$141 Def002C
-S A$quiz_screen$232 Def0095
-S A$quiz_screen$205 Def006D
-S A$quiz_screen$160 Def0048
-S A$quiz_screen$142 Def0030
+S A$quiz_screen$330 Def00ED
+S A$quiz_screen$240 Def008C
+S A$quiz_screen$222 Def007C
+S A$quiz_screen$132 Def002E
+S A$quiz_screen$331 Def00EF
+S A$quiz_screen$304 Def00D9
+S A$quiz_screen$250 Def009F
+S A$quiz_screen$241 Def0090
+S A$quiz_screen$223 Def007F
+S A$quiz_screen$214 Def0075
+S A$quiz_screen$160 Def0046
+S A$quiz_screen$142 Def002F
 S A$quiz_screen$115 Def0020
+S C$quiz_screen.c$53$2$20 Def0043
 S C$quiz_screen.c$23$1$15 Def0006
-S _screen_quiz_screen_update Def002B
-S A$quiz_screen$314 Def00DD
-S A$quiz_screen$260 Def00BA
-S A$quiz_screen$233 Def0098
-S A$quiz_screen$206 Def006E
-S A$quiz_screen$152 Def003D
-S A$quiz_screen$143 Def0032
+S _screen_quiz_screen_update Def002F
+S A$quiz_screen$323 Def00E8
+S A$quiz_screen$260 Def00AF
+S A$quiz_screen$242 Def0092
+S A$quiz_screen$224 Def0081
+S A$quiz_screen$215 Def0078
+S A$quiz_screen$161 Def0047
+S A$quiz_screen$152 Def003A
 S A$quiz_screen$116 Def0023
-S C$quiz_screen.c$54$2$20 Def0044
 S C$quiz_screen.c$24$1$15 Def000A
-S A$quiz_screen$306 Def00D9
-S A$quiz_screen$270 Def00C0
-S A$quiz_screen$261 Def00BB
-S A$quiz_screen$234 Def0099
-S A$quiz_screen$207 Def006F
-S A$quiz_screen$180 Def0058
-S A$quiz_screen$153 Def0040
+S A$quiz_screen$333 Def00F0
+S A$quiz_screen$324 Def00E9
+S A$quiz_screen$315 Def00E1
+S A$quiz_screen$261 Def00B0
+S A$quiz_screen$234 Def0088
+S A$quiz_screen$216 Def0079
+S A$quiz_screen$171 Def004E
+S A$quiz_screen$153 Def003D
+S A$quiz_screen$126 Def002A
 S A$quiz_screen$108 Def0019
-S C$quiz_screen.c$70$2$23 Def006D
-S C$quiz_screen.c$64$2$20 Def0055
-S C$quiz_screen.c$61$3$22 Def0052
-S A$quiz_screen$307 Def00DB
-S A$quiz_screen$280 Def00C5
-S A$quiz_screen$253 Def00AD
-S A$quiz_screen$226 Def0087
-S A$quiz_screen$154 Def0042
-S A$quiz_screen$127 Def002A
+S A$quiz_screen$325 Def00EC
+S A$quiz_screen$316 Def00E2
+S A$quiz_screen$262 Def00B3
+S A$quiz_screen$235 Def0089
+S A$quiz_screen$217 Def007A
+S A$quiz_screen$208 Def0070
+S A$quiz_screen$181 Def0058
+S A$quiz_screen$154 Def0040
+S A$quiz_screen$127 Def002D
 S A$quiz_screen$109 Def001C
 S C$quiz_screen.c$35$1$15 Def0025
 S C$quiz_screen.c$32$2$17 Def0020
 S C$quiz_screen.c$26$1$15 Def000D
 S C$quiz_screen.c$18$1$14 Def0000
-S A$quiz_screen$254 Def00B1
-S A$quiz_screen$245 Def00A5
-S A$quiz_screen$227 Def008A
+S A$quiz_screen$317 Def00E5
+S A$quiz_screen$290 Def00D3
+S A$quiz_screen$263 Def00B4
+S A$quiz_screen$236 Def008A
 S A$quiz_screen$218 Def007B
-S A$quiz_screen$164 Def004A
-S A$quiz_screen$137 Def002B
-S C$quiz_screen.c$81$2$23 Def00A5
+S A$quiz_screen$209 Def0073
+S A$quiz_screen$182 Def005B
+S A$quiz_screen$155 Def0041
+S A$quiz_screen$146 Def0030
+S C$quiz_screen.c$55$3$21 Def0049
 S C$quiz_screen.c$36$1$15 Def002A
 S C$quiz_screen.c$19$1$14 Def0005
-S A$quiz_screen$309 Def00DC
-S A$quiz_screen$291 Def00CD
-S A$quiz_screen$246 Def00A8
-S A$quiz_screen$228 Def008B
-S A$quiz_screen$219 Def007F
-S A$quiz_screen$174 Def0052
-S A$quiz_screen$147 Def0036
-S C$quiz_screen.c$56$3$21 Def004A
-S C$quiz_screen.c$51$1$19 Def0036
-S A$quiz_screen$292 Def00CE
-S A$quiz_screen$265 Def00BD
-S A$quiz_screen$247 Def00A9
-S A$quiz_screen$238 Def009B
-S A$quiz_screen$229 Def008D
-S A$quiz_screen$193 Def0061
-S A$quiz_screen$148 Def003A
-S C$quiz_screen.c$72$3$24 Def0071
-S C$quiz_screen.c$57$3$21 Def004D
-S C$quiz_screen.c$52$1$19 Def003D
-S C$quiz_screen.c$47$1$15 Def002C
-S C$quiz_screen.c$38$1$15 Def002B
-S A$quiz_screen$293 Def00D1
-S A$quiz_screen$275 Def00C2
-S A$quiz_screen$266 Def00BF
-S A$quiz_screen$248 Def00AA
-S A$quiz_screen$239 Def009F
-S A$quiz_screen$194 Def0064
-S A$quiz_screen$185 Def005A
-S A$quiz_screen$158 Def0044
-S C$quiz_screen.c$75$2$23 Def007B
+S A$quiz_screen$318 Def00E6
+S A$quiz_screen$309 Def00DB
+S A$quiz_screen$282 Def00C8
+S A$quiz_screen$255 Def00A2
+S A$quiz_screen$228 Def0083
+S A$quiz_screen$183 Def005D
+S A$quiz_screen$165 Def0049
+S A$quiz_screen$147 Def0034
+S C$quiz_screen.c$51$1$19 Def003A
+S C$quiz_screen.c$37$1$15 Def002E
+S A$quiz_screen$283 Def00CB
+S A$quiz_screen$274 Def00C0
+S A$quiz_screen$256 Def00A5
+S A$quiz_screen$247 Def0096
+S A$quiz_screen$229 Def0084
+S A$quiz_screen$193 Def0065
+S A$quiz_screen$166 Def004C
+S A$quiz_screen$148 Def0036
+S A$quiz_screen$338 Def00F1
+S A$quiz_screen$284 Def00CE
+S A$quiz_screen$275 Def00C3
+S A$quiz_screen$257 Def00A6
+S A$quiz_screen$248 Def009A
+S A$quiz_screen$176 Def0051
+S C$quiz_screen.c$81$2$26 Def0083
+S C$quiz_screen.c$66$2$23 Def005F
+S C$quiz_screen.c$48$1$15 Def0030
+S C$quiz_screen.c$39$1$15 Def002F
 S C$quiz_screen.c$28$2$16 Def0019
-S A$quiz_screen$294 Def00D2
-S A$quiz_screen$285 Def00C7
+S A$quiz_screen$294 Def00D4
+S A$quiz_screen$285 Def00CF
 S A$quiz_screen$276 Def00C4
-S A$quiz_screen$258 Def00B4
-S A$quiz_screen$249 Def00AB
-S A$quiz_screen$195 Def0066
-S A$quiz_screen$186 Def005D
-S A$quiz_screen$168 Def004D
-S A$quiz_screen$159 Def0047
-S C$quiz_screen.c$76$2$23 Def0087
-S A$quiz_screen$286 Def00CA
-S A$quiz_screen$259 Def00B7
-S A$quiz_screen$187 Def005E
-S A$quiz_screen$169 Def0050
-S A$quiz_screen$287 Def00CB
-S A$quiz_screen$188 Def005F
-S A$quiz_screen$179 Def0055
-S C$quiz_screen.c$83$3$26 Def00AD
-S C$quiz_screen.c$69$2$23 Def0068
-S A$quiz_screen$189 Def0060
-S C$quiz_screen.c$84$3$26 Def00B4
+S A$quiz_screen$267 Def00B6
+S A$quiz_screen$258 Def00A8
+S A$quiz_screen$249 Def009D
+S A$quiz_screen$177 Def0055
+S A$quiz_screen$159 Def0043
+S C$quiz_screen.c$82$2$26 Def0088
+S C$quiz_screen.c$76$2$23 Def0070
+S C$quiz_screen.c$73$3$25 Def006D
+S C$quiz_screen.c$63$1$19 Def0051
+S A$quiz_screen$277 Def00C5
+S A$quiz_screen$268 Def00BA
+S A$quiz_screen$259 Def00AC
+S A$quiz_screen$187 Def005F
+S C$quiz_screen.c$64$1$19 Def0058
+S C$quiz_screen.c$59$3$22 Def004E
+S A$quiz_screen$278 Def00C6
+S A$quiz_screen$269 Def00BC
+S A$quiz_screen$197 Def0068
+S A$quiz_screen$188 Def0062
+S C$quiz_screen.c$93$2$26 Def00C0
+S C$quiz_screen.c$90$3$28 Def00B6
+S A$quiz_screen$198 Def006B
+S A$quiz_screen$189 Def0063
+S C$quiz_screen.c$97$4$30 Def00D1
+S C$quiz_screen.c$68$3$24 Def0065
 S C$quiz_screen.c$16$0$0 Def0000
-S A$quiz_screen$199 Def0068
-S XG$screen_quiz_screen_update$0$0 Def00DD
-S C$quiz_screen.c$94$3$26 Def00C2
-S C$quiz_screen.c$67$1$19 Def0061
-S A$quiz_screen$299 Def00D4
-S C$quiz_screen.c$95$3$26 Def00C5
-S C$quiz_screen.c$78$3$25 Def009B
-S C$quiz_screen.c$86$1$19 Def005A
-S C$quiz_screen.c$86$4$27 Def00BD
-S C$quiz_screen.c$87$4$27 Def00C0
-S C$quiz_screen.c$99$1$19 Def00C7
+S A$quiz_screen$289 Def00D1
+S XG$screen_quiz_screen_update$0$0 Def00F1
+S C$quiz_screen.c$98$4$30 Def00D4
+S C$quiz_screen.c$84$3$27 Def008C
+S C$quiz_screen.c$69$3$24 Def0068
+S A$quiz_screen$299 Def00D6
+S C$quiz_screen.c$87$2$26 Def0096
+S C$quiz_screen.c$88$2$26 Def00A2
+S C$quiz_screen.c$79$1$19 Def007C
+S C$quiz_screen.c$97$1$19 Def0075
+S C$quiz_screen.c$95$3$29 Def00C8
 S G$screen_quiz_screen_load$0$0 Def0006
 S A$quiz_screen$73 Def0000
 S A$quiz_screen$92 Def0006
@@ -161,12 +173,14 @@ S A$quiz_screen$97 Def000A
 S A$quiz_screen$79 Def0005
 S _screen_quiz_screen_load Def0006
 S G$screen_quiz_screen_init$0$0 Def0000
-S XG$screen_quiz_screen_load$0$0 Def002A
-S C$quiz_screen.c$110$1$19 Def00DD
+S XG$screen_quiz_screen_load$0$0 Def002E
+S C$quiz_screen.c$112$2$31 Def00E1
+S C$quiz_screen.c$110$1$19 Def00DB
 S _screen_quiz_screen_init Def0000
-S C$quiz_screen.c$101$2$28 Def00CD
-S G$screen_quiz_screen_update$0$0 Def002B
-S C$quiz_screen.c$105$2$29 Def00D4
+S C$quiz_screen.c$120$1$19 Def00ED
+S C$quiz_screen.c$121$1$19 Def00F1
+S C$quiz_screen.c$116$2$32 Def00E8
+S G$screen_quiz_screen_update$0$0 Def002F
 A _DATA size 3 flags 0 addr 0
 S Fquiz_screen$screen_quiz_screen_state$0$0 Def0001
 S Fquiz_screen$screen_quiz_screen_delay$0$0 Def0000
@@ -206,69 +220,77 @@ T 20 00 21 01 00 36 02
 R 00 00 00 00 00 03 01 00
 T 25 00
 R 00 00 00 00
-T 25 00 21 02 00 36 00 C9
-R 00 00 00 00 00 03 01 00
-T 2B 00
+T 25 00 21 02 00 36 00 21 00 00 34 C9
+R 00 00 00 00 00 03 01 00 02 08 03 00
+T 2F 00
 R 00 00 00 00
-T 2B 00 3B FD 21 00 00 FD 39 FD 36 00 00 FD 21
+T 2F 00 3B FD 21 00 00 FD 39 FD 36 00 00 21 00 00
+R 00 00 00 00 02 0E 08 00
+T 3D 00 3A 00 00 96 38 0E 3A 01 00 3D 20 05 CD
+R 00 00 00 00 02 03 03 00 00 09 01 00
+T 4A 00 00 00 18 03
+R 00 00 00 00 02 02 0C 00
+T 4E 00
 R 00 00 00 00
-T 38 00 02 00 FD 34 00 FD 7E 00 D6 02 20 16 3A
-R 00 00 00 00 00 02 01 00
-T 45 00 01 00 3D 20 08 CD 00 00 CD 00 00 18 03
-R 00 00 00 00 00 02 01 00 02 08 0B 00 02 0B 00 00
-T 52 00
+T 4E 00 CD 00 00
+R 00 00 00 00 02 03 02 00
+T 51 00
 R 00 00 00 00
-T 52 00 CD 00 00
+T 51 00 FD 21 02 00 FD 34 00 FD 7E 00 D6 02 20 16
+R 00 00 00 00 00 04 01 00
+T 5F 00 3A 01 00 3D 20 08 CD 00 00 CD 00 00 18 03
+R 00 00 00 00 00 03 01 00 02 09 0B 00 02 0C 00 00
+T 6D 00
+R 00 00 00 00
+T 6D 00 CD 00 00
 R 00 00 00 00 02 03 07 00
-T 55 00
+T 70 00
 R 00 00 00 00
-T 55 00 21 02 00 36 03
+T 70 00 21 02 00 36 03
 R 00 00 00 00 00 03 01 00
-T 5A 00
+T 75 00
 R 00 00 00 00
-T 5A 00 21 03 00 39 4E 23 46 3A 02 00 D6 03 38 5F
+T 75 00 21 03 00 39 4E 23 46 3A 02 00 D6 03 38 58
 R 00 00 00 00 00 0A 01 00
-T 68 00 C5 CD 00 00 C1 7D B7 28 0A FD 21 00 00 FD
+T 83 00 C5 CD 00 00 C1 7D B7 28 0A FD 21 00 00 FD
 R 00 00 00 00 02 04 04 00
-T 76 00 39 FD 36 00 01
+T 91 00 39 FD 36 00 01
 R 00 00 00 00
-T 7B 00
+T 96 00
 R 00 00 00 00
-T 7B 00 FD 21 00 00 FD 34 00 20 03 FD 34 01
+T 96 00 FD 21 00 00 FD 34 00 20 03 FD 34 01
 R 00 00 00 00 02 04 0A 00
-T 87 00
+T A2 00
 R 00 00 00 00
-T 87 00 21 00 00 5E 16 00 FD 21 00 00 FD 7E 00 93
+T A2 00 21 00 00 5E 16 00 FD 21 00 00 FD 7E 00 93
 R 00 00 00 00 00 03 01 00 02 0A 0A 00
-T 95 00 FD 7E 01 9A 38 0A FD 21 00 00 FD 39 FD 36
+T B0 00 FD 7E 01 9A 38 0A FD 21 00 00 FD 39 FD 36
 R 00 00 00 00
-T A3 00 00 01
+T BE 00 00 01
 R 00 00 00 00
-T A5 00
+T C0 00
 R 00 00 00 00
-T A5 00 21 00 00 39 7E B7 28 1A FD 21 00 00 FD 34
-R 00 00 00 00 02 0C 03 00
-T B3 00 00 21 00 00 FD 7E 00 96 38 05 3E 05 02 18
-R 00 00 00 00 02 04 08 00
-T C1 00 1A
+T C0 00 21 00 00 39 7E B7 28 13 21 00 00 3A 00 00
+R 00 00 00 00 02 0B 08 00 02 0E 03 00
+T CE 00 96 38 05 3E 05 02 18 1A
 R 00 00 00 00
-T C2 00
+T D6 00
 R 00 00 00 00
-T C2 00 3E 04 02 18 15
+T D6 00 3E 04 02 18 15
 R 00 00 00 00
-T C7 00
+T DB 00
 R 00 00 00 00
-T C7 00 3A 01 00 3D 20 07 C5 CD 00 00 C1 18 05
+T DB 00 3A 01 00 3D 20 07 C5 CD 00 00 C1 18 05
 R 00 00 00 00 00 03 01 00 02 0A 0C 00
-T D4 00
+T E8 00
 R 00 00 00 00
-T D4 00 C5 CD 00 00 C1
+T E8 00 C5 CD 00 00 C1
 R 00 00 00 00 02 04 02 00
-T D9 00
+T ED 00
 R 00 00 00 00
-T D9 00 3E 07 02
+T ED 00 3E 07 02
 R 00 00 00 00
-T DC 00
+T F0 00
 R 00 00 00 00
-T DC 00 33 C9
+T F0 00 33 C9
 R 00 00 00 00
