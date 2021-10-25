@@ -70,7 +70,6 @@ S:G$engine_quiz_manager_cheat2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_quiz_manager_load$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_init$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_base$0$0({2}DF,SV:S),C,0,0
-S:G$engine_select_manager_clear$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_clear2$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_clear3$0$0({2}DF,SV:S),C,0,0
 S:G$engine_select_manager_load_diff$0$0({2}DF,SV:S),C,0,0
