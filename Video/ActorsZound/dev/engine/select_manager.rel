@@ -1,6 +1,6 @@
 ;!FILE select_manager.asm
 XL2
-H 9 areas 1D7 global symbols
+H 9 areas 1F6 global symbols
 M select_manager
 O -mz80
 S _engine_font_manager_text Ref0000
@@ -10,433 +10,462 @@ S _engine_sprite_manager_draw_wrong Ref0000
 S .__.ABS. Def0000
 S _engine_font_manager_char Ref0000
 S _engine_sprite_manager_draw_select Ref0000
-A _CODE size 26D flags 0 addr 0
+A _CODE size 294 flags 0 addr 0
 S _engine_select_manager_init Def0000
-S XG$engine_select_manager_draw_right$0$0 Def025D
-S C$select_manager.c$101$1$31 Def01C9
-S C$select_manager.c$102$1$31 Def01CF
+S XG$engine_select_manager_draw_right$0$0 Def0284
+S C$select_manager.c$100$1$31 Def01B4
 S _engine_select_manager_clear2 Def00E7
-S C$select_manager.c$130$1$40 Def0220
-S C$select_manager.c$103$1$31 Def01DC
-S _engine_select_manager_draw_wrong Def025E
-S C$select_manager.c$140$1$40 Def023D
-S C$select_manager.c$110$1$34 Def01ED
-S XG$engine_select_manager_load_long$0$0 Def01DC
+S _engine_select_manager_draw_wrong Def0285
+S _engine_select_manager_clear3 Def014F
+S XG$engine_select_manager_load_long$0$0 Def0203
+S C$select_manager.c$110$1$34 Def01F6
 S G$engine_select_manager_clear$0$0 Def005B
-S _engine_select_manager_move_up Def01EE
-S C$select_manager.c$141$1$40 Def0242
-S C$select_manager.c$105$1$31 Def01DD
-S G$engine_select_manager_load_quiz$0$0 Def01DD
-S C$select_manager.c$143$1$40 Def0243
-S C$select_manager.c$132$2$41 Def0227
-S C$select_manager.c$113$1$34 Def01EE
-S C$select_manager.c$150$1$44 Def025D
+S _engine_select_manager_move_up Def0215
+S G$engine_select_manager_load_quiz$0$0 Def0204
+S C$select_manager.c$111$1$34 Def0203
+S C$select_manager.c$113$1$34 Def0204
+S C$select_manager.c$125$2$40 Def0223
+S C$select_manager.c$103$2$35 Def01EA
+S C$select_manager.c$151$1$43 Def026A
+S C$select_manager.c$140$2$44 Def024E
+S C$select_manager.c$121$1$37 Def0215
 S XG$engine_select_manager_init$0$0 Def0030
-S C$select_manager.c$151$1$44 Def025E
-S G$engine_select_manager_draw_select$0$0 Def0243
-S C$select_manager.c$107$1$34 Def01DD
-S G$engine_select_manager_move_down$0$0 Def0218
-S C$select_manager.c$124$1$36 Def0205
-S C$select_manager.c$121$2$38 Def0202
-S C$select_manager.c$115$1$36 Def01F6
-S C$select_manager.c$108$1$34 Def01E2
-S C$select_manager.c$145$1$43 Def0243
-S C$select_manager.c$139$1$40 Def0230
-S C$select_manager.c$136$2$42 Def022D
-S C$select_manager.c$125$1$36 Def0212
-S C$select_manager.c$109$1$34 Def01E7
-S C$select_manager.c$153$1$45 Def025E
-S C$select_manager.c$146$1$43 Def024E
-S C$select_manager.c$126$1$36 Def0217
-S C$select_manager.c$154$1$45 Def026C
-S C$select_manager.c$147$1$43 Def024F
+S G$engine_select_manager_draw_select$0$0 Def026A
+S C$select_manager.c$103$3$36 Def01B4
+S G$engine_select_manager_move_down$0$0 Def023F
+S C$select_manager.c$115$1$37 Def0204
+S C$select_manager.c$109$1$34 Def01F0
+S C$select_manager.c$105$3$36 Def01B6
+S C$select_manager.c$132$1$39 Def022C
+S C$select_manager.c$129$2$41 Def0229
+S C$select_manager.c$123$1$39 Def021D
+S C$select_manager.c$116$1$37 Def0209
+S C$select_manager.c$106$3$36 Def01DB
+S C$select_manager.c$153$1$46 Def026A
+S C$select_manager.c$147$1$43 Def0257
+S C$select_manager.c$144$2$45 Def0254
+S C$select_manager.c$138$1$43 Def0247
+S C$select_manager.c$133$1$39 Def0239
+S C$select_manager.c$117$1$37 Def020E
 S XG$engine_select_manager_clear2$0$0 Def0117
-S XG$engine_select_manager_draw_wrong$0$0 Def026C
-S C$select_manager.c$128$1$36 Def0218
-S C$select_manager.c$117$2$37 Def01FC
-S XG$engine_select_manager_move_up$0$0 Def0217
+S XG$engine_select_manager_draw_wrong$0$0 Def0293
+S C$select_manager.c$161$1$48 Def0285
+S C$select_manager.c$154$1$46 Def0275
+S C$select_manager.c$148$1$43 Def0264
+S C$select_manager.c$134$1$39 Def023E
+S C$select_manager.c$118$1$37 Def0214
+S XG$engine_select_manager_clear3$0$0 Def016F
+S C$select_manager.c$162$1$48 Def0293
+S C$select_manager.c$155$1$46 Def0276
+S C$select_manager.c$149$1$43 Def0269
+S XG$engine_select_manager_move_up$0$0 Def023E
 S C$select_manager.c$31$1$10 Def0018
 S _engine_select_manager_clear Def005B
-S A$select_manager$200 Def004C
-S C$select_manager.c$149$1$44 Def024F
+S A$select_manager$200 Def004B
+S C$select_manager.c$136$1$39 Def023F
 S C$select_manager.c$32$1$10 Def001D
-S _engine_select_manager_load_quiz Def01DD
-S A$select_manager$300 Def009C
-S A$select_manager$210 Def0055
-S A$select_manager$201 Def004D
-S A$select_manager$120 Def0008
+S _engine_select_manager_load_quiz Def0204
+S A$select_manager$300 Def009B
+S A$select_manager$210 Def0054
+S A$select_manager$201 Def004C
+S A$select_manager$120 Def0006
 S C$select_manager.c$33$1$10 Def0022
-S A$select_manager$400 Def0105
-S A$select_manager$211 Def0056
-S A$select_manager$202 Def004E
-S A$select_manager$121 Def0009
-S A$select_manager$112 Def0000
+S A$select_manager$400 Def0104
+S A$select_manager$301 Def009C
+S A$select_manager$211 Def0055
+S A$select_manager$202 Def004D
+S A$select_manager$121 Def0008
+S C$select_manager.c$157$1$47 Def0276
 S C$select_manager.c$34$1$10 Def0027
-S A$select_manager$401 Def0106
-S A$select_manager$320 Def00AF
-S A$select_manager$311 Def00A3
-S A$select_manager$230 Def005B
-S A$select_manager$212 Def0058
-S A$select_manager$203 Def0051
-S A$select_manager$131 Def0012
-S A$select_manager$122 Def000A
-S A$select_manager$113 Def0003
+S A$select_manager$500 Def0180
+S A$select_manager$401 Def0105
+S A$select_manager$212 Def0056
+S A$select_manager$203 Def004E
+S A$select_manager$140 Def001B
+S A$select_manager$122 Def0009
+S A$select_manager$113 Def0000
+S C$select_manager.c$158$1$47 Def0284
 S C$select_manager.c$35$1$10 Def002C
-S A$select_manager$411 Def0111
-S A$select_manager$402 Def0107
-S A$select_manager$321 Def00B2
-S A$select_manager$312 Def00A6
-S A$select_manager$240 Def0062
-S A$select_manager$204 Def0052
-S A$select_manager$132 Def0013
-S A$select_manager$123 Def000B
-S G$engine_select_manager_load_diff$0$0 Def014F
+S A$select_manager$600 Def01E4
+S A$select_manager$510 Def018D
+S A$select_manager$501 Def0182
+S A$select_manager$420 Def0117
+S A$select_manager$402 Def0106
+S A$select_manager$321 Def00AF
+S A$select_manager$312 Def00A3
+S A$select_manager$240 Def0061
+S A$select_manager$231 Def005B
+S A$select_manager$213 Def0058
+S A$select_manager$204 Def0051
+S A$select_manager$150 Def0025
+S A$select_manager$132 Def0012
+S A$select_manager$123 Def000A
+S A$select_manager$114 Def0003
+S C$select_manager.c$159$1$47 Def0285
+S G$engine_select_manager_load_diff$0$0 Def0176
 S C$select_manager.c$60$2$21 Def009D
 S C$select_manager.c$36$1$10 Def0030
-S A$select_manager$520 Def0199
-S A$select_manager$412 Def0112
-S A$select_manager$403 Def010A
-S A$select_manager$331 Def00BC
-S A$select_manager$322 Def00B3
-S A$select_manager$313 Def00A7
-S A$select_manager$304 Def009D
-S A$select_manager$250 Def006D
-S A$select_manager$241 Def0063
-S A$select_manager$205 Def0053
-S A$select_manager$133 Def0014
-S A$select_manager$124 Def000C
+S A$select_manager$700 Def0239
+S A$select_manager$610 Def01EE
+S A$select_manager$601 Def01E7
+S A$select_manager$511 Def018E
+S A$select_manager$502 Def0183
+S A$select_manager$412 Def0111
+S A$select_manager$403 Def0107
+S A$select_manager$322 Def00B2
+S A$select_manager$313 Def00A6
+S A$select_manager$241 Def0062
+S A$select_manager$205 Def0052
+S A$select_manager$160 Def002D
+S A$select_manager$133 Def0013
+S A$select_manager$124 Def000B
 S C$select_manager.c$41$2$14 Def0054
 S C$select_manager.c$26$2$11 Def0012
-S _engine_select_manager_draw_select Def0243
-S A$select_manager$620 Def01F4
-S A$select_manager$602 Def01E7
-S A$select_manager$530 Def01A7
-S A$select_manager$521 Def019A
-S A$select_manager$440 Def014F
-S A$select_manager$413 Def0113
-S A$select_manager$404 Def010B
-S A$select_manager$323 Def00B6
-S A$select_manager$314 Def00AA
-S A$select_manager$305 Def009E
-S A$select_manager$251 Def006E
-S A$select_manager$242 Def0066
-S A$select_manager$143 Def001D
-S A$select_manager$134 Def0016
-S A$select_manager$125 Def000D
+S _engine_select_manager_draw_select Def026A
+S A$select_manager$701 Def023C
+S A$select_manager$620 Def01F9
+S A$select_manager$602 Def01E8
+S A$select_manager$530 Def01A0
+S A$select_manager$512 Def018F
+S A$select_manager$503 Def0184
+S A$select_manager$413 Def0112
+S A$select_manager$404 Def010A
+S A$select_manager$332 Def00BC
+S A$select_manager$323 Def00B3
+S A$select_manager$314 Def00A7
+S A$select_manager$305 Def009D
+S A$select_manager$251 Def006D
+S A$select_manager$242 Def0063
+S A$select_manager$206 Def0053
+S A$select_manager$134 Def0014
+S A$select_manager$125 Def000C
 S C$select_manager.c$60$3$22 Def008B
 S C$select_manager.c$38$1$10 Def0031
-S _engine_select_manager_move_down Def0218
-S A$select_manager$720 Def0249
-S A$select_manager$630 Def01FC
-S A$select_manager$603 Def01EA
-S A$select_manager$531 Def01A8
-S A$select_manager$522 Def019C
-S A$select_manager$513 Def018F
-S A$select_manager$450 Def0159
-S A$select_manager$414 Def0115
-S A$select_manager$405 Def010E
-S A$select_manager$324 Def00B7
-S A$select_manager$315 Def00AB
-S A$select_manager$306 Def009F
-S A$select_manager$270 Def007F
-S A$select_manager$252 Def006F
-S A$select_manager$243 Def0067
-S A$select_manager$153 Def0027
-S A$select_manager$144 Def0020
-S A$select_manager$126 Def000F
+S _engine_select_manager_move_down Def023F
+S A$select_manager$621 Def01FC
+S A$select_manager$603 Def01E9
+S A$select_manager$540 Def01B0
+S A$select_manager$531 Def01A3
+S A$select_manager$513 Def0191
+S A$select_manager$504 Def0185
+S A$select_manager$450 Def0158
+S A$select_manager$441 Def014F
+S A$select_manager$414 Def0113
+S A$select_manager$405 Def010B
+S A$select_manager$324 Def00B6
+S A$select_manager$315 Def00AA
+S A$select_manager$306 Def009E
+S A$select_manager$270 Def007E
+S A$select_manager$252 Def006E
+S A$select_manager$243 Def0066
+S A$select_manager$144 Def001D
+S A$select_manager$135 Def0016
+S A$select_manager$126 Def000D
 S C$select_manager.c$41$3$15 Def0031
 S G$engine_select_manager_base$0$0 Def0031
 S C$select_manager.c$26$3$12 Def0000
-S A$select_manager$721 Def024A
-S A$select_manager$631 Def0200
-S A$select_manager$550 Def01BD
-S A$select_manager$532 Def01A9
-S A$select_manager$523 Def019D
-S A$select_manager$514 Def0191
-S A$select_manager$460 Def0166
-S A$select_manager$451 Def015B
-S A$select_manager$406 Def010F
-S A$select_manager$370 Def00EA
-S A$select_manager$325 Def00BA
-S A$select_manager$316 Def00AE
-S A$select_manager$307 Def00A1
-S A$select_manager$280 Def0089
-S A$select_manager$271 Def0082
-S A$select_manager$262 Def0075
-S A$select_manager$253 Def0071
-S A$select_manager$244 Def006A
-S A$select_manager$235 Def005D
-S A$select_manager$217 Def005A
-S A$select_manager$190 Def003F
-S A$select_manager$154 Def002A
-S A$select_manager$127 Def0011
-S A$select_manager$118 Def0005
+S A$select_manager$820 Def028C
+S A$select_manager$622 Def01FE
+S A$select_manager$523 Def019A
+S A$select_manager$514 Def0192
+S A$select_manager$505 Def0186
+S A$select_manager$460 Def0167
+S A$select_manager$451 Def0159
+S A$select_manager$415 Def0115
+S A$select_manager$406 Def010E
+S A$select_manager$370 Def00E9
+S A$select_manager$325 Def00B7
+S A$select_manager$316 Def00AB
+S A$select_manager$307 Def009F
+S A$select_manager$280 Def0087
+S A$select_manager$271 Def007F
+S A$select_manager$253 Def006F
+S A$select_manager$244 Def0067
+S A$select_manager$190 Def003E
+S A$select_manager$154 Def0027
+S A$select_manager$145 Def0020
+S A$select_manager$127 Def000F
 S C$select_manager.c$55$3$20 Def0073
 S C$select_manager.c$50$2$17 Def006D
-S A$select_manager$740 Def024F
-S A$select_manager$722 Def024D
-S A$select_manager$704 Def0242
-S A$select_manager$650 Def0212
-S A$select_manager$641 Def0205
-S A$select_manager$560 Def01C7
-S A$select_manager$551 Def01C0
-S A$select_manager$533 Def01AB
-S A$select_manager$524 Def019E
-S A$select_manager$515 Def0192
-S A$select_manager$461 Def0167
-S A$select_manager$452 Def015C
-S A$select_manager$407 Def0110
-S A$select_manager$380 Def00F8
-S A$select_manager$371 Def00EB
-S A$select_manager$326 Def00BB
-S A$select_manager$290 Def008E
-S A$select_manager$272 Def0083
-S A$select_manager$263 Def0076
-S A$select_manager$245 Def006B
-S A$select_manager$236 Def005E
-S A$select_manager$209 Def0054
-S A$select_manager$191 Def0040
-S A$select_manager$182 Def0033
-S A$select_manager$164 Def0030
-S A$select_manager$119 Def0006
+S A$select_manager$821 Def028D
+S A$select_manager$803 Def0284
+S A$select_manager$740 Def025A
+S A$select_manager$722 Def0247
+S A$select_manager$623 Def01FF
+S A$select_manager$614 Def01F0
+S A$select_manager$524 Def019B
+S A$select_manager$515 Def0193
+S A$select_manager$506 Def0187
+S A$select_manager$461 Def0168
+S A$select_manager$452 Def015A
+S A$select_manager$407 Def010F
+S A$select_manager$380 Def00F7
+S A$select_manager$371 Def00EA
+S A$select_manager$326 Def00BA
+S A$select_manager$317 Def00AE
+S A$select_manager$308 Def00A1
+S A$select_manager$290 Def008D
+S A$select_manager$281 Def0089
+S A$select_manager$272 Def0082
+S A$select_manager$263 Def0075
+S A$select_manager$254 Def0071
+S A$select_manager$245 Def006A
+S A$select_manager$236 Def005D
+S A$select_manager$218 Def005A
+S A$select_manager$191 Def003F
+S A$select_manager$155 Def002A
+S A$select_manager$128 Def0011
+S A$select_manager$119 Def0005
 S C$select_manager.c$63$3$22 Def008D
 S C$select_manager.c$45$2$14 Def005A
 S C$select_manager.c$43$3$15 Def0033
 S C$select_manager.c$28$3$12 Def0005
-S A$select_manager$741 Def0252
-S A$select_manager$651 Def0215
-S A$select_manager$642 Def0208
-S A$select_manager$624 Def01F6
-S A$select_manager$570 Def01D2
-S A$select_manager$552 Def01C1
-S A$select_manager$543 Def01B4
-S A$select_manager$534 Def01AC
-S A$select_manager$525 Def01A0
-S A$select_manager$516 Def0193
-S A$select_manager$480 Def0179
-S A$select_manager$462 Def0168
-S A$select_manager$453 Def015D
-S A$select_manager$372 Def00EC
-S A$select_manager$291 Def008F
-S A$select_manager$273 Def0084
-S A$select_manager$264 Def0077
-S A$select_manager$246 Def006C
-S A$select_manager$237 Def005F
-S A$select_manager$192 Def0041
-S A$select_manager$183 Def0036
-S A$select_manager$138 Def0018
+S A$select_manager$822 Def028E
+S A$select_manager$741 Def025D
+S A$select_manager$723 Def024A
+S A$select_manager$642 Def0204
+S A$select_manager$624 Def0200
+S A$select_manager$615 Def01F3
+S A$select_manager$570 Def01C0
+S A$select_manager$525 Def019C
+S A$select_manager$516 Def0194
+S A$select_manager$507 Def018A
+S A$select_manager$453 Def015B
+S A$select_manager$408 Def0110
+S A$select_manager$381 Def00F8
+S A$select_manager$372 Def00EB
+S A$select_manager$327 Def00BB
+S A$select_manager$291 Def008E
+S A$select_manager$273 Def0083
+S A$select_manager$264 Def0076
+S A$select_manager$246 Def006B
+S A$select_manager$237 Def005E
+S A$select_manager$192 Def0040
+S A$select_manager$183 Def0033
+S A$select_manager$165 Def0030
 S C$select_manager.c$72$2$24 Def00F9
 S C$select_manager.c$50$3$18 Def005B
-S A$select_manager$742 Def0254
-S A$select_manager$643 Def020B
-S A$select_manager$625 Def01F9
-S A$select_manager$571 Def01D5
-S A$select_manager$553 Def01C2
-S A$select_manager$544 Def01B5
-S A$select_manager$535 Def01AD
-S A$select_manager$526 Def01A2
-S A$select_manager$517 Def0195
-S A$select_manager$508 Def018D
-S A$select_manager$490 Def0189
-S A$select_manager$481 Def017C
-S A$select_manager$463 Def016A
-S A$select_manager$454 Def015E
-S A$select_manager$445 Def0151
-S A$select_manager$391 Def00FF
-S A$select_manager$373 Def00ED
-S A$select_manager$364 Def00E7
-S A$select_manager$292 Def0090
-S A$select_manager$265 Def0078
-S A$select_manager$238 Def0060
-S A$select_manager$193 Def0044
-S A$select_manager$184 Def0038
-S A$select_manager$148 Def0022
-S A$select_manager$139 Def001B
+S A$select_manager$823 Def028F
+S A$select_manager$742 Def025F
+S A$select_manager$724 Def024C
+S A$select_manager$706 Def023E
+S A$select_manager$670 Def021B
+S A$select_manager$652 Def020E
+S A$select_manager$643 Def0207
+S A$select_manager$607 Def01EA
+S A$select_manager$580 Def01CE
+S A$select_manager$571 Def01C1
+S A$select_manager$535 Def01A6
+S A$select_manager$526 Def019E
+S A$select_manager$517 Def0197
+S A$select_manager$508 Def018B
+S A$select_manager$490 Def0176
+S A$select_manager$454 Def015D
+S A$select_manager$373 Def00EC
+S A$select_manager$292 Def008F
+S A$select_manager$274 Def0084
+S A$select_manager$265 Def0077
+S A$select_manager$247 Def006C
+S A$select_manager$238 Def005F
+S A$select_manager$193 Def0041
+S A$select_manager$184 Def0036
+S A$select_manager$139 Def0018
+S C$select_manager.c$92$2$32 Def019A
 S C$select_manager.c$84$3$30 Def014F
 S C$select_manager.c$80$2$26 Def0117
 S XG$engine_select_manager_clear$0$0 Def00BC
 S C$select_manager.c$58$3$20 Def0075
 S C$select_manager.c$47$2$14 Def005B
-S A$select_manager$770 Def0265
-S A$select_manager$743 Def0255
-S A$select_manager$644 Def020D
-S A$select_manager$626 Def01FA
-S A$select_manager$608 Def01ED
-S A$select_manager$572 Def01D7
-S A$select_manager$545 Def01B6
-S A$select_manager$536 Def01B0
-S A$select_manager$527 Def01A3
-S A$select_manager$518 Def0197
-S A$select_manager$473 Def0173
-S A$select_manager$464 Def016B
-S A$select_manager$455 Def015F
-S A$select_manager$446 Def0154
-S A$select_manager$419 Def0117
-S A$select_manager$374 Def00EE
-S A$select_manager$293 Def0091
-S A$select_manager$284 Def008B
-S A$select_manager$266 Def0079
-S A$select_manager$257 Def0073
-S A$select_manager$239 Def0061
-S A$select_manager$194 Def0045
-S A$select_manager$185 Def0039
-S A$select_manager$158 Def002C
-S A$select_manager$149 Def0025
-S XG$engine_select_manager_load_quiz$0$0 Def01ED
+S A$select_manager$824 Def0292
+S A$select_manager$770 Def0270
+S A$select_manager$743 Def0260
+S A$select_manager$734 Def0254
+S A$select_manager$716 Def023F
+S A$select_manager$680 Def0223
+S A$select_manager$653 Def0211
+S A$select_manager$608 Def01EB
+S A$select_manager$581 Def01CF
+S A$select_manager$572 Def01C3
+S A$select_manager$563 Def01B6
+S A$select_manager$545 Def01B3
+S A$select_manager$536 Def01A9
+S A$select_manager$518 Def0198
+S A$select_manager$509 Def018C
+S A$select_manager$473 Def016F
+S A$select_manager$455 Def015E
+S A$select_manager$446 Def0151
+S A$select_manager$392 Def00FF
+S A$select_manager$374 Def00ED
+S A$select_manager$365 Def00E7
+S A$select_manager$293 Def0090
+S A$select_manager$266 Def0078
+S A$select_manager$239 Def0060
+S A$select_manager$194 Def0044
+S A$select_manager$185 Def0038
+S A$select_manager$149 Def0022
+S XG$engine_select_manager_load_quiz$0$0 Def0214
 S C$select_manager.c$81$2$26 Def014F
 S C$select_manager.c$72$3$25 Def00E7
 S C$select_manager.c$65$1$16 Def00A3
-S A$select_manager$771 Def0266
-S A$select_manager$753 Def025D
-S A$select_manager$744 Def0256
-S A$select_manager$717 Def0243
-S A$select_manager$690 Def0233
-S A$select_manager$672 Def0220
-S A$select_manager$645 Def020E
-S A$select_manager$636 Def0202
-S A$select_manager$618 Def01EE
-S A$select_manager$573 Def01D8
-S A$select_manager$564 Def01C9
-S A$select_manager$546 Def01B7
-S A$select_manager$537 Def01B1
-S A$select_manager$528 Def01A4
-S A$select_manager$519 Def0198
-S A$select_manager$474 Def0174
-S A$select_manager$465 Def016C
-S A$select_manager$456 Def0160
-S A$select_manager$447 Def0156
-S A$select_manager$384 Def00F9
-S A$select_manager$375 Def00EF
-S A$select_manager$294 Def0092
-S A$select_manager$267 Def007A
-S A$select_manager$195 Def0046
-S A$select_manager$186 Def003A
-S A$select_manager$177 Def0031
-S A$select_manager$159 Def002D
-S C$select_manager.c$90$1$28 Def017F
+S A$select_manager$816 Def0285
+S A$select_manager$771 Def0271
+S A$select_manager$744 Def0261
+S A$select_manager$717 Def0241
+S A$select_manager$681 Def0227
+S A$select_manager$609 Def01EC
+S A$select_manager$582 Def01D0
+S A$select_manager$573 Def01C4
+S A$select_manager$564 Def01B8
+S A$select_manager$537 Def01AC
+S A$select_manager$519 Def0199
+S A$select_manager$465 Def0169
+S A$select_manager$456 Def015F
+S A$select_manager$447 Def0154
+S A$select_manager$375 Def00EE
+S A$select_manager$294 Def0091
+S A$select_manager$285 Def008B
+S A$select_manager$267 Def0079
+S A$select_manager$258 Def0073
+S A$select_manager$195 Def0045
+S A$select_manager$186 Def0039
+S A$select_manager$159 Def002C
+S C$select_manager.c$92$3$33 Def0176
 S C$select_manager.c$86$3$30 Def0151
 S C$select_manager.c$66$1$16 Def00AF
 S C$select_manager.c$53$3$18 Def005D
-S A$select_manager$772 Def0267
-S A$select_manager$745 Def0257
-S A$select_manager$727 Def024E
-S A$select_manager$718 Def0246
-S A$select_manager$691 Def0236
-S A$select_manager$673 Def0223
-S A$select_manager$646 Def020F
-S A$select_manager$619 Def01F0
-S A$select_manager$592 Def01DD
-S A$select_manager$574 Def01D9
-S A$select_manager$565 Def01CC
-S A$select_manager$547 Def01B8
-S A$select_manager$538 Def01B2
-S A$select_manager$529 Def01A6
-S A$select_manager$475 Def0175
-S A$select_manager$466 Def016D
-S A$select_manager$457 Def0163
-S A$select_manager$448 Def0157
-S A$select_manager$385 Def00FA
-S A$select_manager$376 Def00F2
-S A$select_manager$295 Def0093
-S A$select_manager$277 Def0085
-S A$select_manager$268 Def007B
-S A$select_manager$196 Def0047
-S A$select_manager$187 Def003B
-S C$select_manager.c$95$2$32 Def01C3
-S C$select_manager.c$91$1$28 Def018C
+S A$select_manager$817 Def0288
+S A$select_manager$790 Def0276
+S A$select_manager$772 Def0274
+S A$select_manager$754 Def0269
+S A$select_manager$718 Def0245
+S A$select_manager$691 Def022C
+S A$select_manager$619 Def01F6
+S A$select_manager$583 Def01D2
+S A$select_manager$574 Def01C5
+S A$select_manager$565 Def01B9
+S A$select_manager$538 Def01AE
+S A$select_manager$466 Def016A
+S A$select_manager$457 Def0162
+S A$select_manager$448 Def0156
+S A$select_manager$385 Def00F9
+S A$select_manager$376 Def00EF
+S A$select_manager$295 Def0092
+S A$select_manager$268 Def007A
+S A$select_manager$196 Def0046
+S A$select_manager$187 Def003A
+S A$select_manager$178 Def0031
+S C$select_manager.c$97$1$31 Def01A0
 S C$select_manager.c$74$3$25 Def00E9
 S C$select_manager.c$67$1$16 Def00BC
 S C$select_manager.c$23$0$0 Def0000
-S A$select_manager$773 Def0268
-S A$select_manager$746 Def0258
-S A$select_manager$719 Def0247
-S A$select_manager$692 Def0238
-S A$select_manager$674 Def0225
-S A$select_manager$656 Def0217
-S A$select_manager$593 Def01E0
-S A$select_manager$557 Def01C3
-S A$select_manager$548 Def01B9
-S A$select_manager$539 Def01B3
-S A$select_manager$485 Def017F
-S A$select_manager$476 Def0177
-S A$select_manager$467 Def0170
-S A$select_manager$458 Def0164
-S A$select_manager$449 Def0158
-S A$select_manager$386 Def00FB
-S A$select_manager$377 Def00F3
-S A$select_manager$296 Def0096
-S A$select_manager$278 Def0086
-S A$select_manager$269 Def007E
-S A$select_manager$197 Def0048
-S A$select_manager$188 Def003D
-S C$select_manager.c$92$1$28 Def018D
+S A$select_manager$818 Def028A
+S A$select_manager$791 Def0279
+S A$select_manager$728 Def024E
+S A$select_manager$692 Def022F
+S A$select_manager$674 Def021D
+S A$select_manager$647 Def0209
+S A$select_manager$629 Def0203
+S A$select_manager$593 Def01DB
+S A$select_manager$584 Def01D3
+S A$select_manager$575 Def01C7
+S A$select_manager$566 Def01BA
+S A$select_manager$539 Def01AF
+S A$select_manager$467 Def016B
+S A$select_manager$458 Def0163
+S A$select_manager$449 Def0157
+S A$select_manager$386 Def00FA
+S A$select_manager$377 Def00F2
+S A$select_manager$296 Def0093
+S A$select_manager$278 Def0085
+S A$select_manager$269 Def007B
+S A$select_manager$197 Def0047
+S A$select_manager$188 Def003B
+S C$select_manager.c$98$1$31 Def01A6
+S C$select_manager.c$94$3$33 Def0178
 S C$select_manager.c$55$2$19 Def0085
-S A$select_manager$774 Def026B
-S A$select_manager$747 Def0259
-S A$select_manager$693 Def0239
-S A$select_manager$684 Def022D
-S A$select_manager$666 Def0218
-S A$select_manager$558 Def01C4
-S A$select_manager$549 Def01BC
-S A$select_manager$495 Def018C
-S A$select_manager$486 Def0182
-S A$select_manager$468 Def0171
-S A$select_manager$459 Def0165
-S A$select_manager$396 Def0101
-S A$select_manager$387 Def00FD
-S A$select_manager$378 Def00F6
-S A$select_manager$369 Def00E9
-S A$select_manager$297 Def0097
-S A$select_manager$279 Def0087
-S A$select_manager$198 Def0049
-S A$select_manager$189 Def003E
-S C$select_manager.c$95$3$33 Def018D
+S A$select_manager$819 Def028B
+S A$select_manager$792 Def027B
+S A$select_manager$729 Def0252
+S A$select_manager$693 Def0232
+S A$select_manager$675 Def0220
+S A$select_manager$648 Def020C
+S A$select_manager$594 Def01DC
+S A$select_manager$585 Def01D4
+S A$select_manager$576 Def01C9
+S A$select_manager$567 Def01BC
+S A$select_manager$558 Def01B4
+S A$select_manager$495 Def0178
+S A$select_manager$468 Def016D
+S A$select_manager$459 Def0166
+S A$select_manager$387 Def00FB
+S A$select_manager$378 Def00F3
+S A$select_manager$297 Def0096
+S A$select_manager$279 Def0086
+S A$select_manager$198 Def0048
+S A$select_manager$189 Def003D
+S C$select_manager.c$99$1$31 Def01B3
 S C$select_manager.c$76$2$26 Def0111
 S C$select_manager.c$69$1$16 Def00E7
-S _engine_select_manager_load_diff Def014F
-S A$select_manager$766 Def025E
-S A$select_manager$748 Def025C
-S A$select_manager$694 Def023A
-S A$select_manager$667 Def021A
-S A$select_manager$559 Def01C5
-S A$select_manager$487 Def0185
-S A$select_manager$469 Def0172
-S A$select_manager$397 Def0102
-S A$select_manager$379 Def00F7
-S A$select_manager$298 Def009A
-S A$select_manager$289 Def008D
-S A$select_manager$199 Def004B
-S XG$engine_select_manager_draw_select$0$0 Def024E
-S A$select_manager$767 Def0261
-S A$select_manager$668 Def021E
-S A$select_manager$569 Def01CF
-S A$select_manager$488 Def0187
-S A$select_manager$398 Def0103
-S A$select_manager$299 Def009B
-S XG$engine_select_manager_move_down$0$0 Def0242
-S C$select_manager.c$97$3$33 Def018F
-S C$select_manager.c$84$2$29 Def0173
+S _engine_select_manager_load_diff Def0176
+S A$select_manager$829 Def0293
+S A$select_manager$793 Def027C
+S A$select_manager$748 Def0264
+S A$select_manager$739 Def0257
+S A$select_manager$694 Def0234
+S A$select_manager$676 Def0221
+S A$select_manager$658 Def0214
+S A$select_manager$595 Def01DD
+S A$select_manager$586 Def01D7
+S A$select_manager$577 Def01CA
+S A$select_manager$568 Def01BE
+S A$select_manager$496 Def017B
+S A$select_manager$397 Def0101
+S A$select_manager$388 Def00FD
+S A$select_manager$379 Def00F6
+S A$select_manager$298 Def0097
+S A$select_manager$199 Def0049
+S XG$engine_select_manager_draw_select$0$0 Def0275
+S A$select_manager$794 Def027D
+S A$select_manager$767 Def026A
+S A$select_manager$749 Def0267
+S A$select_manager$695 Def0235
+S A$select_manager$686 Def0229
+S A$select_manager$668 Def0215
+S A$select_manager$596 Def01DE
+S A$select_manager$587 Def01D8
+S A$select_manager$578 Def01CB
+S A$select_manager$569 Def01BF
+S A$select_manager$497 Def017D
+S A$select_manager$398 Def0102
+S A$select_manager$299 Def009A
+S XG$engine_select_manager_move_down$0$0 Def0269
+S C$select_manager.c$84$2$29 Def0169
 S C$select_manager.c$76$3$27 Def00FF
-S A$select_manager$768 Def0263
-S A$select_manager$678 Def0227
-S A$select_manager$597 Def01E2
-S A$select_manager$579 Def01DC
-S A$select_manager$489 Def0188
-S A$select_manager$399 Def0104
-S C$select_manager.c$98$3$33 Def01B4
+S A$select_manager$795 Def027E
+S A$select_manager$777 Def0275
+S A$select_manager$768 Def026D
+S A$select_manager$696 Def0236
+S A$select_manager$669 Def0217
+S A$select_manager$597 Def01DF
+S A$select_manager$588 Def01D9
+S A$select_manager$579 Def01CD
+S A$select_manager$498 Def017E
+S A$select_manager$399 Def0103
 S _engine_select_manager_base Def0031
-S A$select_manager$769 Def0264
-S A$select_manager$679 Def022B
-S A$select_manager$598 Def01E5
+S A$select_manager$796 Def027F
+S A$select_manager$769 Def026E
+S A$select_manager$598 Def01E0
+S A$select_manager$589 Def01DA
+S A$select_manager$499 Def017F
 S C$select_manager.c$78$3$27 Def0101
-S A$select_manager$779 Def026C
-S A$select_manager$698 Def023D
-S A$select_manager$689 Def0230
-S C$select_manager.c$89$1$28 Def0179
-S A$select_manager$699 Def0240
-S G$engine_select_manager_draw_right$0$0 Def024F
-S G$engine_select_manager_load_long$0$0 Def018D
-S XG$engine_select_manager_load_diff$0$0 Def018C
+S A$select_manager$797 Def0280
+S A$select_manager$599 Def01E3
+S A$select_manager$798 Def0283
+S C$select_manager.c$88$2$29 Def016F
+S G$engine_select_manager_draw_right$0$0 Def0276
+S C$select_manager.c$89$2$29 Def0176
+S G$engine_select_manager_load_long$0$0 Def01B4
+S XG$engine_select_manager_load_diff$0$0 Def01B3
 S Fselect_manager$__str_0$0$0 Def00BD
 S Fselect_manager$__str_1$0$0 Def00CA
 S Fselect_manager$__str_2$0$0 Def00D6
@@ -446,11 +475,13 @@ S G$engine_select_manager_init$0$0 Def0000
 S Fselect_manager$__str_4$0$0 Def00E3
 S Fselect_manager$__str_5$0$0 Def0118
 S Fselect_manager$__str_6$0$0 Def0139
-S _engine_select_manager_draw_right Def024F
+S _engine_select_manager_draw_right Def0276
+S Fselect_manager$__str_7$0$0 Def0170
 S G$engine_select_manager_clear2$0$0 Def00E7
-S G$engine_select_manager_draw_wrong$0$0 Def025E
-S G$engine_select_manager_move_up$0$0 Def01EE
-S _engine_select_manager_load_long Def018D
+S G$engine_select_manager_draw_wrong$0$0 Def0285
+S G$engine_select_manager_clear3$0$0 Def014F
+S G$engine_select_manager_move_up$0$0 Def0215
+S _engine_select_manager_load_long Def01B4
 A _DATA size 9 flags 0 addr 0
 S _quiz_select Def0002
 S G$select_option$0$0 Def0005
@@ -631,87 +662,103 @@ T 4F 01 0E 00
 R 00 00 00 00
 T 51 01
 R 00 00 00 00
-T 51 01 21 00 00 06 00 09 46 59 16 00 6B 62 29 19
+T 51 01 21 00 00 06 00 09 46 C5 C5 33 3E 02 F5 33
 R 00 00 00 00 00 03 02 00
-T 5F 01 29 11 10 00 19 EB C5 C5 33 3E 04 F5 33 D5
+T 5F 01 21 70 01 E5 CD 00 00 F1 F1 C1 0C 79 D6 04
+R 00 00 00 00 00 03 00 00 02 07 00 00
+T 6D 01 38 E2 C9
+R 00 00 00 00
+T 70 01
+R 00 00 00 00
+T 70 01 20 20 20 20 20 00
+R 00 00 00 00
+T 76 01
+R 00 00 00 00
+T 76 01 0E 00
+R 00 00 00 00
+T 78 01
+R 00 00 00 00
+T 78 01 21 00 00 06 00 09 46 59 16 00 6B 62 29 19
+R 00 00 00 00 00 03 02 00
+T 86 01 29 11 10 00 19 EB C5 C5 33 3E 04 F5 33 D5
 R 00 00 00 00 00 04 02 00
-T 6D 01 CD 00 00 F1 F1 C1 0C 79 D6 04 38 D8 3A
+T 94 01 CD 00 00 F1 F1 C1 0C 79 D6 04 38 D8 3A
 R 00 00 00 00 02 03 00 00
-T 7A 01 00 00 32 03 00 01 05 00 2A
+T A1 01 00 00 32 03 00 01 05 00 2A
 R 00 00 00 00 00 02 01 00 00 05 01 00 00 08 01 00
-T 83 01 03 00 26 00 09 7E 32 04 00 C9
+T AA 01 03 00 26 00 09 7E 32 04 00 C9
 R 00 00 00 00 00 02 01 00 00 09 01 00
-T 8D 01
+T B4 01
 R 00 00 00 00
-T 8D 01 06 00
+T B4 01 06 00
 R 00 00 00 00
-T 8F 01
+T B6 01
 R 00 00 00 00
-T 8F 01 3E 00 00 80 5F 3E 00 00 CE 00 57 1A 4F 3E
+T B6 01 3E 00 00 80 5F 3E 00 00 CE 00 57 1A 4F 3E
 R 00 00 00 00 09 03 02 00 89 08 02 00
-T 9B 01 28 00 80 6F 3E 28 00 CE 00 67 6E 26 00 C5
+T C2 01 28 00 80 6F 3E 28 00 CE 00 67 6E 26 00 C5
 R 00 00 00 00 09 02 02 00 89 07 02 00
-T A7 01 D5 51 1E 06 D5 E5 CD 00 00 F1 F1 D1 C1 1A
+T CE 01 D5 51 1E 06 D5 E5 CD 00 00 F1 F1 D1 C1 1A
 R 00 00 00 00 02 09 02 00
-T B5 01 57 C5 D5 33 21 20 07 E5 CD 00 00 F1 33 C1
+T DC 01 57 C5 D5 33 21 20 07 E5 CD 00 00 F1 33 C1
 R 00 00 00 00 02 0B 05 00
-T C3 01 04 78 D6 04 38 C6 3A 01 00 32 03 00 01
+T EA 01 04 78 D6 04 38 C6 3A 01 00 32 03 00 01
 R 00 00 00 00 00 09 01 00 00 0C 01 00
-T D0 01 05 00 2A 03 00 26 00 09 7E 32 04 00 C9
+T F7 01 05 00 2A 03 00 26 00 09 7E 32 04 00 C9
 R 00 00 00 00 00 02 01 00 00 05 01 00 00 0C 01 00
-T DD 01
+T 04 02
 R 00 00 00 00
-T DD 01 21 02 00 36 00 21 03 00 36 00 3A 05 00 32
+T 04 02 21 02 00 36 00 21 03 00 36 00 3A 05 00 32
 R 00 00 00 00 00 03 01 00 00 08 01 00 00 0D 01 00
-T EB 01 04 00 C9
+T 12 02 04 00 C9
 R 00 00 00 00 00 02 01 00
-T EE 01
+T 15 02
 R 00 00 00 00
-T EE 01 DD E5 DD 21 00 00 DD 39 DD 7E 04 B7 20 06
+T 15 02 DD E5 DD 21 00 00 DD 39 DD 7E 04 B7 20 06
 R 00 00 00 00
-T FC 01 DD 36 04 03 18 03
+T 23 02 DD 36 04 03 18 03
 R 00 00 00 00
-T 02 02
+T 29 02
 R 00 00 00 00
-T 02 02 DD 35 04
+T 29 02 DD 35 04
 R 00 00 00 00
-T 05 02
+T 2C 02
 R 00 00 00 00
-T 05 02 01 05 00 DD 6E 04 26 00 09 7E 32 04 00 DD
+T 2C 02 01 05 00 DD 6E 04 26 00 09 7E 32 04 00 DD
 R 00 00 00 00 00 03 01 00 00 0D 01 00
-T 13 02 6E 04 DD E1 C9
+T 3A 02 6E 04 DD E1 C9
 R 00 00 00 00
-T 18 02
+T 3F 02
 R 00 00 00 00
-T 18 02 DD E5 DD 21 00 00 DD 39 DD 7E 04 D6 03 20
+T 3F 02 DD E5 DD 21 00 00 DD 39 DD 7E 04 D6 03 20
 R 00 00 00 00
-T 26 02 06 DD 36 04 00 18 03
+T 4D 02 06 DD 36 04 00 18 03
 R 00 00 00 00
-T 2D 02
+T 54 02
 R 00 00 00 00
-T 2D 02 DD 34 04
+T 54 02 DD 34 04
 R 00 00 00 00
-T 30 02
+T 57 02
 R 00 00 00 00
-T 30 02 01 05 00 DD 6E 04 26 00 09 7E 32 04 00 DD
+T 57 02 01 05 00 DD 6E 04 26 00 09 7E 32 04 00 DD
 R 00 00 00 00 00 03 01 00 00 0D 01 00
-T 3E 02 6E 04 DD E1 C9
+T 65 02 6E 04 DD E1 C9
 R 00 00 00 00
-T 43 02
+T 6A 02
 R 00 00 00 00
-T 43 02 3A 04 00 57 1E 04 D5 CD 00 00 F1 C9
+T 6A 02 3A 04 00 57 1E 04 D5 CD 00 00 F1 C9
 R 00 00 00 00 00 03 01 00 02 0A 06 00
-T 4F 02
+T 76 02
 R 00 00 00 00
-T 4F 02 3A 04 00 C6 04 F5 33 AF F5 33 CD 00 00 F1
+T 76 02 3A 04 00 C6 04 F5 33 AF F5 33 CD 00 00 F1
 R 00 00 00 00 00 03 01 00 02 0D 01 00
-T 5D 02 C9
+T 84 02 C9
 R 00 00 00 00
-T 5E 02
+T 85 02
 R 00 00 00 00
-T 5E 02 3A 04 00 C6 04 F5 33 AF F5 33 CD 00 00 F1
+T 85 02 3A 04 00 C6 04 F5 33 AF F5 33 CD 00 00 F1
 R 00 00 00 00 00 03 01 00 02 0D 03 00
-T 6C 02 C9
+T 93 02 C9
 R 00 00 00 00
 T 00 00
 R 00 00 07 00

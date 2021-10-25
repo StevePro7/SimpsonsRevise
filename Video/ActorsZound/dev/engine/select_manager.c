@@ -78,6 +78,14 @@ void engine_select_manager_clear2()
 		engine_font_manager_text( LOCALE_BLANK21, 0, high );
 	}
 }
+void engine_select_manager_clear3()
+{
+	unsigned char idx;
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		engine_font_manager_text( LOCALE_BLANK5, QUIZ_X, select_high_option[ idx ] );
+	}
+}
 void engine_select_manager_load_diff()
 {
 	unsigned char idx;

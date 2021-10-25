@@ -19,6 +19,7 @@ void engine_select_manager_init();
 void engine_select_manager_base();
 void engine_select_manager_clear();
 void engine_select_manager_clear2();
+void engine_select_manager_clear3();
 void engine_select_manager_load_diff();
 void engine_select_manager_load_long();
 void engine_select_manager_load_quiz();

@@ -4,6 +4,7 @@
 #include "../engine/font_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
+#include "../engine/quiz_manager.h"
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 
@@ -48,6 +49,7 @@ void screen_test_screen_update( unsigned char *screen_type )
 		{
 			engine_font_manager_text( "#02", 7, 0 );
 
+			// long
 			engine_font_manager_text( LOCALE_QUESTIONS, 2, 6 );
 			engine_select_manager_load_long();
 		}
@@ -57,6 +59,20 @@ void screen_test_screen_update( unsigned char *screen_type )
 			if( input )
 			{
 				engine_font_manager_text( "#03", 7, 0 );
+
+				// ready
+				engine_select_manager_clear3();
+				engine_font_manager_text( LOCALE_DIFFICULTY, 2, 6 );
+				engine_font_manager_text( LOCALE_ARROW_LEFT, 1, 7 );
+				engine_font_manager_text( select_diff_option[ diff_select ], 2, 7 );
+
+				engine_font_manager_text( LOCALE_QUESTIONS, 2, 11 );
+				engine_font_manager_text( LOCALE_ARROW_LEFT, 1, 12 );
+				engine_font_manager_data( question_long, 4, 12 );
+
+				engine_font_manager_text( LOCALE_GET, 2, 17 );
+				engine_font_manager_text( LOCALE_READY, 2, 18 );
+
 			}
 		}
 	}
