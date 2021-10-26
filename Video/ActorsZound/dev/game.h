@@ -4,13 +4,13 @@
 #define productCode	9999
 #define revision	0
 
-#define verMaj		1
+#define verMaj		2
 #define verMin		0
-#define dateYear	2019
-#define dateMonth	12
-#define dateDay		6
+#define dateYear	2021
+#define dateMonth	10
+#define dateDay		31
 #define author		"Steven Boland"
-#define name		"Splash Screen"
-#define descr		"Simple Sega Master System demo to run on real hardware!"
+#define name		"Simpsons Trivia"
+#define descr		"Simpsons Trivia game for the SMS Power! 2018 Competition"
 
 #endif//_GAME_H_

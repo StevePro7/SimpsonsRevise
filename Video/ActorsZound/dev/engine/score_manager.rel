@@ -1,65 +1,65 @@
 ;!FILE score_manager.asm
-XL2
+XL3
 H 9 areas 37 global symbols
 M score_manager
 O -mz80
-S _engine_font_manager_text Ref0000
-S .__.ABS. Def0000
-S _engine_font_manager_data_ZERO Ref0000
-A _CODE size 34 flags 0 addr 0
-S C$score_manager.c$20$1$5 Def0005
-S C$score_manager.c$17$0$0 Def0000
-S C$score_manager.c$21$1$5 Def0006
-S _engine_score_manager_base Def0006
-S C$score_manager.c$30$1$7 Def0020
-S C$score_manager.c$23$1$6 Def0006
-S C$score_manager.c$32$1$7 Def0023
-S C$score_manager.c$24$1$6 Def0013
-S A$score_manager$63 Def0000
-S C$score_manager.c$25$1$6 Def0013
-S A$score_manager$82 Def0006
-S A$score_manager$64 Def0003
-S C$score_manager.c$26$1$6 Def001C
-S A$score_manager$83 Def0009
-S C$score_manager.c$34$1$8 Def0023
-S C$score_manager.c$19$1$5 Def0000
-S A$score_manager$84 Def000A
-S C$score_manager.c$35$1$8 Def0033
-S A$score_manager$85 Def000D
-S C$score_manager.c$28$1$7 Def001C
-S A$score_manager$86 Def000E
-S C$score_manager.c$29$1$7 Def0020
-S A$score_manager$96 Def0013
-S A$score_manager$87 Def0011
-S A$score_manager$69 Def0005
-S Fscore_manager$__str_0$0$0 Def0016
-S A$score_manager$88 Def0012
-S XG$engine_score_manager_base$0$0 Def0013
-S Fscore_manager$draw_score$0$0 Def0023
-S G$engine_score_manager_init$0$0 Def0000
-S _engine_score_manager_init Def0000
-S G$engine_score_manager_update$0$0 Def001C
-S XFscore_manager$draw_score$0$0 Def0033
-S XG$engine_score_manager_init$0$0 Def0005
-S _engine_score_manager_update Def001C
-S A$score_manager$140 Def002D
-S A$score_manager$122 Def0020
-S A$score_manager$113 Def001C
-S A$score_manager$141 Def002E
-S A$score_manager$114 Def001F
-S A$score_manager$142 Def0031
-S A$score_manager$143 Def0032
-S A$score_manager$135 Def0023
-S XG$engine_score_manager_update$0$0 Def0020
-S G$engine_score_manager_base$0$0 Def0006
-S A$score_manager$136 Def0026
-S A$score_manager$137 Def0027
-S A$score_manager$138 Def0029
-S A$score_manager$148 Def0033
-S A$score_manager$139 Def002C
+S _engine_font_manager_text Ref000000
+S .__.ABS. Def000000
+S _engine_font_manager_data_ZERO Ref000000
+A _CODE size 37 flags 0 addr 0
+S _engine_score_manager_base Def000006
+S A$score_manager$90 Def000011
+S A$score_manager$72 Def000005
+S A$score_manager$63 Def000000
+S A$score_manager$91 Def000012
+S A$score_manager$64 Def000002
+S A$score_manager$85 Def000006
+S A$score_manager$86 Def000009
+S A$score_manager$87 Def00000A
+S A$score_manager$88 Def00000D
+S A$score_manager$89 Def00000E
+S XG$engine_score_manager_base$0$0 Def000013
+S Fscore_manager$draw_score$0$0 Def000026
+S C$score_manager.c$20$1_0$5 Def000005
+S G$engine_score_manager_init$0$0 Def000000
+S C$score_manager.c$21$1_0$6 Def000006
+S C$score_manager.c$30$1_0$7 Def000023
+S C$score_manager.c$23$1_0$6 Def000006
+S C$score_manager.c$24$1_0$6 Def000013
+S C$score_manager.c$17$0_0$5 Def000000
+S C$score_manager.c$32$1_0$8 Def000026
+S C$score_manager.c$25$1_0$6 Def000013
+S C$score_manager.c$34$1_0$8 Def000026
+S C$score_manager.c$26$1_0$7 Def00001C
+S C$score_manager.c$19$1_0$5 Def000000
+S C$score_manager.c$35$1_0$8 Def000036
+S C$score_manager.c$28$1_0$7 Def00001C
+S C$score_manager.c$29$1_0$7 Def000023
+S Fscore_manager$__str_0$0_0$0 Def000016
+S _engine_score_manager_init Def000000
+S G$engine_score_manager_update$0$0 Def00001C
+S XFscore_manager$draw_score$0$0 Def000036
+S XG$engine_score_manager_init$0$0 Def000005
+S _engine_score_manager_update Def00001C
+S A$score_manager$120 Def000020
+S A$score_manager$102 Def000013
+S A$score_manager$131 Def000023
+S A$score_manager$150 Def000031
+S A$score_manager$160 Def000036
+S A$score_manager$151 Def000034
+S A$score_manager$152 Def000035
+S A$score_manager$144 Def000026
+S XG$engine_score_manager_update$0$0 Def000023
+S G$engine_score_manager_base$0$0 Def000006
+S A$score_manager$145 Def000029
+S A$score_manager$146 Def00002A
+S A$score_manager$119 Def00001C
+S A$score_manager$147 Def00002C
+S A$score_manager$148 Def00002F
+S A$score_manager$149 Def000030
 A _DATA size 1 flags 0 addr 0
-S G$score_player$0$0 Def0000
-S _score_player Def0000
+S _score_player Def000000
+S G$score_player$0_0$0 Def000000
 A _INITIALIZED size 0 flags 0 addr 0
 A _DABS size 0 flags 8 addr 0
 A _HOME size 0 flags 0 addr 0
@@ -67,31 +67,31 @@ A _GSINIT size 0 flags 0 addr 0
 A _GSFINAL size 0 flags 0 addr 0
 A _INITIALIZER size 0 flags 0 addr 0
 A _CABS size 0 flags 8 addr 0
-T 00 00
+T 00 00 00
 R 00 00 01 00
-T 00 00
+T 00 00 00
 R 00 00 01 00
-T 00 00
+T 00 00 00
 R 00 00 00 00
-T 00 00 21 00 00 36 00 C9
-R 00 00 00 00 00 03 01 00
-T 06 00
+T 00 00 00 3E 00 32 00 00 C9
+R 00 00 00 00 00 06 01 00
+T 06 00 00
 R 00 00 00 00
-T 06 00 21 17 03 E5 21 16 00 E5 CD 00 00 F1 F1 C3
-R 00 00 00 00 00 07 00 00 02 0B 00 00
-T 14 00 23 00
-R 00 00 00 00 00 02 00 00
-T 16 00
+T 06 00 00 11 17 03 D5 21 16 00 E5 CD 00 00 F1 F1
+R 00 00 00 00 00 08 00 00 02 0C 00 00
+T 13 00 00 C3 26 00
+R 00 00 00 00 00 04 00 00
+T 16 00 00
 R 00 00 00 00
-T 16 00 53 43 4F 52 45 00
+T 16 00 00 53 43 4F 52 45 00
 R 00 00 00 00
-T 1C 00
+T 1C 00 00
 R 00 00 00 00
-T 1C 00 21 00 00 34 C3 23 00
-R 00 00 00 00 00 03 01 00 00 07 00 00
-T 23 00
+T 1C 00 00 FD 21 00 00 FD 34 00 C3 26 00
+R 00 00 00 00 00 05 01 00 00 0B 00 00
+T 26 00 00
 R 00 00 00 00
-T 23 00 21 00 00 4E 06 00 21 1F 03 E5 C5 CD 00 00
-R 00 00 00 00 00 03 01 00 02 0E 02 00
-T 31 00 F1 F1 C9
-R 00 00 00 00
+T 26 00 00 3A 00 00 4F 06 00 11 1F 03 D5 C5 CD
+R 00 00 00 00 00 04 01 00
+T 32 00 00 00 00 F1 F1 C9
+R 00 00 00 00 02 03 02 00

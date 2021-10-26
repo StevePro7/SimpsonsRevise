@@ -1,12 +1,12 @@
 #include "_sms_manager.h"
-#include "..\game.h"
+#include "../game.h"
 
 #include <stdbool.h>
 
 #ifdef _CONSOLE
-#include "..\..\tmp\SMSlib.h"
+#include "../../tmp/SMSlib.h"
 #else
-#include "..\..\lib\SMSlib.h"
+#include "../../lib/SMSlib.h"
 #endif
 
 void devkit_SMS_init()
