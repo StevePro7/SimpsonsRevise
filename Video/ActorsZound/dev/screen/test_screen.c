@@ -81,7 +81,6 @@ void screen_test_screen_update( unsigned char *screen_type )
 //
 //		// diff
 //		screen_bases_screen_init();
-//		//engine_select_manager_clear();
 //		engine_font_manager_text( LOCALE_BLANK5, 2, 13 );
 //		engine_font_manager_text( LOCALE_BLANK5, 2, 14 );
 //

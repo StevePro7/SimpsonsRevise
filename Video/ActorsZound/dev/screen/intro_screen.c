@@ -26,7 +26,6 @@ void screen_intro_screen_load()
 	cheat_count = 0;
 	screen_bases_screen_init();
 
-	//engine_select_manager_clear();		TODO check!
 	engine_font_manager_text( LOCALE_PRESS, 2, 13 );
 	engine_font_manager_text( LOCALE_START, 2, 14 );
 

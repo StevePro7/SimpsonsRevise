@@ -22,20 +22,6 @@ void screen_level_screen_load()
 
 	engine_random_manager_load();
 	engine_select_manager_load_quiz();
-
-	//engine_select_manager_clear();	// TODO delete
-
-
-	//devkit_SMS_displayOff();
-	//engine_asm_manager_clear_VRAM();
-
-	//devkit_SMS_setSpriteMode( devkit_SPRITEMODE_NORMAL() );
-	//devkit_SMS_useFirstHalfTilesforSprites_True();
-
-	//engine_content_manager_load_font();
-	//engine_content_manager_load_sprites();
-	//engine_content_manager_load_sprite_palette( COLOR_WHITE );
-	//devkit_SMS_displayOn();
 }
 
 void screen_level_screen_update( unsigned char *screen_type )

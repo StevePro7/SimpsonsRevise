@@ -28,7 +28,6 @@ void screen_ready_screen_load()
 	screen_bases_screen_init();
 
 	// Clear space.
-	//engine_select_manager_clear();	// TODO delete
 	engine_select_manager_clear3();
 
 	engine_font_manager_text( LOCALE_DIFFICULTY, 2, 6 );
@@ -102,7 +101,6 @@ void screen_ready_screen_update( unsigned char *screen_type )
 
 	if( level )
 	{
-		//engine_select_manager_clear();
 		engine_audio_manager_stop_music();
 		engine_sound_manager_init();
 

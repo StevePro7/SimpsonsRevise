@@ -44,29 +44,6 @@ void engine_select_manager_base()
 	}
 }
 
-// TODO delete
-//void engine_select_manager_clear()
-//{
-//	unsigned char high;
-//	for( high = 5; high < 7; high++ )
-//	{
-//		//engine_font_manager_text( "            ", 0, high );
-//		engine_font_manager_text( "XXXXXXXXXXXX", 0, high );
-//	}
-//	for( high = 7; high < 12; high++ )
-//	{
-//		//engine_font_manager_text( "           ", 0, high );
-//		engine_font_manager_text( "XXXXXXXXXXX", 0, high );
-//	}
-//	for( high = 12; high < 24; high++ )
-//	{
-//		//engine_font_manager_text( "        ", 0, high );
-//		engine_font_manager_text( "XXXXXXXX", 0, high );
-//	}
-//	engine_font_manager_text( "   ", DOTS_X + 1, DOTS_Y );
-//	engine_font_manager_text( "XXX", DOTS_X + 1, DOTS_Y );
-//}
-
 void engine_select_manager_clear2()
 {
 	unsigned char high;

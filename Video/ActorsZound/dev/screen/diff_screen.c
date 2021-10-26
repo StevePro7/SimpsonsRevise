@@ -24,7 +24,6 @@ void screen_diff_screen_load()
 	screen_bases_screen_init();
 	screen_diff_screen_state = select_type_before;
 
-	//engine_select_manager_clear();	// TODO delete
 	engine_font_manager_text( LOCALE_BLANK5, 2, 13 );
 	engine_font_manager_text( LOCALE_BLANK5, 2, 14 );
 
