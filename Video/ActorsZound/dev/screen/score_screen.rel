@@ -1,6 +1,6 @@
 ;!FILE score_screen.asm
 XL2
-H 9 areas F8 global symbols
+H 9 areas F4 global symbols
 M score_screen
 O -mz80
 S ___fsmul Ref0000
@@ -17,7 +17,7 @@ S ___fs2uint Ref0000
 S ___fsdiv Ref0000
 S ___uchar2fs Ref0000
 S _engine_font_manager_data_ZERO Ref0000
-A _CODE size 1C9 flags 0 addr 0
+A _CODE size 1C4 flags 0 addr 0
 S XG$screen_score_screen_load$0$0 Def0124
 S G$screen_score_screen_update$0$0 Def01A1
 S A$score_screen$100 Def0034
@@ -101,7 +101,6 @@ S A$score_screen$108 Def003D
 S C$score_screen.c$44$1$14 Def0103
 S C$score_screen.c$35$1$14 Def008D
 S C$score_screen.c$26$1$14 Def0046
-S A$score_screen$370 Def01BF
 S A$score_screen$352 Def01B4
 S A$score_screen$343 Def01AE
 S A$score_screen$325 Def01A4
@@ -123,7 +122,6 @@ S C$score_screen.c$60$1$17 Def01B5
 S C$score_screen.c$45$1$14 Def0113
 S C$score_screen.c$36$1$14 Def009A
 S C$score_screen.c$18$1$14 Def000A
-S A$score_screen$371 Def01C2
 S A$score_screen$344 Def01B1
 S A$score_screen$254 Def0105
 S A$score_screen$245 Def00FF
@@ -153,6 +151,7 @@ S A$score_screen$138 Def0065
 S A$score_screen$129 Def0059
 S C$score_screen.c$53$1$17 Def01A9
 S C$score_screen.c$29$1$14 Def0062
+S A$score_screen$373 Def01C0
 S A$score_screen$364 Def01BB
 S A$score_screen$337 Def01AA
 S A$score_screen$274 Def0122
@@ -165,6 +164,7 @@ S A$score_screen$175 Def0099
 S A$score_screen$148 Def0071
 S A$score_screen$139 Def0066
 S C$score_screen.c$48$1$14 Def01A1
+S A$score_screen$383 Def01C3
 S A$score_screen$365 Def01BC
 S A$score_screen$338 Def01AB
 S A$score_screen$329 Def01A5
@@ -177,8 +177,6 @@ S A$score_screen$185 Def00A0
 S A$score_screen$158 Def007E
 S A$score_screen$149 Def0074
 S C$score_screen.c$38$2$15 Def00A0
-S A$score_screen$384 Def01C6
-S A$score_screen$375 Def01C3
 S A$score_screen$357 Def01B5
 S A$score_screen$348 Def01B2
 S A$score_screen$267 Def0117
@@ -201,21 +199,19 @@ S A$score_screen$269 Def011B
 S A$score_screen$197 Def00B3
 S A$score_screen$188 Def00A7
 S A$score_screen$179 Def009A
-S C$score_screen.c$64$2$19 Def01C3
+S C$score_screen.c$67$1$17 Def01C1
+S C$score_screen.c$64$2$19 Def01C0
 S C$score_screen.c$56$2$18 Def01B2
 S C$score_screen.c$15$0$0 Def0000
+S A$score_screen$378 Def01C1
 S A$score_screen$369 Def01BE
 S A$score_screen$279 Def0124
 S A$score_screen$198 Def00B4
 S A$score_screen$189 Def00A8
-S C$score_screen.c$68$1$17 Def01C6
-S C$score_screen.c$65$2$19 Def01C5
+S C$score_screen.c$68$1$17 Def01C3
 S C$score_screen.c$57$2$18 Def01B4
-S A$score_screen$379 Def01C5
 S A$score_screen$199 Def00B7
-S XG$screen_score_screen_update$0$0 Def01C8
-S C$score_screen.c$69$1$17 Def01C8
-S A$score_screen$389 Def01C8
+S XG$screen_score_screen_update$0$0 Def01C3
 S A$score_screen$60 Def0002
 S A$score_screen$61 Def0006
 S A$score_screen$80 Def0018
@@ -366,11 +362,9 @@ T AF 01 00 00 E1 36 06 C9
 R 00 00 00 00 02 02 01 00
 T B5 01
 R 00 00 00 00
-T B5 01 E5 CD 00 00 7D E1 B7 28 08 E5 CD 00 00 E1
-R 00 00 00 00 02 04 03 00 02 0D 01 00
-T C3 01 36 05 C9
+T B5 01 E5 CD 00 00 7D E1 B7 28 03 36 05 C9
+R 00 00 00 00 02 04 03 00
+T C1 01
 R 00 00 00 00
-T C6 01
-R 00 00 00 00
-T C6 01 36 09 C9
+T C1 01 36 09 C9
 R 00 00 00 00

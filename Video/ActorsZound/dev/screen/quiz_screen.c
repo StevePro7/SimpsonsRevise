@@ -81,6 +81,7 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 			question_index++;
 			if( question_index >= question_long )
 			{
+				engine_select_manager_clear2();
 				*screen_type = screen_type_over;
 				return;
 			}

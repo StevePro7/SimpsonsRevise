@@ -27,7 +27,6 @@ void screen_over_screen_init()
 void screen_over_screen_load()
 {
 	float percent = 0.0f;
-	engine_select_manager_clear2();
 	screen_bases_screen_init();
 
 	engine_quiz_manager_base3( TITLE_Y + 2 );
