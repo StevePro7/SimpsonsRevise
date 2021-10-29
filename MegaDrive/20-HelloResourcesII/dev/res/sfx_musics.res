@@ -1,2 +1,3 @@
-// Finish music
-WAV sfx_music "sfx_musics/music.wav" XGM
+// Additional music
+WAV sfx_gameover   "sfx_musics/gameover.wav"   XGM
+WAV sfx_titlemusic "sfx_musics/titlemusic.wav" XGM
