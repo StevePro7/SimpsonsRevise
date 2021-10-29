@@ -1,6 +1,12 @@
 #ifndef _RES_SFX_RESULTS_H_
 #define _RES_SFX_RESULTS_H_
 
+#ifdef _CONSOLE
+#include "_genesis.h"
+#else
+#include <genesis.h>
+#endif
+
 extern const u8 sfx_right_01[11008];
 extern const u8 sfx_right_02[11776];
 extern const u8 sfx_right_03[8704];
