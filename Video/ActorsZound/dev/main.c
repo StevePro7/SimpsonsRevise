@@ -53,7 +53,6 @@ void main(void)
 			continue;
 		}
 
-
 		devkit_SMS_initSprites();
 		engine_input_manager_update();
 

@@ -19,7 +19,6 @@ unsigned char question_value, option1_value, option2_value, option3_value, optio
 unsigned char answer_index, answer_value;
 
 
-
 // Private helper method.
 static void show_diff( unsigned char x, unsigned char y );
 

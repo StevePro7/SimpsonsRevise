@@ -3,8 +3,6 @@
 
 #include "global_manager.h"
 
-
-
 #define QUIZ_BANK	2
 
 extern unsigned char quiz_questions[ MAX_QUESTIONS ];
