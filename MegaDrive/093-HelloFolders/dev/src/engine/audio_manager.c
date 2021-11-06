@@ -15,6 +15,9 @@
 #include <genesis.h>
 #endif
 
+// Private helper function.
+static void play_audio( const u8 id, const u8 priority, const u16 channel );
+static void stop_audio();
 
 void engine_audio_manager_init()
 {
@@ -41,12 +44,45 @@ void engine_audio_manager_init()
 
 void engine_audio_manager_play_effect( unsigned char index )
 {
-	if( !hacker_sound )
-	{
-		return;
-	}
+	//if( !hacker_sound )
+	//{
+	//	return;
+	//}
 
-	//play_audio( SFX_EFFECT_START + index, 1, SOUND_PCM_CH2 );
+	play_audio( SFX_EFFECT_START + index, 1, SOUND_PCM_CH2 );
+}
+
+void engine_audio_manager_play_music( unsigned char index )
+{
+	//if( !hacker_music )
+	//{
+	//	return;
+	//}
+
+	play_audio( SFX_MUSIC_START + index, 1, SOUND_PCM_CH2 );
+}
+
+void engine_audio_manager_stop()
+{
+	stop_audio();
+}
+
+static void play_audio( const u8 id, const u8 priority, const u16 channel )
+{
+	stop_audio();
+	XGM_startPlayPCM( id, priority, channel );
+}
+
+static void stop_audio()
+{
+	if( XGM_isPlayingPCM( SOUND_PCM_CH1_MSK ) )
+	{
+		XGM_stopPlayPCM( SOUND_PCM_CH1 );
+	}
+	if( XGM_isPlayingPCM( SOUND_PCM_CH2_MSK ) )
+	{
+		XGM_stopPlayPCM( SOUND_PCM_CH2 );
+	}
 }
 
 //// IMPORTANT disable compiler warning 110

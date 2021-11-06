@@ -23,7 +23,9 @@ void screen_func_screen_update( unsigned char *screen_type )
 	unsigned char input = engine_input_manager_hold_right();
 	if( input )
 	{
-		engine_font_manager_text( "SFX", 10, 4 );
+		engine_font_manager_text( "SFX..!!", 10, 4 );
+		engine_audio_manager_play_effect( 3 );
+		//engine_audio_manager_play_music( 0 );
 	}
 	//else
 	//{
