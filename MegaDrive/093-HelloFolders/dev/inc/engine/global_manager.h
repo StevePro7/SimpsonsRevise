@@ -52,7 +52,7 @@
 #define OPTD_Y				23	// 21
 
 #define QUIZ_X				4	// 2
-#define QUIZ_Y				5	// 5
+#define QUIZ_Y				6	// 5
 
 #define TITLE_X				27	// 23
 #define TITLE_Y				5	// 3
@@ -63,7 +63,6 @@ extern unsigned char local_cheat;
 #define MAX_SPRITES				3
 #define MAX_EFFECTS				4
 #define MAX_MUSICS				2
-#define MAX_RESULTS				6
 
 #define PALETTE1_TILES			1
 #define PALETTE2_TILES			240

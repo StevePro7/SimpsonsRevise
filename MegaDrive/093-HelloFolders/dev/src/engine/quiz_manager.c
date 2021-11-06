@@ -32,7 +32,7 @@ void engine_quiz_manager_init()
 
 void engine_quiz_manager_base()
 {
-	engine_font_manager_text( LOCALE_QUESTION, QUIZ_X, TITLE_Y );
+	engine_font_manager_text( LOCALE_QUESTION, QUIZ_X, TITLE_Y - 1);
 	if( hacker_extra )
 	{
 		// Display total number of questions.
