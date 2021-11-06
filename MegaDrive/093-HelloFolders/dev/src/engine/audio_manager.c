@@ -1,12 +1,13 @@
 #include "audio_manager.h"
 #include "global_manager.h"
 #include "hack_manager.h"
+#include "random_manager.h"
 #include "sound_manager.h"
 //#include "../devkit/_sms_manager.h"
 //#include "../devkit/_snd_manager.h"
 #include "../banks/bank15.h"
 //#include "../psg.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 // IMPORTANT disable compiler warning 110
 #ifdef _CONSOLE
@@ -66,7 +67,8 @@ void engine_audio_manager_sound_woohoo()
 {
 	while( 1 )
 	{
-		currRight = rand() % MAX_RIGHT;
+		//currRight = rand() % MAX_RIGHT;
+		currRight = engine_random_manager_data( MAX_RIGHT );
 		if( currRight != prevRight )
 		{
 			break;
@@ -80,7 +82,8 @@ void engine_audio_manager_sound_doh()
 {
 	while( 1 )
 	{
-		currWrong = rand() % MAX_WRONG;
+		//currWrong = rand() % MAX_WRONG;
+		currWrong = engine_random_manager_data( MAX_WRONG );
 		if( currWrong != prevWrong )
 		{
 			break;

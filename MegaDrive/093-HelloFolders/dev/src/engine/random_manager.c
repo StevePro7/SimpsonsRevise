@@ -3,7 +3,12 @@
 #include "global_manager.h"
 #include "hack_manager.h"
 #include "quiz_manager.h"
+
+#ifdef _CONSOLE
 #include <stdlib.h>
+#else
+#include <genesis.h>
+#endif
 
 // Private helper methods.
 static void load_random();
@@ -45,6 +50,24 @@ void engine_random_manager_load()
 	}
 }
 
+void engine_random_manager_rand()
+{
+#ifdef _CONSOLE
+	rand();
+#else
+	random();
+#endif
+}
+
+unsigned char engine_random_manager_data( unsigned char max )
+{
+#ifdef _CONSOLE
+	return rand() % max;
+#else
+	return random() % max;
+#endif
+}
+
 // Private helper methods.
 static void load_random()
 {
@@ -53,7 +76,8 @@ static void load_random()
 	{
 		while( 1 )
 		{
-			unsigned char rnd = rand() % MAX_QUESTIONS;
+			//unsigned char rnd = rand() % MAX_QUESTIONS;
+			unsigned char rnd = engine_random_manager_data( MAX_QUESTIONS );
 			if( 0 == quiz_questions[ rnd ] )
 			{
 				quiz_questions[ rnd ] = idx;
@@ -68,7 +92,8 @@ static void load_random()
 		{
 			while( 1 )
 			{
-				unsigned char rnd = rand() % MAX_OPTIONS;
+				//unsigned char rnd = rand() % MAX_OPTIONS;
+				unsigned char rnd = engine_random_manager_data( MAX_OPTIONS );
 				if( 0 == quiz_options[ idx ][ rnd ] )
 				{
 					quiz_options[ idx ][ rnd ] = opt;
@@ -110,7 +135,8 @@ static void load_mixed()
 		{
 			while( 1 )
 			{
-				unsigned char rnd = rand() % MAX_OPTIONS;
+				//unsigned char rnd = rand() % MAX_OPTIONS;
+				unsigned char rnd = engine_random_manager_data( MAX_OPTIONS );
 				if( 0 == quiz_options[ idx ][ rnd ] )
 				{
 					quiz_options[ idx ][ rnd ] = opt;

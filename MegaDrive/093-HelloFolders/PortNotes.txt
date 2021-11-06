@@ -1,0 +1,19 @@
+port notes
+06/11/2021
+
+
+complete all resources first
+
+complete all folders next
+
+use custom make file
+
+manually create the folders in "out" directory
+
+manually copy the resources gfx / sfx *.o files to out/res directory
+
+random
+can't just do stdlib must parse out to
+rand()
+random()
+update all consumers
