@@ -1,3 +1,3 @@
-#include "global_manager.h"
-
-unsigned char local_cheat;
+//#include "global_manager.h"
+//
+//unsigned char local_cheat;
