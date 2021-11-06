@@ -18,7 +18,7 @@ void screen_func_screen_load()
 	//engine_graphics_manager_clear_full();
 
 	engine_font_manager_text( "FUNC SCREEN..!!", 10, 2 );
-	engine_font_manager_data( hacker_sound, 10, 5 );
+	engine_font_manager_data( hacker_music, 10, 5 );
 
 	
 	//engine_actor_manager_init();
@@ -31,10 +31,10 @@ void screen_func_screen_update( unsigned char *screen_type )
 	unsigned char input = engine_input_manager_hold_right();
 	if( input )
 	{
-		engine_font_manager_text( "WHOHOO!!", 10, 4 );
+		//engine_font_manager_text( "WHOHOO!!", 10, 4 );
 		//engine_audio_manager_play_effect( 3 );
-		//engine_audio_manager_play_music( 1 );
-		engine_audio_manager_play_result( 5 );
+		engine_audio_manager_play_music( 1 );
+		//engine_audio_manager_play_result( 5 );
 	}
 	else
 	{
