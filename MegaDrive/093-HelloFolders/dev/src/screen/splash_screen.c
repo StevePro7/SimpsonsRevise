@@ -16,6 +16,8 @@ void screen_splash_screen_init()
 
 void screen_splash_screen_load()
 {
+	engine_font_manager_text( "SPLASH SCREEN!!", 10, 2 );
+
 	//screen_bases_screen_init();
 	//devkit_SMS_displayOff();
 	//engine_content_manager_load_sprite_palette( COLOR_BLACK );
