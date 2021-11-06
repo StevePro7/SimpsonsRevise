@@ -5,7 +5,20 @@ int main()
 	//unsigned char open_screen_type = screen_type_splash;
 	//unsigned char open_screen_type = screen_type_test;
 	unsigned char open_screen_type = screen_type_func;
+	//unsigned char open_screen_type = screen_type_number;
 	engine_screen_manager_init( open_screen_type );
+
+
+	// Initialize.
+	engine_hack_manager_init();
+	engine_hack_manager_invert();
+
+	//engine_actor_manager_init();
+	//engine_audio_manager_init();
+	//engine_quiz_manager_init();
+	//engine_score_manager_init();
+	//engine_select_manager_init();
+	//engine_sound_manager_init();
 
 	while( 1 )
 	{

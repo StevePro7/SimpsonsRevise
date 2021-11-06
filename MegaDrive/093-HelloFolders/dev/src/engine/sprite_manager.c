@@ -12,7 +12,8 @@
 
 // Private fields.
 Sprite* sprites[ MAX_SPRITES ] = { NULL, NULL, NULL };
-const SpriteDefinition* spriteDefList[ MAX_SPRITES ] = { &gfx_select, &gfx_right, &gfx_wrong };
+//const SpriteDefinition* spriteDefList[ MAX_SPRITES ] = { &gfx_select, &gfx_right, &gfx_wrong };
+const SpriteDefinition* spriteDefList[ MAX_SPRITES ] = { &gfx_right, &gfx_select, &gfx_wrong };
 
 // Private function.
 static void init_sprite( const unsigned char index );
@@ -22,8 +23,8 @@ void engine_sprite_manager_init()
 {
 	SPR_init( 0, 0, 0 );
 
-	//init_sprite( sprite_type_select );
 	init_sprite( sprite_type_right );
+	//init_sprite( sprite_type_select );
 	//init_sprite( sprite_type_wrong );
 
 	//palette_sprite();

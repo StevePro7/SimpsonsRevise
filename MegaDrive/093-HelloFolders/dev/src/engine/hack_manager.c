@@ -9,6 +9,7 @@ unsigned char hacker_extra;
 #define POKE( addr, data )	(* ( unsigned char *)( addr ) = ( data ) )
 
 #define HACKER_START		0x01E0
+#define HACKER_SPACE		32
 
 #ifdef _CONSOLE
 #else
@@ -27,20 +28,29 @@ void engine_hack_manager_init()
 
 #ifndef _CONSOLE
 
-	hacker_debug = PEEK( HACKER_START - 1 );	// 0x004F		// 0=debug on otherwise off.
+	hacker_debug = PEEK( HACKER_START - 1 );	// 0x01DF		// 0=debug on otherwise off.
 
-	hacker_cheat = PEEK( HACKER_START + 0 );	// 0x0050		// 0=there's no help at all.
-	hacker_random = PEEK( HACKER_START + 1 );	// 0x0051		// 0=randomly ask questions.
-	hacker_music = PEEK( HACKER_START + 2 );	// 0x0052		// 0=music on otherwise off.
-	hacker_sound = PEEK( HACKER_START + 3 );	// 0x0053		// 0=sound on otherwise off.
-	hacker_extra = PEEK( HACKER_START + 4 );	// 0x0054		// 0=display all extra text.
+	hacker_cheat = PEEK( HACKER_START + 0 );	// 0x01E0		// 0=there's no help at all.
+	hacker_random = PEEK( HACKER_START + 1 );	// 0x01E1		// 0=randomly ask questions.
+	hacker_music = PEEK( HACKER_START + 2 );	// 0x01E2		// 0=music on otherwise off.
+	hacker_sound = PEEK( HACKER_START + 3 );	// 0x01E3		// 0=sound on otherwise off.
+	hacker_extra = PEEK( HACKER_START + 4 );	// 0x01E4		// 0=display all extra text.
 
 #endif
 }
 
 void engine_hack_manager_invert()
 {
-	hacker_music = !hacker_music;
-	hacker_sound = !hacker_sound;
-	hacker_extra = !hacker_extra;
+	if( hacker_music && HACKER_SPACE == hacker_music )
+	{
+		hacker_music = 1;
+	}
+	if( hacker_sound && HACKER_SPACE == hacker_sound )
+	{
+		hacker_sound = 1;
+	}
+	if( hacker_extra && HACKER_SPACE == hacker_extra )
+	{
+		hacker_extra = 1;
+	}
 }

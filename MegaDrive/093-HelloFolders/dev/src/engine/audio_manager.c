@@ -52,30 +52,30 @@ void engine_audio_manager_init()
 
 void engine_audio_manager_play_effect( unsigned char index )
 {
-	//if( !hacker_sound )
-	//{
-	//	return;
-	//}
+	if( !hacker_sound )
+	{
+		return;
+	}
 
 	play_audio( SFX_EFFECT_START + index, 1, SOUND_PCM_CH2 );
 }
 
 void engine_audio_manager_play_music( unsigned char index )
 {
-	//if( !hacker_music )
-	//{	
-	//	return;
-	//}
+	if( !hacker_music )
+	{	
+		return;
+	}
 
 	play_audio( SFX_MUSICS_START + index, 1, SOUND_PCM_CH2 );
 }
 
 void engine_audio_manager_play_result( unsigned char index )
 {
-	//if( !hacker_sound )
-	//{	
-	//	return;
-	//}
+	if( !hacker_sound )
+	{
+		return;
+	}
 
 	play_audio( SFX_RESULT_START + index, 1, SOUND_PCM_CH2 );
 }

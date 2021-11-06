@@ -7,8 +7,16 @@
 #include <genesis.h>
 #endif
 
-#include "enum_manager.h"
-#include "input_manager.h"
-#include "screen_manager.h"
+#include "engine/actor_manager.h"
+#include "engine/audio_manager.h"
+#include "engine/debug_manager.h"
+#include "engine/enum_manager.h"
+#include "engine/hack_manager.h"
+#include "engine/input_manager.h"
+#include "engine/quiz_manager.h"
+#include "engine/score_manager.h"
+#include "engine/screen_manager.h"
+#include "engine/select_manager.h"
+#include "engine/sound_manager.h"
 
 #endif//__MAIN_H__
