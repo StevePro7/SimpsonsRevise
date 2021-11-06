@@ -1,6 +1,6 @@
 #include "gfx_actors.h"
 
-// EVH images.
+// Simpsons actors.
 const Image gfx_actor_00 = { NULL, NULL, NULL };
 const Image gfx_actor_01 = { NULL, NULL, NULL };
 const Image gfx_actor_02 = { NULL, NULL, NULL };

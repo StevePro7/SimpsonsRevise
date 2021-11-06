@@ -1,8 +1,7 @@
 #include "image_manager.h"
 #include "global_manager.h"
-//#include "image_object.h"
+#include "image_object.h"
 #include "gfx_tiles.h"
-#include "gfx_actors.h"
 
 #ifdef _CONSOLE
 #include "_genesis.h"
@@ -25,9 +24,10 @@ void engine_image_manager_draw_title()
 	draw_image( gfx_simpsons, PAL1, PALETTE1_TILES, 0, 0 );
 }
 
-void engine_image_manager_draw_actor()
+void engine_image_manager_draw_actor( unsigned char index )
 {
-	draw_image( gfx_actor_14, PAL1, PALETTE1_TILES, 0, 0 );
+	const Image image = *image_actor[ index ];
+	draw_image( image, PAL1, PALETTE1_TILES, 0, 0 );
 }
 
 //void engine_image_manager_draw_header()

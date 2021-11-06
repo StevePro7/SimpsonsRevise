@@ -189,6 +189,7 @@
     <ClCompile Include="src\engine\sprite_manager.c" />
     <ClCompile Include="src\engine\timer_manager.c" />
     <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\object\image_object.c" />
     <ClCompile Include="src\object\sound_object.c" />
     <ClCompile Include="src\screen\diff_screen.c" />
     <ClCompile Include="src\screen\func_screen.c" />
@@ -246,6 +247,7 @@
     <ClInclude Include="inc\engine\sprite_manager.h" />
     <ClInclude Include="inc\engine\timer_manager.h" />
     <ClInclude Include="inc\main.h" />
+    <ClInclude Include="inc\object\image_object.h" />
     <ClInclude Include="inc\object\sound_object.h" />
     <ClInclude Include="inc\screen\diff_screen.h" />
     <ClInclude Include="inc\screen\func_screen.h" />
