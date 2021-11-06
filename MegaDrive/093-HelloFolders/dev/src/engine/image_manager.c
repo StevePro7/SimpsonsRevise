@@ -20,6 +20,16 @@ void engine_image_manager_draw_splash()
 	//draw_image( gfx_actor_15, PAL1, PALETTE1_TILES, 0, 0 );
 }
 
+void engine_image_manager_draw_title()
+{
+	draw_image( gfx_simpsons, PAL1, PALETTE1_TILES, 0, 0 );
+}
+
+void engine_image_manager_draw_actor()
+{
+	draw_image( gfx_actor_14, PAL1, PALETTE1_TILES, 0, 0 );
+}
+
 //void engine_image_manager_draw_header()
 //{
 //	draw_image( gfx_header, PAL1, PALETTE1_TILES, 2, 7 );
