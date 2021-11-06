@@ -37,12 +37,15 @@
     <Filter Include="Source Files\object">
       <UniqueIdentifier>{a4e5925c-166e-407d-ae87-cfa84f16275f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\content">
+      <UniqueIdentifier>{d458fa5b-053b-41d1-b2cf-a4288a1bb5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\content">
+      <UniqueIdentifier>{c7fd5152-0814-49c1-b2b8-59ddef32009b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gfx\res\resources.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\data_manager.c">
@@ -96,6 +99,24 @@
     <ClCompile Include="src\banks\bank15.c">
       <Filter>Source Files\banks</Filter>
     </ClCompile>
+    <ClCompile Include="..\gfx\res\gfx_actors.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gfx\res\gfx_sprites.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gfx\res\gfx_tiles.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sfx\res\sfx_effects.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sfx\res\sfx_musics.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sfx\res\sfx_results.c">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat">
@@ -104,9 +125,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="res\resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="inc\engine\data_manager.h">
@@ -159,6 +177,24 @@
     </ClInclude>
     <ClInclude Include="inc\banks\bank15.h">
       <Filter>Header Files\banks</Filter>
+    </ClInclude>
+    <ClInclude Include="res\gfx_actors.h">
+      <Filter>Header Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="res\gfx_sprites.h">
+      <Filter>Header Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="res\gfx_tiles.h">
+      <Filter>Header Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="res\sfx_effects.h">
+      <Filter>Header Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="res\sfx_musics.h">
+      <Filter>Header Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="res\sfx_results.h">
+      <Filter>Header Files\content</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

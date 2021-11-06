@@ -8,6 +8,5 @@
 #endif
 
 #include "play_screen.h"
-#include "resources.h"
 
 #endif//__MAIN__
