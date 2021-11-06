@@ -38,7 +38,15 @@ void engine_audio_manager_init()
 	{
 		audio = audio_music[ idx ];
 		sized = audio_music_size[ idx ];
-		SND_setPCM_XGM( SFX_MUSIC_START + idx, audio, sized );
+		SND_setPCM_XGM( SFX_MUSICS_START + idx, audio, sized );
+	}
+
+	// Initialize results.
+	for( idx = 0; idx < MAX_RESULTS; idx++ )
+	{
+		audio = audio_results[ idx ];
+		sized = audio_results_size[ idx ];
+		SND_setPCM_XGM( SFX_RESULT_START + idx, audio, sized );
 	}
 }
 
@@ -55,11 +63,21 @@ void engine_audio_manager_play_effect( unsigned char index )
 void engine_audio_manager_play_music( unsigned char index )
 {
 	//if( !hacker_music )
-	//{
+	//{	
 	//	return;
 	//}
 
-	play_audio( SFX_MUSIC_START + index, 1, SOUND_PCM_CH2 );
+	play_audio( SFX_MUSICS_START + index, 1, SOUND_PCM_CH2 );
+}
+
+void engine_audio_manager_play_result( unsigned char index )
+{
+	//if( !hacker_sound )
+	//{	
+	//	return;
+	//}
+
+	play_audio( SFX_RESULT_START + index, 1, SOUND_PCM_CH2 );
 }
 
 void engine_audio_manager_stop()
