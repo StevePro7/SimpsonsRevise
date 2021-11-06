@@ -87,14 +87,14 @@ void engine_select_manager_base()
 //	select_choice = long_select;
 //	select_height = select_option[ select_choice ];
 //}
-//
-//void engine_select_manager_load_quiz()
-//{
-//	quiz_select = 0;
-//	select_choice = quiz_select;
-//	select_height = select_option[ select_choice ];
-//}
-//
+
+void engine_select_manager_load_quiz()
+{
+	quiz_select = 0;
+	select_choice = quiz_select;
+	select_height = select_option[ select_choice ];
+}
+
 //
 //unsigned char engine_select_manager_move_up( unsigned char select_choice )
 //{

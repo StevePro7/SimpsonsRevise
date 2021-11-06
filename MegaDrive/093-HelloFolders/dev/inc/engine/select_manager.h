@@ -21,7 +21,7 @@ void engine_select_manager_base();
 //void engine_select_manager_clear3();
 //void engine_select_manager_load_diff();
 //void engine_select_manager_load_long();
-//void engine_select_manager_load_quiz();
+void engine_select_manager_load_quiz();
 //unsigned char engine_select_manager_move_up( unsigned char select_choice );
 //unsigned char engine_select_manager_move_down( unsigned char select_choice );
 //void engine_select_manager_draw_select();
