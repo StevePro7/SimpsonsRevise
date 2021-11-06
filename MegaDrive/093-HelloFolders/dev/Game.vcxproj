@@ -180,7 +180,6 @@
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\object\audio_object.c" />
     <ClCompile Include="src\object\image_object.c" />
-    <ClCompile Include="src\object\sound_object.c" />
     <ClCompile Include="src\screen\diff_screen.c" />
     <ClCompile Include="src\screen\func_screen.c" />
     <ClCompile Include="src\screen\intro_screen.c" />
@@ -228,7 +227,6 @@
     <ClInclude Include="inc\main.h" />
     <ClInclude Include="inc\object\audio_object.h" />
     <ClInclude Include="inc\object\image_object.h" />
-    <ClInclude Include="inc\object\sound_object.h" />
     <ClInclude Include="inc\screen\diff_screen.h" />
     <ClInclude Include="inc\screen\func_screen.h" />
     <ClInclude Include="inc\screen\intro_screen.h" />
