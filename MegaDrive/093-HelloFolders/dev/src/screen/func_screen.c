@@ -4,6 +4,7 @@
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/input_manager.h"
+#include "../engine/sprite_manager.h"
 
 //static unsigned char index = 0;
 //static void draw_screen( unsigned char index );
@@ -13,6 +14,7 @@ void screen_func_screen_load()
 	engine_audio_manager_init();
 	engine_font_manager_text( "FUNC SCREEN!!", 10, 2 );
 
+	engine_sprite_manager_init();
 	//engine_actor_manager_init();
 
 	//draw_screen( index );
@@ -23,12 +25,12 @@ void screen_func_screen_update( unsigned char *screen_type )
 	unsigned char input = engine_input_manager_hold_right();
 	if( input )
 	{
-		engine_font_manager_text( "SFX..!!", 10, 4 );
+		engine_font_manager_text( "D'OH!!", 10, 4 );
 		//engine_audio_manager_play_effect( 3 );
 		//engine_audio_manager_play_music( 1 );
 		engine_audio_manager_play_result( 5 );
 	}
-	//else
+	else
 	//{
 	//	input = engine_input_manager_hold_left();
 	//	if( input )

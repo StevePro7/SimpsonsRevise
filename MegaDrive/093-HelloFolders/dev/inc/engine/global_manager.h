@@ -59,7 +59,8 @@
 
 extern unsigned char local_cheat;
 
-// New globals
+// New globals.
+#define MAX_SPRITES				3
 #define MAX_EFFECTS				4
 #define MAX_MUSICS				2
 #define MAX_RESULTS				6

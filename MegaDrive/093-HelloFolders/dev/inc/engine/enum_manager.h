@@ -21,6 +21,14 @@ typedef enum tag_enum_screen_type
 
 } enum_screen_type;
 
+typedef enum tag_enum_sprite_type
+{
+	sprite_type_select = 0,
+	sprite_type_right = 2,
+	sprite_type_wrong = 3,
+
+} enum_sprite_type;
+
 typedef enum tag_enum_answer_type
 {
 	answer_type_none,	// 0
