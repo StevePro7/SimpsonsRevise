@@ -15,8 +15,8 @@
 //	//devkit_SMS_setTile( *pnt + tile );
 //}
 //
-//void engine_font_manager_text( const unsigned char *text, unsigned char x, unsigned char y )
-//{
+void engine_font_manager_text( const unsigned char *text, unsigned char x, unsigned char y )
+{
 //	//const unsigned char *pnt = font__tilemap__bin;
 //	//unsigned char idx = 0;
 //
@@ -27,7 +27,7 @@
 //	//	devkit_SMS_setTile( *pnt + tile );
 //	//	idx++;
 //	//}
-//}
+}
 //
 //void engine_font_manager_data( unsigned int data, unsigned char x, unsigned char y )
 //{
