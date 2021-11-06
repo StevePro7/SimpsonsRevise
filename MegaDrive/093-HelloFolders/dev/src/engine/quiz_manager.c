@@ -5,7 +5,7 @@
 #include "hack_manager.h"
 #include "locale_manager.h"
 #include "select_manager.h"
-#include "../devkit/_sms_manager.h"
+//#include "../devkit/_sms_manager.h"
 #include "../banks/bank2.h"
 #include "../banks/bank3.h"
 #include "../banks/bank4.h"
@@ -54,7 +54,7 @@ void engine_quiz_manager_base3( unsigned char y )
 
 void engine_quiz_manager_bank( unsigned char b )
 {
-	devkit_SMS_mapROMBank( b );
+	//devkit_SMS_mapROMBank( b );
 }
 
 void engine_quiz_manager_answer( unsigned char q )

@@ -2,10 +2,10 @@
 #include "global_manager.h"
 #include "hack_manager.h"
 #include "sound_manager.h"
-#include "../devkit/_sms_manager.h"
-#include "../devkit/_snd_manager.h"
+//#include "../devkit/_sms_manager.h"
+//#include "../devkit/_snd_manager.h"
 #include "../banks/bank15.h"
-#include "../psg.h"
+//#include "../psg.h"
 #include <stdlib.h>
 
 // IMPORTANT disable compiler warning 110
@@ -46,21 +46,21 @@ void engine_audio_manager_finish_music()
 
 void engine_audio_manager_stop_music()
 {
-	devkit_PSGStop();
+	//devkit_PSGStop();
 }
 
 
 void engine_audio_manager_sound_right()
 {
-	play_sound( ( unsigned char* ) sfx_right_psg );
+	//play_sound( ( unsigned char* ) sfx_right_psg );
 }
 void engine_audio_manager_sound_wrong()
 {
-	play_sound( ( unsigned char* ) sfx_wrong_psg );
+	//play_sound( ( unsigned char* ) sfx_wrong_psg );
 }
 void engine_audio_manager_sound_cheat()
 {
-	play_sound( ( unsigned char* ) sfx_cheat_psg );
+	//play_sound( ( unsigned char* ) sfx_cheat_psg );
 }
 void engine_audio_manager_sound_woohoo()
 {
@@ -98,8 +98,8 @@ static void play_music( unsigned char *music, unsigned char bank )
 		return;
 	}
 
-	devkit_SMS_mapROMBank( bank );
-	devkit_PSGPlayNoRepeat( music );
+	//devkit_SMS_mapROMBank( bank );
+	//devkit_PSGPlayNoRepeat( music );
 }
 
 static void play_sound( unsigned char *sfx )
@@ -109,5 +109,5 @@ static void play_sound( unsigned char *sfx )
 		return;
 	}
 
-	devkit_PSGSFXPlay( sfx, devkit_SFX_CHANNEL2() );
+	//devkit_PSGSFXPlay( sfx, devkit_SFX_CHANNEL2() );
 }

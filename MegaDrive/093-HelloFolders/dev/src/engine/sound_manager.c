@@ -1,7 +1,7 @@
 #include "sound_manager.h"
 #include "hack_manager.h"
-#include "sample_manager.h"
-#include "../devkit/_sms_manager.h"
+//#include "sample_manager.h"
+//#include "../devkit/_sms_manager.h"
 #include "../object/sound_object.h"
 
 const unsigned char psgInit[] =
@@ -11,7 +11,7 @@ const unsigned char psgInit[] =
 
 void engine_sound_manager_init()
 {
-	engine_sample_manager_init( psgInit );
+//	engine_sample_manager_init( psgInit );
 }
 
 void engine_sound_manager_play( unsigned char index )
@@ -27,6 +27,6 @@ void engine_sound_manager_play( unsigned char index )
 		return;
 	}
 
-	devkit_SMS_mapROMBank( bank );
-	engine_sample_manager_play( data );
+	//devkit_SMS_mapROMBank( bank );
+	//engine_sample_manager_play( data );
 }

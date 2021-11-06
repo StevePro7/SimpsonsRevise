@@ -8,7 +8,7 @@ unsigned char hacker_extra;
 #define PEEK( addr)			(* ( unsigned char *)( addr ) )
 #define POKE( addr, data )	(* ( unsigned char *)( addr ) = ( data ) )
 
-#define HACKER_START		0x0050
+#define HACKER_START		0x01E0
 
 #ifdef _CONSOLE
 #else

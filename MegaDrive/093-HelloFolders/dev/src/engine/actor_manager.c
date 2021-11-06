@@ -1,6 +1,6 @@
 #include "actor_manager.h"
 #include "../engine/global_manager.h"
-#include "../devkit/_sms_manager.h"
+//#include "../devkit/_sms_manager.h"
 #include "../banks/bank6.h"
 #include "../banks/bank7.h"
 #include "../banks/bank8.h"
@@ -67,10 +67,10 @@ void engine_actor_manager_draw( unsigned char index )
 
 static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette )
 {
-	devkit_SMS_mapROMBank( n );
-	devkit_SMS_loadPSGaidencompressedTiles( tileset, ACTOR_TILES_OFFSET );
-	devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) tilemap );
-	devkit_SMS_loadBGPalette( ( void * ) palette );
+	//devkit_SMS_mapROMBank( n );
+	//devkit_SMS_loadPSGaidencompressedTiles( tileset, ACTOR_TILES_OFFSET );
+	//devkit_SMS_loadSTMcompressedTileMap( 0, 0, ( void * ) tilemap );
+	//devkit_SMS_loadBGPalette( ( void * ) palette );
 }
 
 static void draw_actor00()
