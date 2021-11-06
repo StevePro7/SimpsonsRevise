@@ -90,7 +90,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\lib;$(ProjectDir)inc;$(ProjectDir)res;$(GDK_WIN)\inc;$(IncludePath);<br />;$(ProjectDir)inc\engine;$(ProjectDir)inc\screen</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\lib;$(ProjectDir)inc;$(ProjectDir)res;$(GDK_WIN)\inc;$(IncludePath);<br />;$(ProjectDir)inc\engine;$(ProjectDir)inc\object;$(ProjectDir)inc\screen</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -148,16 +148,46 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\gfx\res\resources.c" />
+    <ClCompile Include="src\banks\bank10.c" />
+    <ClCompile Include="src\banks\bank11.c" />
+    <ClCompile Include="src\banks\bank12.c" />
+    <ClCompile Include="src\banks\bank13.c" />
+    <ClCompile Include="src\banks\bank14.c" />
+    <ClCompile Include="src\banks\bank15.c" />
+    <ClCompile Include="src\banks\bank2.c" />
+    <ClCompile Include="src\banks\bank3.c" />
+    <ClCompile Include="src\banks\bank4.c" />
+    <ClCompile Include="src\banks\bank5.c" />
+    <ClCompile Include="src\banks\bank6.c" />
+    <ClCompile Include="src\banks\bank7.c" />
+    <ClCompile Include="src\banks\bank8.c" />
+    <ClCompile Include="src\banks\bank9.c" />
     <ClCompile Include="src\engine\data_manager.c" />
     <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\object\sound_object.c" />
     <ClCompile Include="src\screen\play_screen.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inc\banks\bank10.h" />
+    <ClInclude Include="inc\banks\bank11.h" />
+    <ClInclude Include="inc\banks\bank12.h" />
+    <ClInclude Include="inc\banks\bank13.h" />
+    <ClInclude Include="inc\banks\bank14.h" />
+    <ClInclude Include="inc\banks\bank15.h" />
+    <ClInclude Include="inc\banks\bank2.h" />
+    <ClInclude Include="inc\banks\bank3.h" />
+    <ClInclude Include="inc\banks\bank4.h" />
+    <ClInclude Include="inc\banks\bank5.h" />
+    <ClInclude Include="inc\banks\bank6.h" />
+    <ClInclude Include="inc\banks\bank7.h" />
+    <ClInclude Include="inc\banks\bank8.h" />
+    <ClInclude Include="inc\banks\bank9.h" />
     <ClInclude Include="inc\engine\data_manager.h" />
     <ClInclude Include="inc\main.h" />
+    <ClInclude Include="inc\object\sound_object.h" />
     <ClInclude Include="inc\screen\play_screen.h" />
     <ClInclude Include="res\resources.h" />
   </ItemGroup>
