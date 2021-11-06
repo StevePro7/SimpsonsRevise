@@ -1,78 +1,44 @@
-//#include "font_manager.h"
-////#include "../devkit/_sms_manager.h"
-////#include "../gfx.h"
-//
-//#define TEXT_ROOT	32		// 32 is " " in ASCII.
-//#define DATA_ROOT	16		// 16 is "0" (48=16+32)
-//#define UNIT_ROOT	10		// 10 is decimal
-//#define DATA_LONG	3		// 7 placeholder
-//
-//void engine_font_manager_char( const unsigned char ch, unsigned char x, unsigned char y )
-//{
-//	//const unsigned char *pnt = font__tilemap__bin;
-//	//unsigned char tile = ch - TEXT_ROOT;
-//	//devkit_SMS_setNextTileatXY( x, y );
-//	//devkit_SMS_setTile( *pnt + tile );
-//}
-//
-void engine_font_manager_text( const unsigned char *text, unsigned char x, unsigned char y )
+#include "font_manager.h"
+
+#ifdef _CONSOLE
+#include "_genesis.h"
+#else
+#include <genesis.h>
+#endif
+
+#define MAX_CHAR	3
+char str_data[ MAX_CHAR ] = "0";
+char str_char[ 1 ] = "0";
+
+void engine_font_manager_clear( unsigned short x, unsigned short y, unsigned short w )
 {
-//	//const unsigned char *pnt = font__tilemap__bin;
-//	//unsigned char idx = 0;
-//
-//	//while( '\0' != text[idx] )
-//	//{
-//	//	signed char tile = text[idx] - TEXT_ROOT;
-//	//	devkit_SMS_setNextTileatXY( x++, y );
-//	//	devkit_SMS_setTile( *pnt + tile );
-//	//	idx++;
-//	//}
+	VDP_clearText( x, y, w );
 }
-//
-//void engine_font_manager_data( unsigned int data, unsigned char x, unsigned char y )
-//{
-//	//const unsigned char *pnt = font__tilemap__bin;
-//
-//	//unsigned char idx;
-//	//signed char tile;
-//
-//	//unsigned int quotient = 0;
-//	//unsigned char remainder = 0;
-//
-//	//for( idx = 0; idx < DATA_LONG; ++idx )
-//	//{
-//	//	quotient = data / UNIT_ROOT;
-//	//	remainder = data % UNIT_ROOT;
-//	//	data /= UNIT_ROOT;
-//
-//	//	tile = remainder + DATA_ROOT;
-//	//	if( 0 == quotient && 0 == remainder && idx > 0 )
-//	//	{
-//	//		// Replace with space!
-//	//		tile = 0;
-//	//	}
-//
-//	//	devkit_SMS_setNextTileatXY( x--, y );
-//	//	devkit_SMS_setTile( *pnt + tile );
-//	//}
-//}
-//
-//void engine_font_manager_data_ZERO( unsigned int data, unsigned char x, unsigned char y )
-//{
-//	//const unsigned char *pnt = font__tilemap__bin;
-//
-//	//unsigned char idx;
-//	//signed char tile;
-//
-//	//char hold[ DATA_LONG ];
-//	//for( idx = 0; idx < DATA_LONG; ++idx )
-//	//{
-//	//	hold[ idx ] = data % UNIT_ROOT;
-//	//	data /= UNIT_ROOT;
-//
-//	//	tile = hold[ idx ] + DATA_ROOT;
-//
-//	//	devkit_SMS_setNextTileatXY( x--, y );
-//	//	devkit_SMS_setTile( *pnt + tile );
-//	//}
-//}
+
+// http://gendev.spritesmind.net/forum/viewtopic.php?t=3093
+void engine_font_manager_data( unsigned short value, unsigned short x, unsigned short y )
+{
+	// Set '3' = to get right aligned.
+	sprintf( str_data, "%3d", value );
+	VDP_clearText( x, y, MAX_CHAR );
+	VDP_drawText( str_data, x, y );
+}
+
+void engine_font_manager_zero( unsigned short value, unsigned short x, unsigned short y )
+{
+	// Set '2' = to have padded zeros.
+	sprintf( str_data, "%02d", value );
+	VDP_clearText( x, y, 2 );
+	VDP_drawText( str_data, x, y );
+}
+
+void engine_font_manager_char( const char ch, unsigned short x, unsigned short y )
+{
+	sprintf( str_char, "%c", ch );
+	VDP_drawText( str_char, x, y );
+}
+
+void engine_font_manager_text( const char *str, unsigned short x, unsigned short y )
+{
+	VDP_drawText( str, x, y );
+}
