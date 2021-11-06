@@ -1,5 +1,5 @@
-#ifndef __MAIN__
-#define __MAIN__
+#ifndef __MAIN_H__
+#define __MAIN_H__
 
 #ifdef _CONSOLE
 #include "_genesis.h"
@@ -7,6 +7,8 @@
 #include <genesis.h>
 #endif
 
-#include "play_screen.h"
+#include "enum_manager.h"
+#include "input_manager.h"
+#include "screen_manager.h"
 
-#endif//__MAIN__
+#endif//__MAIN_H__
