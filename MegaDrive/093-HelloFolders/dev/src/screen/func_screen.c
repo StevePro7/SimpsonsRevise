@@ -3,6 +3,7 @@
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
+#include "../engine/graphics_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/sprite_manager.h"
 
@@ -12,9 +13,12 @@
 void screen_func_screen_load()
 {
 	engine_audio_manager_init();
-	engine_font_manager_text( "FUNC SCREEN!!", 10, 2 );
-
 	engine_sprite_manager_init();
+	engine_graphics_manager_clear_full();
+
+	engine_font_manager_text( "FUNC SCREEN..!!", 10, 2 );
+
+	
 	//engine_actor_manager_init();
 
 	//draw_screen( index );
@@ -28,10 +32,10 @@ void screen_func_screen_update( unsigned char *screen_type )
 		engine_font_manager_text( "D'OH!!", 10, 4 );
 		//engine_audio_manager_play_effect( 3 );
 		//engine_audio_manager_play_music( 1 );
-		engine_audio_manager_play_result( 5 );
+		engine_audio_manager_play_result( 3 );
 	}
 	else
-	//{
+	{
 	//	input = engine_input_manager_hold_left();
 	//	if( input )
 	//	{
@@ -45,8 +49,9 @@ void screen_func_screen_update( unsigned char *screen_type )
 	//		}
 	//		draw_screen( index );
 	//	}
-	//}
+	}
 
+	engine_sprite_manager_draw( 0, 100, 100 );
 	*screen_type = screen_type_func;
 }
 

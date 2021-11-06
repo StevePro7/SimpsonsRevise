@@ -16,18 +16,36 @@ const SpriteDefinition* spriteDefList[ MAX_SPRITES ] = { &gfx_select, &gfx_right
 
 // Private function.
 static void init_sprite( const unsigned char index );
-static void palette_sprite();
+//static void palette_sprite();
 
 void engine_sprite_manager_init()
 {
 	SPR_init( 0, 0, 0 );
 
-	init_sprite( sprite_type_select );
+	//init_sprite( sprite_type_select );
 	init_sprite( sprite_type_right );
-	init_sprite( sprite_type_wrong );
+	//init_sprite( sprite_type_wrong );
 
-	palette_sprite();
+	//palette_sprite();
 }
+
+void engine_sprite_manager_draw( const unsigned char index, unsigned char x, unsigned char y )
+{
+	const SpriteDefinition* spriteDef;
+	unsigned short *data = NULL;
+
+	spriteDef = spriteDefList[ index ];
+	if( NULL != spriteDef->palette )
+	{
+		data = spriteDef->palette->data;
+	}
+
+	VDP_setPalette( PAL3, data );
+	SPR_setPosition( sprites[ index ], x, y );
+	//palette_sprite();
+	SPR_setVisibility( sprites[ index ], VISIBLE );
+}
+
 
 //#include "global_manager.h"
 ////#include "../devkit/_sms_manager.h"
@@ -87,9 +105,9 @@ static void init_sprite( const unsigned char index )
 	sprites[ index ] = SPR_addSprite( spriteDef, 0, 0, TILE_ATTR( PAL3, 0, FALSE, FALSE ) );
 	SPR_setVisibility( sprites[ index ], HIDDEN );
 }
-static void palette_sprite()
-{
-	// Sega Genesis deep yellow hex color:
-	unsigned short color = RGB24_TO_VDPCOLOR( 0xFFE57C );
-	VDP_setPaletteColor( PAL3 * 16 + 15, color );
-}
+//static void palette_sprite()
+//{
+//	// Sega Genesis deep yellow hex color:
+//	unsigned short color = RGB24_TO_VDPCOLOR( 0xFFE57C );
+//	VDP_setPaletteColor( PAL3 * 16 + 15, color );
+//}
