@@ -43,12 +43,12 @@ void engine_quiz_manager_base()
 
 void engine_quiz_manager_base2()
 {
-	show_diff( 26, TITLE_Y - 1 );
+	show_diff( 32/*26*/, TITLE_Y - 1 );
 }
 
 void engine_quiz_manager_base3( unsigned char y )
 {
-	show_diff( 24, y );
+	show_diff( 28/*24*/, y );
 }
 
 //void engine_quiz_manager_bank( unsigned char b )

@@ -26,9 +26,9 @@ void engine_font_manager_data( unsigned short value, unsigned short x, unsigned 
 
 void engine_font_manager_zero( unsigned short value, unsigned short x, unsigned short y )
 {
-	// Set '2' = to have padded zeros.
-	sprintf( str_data, "%02d", value );
-	VDP_clearText( x, y, 2 );
+	// Set '3' = to have padded zeros.
+	sprintf( str_data, "%03d", value );
+	VDP_clearText( x, y, 3 );
 	VDP_drawText( str_data, x, y );
 }
 

@@ -19,6 +19,12 @@ void screen_play_screen_load()
 	engine_quiz_manager_base();
 	engine_quiz_manager_base2();
 	engine_score_manager_base();
+
+	question_value = quiz_questions[ question_index ];
+	option1_value = quiz_options[ question_value ][ 0 ];
+	option2_value = quiz_options[ question_value ][ 1 ];
+	option3_value = quiz_options[ question_value ][ 2 ];
+	option4_value = quiz_options[ question_value ][ 3 ];
 }
 
 void screen_play_screen_update( unsigned char *screen_type )

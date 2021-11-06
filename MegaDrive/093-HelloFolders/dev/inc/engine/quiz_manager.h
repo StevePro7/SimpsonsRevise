@@ -5,12 +5,12 @@
 
 //#define QUIZ_BANK	2
 //
-//extern unsigned char quiz_questions[ MAX_QUESTIONS ];
-//extern unsigned char quiz_options[ MAX_QUESTIONS ][ MAX_OPTIONS ];
+extern unsigned char quiz_questions[ MAX_QUESTIONS ];
+extern unsigned char quiz_options[ MAX_QUESTIONS ][ MAX_OPTIONS ];
 extern unsigned char option_height[ MAX_OPTIONS ];
-//extern unsigned char question_index, question_long, question_count;
-//extern unsigned char question_value, option1_value, option2_value, option3_value, option4_value;
-//extern unsigned char answer_index, answer_value;
+extern unsigned char question_index, question_long, question_count;
+extern unsigned char question_value, option1_value, option2_value, option3_value, option4_value;
+extern unsigned char answer_index, answer_value;
 
 // Public methods.
 void engine_quiz_manager_init();
