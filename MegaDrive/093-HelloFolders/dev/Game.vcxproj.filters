@@ -69,36 +69,6 @@
     <ClCompile Include="src\banks\bank5.c">
       <Filter>Source Files\banks</Filter>
     </ClCompile>
-    <ClCompile Include="src\banks\bank6.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank7.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank8.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank9.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank10.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank11.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank12.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank13.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank14.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\banks\bank15.c">
-      <Filter>Source Files\banks</Filter>
-    </ClCompile>
     <ClCompile Include="..\gfx\res\gfx_actors.c">
       <Filter>Source Files\content</Filter>
     </ClCompile>
@@ -160,9 +130,6 @@
       <Filter>Source Files\engine</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\select_manager.c">
-      <Filter>Source Files\engine</Filter>
-    </ClCompile>
-    <ClCompile Include="src\engine\sound_manager.c">
       <Filter>Source Files\engine</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\sprite_manager.c">
@@ -256,36 +223,6 @@
     <ClInclude Include="inc\banks\bank5.h">
       <Filter>Header Files\banks</Filter>
     </ClInclude>
-    <ClInclude Include="inc\banks\bank6.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank7.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank8.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank9.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank10.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank11.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank12.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank13.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank14.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\banks\bank15.h">
-      <Filter>Header Files\banks</Filter>
-    </ClInclude>
     <ClInclude Include="res\gfx_actors.h">
       <Filter>Header Files\content</Filter>
     </ClInclude>
@@ -347,9 +284,6 @@
       <Filter>Header Files\engine</Filter>
     </ClInclude>
     <ClInclude Include="inc\engine\select_manager.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\engine\sound_manager.h">
       <Filter>Header Files\engine</Filter>
     </ClInclude>
     <ClInclude Include="inc\engine\sprite_manager.h">

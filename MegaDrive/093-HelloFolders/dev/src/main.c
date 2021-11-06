@@ -17,8 +17,7 @@ int main()
 	engine_audio_manager_init();
 	engine_quiz_manager_init();
 	engine_score_manager_init();
-	//engine_select_manager_init();
-	//engine_sound_manager_init();
+	engine_select_manager_init();
 
 	while( 1 )
 	{

@@ -153,20 +153,10 @@
     <ClCompile Include="..\sfx\res\sfx_effects.c" />
     <ClCompile Include="..\sfx\res\sfx_musics.c" />
     <ClCompile Include="..\sfx\res\sfx_results.c" />
-    <ClCompile Include="src\banks\bank10.c" />
-    <ClCompile Include="src\banks\bank11.c" />
-    <ClCompile Include="src\banks\bank12.c" />
-    <ClCompile Include="src\banks\bank13.c" />
-    <ClCompile Include="src\banks\bank14.c" />
-    <ClCompile Include="src\banks\bank15.c" />
     <ClCompile Include="src\banks\bank2.c" />
     <ClCompile Include="src\banks\bank3.c" />
     <ClCompile Include="src\banks\bank4.c" />
     <ClCompile Include="src\banks\bank5.c" />
-    <ClCompile Include="src\banks\bank6.c" />
-    <ClCompile Include="src\banks\bank7.c" />
-    <ClCompile Include="src\banks\bank8.c" />
-    <ClCompile Include="src\banks\bank9.c" />
     <ClCompile Include="src\engine\actor_manager.c" />
     <ClCompile Include="src\engine\audio_manager.c" />
     <ClCompile Include="src\engine\content_manager.c" />
@@ -185,7 +175,6 @@
     <ClCompile Include="src\engine\score_manager.c" />
     <ClCompile Include="src\engine\screen_manager.c" />
     <ClCompile Include="src\engine\select_manager.c" />
-    <ClCompile Include="src\engine\sound_manager.c" />
     <ClCompile Include="src\engine\sprite_manager.c" />
     <ClCompile Include="src\engine\timer_manager.c" />
     <ClCompile Include="src\main.c" />
@@ -212,20 +201,10 @@
     <None Include="build.bat" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inc\banks\bank10.h" />
-    <ClInclude Include="inc\banks\bank11.h" />
-    <ClInclude Include="inc\banks\bank12.h" />
-    <ClInclude Include="inc\banks\bank13.h" />
-    <ClInclude Include="inc\banks\bank14.h" />
-    <ClInclude Include="inc\banks\bank15.h" />
     <ClInclude Include="inc\banks\bank2.h" />
     <ClInclude Include="inc\banks\bank3.h" />
     <ClInclude Include="inc\banks\bank4.h" />
     <ClInclude Include="inc\banks\bank5.h" />
-    <ClInclude Include="inc\banks\bank6.h" />
-    <ClInclude Include="inc\banks\bank7.h" />
-    <ClInclude Include="inc\banks\bank8.h" />
-    <ClInclude Include="inc\banks\bank9.h" />
     <ClInclude Include="inc\engine\actor_manager.h" />
     <ClInclude Include="inc\engine\audio_manager.h" />
     <ClInclude Include="inc\engine\content_manager.h" />
@@ -244,7 +223,6 @@
     <ClInclude Include="inc\engine\score_manager.h" />
     <ClInclude Include="inc\engine\screen_manager.h" />
     <ClInclude Include="inc\engine\select_manager.h" />
-    <ClInclude Include="inc\engine\sound_manager.h" />
     <ClInclude Include="inc\engine\sprite_manager.h" />
     <ClInclude Include="inc\engine\timer_manager.h" />
     <ClInclude Include="inc\main.h" />
