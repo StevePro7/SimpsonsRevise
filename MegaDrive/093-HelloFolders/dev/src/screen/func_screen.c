@@ -26,7 +26,7 @@ void screen_func_screen_update( unsigned char *screen_type )
 		engine_font_manager_text( "SFX..!!", 10, 4 );
 		//engine_audio_manager_play_effect( 3 );
 		//engine_audio_manager_play_music( 1 );
-		engine_audio_manager_play_result( 0 );
+		engine_audio_manager_play_result( 5 );
 	}
 	//else
 	//{
