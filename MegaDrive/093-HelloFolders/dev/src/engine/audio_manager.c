@@ -1,4 +1,4 @@
-//#include "audio_manager.h"
+#include "audio_manager.h"
 //#include "global_manager.h"
 //#include "hack_manager.h"
 //#include "random_manager.h"
@@ -7,8 +7,38 @@
 ////#include "../devkit/_snd_manager.h"
 //#include "../banks/bank15.h"
 ////#include "../psg.h"
-////#include <stdlib.h>
-//
+#include "audio_object.h"
+
+#ifdef _CONSOLE
+#include "_genesis.h"
+#else
+#include <genesis.h>
+#endif
+
+
+void engine_audio_manager_init()
+{
+	unsigned char idx;
+	const unsigned char *audio;
+	unsigned int sized;
+
+	// Initialize effects.
+	for( idx = 0; idx < MAX_EFFECTS; idx++ )
+	{
+		audio = audio_effect[ idx ];
+		sized = audio_effect_size[ idx ];
+		SND_setPCM_XGM( SFX_EFFECT_START + idx, audio, sized );
+	}
+
+	// Initialize music.
+	for( idx = 0; idx < MAX_MUSICS; idx++ )
+	{
+		audio = audio_music[ idx ];
+		sized = audio_music_size[ idx ];
+		SND_setPCM_XGM( SFX_MUSIC_START + idx, audio, sized );
+	}
+}
+
 //// IMPORTANT disable compiler warning 110
 //#ifdef _CONSOLE
 //#else

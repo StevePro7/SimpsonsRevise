@@ -3,7 +3,8 @@
 int main()
 {
 	//unsigned char open_screen_type = screen_type_splash;
-	unsigned char open_screen_type = screen_type_test;
+	//unsigned char open_screen_type = screen_type_test;
+	unsigned char open_screen_type = screen_type_func;
 	engine_screen_manager_init( open_screen_type );
 
 	while( 1 )

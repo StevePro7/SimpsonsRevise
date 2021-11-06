@@ -11,15 +11,20 @@
 
 void screen_func_screen_load()
 {
+	engine_font_manager_text( "FUNC SCREEN!!", 10, 2 );
+
 	//engine_actor_manager_init();
+
 	//draw_screen( index );
 }
 
 void screen_func_screen_update( unsigned char *screen_type )
 {
-	//unsigned char input = engine_input_manager_hold_right();
-	//if( input )
-	//{
+	unsigned char input = engine_input_manager_hold_right();
+	if( input )
+	{
+		engine_font_manager_text( "SPLAT!!", 10, 4 );
+
 	//	if( index >= MAX_ACTORS - 1 )
 	//	{
 	//		index = 0;
@@ -29,7 +34,7 @@ void screen_func_screen_update( unsigned char *screen_type )
 	//		index++;
 	//	}
 	//	draw_screen( index );
-	//}
+	}
 	//else
 	//{
 	//	input = engine_input_manager_hold_left();

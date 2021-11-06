@@ -60,10 +60,15 @@
 extern unsigned char local_cheat;
 
 // New globals
+#define MAX_EFFECTS				4
+#define MAX_MUSICS				2
+
 #define PALETTE1_TILES			1
 #define PALETTE2_TILES			240
 
-#define MAX_EFFECTS				4
-//#define MAX_MUSICS				2
+#define SFX_EFFECT_START		65
+#define SFX_MUSIC_START			SFX_EFFECT_START + MAX_EFFECTS
+
+
 
 #endif//_GLOBAL_MANAGER_H_
