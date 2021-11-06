@@ -15,13 +15,13 @@
 #pragma warning( disable : 4244 ) 
 #endif
 
-static unsigned char screen_over_screen_delay1;
-static unsigned int screen_over_screen_delay2;
+//static unsigned char screen_over_screen_delay1;
+//static unsigned int screen_over_screen_delay2;
 
 void screen_over_screen_init()
 {
-	screen_over_screen_delay1 = TITLE_DELAY * 2;
-	screen_over_screen_delay2 = TITLE_DELAY * 8;
+//	screen_over_screen_delay1 = TITLE_DELAY * 2;
+//	screen_over_screen_delay2 = TITLE_DELAY * 8;
 }
 
 void screen_over_screen_load()

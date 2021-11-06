@@ -10,12 +10,12 @@
 #include "../engine/timer_manager.h"
 //#include <stdlib.h>
 
-static unsigned char screen_long_screen_delay;
-static unsigned char screen_long_screen_state;
+//static unsigned char screen_long_screen_delay;
+//static unsigned char screen_long_screen_state;
 
 void screen_long_screen_init()
 {
-	screen_long_screen_delay = NORMAL_DELAY;
+	//screen_long_screen_delay = NORMAL_DELAY;
 }
 
 void screen_long_screen_load()

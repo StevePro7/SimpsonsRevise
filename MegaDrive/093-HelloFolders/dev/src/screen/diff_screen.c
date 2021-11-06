@@ -11,12 +11,12 @@
 //#include "../devkit/_sms_manager.h"
 //#include <stdlib.h>
 
-static unsigned char screen_diff_screen_delay;
-static unsigned char screen_diff_screen_state;
+//static unsigned char screen_diff_screen_delay;
+//static unsigned char screen_diff_screen_state;
 
 void screen_diff_screen_init()
 {
-	screen_diff_screen_delay = NORMAL_DELAY;
+	//screen_diff_screen_delay = NORMAL_DELAY;
 }
 
 void screen_diff_screen_load()

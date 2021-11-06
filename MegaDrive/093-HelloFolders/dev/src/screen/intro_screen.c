@@ -12,12 +12,12 @@
 //#include "../devkit/_sms_manager.h"
 //#include <stdlib.h>
 
-static unsigned char screen_intro_screen_delay;
-static unsigned char cheat_count;
+//static unsigned char screen_intro_screen_delay;
+//static unsigned char cheat_count;
 
 void screen_intro_screen_init()
 {
-	screen_intro_screen_delay = NORMAL_DELAY;
+	//screen_intro_screen_delay = NORMAL_DELAY;
 }
 
 void screen_intro_screen_load()

@@ -50,9 +50,9 @@ void screen_func_screen_update( unsigned char *screen_type )
 	*screen_type = screen_type_func;
 }
 
-static void draw_screen( unsigned char index )
-{
-	//devkit_SMS_displayOff();
-	//engine_actor_manager_draw( index );
-	//devkit_SMS_displayOn();
-}
+//static void draw_screen( unsigned char index )
+//{
+//	//devkit_SMS_displayOff();
+//	//engine_actor_manager_draw( index );
+//	//devkit_SMS_displayOn();
+//}
