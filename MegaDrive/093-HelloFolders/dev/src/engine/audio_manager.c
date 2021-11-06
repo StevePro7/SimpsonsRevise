@@ -1,6 +1,6 @@
 #include "audio_manager.h"
 //#include "global_manager.h"
-//#include "hack_manager.h"
+#include "hack_manager.h"
 //#include "random_manager.h"
 //#include "sound_manager.h"
 ////#include "../devkit/_sms_manager.h"
@@ -37,6 +37,16 @@ void engine_audio_manager_init()
 		sized = audio_music_size[ idx ];
 		SND_setPCM_XGM( SFX_MUSIC_START + idx, audio, sized );
 	}
+}
+
+void engine_audio_manager_play_effect( unsigned char index )
+{
+	if( !hacker_sound )
+	{
+		return;
+	}
+
+	//play_audio( SFX_EFFECT_START + index, 1, SOUND_PCM_CH2 );
 }
 
 //// IMPORTANT disable compiler warning 110
