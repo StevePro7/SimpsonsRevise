@@ -1,9 +1,10 @@
 #include "test_screen.h"
+#include "../engine/actor_manager.h"
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/graphics_manager.h"
-#include "../engine/image_manager.h"
+//#include "../engine/image_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
 #include "../engine/quiz_manager.h"
@@ -15,7 +16,7 @@
 void screen_test_screen_load()
 {
 	engine_graphics_manager_clear_full();
-	engine_image_manager_draw_actor( 15 );
+	engine_actor_manager_load();
 
 	//// title
 	//engine_content_manager_title();

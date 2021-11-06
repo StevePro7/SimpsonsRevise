@@ -1,6 +1,7 @@
-//#include "actor_manager.h"
-//#include "../engine/global_manager.h"
-//#include "../engine/random_manager.h"
+#include "actor_manager.h"
+#include "../engine/global_manager.h"
+#include "../engine/image_manager.h"
+#include "../engine/random_manager.h"
 ////#include "../devkit/_sms_manager.h"
 //#include "../banks/bank6.h"
 //#include "../banks/bank7.h"
@@ -20,11 +21,11 @@
 //static void draw_actor08(); static void draw_actor09(); static void draw_actor10(); static void draw_actor11();
 //static void draw_actor12(); static void draw_actor13(); static void draw_actor14(); static void draw_actor15();
 //
-//static unsigned char prevActor;
-//static unsigned char currActor;
+static unsigned char prevActor;
+static unsigned char currActor;
 //
-//void engine_actor_manager_init()
-//{
+void engine_actor_manager_init()
+{
 //	//draw_method[ 0 ] = draw_actor00;
 //	//draw_method[ 1 ] = draw_actor01;
 //	//draw_method[ 2 ] = draw_actor02;
@@ -41,32 +42,34 @@
 //	//draw_method[ 13 ] = draw_actor13;
 //	//draw_method[ 14 ] = draw_actor14;
 //	//draw_method[ 15 ] = draw_actor15;
-//
-//	prevActor = 0;
-//	currActor = 0;
-//}
-//
-//void engine_actor_manager_load()
-//{
-//	while( 1 )
-//	{
-//		//currActor = rand() % MAX_ACTORS;
-//		currActor = engine_random_manager_data( MAX_ACTORS );
-//		if( currActor != prevActor )
-//		{
-//			break;
-//		}
-//	}
-//
-//	draw_method[ currActor ]();
-//	prevActor = currActor;
-//}
-//
-//void engine_actor_manager_draw( unsigned char index )
-//{
-//	draw_method[ index ]();
-//}
-//
+
+	prevActor = 0;
+	currActor = 0;
+}
+
+void engine_actor_manager_load()
+{
+	while( 1 )
+	{
+		//currActor = rand() % MAX_ACTORS;
+		currActor = engine_random_manager_data( MAX_ACTORS );
+		if( currActor != prevActor )
+		{
+			break;
+		}
+	}
+
+	//draw_method[ currActor ]();
+	engine_image_manager_draw_actor( currActor );
+	prevActor = currActor;
+}
+
+void engine_actor_manager_draw( unsigned char index )
+{
+	//draw_method[ index ]();
+	engine_image_manager_draw_actor( index );
+}
+
 //static void draw_impl( unsigned char n, const unsigned char *tileset, const unsigned char *tilemap, const unsigned char *palette )
 //{
 //	//devkit_SMS_mapROMBank( n );
