@@ -59,4 +59,8 @@
 
 extern unsigned char local_cheat;
 
+// New globals
+#define PALETTE1_TILES			1
+#define PALETTE2_TILES			240
+
 #endif//_GLOBAL_MANAGER_H_

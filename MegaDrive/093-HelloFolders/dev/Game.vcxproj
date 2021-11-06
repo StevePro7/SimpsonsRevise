@@ -175,7 +175,9 @@
     <ClCompile Include="src\engine\enum_manager.c" />
     <ClCompile Include="src\engine\font_manager.c" />
     <ClCompile Include="src\engine\global_manager.c" />
+    <ClCompile Include="src\engine\graphics_manager.c" />
     <ClCompile Include="src\engine\hack_manager.c" />
+    <ClCompile Include="src\engine\image_manager.c" />
     <ClCompile Include="src\engine\input_manager.c" />
     <ClCompile Include="src\engine\locale_manager.c" />
     <ClCompile Include="src\engine\quiz_manager.c" />
@@ -230,7 +232,9 @@
     <ClInclude Include="inc\engine\enum_manager.h" />
     <ClInclude Include="inc\engine\font_manager.h" />
     <ClInclude Include="inc\engine\global_manager.h" />
+    <ClInclude Include="inc\engine\graphics_manager.h" />
     <ClInclude Include="inc\engine\hack_manager.h" />
+    <ClInclude Include="inc\engine\image_manager.h" />
     <ClInclude Include="inc\engine\input_manager.h" />
     <ClInclude Include="inc\engine\locale_manager.h" />
     <ClInclude Include="inc\engine\quiz_manager.h" />
