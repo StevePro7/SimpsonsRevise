@@ -7,9 +7,9 @@
 #include "../engine/hack_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/locale_manager.h"
+#include "../engine/random_manager.h"
 #include "../engine/timer_manager.h"
 //#include "../devkit/_sms_manager.h"
-//#include <stdlib.h>
 
 //static unsigned char screen_title_screen_delay;
 
@@ -44,6 +44,6 @@ void screen_title_screen_update( unsigned char *screen_type )
 	//	return;
 	//}
 
-	//rand();
+	//engine_random_manager_rand();
 	*screen_type = screen_type_title;
 }

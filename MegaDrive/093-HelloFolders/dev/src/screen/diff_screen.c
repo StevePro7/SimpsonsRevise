@@ -6,10 +6,10 @@
 #include "../engine/global_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
+#include "../engine/random_manager.h"
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 //#include "../devkit/_sms_manager.h"
-//#include <stdlib.h>
 
 //static unsigned char screen_diff_screen_delay;
 //static unsigned char screen_diff_screen_state;
@@ -35,7 +35,7 @@ void screen_diff_screen_load()
 void screen_diff_screen_update( unsigned char *screen_type )
 {
 	//unsigned char input = 0;
-	//rand();
+	//engine_random_manager_rand();
 
 	//if( select_type_before == screen_diff_screen_state )
 	//{

@@ -17,6 +17,8 @@ can't just do stdlib must parse out to
 rand()
 random()
 update all consumers
+maybe wrap this for SMS games so no changes in client!
+i.e. client agnostic on BE system
 
 
 do I want to update the #include guards

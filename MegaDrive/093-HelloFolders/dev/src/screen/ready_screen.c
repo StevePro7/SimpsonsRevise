@@ -6,11 +6,11 @@
 #include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
 #include "../engine/quiz_manager.h"
+#include "../engine/random_manager.h"
 #include "../engine/score_manager.h"
 #include "../engine/sound_manager.h"
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
-//#include <stdlib.h>
 
 //static unsigned int screen_ready_screen_delay;
 //static unsigned char screen_ready_screen_delay2;
@@ -56,7 +56,7 @@ void screen_ready_screen_update( unsigned char *screen_type )
 	//unsigned char input = 0;
 	//unsigned char level = 0;
 
-	//rand();
+	//engine_random_manager_rand();
 	//input = engine_input_manager_hold_fire2();
 	//if( input )
 	//{

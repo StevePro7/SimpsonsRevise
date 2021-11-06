@@ -7,10 +7,10 @@
 #include "../engine/hack_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
+#include "../engine/random_manager.h"
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 //#include "../devkit/_sms_manager.h"
-//#include <stdlib.h>
 
 //static unsigned char screen_intro_screen_delay;
 //static unsigned char cheat_count;
@@ -85,6 +85,6 @@ void screen_intro_screen_update( unsigned char *screen_type )
 	//	}
 	//}
 
-	//rand();
+	//engine_random_manager_rand();
 	*screen_type = screen_type_intro;
 }
