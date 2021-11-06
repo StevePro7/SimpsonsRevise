@@ -7,11 +7,11 @@
 #include "../engine/timer_manager.h"
 //#include "../devkit/_sms_manager.h"
 
-static unsigned char screen_splash_screen_delay;
+//static unsigned char screen_splash_screen_delay;
 
 void screen_splash_screen_init()
 {
-	screen_splash_screen_delay = SPLASH_DELAY;
+//	screen_splash_screen_delay = SPLASH_DELAY;
 }
 
 void screen_splash_screen_load()

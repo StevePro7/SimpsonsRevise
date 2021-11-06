@@ -9,13 +9,13 @@
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 
-static unsigned char screen_quiz_screen_delay;
-static unsigned char screen_quiz_screen_state;
-static unsigned char firstTime;
+//static unsigned char screen_quiz_screen_delay;
+//static unsigned char screen_quiz_screen_state;
+//static unsigned char firstTime;
 
 void screen_quiz_screen_init()
 {
-	screen_quiz_screen_delay = NORMAL_DELAY * 2;
+	//screen_quiz_screen_delay = NORMAL_DELAY * 2;
 }
 
 void screen_quiz_screen_load()

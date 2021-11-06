@@ -12,15 +12,15 @@
 #include "../engine/timer_manager.h"
 //#include <stdlib.h>
 
-static unsigned int screen_ready_screen_delay;
-static unsigned char screen_ready_screen_delay2;
-static unsigned char screen_bases_screen_timer2;
-static unsigned char screen_ready_screen_dots;
+//static unsigned int screen_ready_screen_delay;
+//static unsigned char screen_ready_screen_delay2;
+//static unsigned char screen_bases_screen_timer2;
+//static unsigned char screen_ready_screen_dots;
 
 void screen_ready_screen_init()
 {
-	screen_ready_screen_delay = TITLE_DELAY * 3;
-	screen_ready_screen_delay2 = NORMAL_DELAY;
+	//screen_ready_screen_delay = TITLE_DELAY * 3;
+	//screen_ready_screen_delay2 = NORMAL_DELAY;
 }
 
 void screen_ready_screen_load()

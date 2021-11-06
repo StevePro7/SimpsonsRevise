@@ -6,8 +6,8 @@
 #include "../engine/input_manager.h"
 //#include "../devkit/_sms_manager.h"
 
-static unsigned char index = 0;
-static void draw_screen( unsigned char index );
+//static unsigned char index = 0;
+//static void draw_screen( unsigned char index );
 
 void screen_func_screen_load()
 {

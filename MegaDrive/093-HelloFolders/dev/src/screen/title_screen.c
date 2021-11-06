@@ -9,13 +9,13 @@
 #include "../engine/locale_manager.h"
 #include "../engine/timer_manager.h"
 //#include "../devkit/_sms_manager.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
-static unsigned char screen_title_screen_delay;
+//static unsigned char screen_title_screen_delay;
 
 void screen_title_screen_init()
 {
-	screen_title_screen_delay = NORMAL_DELAY;
+	//screen_title_screen_delay = NORMAL_DELAY;
 }
 
 void screen_title_screen_load()

@@ -8,7 +8,7 @@
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 
-static unsigned char index = 14;
+//static unsigned char index = 14;
 
 void screen_test_screen_load()
 {

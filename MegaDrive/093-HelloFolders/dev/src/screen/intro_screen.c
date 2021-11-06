@@ -10,7 +10,7 @@
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 //#include "../devkit/_sms_manager.h"
-#include <stdlib.h>
+//#include <stdlib.h>
 
 static unsigned char screen_intro_screen_delay;
 static unsigned char cheat_count;
