@@ -34,16 +34,16 @@ void engine_select_manager_init()
 	select_choice = 0;		// Variable that remembers.
 	select_height = select_option[ select_choice ];
 }
-//
-//void engine_select_manager_base()
-//{
-//	unsigned char idx;
-//	for( idx = 0; idx < MAX_OPTIONS; idx++ )
-//	{
-//		engine_font_manager_text( select_text_option[ idx ], QUIZ_X, select_high_option[ idx ] );
-//	}
-//}
-//
+
+void engine_select_manager_base()
+{
+	unsigned char idx;
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		engine_font_manager_text( select_text_option[ idx ], QUIZ_X, select_high_option[ idx ] );
+	}
+}
+
 //void engine_select_manager_clear2()
 //{
 //	unsigned char high;

@@ -25,6 +25,9 @@ void screen_play_screen_load()
 	option2_value = quiz_options[ question_value ][ 1 ];
 	option3_value = quiz_options[ question_value ][ 2 ];
 	option4_value = quiz_options[ question_value ][ 3 ];
+
+	engine_select_manager_base();
+	engine_quiz_manager_load( question_index, question_value, option1_value, option2_value, option3_value, option4_value );
 }
 
 void screen_play_screen_update( unsigned char *screen_type )

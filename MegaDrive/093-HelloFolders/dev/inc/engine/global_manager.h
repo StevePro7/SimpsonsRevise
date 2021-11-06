@@ -52,7 +52,7 @@
 #define OPTD_Y				23	// 21
 
 #define QUIZ_X				4	// 2
-#define QUIZ_Y				7	// 5
+#define QUIZ_Y				5	// 5
 
 #define TITLE_X				27	// 23
 #define TITLE_Y				5	// 3
