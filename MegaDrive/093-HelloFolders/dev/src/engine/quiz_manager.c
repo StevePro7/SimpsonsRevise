@@ -1,11 +1,10 @@
-//#include "quiz_manager.h"
+#include "quiz_manager.h"
 //#include "enum_manager.h"
 //#include "font_manager.h"
 //#include "global_manager.h"
 //#include "hack_manager.h"
 //#include "locale_manager.h"
 //#include "select_manager.h"
-////#include "../devkit/_sms_manager.h"
 //#include "../banks/bank2.h"
 //#include "../banks/bank3.h"
 //#include "../banks/bank4.h"
@@ -13,7 +12,7 @@
 //
 //unsigned char quiz_questions[ MAX_QUESTIONS ];
 //unsigned char quiz_options[ MAX_QUESTIONS ][ MAX_OPTIONS ];
-//unsigned char option_height[ MAX_OPTIONS ];
+unsigned char option_height[ MAX_OPTIONS ];
 //unsigned char question_index, question_long, question_count;
 //unsigned char question_value, option1_value, option2_value, option3_value, option4_value;
 //unsigned char answer_index, answer_value;
@@ -22,14 +21,14 @@
 //// Private helper method.
 //static void show_diff( unsigned char x, unsigned char y );
 //
-//// Public methods.
-//void engine_quiz_manager_init()
-//{
-//	option_height[ 0 ] = OPTA_Y;
-//	option_height[ 1 ] = OPTB_Y;
-//	option_height[ 2 ] = OPTC_Y;
-//	option_height[ 3 ] = OPTD_Y;
-//}
+// Public methods.
+void engine_quiz_manager_init()
+{
+	option_height[ 0 ] = OPTA_Y;
+	option_height[ 1 ] = OPTB_Y;
+	option_height[ 2 ] = OPTC_Y;
+	option_height[ 3 ] = OPTD_Y;
+}
 //
 //void engine_quiz_manager_base()
 //{

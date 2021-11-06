@@ -17,7 +17,7 @@ void screen_func_screen_load()
 	engine_sprite_manager_init();
 	//engine_graphics_manager_clear_full();
 
-	engine_font_manager_text( "FUNC SCREEN..!!", 10, 2 );
+	engine_font_manager_text( "FUNC SCREEN.>> !!", 10, 2 );
 	engine_font_manager_data( hacker_music, 10, 5 );
 
 	
