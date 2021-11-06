@@ -15,7 +15,7 @@
 void screen_test_screen_load()
 {
 	engine_graphics_manager_clear_full();
-	engine_image_manager_draw_actor( 2 );
+	engine_image_manager_draw_actor( 15 );
 
 	//// title
 	//engine_content_manager_title();
