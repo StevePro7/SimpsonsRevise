@@ -14,8 +14,9 @@ set /a _started=_hours*60*60*100+_min*60*100+_sec*100+_cs
 ::%GDK_WIN%\bin\make -f %GDK_WIN%\makefile.gen
 ::%GDK_WIN%\bin\make -f %GDK_WIN%\makefile.gen > NUL
 
-::%GDK_WIN%\bin\make -f makefile.gen
-%GDK_WIN%\bin\make -f makefile.gen > NUL
+%GDK_WIN%\bin\make -f makefile.gen
+::%GDK_WIN%\bin\make -f makefile.gen > NUL
+
 
 
 :: Time build -END-
@@ -29,5 +30,5 @@ echo.
 
 
 :: Run
-C:\SEGA\Fusion\fusion.exe out\rom.bin
-::C:\SEGA\gens\gens.exe %~dp0\out\rom.bin
+::C:\SEGA\Fusion\fusion.exe out\rom.bin
+C:\SEGA\gens\gens.exe %~dp0\out\rom.bin
