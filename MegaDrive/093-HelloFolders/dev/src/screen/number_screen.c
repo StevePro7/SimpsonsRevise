@@ -8,7 +8,8 @@
 
 void screen_number_screen_load()
 {
-	//engine_actor_manager_load();
+	engine_graphics_manager_clear_full();
+	engine_actor_manager_load();
 	//engine_content_manager_load_sprites();
 }
 

@@ -3,13 +3,13 @@
 
 #include "global_manager.h"
 
-//extern unsigned char diff_select, long_select, quiz_select;
-//extern unsigned char select_choice, select_height;
-//extern unsigned char select_option[ MAX_OPTIONS ];
-//extern unsigned char select_high_option[ MAX_OPTIONS ];
-//extern unsigned char select_text_option[ MAX_OPTIONS ][ 3 ];
-//extern unsigned char select_diff_option[ MAX_OPTIONS ][ 6 ];
-//extern unsigned char select_long_option[ MAX_OPTIONS ];
+extern unsigned char diff_select, long_select, quiz_select;
+extern unsigned char select_choice, select_height;
+extern unsigned char select_option[ MAX_OPTIONS ];
+extern unsigned char select_high_option[ MAX_OPTIONS ];
+extern unsigned char select_text_option[ MAX_OPTIONS ][ 3 ];
+extern const unsigned char select_diff_option[ MAX_OPTIONS ][ 6 ];
+extern unsigned char select_long_option[ MAX_OPTIONS ];
 
 //void engine_select_manager_load_quiz();
 

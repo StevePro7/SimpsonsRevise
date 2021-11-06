@@ -1,1 +1,1 @@
-//#include "locale_manager.h"
+#include "locale_manager.h"

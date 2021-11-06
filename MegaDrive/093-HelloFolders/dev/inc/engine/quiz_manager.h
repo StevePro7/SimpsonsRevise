@@ -14,8 +14,8 @@ extern unsigned char option_height[ MAX_OPTIONS ];
 
 // Public methods.
 void engine_quiz_manager_init();
-//void engine_quiz_manager_base();
-//void engine_quiz_manager_base2();
+void engine_quiz_manager_base();
+void engine_quiz_manager_base2();
 //void engine_quiz_manager_base3( unsigned char y );
 //void engine_quiz_manager_bank( unsigned char b );
 //void engine_quiz_manager_answer( unsigned char q );
