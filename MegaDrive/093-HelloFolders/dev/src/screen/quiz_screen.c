@@ -20,6 +20,7 @@ void screen_quiz_screen_init()
 
 void screen_quiz_screen_load()
 {
+	engine_font_manager_text( "QUIZ", 7, 0 );
 	//question_count++;
 	//screen_bases_screen_init();
 	//

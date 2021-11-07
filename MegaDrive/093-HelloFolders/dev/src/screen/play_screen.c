@@ -35,5 +35,20 @@ void screen_play_screen_load()
 
 void screen_play_screen_update( unsigned char *screen_type )
 {
+	unsigned char input = 0;
+	input = engine_input_manager_hold_fire1();
+	if( input )
+	{
+		*screen_type = screen_type_quiz;
+		return;
+	}
+
+	input = engine_input_manager_hold_fire2();
+	if( input )
+	{
+		*screen_type = screen_type_score;
+		return;
+	}
+
 	*screen_type = screen_type_play;
 }

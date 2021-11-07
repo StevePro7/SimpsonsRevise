@@ -14,6 +14,7 @@
 
 void screen_score_screen_load()
 {
+	engine_font_manager_text( "SCORE", 7, 0 );
 	//float percent = 0.0f;
 	//engine_select_manager_clear2();
 

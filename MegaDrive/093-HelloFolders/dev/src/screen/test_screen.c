@@ -32,10 +32,10 @@ void screen_test_screen_load()
 
 void screen_test_screen_update( unsigned char *screen_type )
 {
-	//unsigned char input = engine_input_manager_hold_down();
-	//if( input )
-	//{
-	//	engine_font_manager_text( "#01", 7, 0 );
+	unsigned char input = engine_input_manager_hold_fire1();
+	if( input )
+	{
+		engine_font_manager_text( "#01", 7, 0 );
 
 	//	// ready
 	//	engine_font_manager_text( LOCALE_BLANK5, 2, 13 );
@@ -52,7 +52,7 @@ void screen_test_screen_update( unsigned char *screen_type )
 
 	//	engine_font_manager_text( LOCALE_GET, 2, 17 );
 	//	engine_font_manager_text( LOCALE_READY, 2, 18 );
-	//}
+	}
 	//else
 	//{
 	//	input = engine_input_manager_hold_fire2();
