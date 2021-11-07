@@ -68,6 +68,17 @@ void screen_play_screen_update( unsigned char *screen_type )
 		}
 	}
 
+	input = engine_input_manager_hold_up();
+	if( input )
+	{
+		quiz_select = engine_select_manager_move_up( quiz_select );
+	}
+	input = engine_input_manager_hold_down();
+	if( input )
+	{
+		quiz_select = engine_select_manager_move_down( quiz_select );
+	}
+
 	engine_sprite_manager_update();
 	*screen_type = screen_type_play;
 }
