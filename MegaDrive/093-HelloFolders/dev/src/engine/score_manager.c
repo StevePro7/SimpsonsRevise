@@ -6,7 +6,7 @@
 unsigned char score_player;
 
 #define SCORE_X		35	// 31
-#define SCORE_Y		5	// 3
+#define SCORE_Y		4	// 3
 
 
 // Private helper method.
