@@ -9,60 +9,61 @@
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
 
-//static unsigned char screen_quiz_screen_delay;
-//static unsigned char screen_quiz_screen_state;
-//static unsigned char firstTime;
+static unsigned char screen_quiz_screen_delay;
+static unsigned char screen_quiz_screen_state;
+static unsigned char firstTime;
 
 void screen_quiz_screen_init()
 {
-	//screen_quiz_screen_delay = NORMAL_DELAY * 2;
+	screen_quiz_screen_delay = NORMAL_DELAY * 2;
 }
 
 void screen_quiz_screen_load()
 {
-	engine_font_manager_text( "QUIZ", 7, 0 );
-	//question_count++;
-	//screen_bases_screen_init();
-	//
-	//if( quiz_select == answer_index )
-	//{
-	//	screen_quiz_screen_state = answer_type_right;
-	//}
-	//else
-	//{
-	//	screen_quiz_screen_state = answer_type_wrong;
-	//}
+	question_count++;
+	screen_bases_screen_init();
 
-	//firstTime = 0;
+	if( quiz_select == answer_index )
+	{
+		screen_quiz_screen_state = answer_type_right;
+	}
+	else
+	{
+		screen_quiz_screen_state = answer_type_wrong;
+	}
+
+	firstTime = 0;
+
+	engine_font_manager_text( "QUIZ", 5, 0 );
 }
 
 void screen_quiz_screen_update( unsigned char *screen_type )
 {
-	//// Logic: display right or wrong sprite for delay.
-	//// Increment question counter
-	//// After the delay check this
-	//// if all questions answered then game over
-	//// otherwise then resume next question
+	// Logic: display right or wrong sprite for delay.
+	// Increment question counter
+	// After the delay check this
+	// if all questions answered then game over
+	// otherwise then resume next question
 
-	//unsigned char input = 0;
-	//unsigned char level = 0;
+	unsigned char input = 0;
+	unsigned char level = 0;
 
-	//// Stagger logic over frames 1, 2, and 3+.
-	//firstTime++;
-	//if( 2 == firstTime )
-	//{
-	//	if( answer_type_right == screen_quiz_screen_state )
-	//	{
-	//		engine_score_manager_update();
-	//		engine_audio_manager_sound_woohoo();
-	//	}
-	//	else
-	//	{
-	//		engine_audio_manager_sound_doh();
-	//	}
+	// Stagger logic over frames 1, 2, and 3+.
+	firstTime++;
+	if( 2 == firstTime )
+	{
+		if( answer_type_right == screen_quiz_screen_state )
+		{
+			engine_score_manager_update();
+			engine_audio_manager_sound_woohoo();
+		}
+		else
+		{
+			engine_audio_manager_sound_doh();
+		}
 
-	//	firstTime = 3;
-	//}
+		firstTime = 3;
+	}
 
 	//if( firstTime >= 3)
 	//{

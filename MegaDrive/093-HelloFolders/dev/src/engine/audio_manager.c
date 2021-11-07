@@ -1,10 +1,8 @@
 #include "audio_manager.h"
 //#include "global_manager.h"
 #include "hack_manager.h"
-//#include "random_manager.h"
+#include "random_manager.h"
 //#include "sound_manager.h"
-////#include "../devkit/_sms_manager.h"
-////#include "../devkit/_snd_manager.h"
 //#include "../banks/bank15.h"
 ////#include "../psg.h"
 #include "audio_object.h"
@@ -18,6 +16,9 @@
 // Private helper function.
 static void play_audio( const u8 id, const u8 priority, const u16 channel );
 static void stop_audio();
+
+static unsigned char prevRight, currRight;
+static unsigned char prevWrong, currWrong;
 
 void engine_audio_manager_init()
 {
@@ -48,6 +49,9 @@ void engine_audio_manager_init()
 		sized = audio_results_size[ idx ];
 		SND_setPCM_XGM( SFX_RESULT_START + idx, audio, sized );
 	}
+
+	prevRight = 0; 	currRight = 0;
+	prevWrong = 0; 	currWrong = 0;
 }
 
 void engine_audio_manager_play_effect( unsigned char index )
@@ -83,6 +87,35 @@ void engine_audio_manager_play_result( unsigned char index )
 void engine_audio_manager_stop()
 {
 	stop_audio();
+}
+
+void engine_audio_manager_sound_woohoo()
+{
+	while( 1 )
+	{
+		currRight = engine_random_manager_data( MAX_RIGHT );
+		if( currRight != prevRight )
+		{
+			break;
+		}
+	}
+
+	engine_audio_manager_play_result( currRight );
+	prevRight = currRight;
+}
+void engine_audio_manager_sound_doh()
+{
+	while( 1 )
+	{
+		currWrong = engine_random_manager_data( MAX_WRONG );
+		if( currWrong != prevWrong )
+		{
+			break;
+		}
+	}
+
+	engine_audio_manager_play_result( currWrong + MAX_RIGHT );
+	prevWrong = currWrong;
 }
 
 static void play_audio( const u8 id, const u8 priority, const u16 channel )
