@@ -7,6 +7,7 @@
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
 #include "../engine/select_manager.h"
+#include "../engine/sprite_manager.h"
 #include "../engine/timer_manager.h"
 
 static unsigned char screen_quiz_screen_delay;
@@ -33,8 +34,6 @@ void screen_quiz_screen_load()
 	}
 
 	firstTime = 0;
-
-	engine_font_manager_text( "QUIZ", 5, 0 );
 }
 
 void screen_quiz_screen_update( unsigned char *screen_type )
@@ -48,10 +47,13 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 	unsigned char input = 0;
 	unsigned char level = 0;
 
+	engine_sprite_manager_update();
+
 	// Stagger logic over frames 1, 2, and 3+.
 	firstTime++;
 	if( 2 == firstTime )
 	{
+		
 		if( answer_type_right == screen_quiz_screen_state )
 		{
 			engine_score_manager_update();
@@ -65,47 +67,52 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 		firstTime = 3;
 	}
 
-	//if( firstTime >= 3)
-	//{
-	//	input = engine_input_manager_hold_fire1();
-	//	if( input )
-	//	{
-	//		level = 1;
-	//	}
+	if( firstTime >= 3)
+	{
+		input = engine_input_manager_hold_fire1();
+		if( input )
+		{
+			level = 1;
+		}
 
-	//	screen_bases_screen_timer++;
-	//	if( screen_bases_screen_timer >= screen_quiz_screen_delay )
-	//	{
-	//		level = 1;
-	//	}
+		screen_bases_screen_timer++;
+		if( screen_bases_screen_timer >= screen_quiz_screen_delay )
+		{
+			level = 1;
+		}
 
-	//	if( level )
-	//	{
-	//		question_index++;
-	//		if( question_index >= question_long )
-	//		{
-	//			engine_select_manager_clear2();
-	//			*screen_type = screen_type_over;
-	//			return;
-	//		}
+		if( level )
+		{
+			question_index++;
+			if( question_index >= question_long )
+			{
+				engine_select_manager_clear2();
+				*screen_type = screen_type_over;
+				return;
+			}
 
-	//		// OLD
-	//		//*screen_type = screen_type_play;
+			engine_sprite_manager_hide( sprite_type_right );
+			engine_sprite_manager_hide( sprite_type_wrong );
+			engine_sprite_manager_update();
 
-	//		// NEW
-	//		*screen_type = screen_type_number;
-	//		return;
-	//	}
-	//}
+			// OLD
+			//*screen_type = screen_type_play;
 
-	//if( answer_type_right == screen_quiz_screen_state )
-	//{
-	//	engine_select_manager_draw_right();
-	//}
-	//else
-	//{
-	//	engine_select_manager_draw_wrong();
-	//}
+			// NEW
+			*screen_type = screen_type_number;
+			return;
+		}
+	}
 
+	if( answer_type_right == screen_quiz_screen_state )
+	{
+		engine_select_manager_draw_right();
+	}
+	else
+	{
+		engine_select_manager_draw_wrong();
+	}
+
+	engine_sprite_manager_update();
 	*screen_type = screen_type_quiz;
 }

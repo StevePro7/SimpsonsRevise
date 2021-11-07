@@ -40,11 +40,11 @@ unsigned char engine_input_manager_hold_right()
 }
 unsigned char engine_input_manager_hold_fire1()
 {
-	return engine_input_manager_move( BUTTON_A );
+	return engine_input_manager_hold( BUTTON_A );
 }
 unsigned char engine_input_manager_hold_fire2()
 {
-	return engine_input_manager_move( BUTTON_B );
+	return engine_input_manager_hold( BUTTON_B );
 }
 
 unsigned char engine_input_manager_hold_buttonA()

@@ -14,7 +14,7 @@ unsigned char select_diff_option[ MAX_OPTIONS ][ 6 ] = { LOCALE_DIFF_OPT1, LOCAL
 unsigned char select_long_option[ MAX_OPTIONS ] = { LOCALE_LONG_OPT1, LOCALE_LONG_OPT2, LOCALE_LONG_OPT3, LOCALE_LONG_OPT4 };
 
 
-#define ANSWER_X		0
+#define ANSWER_X		16
 #define SELECT_X		20	//4
 #define SELECT_Y		76	//60
 #define SELECT_DELTA	32
@@ -44,18 +44,18 @@ void engine_select_manager_base()
 	}
 }
 
-//void engine_select_manager_clear2()
-//{
-//	unsigned char high;
-//	for( high = 2; high < 8; high++ )
-//	{
-//		engine_font_manager_text( LOCALE_BLANK, 0, high );
-//	}
-//	for( high = 8; high < 24; high++ )
-//	{
-//		engine_font_manager_text( LOCALE_BLANK21, 0, high );
-//	}
-//}
+void engine_select_manager_clear2()
+{
+	unsigned char high;
+	for( high = 2; high < 8; high++ )
+	{
+		engine_font_manager_text( LOCALE_BLANK, 0, high );
+	}
+	for( high = 8; high < 24; high++ )
+	{
+		engine_font_manager_text( LOCALE_BLANK21, 0, high );
+	}
+}
 //void engine_select_manager_clear3()
 //{
 //	unsigned char idx;
