@@ -15,8 +15,8 @@ unsigned char select_long_option[ MAX_OPTIONS ] = { LOCALE_LONG_OPT1, LOCALE_LON
 
 
 #define ANSWER_X		0
-#define SELECT_X		4
-#define SELECT_Y		60
+#define SELECT_X		20	//4
+#define SELECT_Y		92	//60
 #define SELECT_DELTA	32
 
 
