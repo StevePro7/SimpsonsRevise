@@ -9,9 +9,11 @@
 #include "../engine/sprite_manager.h"
 #include "../engine/timer_manager.h"
 
+static unsigned char screen_cheat_screen_delay;
+
 void screen_play_screen_init()
 {
-	//return engine_data_manager_test();
+	screen_cheat_screen_delay = TITLE_DELAY * 2 / 5;
 }
 
 void screen_play_screen_load()
@@ -53,8 +55,18 @@ void screen_play_screen_update( unsigned char *screen_type )
 		return;
 	}
 
-	
 	engine_select_manager_draw_chose();
+
+	screen_bases_screen_timer++;
+	if( local_cheat )
+	{
+		if( screen_bases_screen_timer >= screen_cheat_screen_delay )
+		{
+			engine_quiz_manager_cheat2( answer_index, screen_bases_screen_count );
+			screen_bases_screen_count = !screen_bases_screen_count;
+			screen_bases_screen_timer = 0;
+		}
+	}
 
 	engine_sprite_manager_update();
 	*screen_type = screen_type_play;

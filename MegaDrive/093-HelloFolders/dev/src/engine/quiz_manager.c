@@ -95,22 +95,22 @@ void engine_quiz_manager_cheat( unsigned char ans )
 		engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
 	}
 }
-//void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
-//{
-//	unsigned char cheat_Y;
-//	if( local_cheat )
-//	{
-//		cheat_Y = option_height[ ans ];
-//		if( !flag )
-//		{
-//			engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
-//		}
-//		else
-//		{
-//			engine_font_manager_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
-//		}
-//	}
-//}
+void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
+{
+	unsigned char cheat_Y;
+	if( local_cheat )
+	{
+		cheat_Y = option_height[ ans ];
+		if( !flag )
+		{
+			engine_font_manager_text( LOCALE_ARROW_LEFT, QUIZ_X - 1, cheat_Y );
+		}
+		else
+		{
+			engine_font_manager_text( LOCALE_ARROW_SPACE, QUIZ_X - 1, cheat_Y );
+		}
+	}
+}
 
 void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char opt1, unsigned char opt2, unsigned char opt3, unsigned char opt4 )
 {
