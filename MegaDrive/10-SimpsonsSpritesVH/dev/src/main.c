@@ -3,7 +3,7 @@
 int main()
 {
 	Sprite *sprite;
-	const SpriteDefinition *spriteDef = &gfx_right;
+	const SpriteDefinition *spriteDef = &gfx_chose;
 	SPR_init( 0, 0, 0 );
 
 	unsigned short *data = NULL;
