@@ -50,5 +50,7 @@ void screen_play_screen_update( unsigned char *screen_type )
 		return;
 	}
 
+	engine_select_manager_draw_chose();
+
 	*screen_type = screen_type_play;
 }

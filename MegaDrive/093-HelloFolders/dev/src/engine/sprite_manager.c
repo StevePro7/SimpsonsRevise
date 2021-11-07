@@ -54,19 +54,19 @@ void engine_sprite_manager_draw( const unsigned char index, unsigned char x, uns
 //// Private helper method.
 //static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned int tile );
 //
-//// Public methods DRAW.
-//void engine_sprite_manager_draw_select( unsigned char x, unsigned char y )
-//{
-//	engine_sprite_manager_draw( x, y, SPRITE_TILES + 0 );
-//}
-//void engine_sprite_manager_draw_right( unsigned char x, unsigned char y )
-//{
-//	engine_sprite_manager_draw( x, y, SPRITE_TILES + 16 );
-//}
-//void engine_sprite_manager_draw_wrong( unsigned char x, unsigned char y )
-//{
-//	engine_sprite_manager_draw( x, y, SPRITE_TILES + 32 );
-//}
+// Public methods DRAW.
+void engine_sprite_manager_draw_chose( unsigned char x, unsigned char y )
+{
+	//engine_sprite_manager_draw( x, y, SPRITE_TILES + 0 );
+}
+void engine_sprite_manager_draw_right( unsigned char x, unsigned char y )
+{
+	//engine_sprite_manager_draw( x, y, SPRITE_TILES + 16 );
+}
+void engine_sprite_manager_draw_wrong( unsigned char x, unsigned char y )
+{
+	//engine_sprite_manager_draw( x, y, SPRITE_TILES + 32 );
+}
 //
 //static void engine_sprite_manager_draw( unsigned char x, unsigned char y, unsigned int tile )
 //{

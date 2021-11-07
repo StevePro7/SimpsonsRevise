@@ -2,7 +2,7 @@
 #include "font_manager.h"
 #include "global_manager.h"
 #include "locale_manager.h"
-//#include "sprite_manager.h"
+#include "sprite_manager.h"
 
 unsigned char diff_select, long_select, quiz_select;
 unsigned char select_choice, select_height;
@@ -125,16 +125,16 @@ void engine_select_manager_load_quiz()
 //	select_height = select_option[ select_choice ];
 //	return select_choice;
 //}
-//
-//void engine_select_manager_draw_select()
-//{
-//	engine_sprite_manager_draw_select( SELECT_X, select_height );
-//}
-//void engine_select_manager_draw_right()
-//{
-//	engine_sprite_manager_draw_right( ANSWER_X, select_height + 4 );
-//}
-//void engine_select_manager_draw_wrong()
-//{
-//	engine_sprite_manager_draw_wrong( ANSWER_X, select_height + 4 );
-//}
+
+void engine_select_manager_draw_chose()
+{
+	engine_sprite_manager_draw_chose( SELECT_X, select_height );
+}
+void engine_select_manager_draw_right()
+{
+	engine_sprite_manager_draw_right( ANSWER_X, select_height + 4 );
+}
+void engine_select_manager_draw_wrong()
+{
+	engine_sprite_manager_draw_wrong( ANSWER_X, select_height + 4 );
+}
