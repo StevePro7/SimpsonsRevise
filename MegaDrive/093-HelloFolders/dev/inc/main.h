@@ -17,5 +17,6 @@
 #include "engine/score_manager.h"
 #include "engine/screen_manager.h"
 #include "engine/select_manager.h"
+#include "engine/sprite_manager.h"
 
 #endif//__MAIN_H__

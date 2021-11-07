@@ -9,6 +9,7 @@
 #include "../engine/locale_manager.h"
 #include "../engine/quiz_manager.h"
 #include "../engine/select_manager.h"
+#include "../engine/sprite_manager.h"
 #include "../engine/timer_manager.h"
 
 //static unsigned char index = 14;
@@ -18,6 +19,7 @@ void screen_test_screen_load()
 	engine_graphics_manager_clear_full();
 	engine_actor_manager_load();
 
+	engine_font_manager_text( "TEST", 17, 0 );
 	//// title
 	//engine_content_manager_title();
 	//engine_font_manager_text( LOCALE_VERSION, 25, 23 );
@@ -73,6 +75,13 @@ void screen_test_screen_update( unsigned char *screen_type )
 	//		engine_select_manager_base();
 	//	}
 	//}
+
+	engine_sprite_manager_update();
+
+	engine_select_manager_draw_chose();
+	//engine_select_manager_draw_wrong();
+
+	engine_sprite_manager_update();
 
 	*screen_type = screen_type_test;
 }

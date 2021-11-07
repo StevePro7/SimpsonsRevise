@@ -3,9 +3,9 @@
 int main()
 {
 	//unsigned char open_screen_type = screen_type_splash;
-	//unsigned char open_screen_type = screen_type_test;
+	unsigned char open_screen_type = screen_type_test;
 	//unsigned char open_screen_type = screen_type_func;
-	unsigned char open_screen_type = screen_type_number;
+	//unsigned char open_screen_type = screen_type_number;
 	engine_screen_manager_init( open_screen_type );
 
 
@@ -18,6 +18,7 @@ int main()
 	engine_quiz_manager_init();
 	engine_score_manager_init();
 	engine_select_manager_init();
+	engine_sprite_manager_init();
 
 	while( 1 )
 	{

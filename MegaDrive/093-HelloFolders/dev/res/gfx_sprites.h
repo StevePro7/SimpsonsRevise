@@ -7,7 +7,7 @@
 #include <genesis.h>
 #endif
 
-extern const SpriteDefinition gfx_select;
+extern const SpriteDefinition gfx_chose;
 extern const SpriteDefinition gfx_right;
 extern const SpriteDefinition gfx_wrong;
 

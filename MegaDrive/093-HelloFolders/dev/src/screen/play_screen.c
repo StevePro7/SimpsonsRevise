@@ -6,6 +6,7 @@
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
 #include "../engine/select_manager.h"
+#include "../engine/sprite_manager.h"
 #include "../engine/timer_manager.h"
 
 void screen_play_screen_init()
@@ -36,6 +37,8 @@ void screen_play_screen_load()
 void screen_play_screen_update( unsigned char *screen_type )
 {
 	unsigned char input = 0;
+	engine_sprite_manager_update();
+
 	input = engine_input_manager_hold_fire1();
 	if( input )
 	{
@@ -50,7 +53,9 @@ void screen_play_screen_update( unsigned char *screen_type )
 		return;
 	}
 
+	
 	engine_select_manager_draw_chose();
 
+	engine_sprite_manager_update();
 	*screen_type = screen_type_play;
 }
