@@ -10,6 +10,7 @@ int main()
 
 
 	// Initialize.
+	engine_font_manager_init();
 	engine_hack_manager_init();
 	engine_hack_manager_invert();
 

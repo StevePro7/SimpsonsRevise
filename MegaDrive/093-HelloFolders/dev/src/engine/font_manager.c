@@ -10,6 +10,14 @@
 char str_data[ MAX_CHAR ] = "0";
 char str_char[ 1 ] = "0";
 
+void engine_font_manager_init()
+{
+	unsigned short bgcolor = RGB24_TO_VDPCOLOR( 0xFFFFFF );
+	unsigned short fgcolor = RGB24_TO_VDPCOLOR( 0x000000 );
+	VDP_setPaletteColor( PAL0 * 16 + 0, bgcolor );
+	VDP_setPaletteColor( PAL0 * 16 + 15, fgcolor );
+}
+
 void engine_font_manager_clear( unsigned short x, unsigned short y, unsigned short w )
 {
 	VDP_clearText( x, y, w );
