@@ -7,4 +7,6 @@
 #include <genesis.h>
 #endif
 
+#include "gfx_tiles.h"
+
 #endif//__MAIN__
