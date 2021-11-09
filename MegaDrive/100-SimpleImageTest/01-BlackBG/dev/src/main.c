@@ -8,12 +8,6 @@ int main()
 	unsigned short tiles = 1;
 	unsigned short x = 0;
 	unsigned short y = 0;
-
-	//unsigned short bgcolor = RGB24_TO_VDPCOLOR( 0xFFFFFF );
-	//unsigned short fgcolor = RGB24_TO_VDPCOLOR( 0x000000 );
-	//VDP_setPaletteColor( PAL0 * 16 + 0, bgcolor );
-	//VDP_setPaletteColor( PAL0 * 16 + 15, fgcolor );
-
 	
 	if( NULL != image.palette )
 	{
