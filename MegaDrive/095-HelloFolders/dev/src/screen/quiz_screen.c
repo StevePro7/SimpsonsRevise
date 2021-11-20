@@ -4,6 +4,7 @@
 #include "../engine/font_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/input_manager.h"
+#include "../engine/locale_manager.h"
 #include "../engine/quiz_manager.h"
 #include "../engine/score_manager.h"
 #include "../engine/select_manager.h"
@@ -33,6 +34,7 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
+	engine_font_manager_text( LOCALE_BLANK3, QUIZ_X - 1, select_high_option[ quiz_select ] );
 	firstTime = 0;
 }
 
@@ -53,7 +55,6 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 	firstTime++;
 	if( 2 == firstTime )
 	{
-		
 		if( answer_type_right == screen_quiz_screen_state )
 		{
 			engine_score_manager_update();
