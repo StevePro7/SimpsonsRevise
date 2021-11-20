@@ -150,6 +150,7 @@
     <ClCompile Include="..\gfx\res\gfx_tiles.c" />
     <ClCompile Include="src\font_manager.c" />
     <ClCompile Include="src\global_manager.c" />
+    <ClCompile Include="src\image_manager.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +159,7 @@
   <ItemGroup>
     <ClInclude Include="inc\font_manager.h" />
     <ClInclude Include="inc\global_manager.h" />
+    <ClInclude Include="inc\image_manager.h" />
     <ClInclude Include="inc\main.h" />
     <ClInclude Include="res\gfx_tiles.h" />
   </ItemGroup>

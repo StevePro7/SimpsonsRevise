@@ -27,6 +27,9 @@
     <ClCompile Include="src\global_manager.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\image_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="build.bat">
@@ -44,6 +47,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="inc\global_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\image_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
