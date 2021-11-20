@@ -131,7 +131,7 @@ void engine_select_manager_draw_chose()
 }
 void engine_select_manager_draw_right()
 {
-	engine_sprite_manager_draw_right( ANSWER_X, select_height + 4 );
+	engine_sprite_manager_draw_right( ANSWER_X + 4, select_height + 0 );
 }
 void engine_select_manager_draw_wrong()
 {
