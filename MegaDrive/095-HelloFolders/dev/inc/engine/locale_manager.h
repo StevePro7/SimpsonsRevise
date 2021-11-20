@@ -24,7 +24,7 @@
 
 #define LOCALE_QUESTIONS	"QUESTIONS "
 
-#define LOCALE_QUESTION		"QUESTION #"
+#define LOCALE_QUESTION		"QUESTION  !#"
 #define LOCALE_SCORE		"SCORE"
 
 #define LOCALE_OPTA			"A."

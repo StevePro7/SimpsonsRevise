@@ -5,7 +5,7 @@
 
 unsigned char score_player;
 
-#define SCORE_X		35	// 31
+#define SCORE_X		37	// 31
 #define SCORE_Y		4	// 3
 
 
@@ -20,7 +20,7 @@ void engine_score_manager_init()
 }
 void engine_score_manager_base()
 {
-	engine_font_manager_text( LOCALE_SCORE, TITLE_X, TITLE_Y );
+	engine_font_manager_text( LOCALE_SCORE, TITLE_X + 1, TITLE_Y );
 	draw_score();
 }
 void engine_score_manager_update()

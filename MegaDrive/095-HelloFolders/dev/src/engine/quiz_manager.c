@@ -37,7 +37,7 @@ void engine_quiz_manager_base()
 	{
 		// Display total number of questions.
 		engine_font_manager_text( LOCALE_FSLASH_SYM, QUIZ_X + 15, TITLE_Y );
-		engine_font_manager_zero( question_long, QUIZ_X + 16, TITLE_Y );
+		engine_font_manager_zero( question_long, QUIZ_X + 18, TITLE_Y );
 	}
 }
 
@@ -123,7 +123,7 @@ void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char
 	opt4_Y = option_height[ opt4 ];
 
 	// Number.
-	engine_font_manager_zero( qi + 1, QUIZ_X + 12, TITLE_Y );
+	engine_font_manager_zero( qi + 1, QUIZ_X + 14, TITLE_Y );
 
 	//bank = diff_select + QUIZ_BANK;
 	//engine_quiz_manager_bank( bank );
