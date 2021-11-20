@@ -6,10 +6,10 @@
 #include "../engine/font_manager.h"
 #include "../engine/hack_manager.h"
 #include "../engine/global_manager.h"
+#include "../engine/image_manager.h"
 #include "../engine/locale_manager.h"
 #include "../engine/random_manager.h"
 #include "../engine/timer_manager.h"
-//#include "../devkit/_sms_manager.h"
 
 //static unsigned char screen_title_screen_delay;
 
@@ -20,19 +20,19 @@ void screen_title_screen_init()
 
 void screen_title_screen_load()
 {
-	/*screen_bases_screen_init();
+	screen_bases_screen_init();
 
-	devkit_SMS_displayOff();
-	engine_content_manager_load_sprites();
+	//devkit_SMS_displayOff();
+	//engine_content_manager_load_sprites();
 
-	engine_content_manager_title();
+	engine_image_manager_draw_title();
 	if( hacker_extra )
 	{
-		engine_font_manager_text( LOCALE_VERSION, 25, 23 );
+		engine_font_manager_text( LOCALE_VERSION, 35, 26 );
 	}
 
-	devkit_SMS_displayOn();
-	engine_audio_manager_start_music();*/
+	//devkit_SMS_displayOn();
+	engine_audio_manager_play_music( music_type_simpsons );
 }
 
 void screen_title_screen_update( unsigned char *screen_type )
