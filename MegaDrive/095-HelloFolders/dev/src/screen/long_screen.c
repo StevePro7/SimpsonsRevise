@@ -67,11 +67,18 @@ void screen_long_screen_update( unsigned char *screen_type )
 
 	if( select_type_after == screen_long_screen_state )
 	{
+		engine_font_manager_text( LOCALE_BLANK3, QUIZ_X - 1, select_high_option[ long_select ] );
+		engine_sprite_manager_hide( sprite_type_chose );
+
 		engine_select_manager_draw_right();
+		engine_sprite_manager_update();
 
 		screen_bases_screen_timer++;
 		if( screen_bases_screen_timer >= screen_long_screen_delay )
 		{
+			engine_sprite_manager_hide( sprite_type_right );
+			engine_sprite_manager_update();
+
 			*screen_type = screen_type_ready;
 			return;
 		}

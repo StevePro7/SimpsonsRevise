@@ -120,7 +120,6 @@ void engine_audio_manager_sound_doh()
 
 static void play_audio( const u8 id, const u8 priority, const u16 channel )
 {
-	//stop_audio();
 	XGM_startPlayPCM( id, priority, channel );
 }
 
