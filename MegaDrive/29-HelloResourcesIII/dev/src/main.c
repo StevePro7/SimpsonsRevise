@@ -5,6 +5,7 @@ static void draw_image( const Image image, unsigned char palette, unsigned short
 int main()
 {
 	engine_font_manager_init();
+	engine_font_manager_load();
 	//VDP_drawText( "Hello content!!", 10, 13 );
 //	draw_image( gfx_font, PAL1, PALETTE1_TILES, 4, 2 );
 	while( 1 )

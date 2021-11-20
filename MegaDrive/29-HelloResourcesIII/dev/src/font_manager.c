@@ -19,7 +19,7 @@ void engine_font_manager_init()
 
 	//u16 ind;
 	//ind = PALETTE1_TILES;
-	VDP_loadTileSet( gfx_font.tileset, PALETTE1_TILES, TRUE );
+	VDP_loadTileSet( gfx_font.tileset, FONT_TILES, TRUE );
 
 	if( NULL != gfx_font.palette )
 	{
@@ -28,6 +28,17 @@ void engine_font_manager_init()
 
 	VDP_setPalette( palette, data );
 	//VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL1, FALSE, FALSE, FALSE, ind ), x, y, 2, 0, 1, 1 );
+}
+
+void engine_font_manager_load()
+{
+	u16 x = 10;
+	u16 y = 10;
+	u16 xm = 3;
+	u16 ym = 0;
+	u16 wm = 1;
+	u16 hm = 1;
+	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, 4, 0, 1, 1 );
 }
 
 //void engine_font_manager_clear( unsigned short x, unsigned short y, unsigned short w )
