@@ -10,10 +10,9 @@
 #include "../engine/random_manager.h"
 #include "../engine/select_manager.h"
 #include "../engine/timer_manager.h"
-//#include "../devkit/_sms_manager.h"
 
 //static unsigned char screen_intro_screen_delay;
-//static unsigned char cheat_count;
+static unsigned char cheat_count;
 
 void screen_intro_screen_init()
 {
@@ -22,21 +21,21 @@ void screen_intro_screen_init()
 
 void screen_intro_screen_load()
 {
-	//local_cheat = 0;
-	//cheat_count = 0;
-	//screen_bases_screen_init();
+	local_cheat = 0;
+	cheat_count = 0;
+	screen_bases_screen_init();
 
-	//engine_font_manager_text( LOCALE_PRESS, 2, 13 );
-	//engine_font_manager_text( LOCALE_START, 2, 14 );
+	engine_font_manager_text( LOCALE_PRESS, 2, 13 );
+	engine_font_manager_text( LOCALE_START, 2, 14 );
 
-	//if( hacker_cheat )
-	//{
-	//	engine_font_manager_text( LOCALE_CHEAT, 25, 10 );
-	//	engine_font_manager_text( LOCALE_MODE, 25, 11 );
+	if( hacker_cheat )
+	{
+		engine_font_manager_text( LOCALE_CHEAT, 25, 10 );
+		engine_font_manager_text( LOCALE_MODE, 25, 11 );
 
-	//	engine_audio_manager_sound_cheat();
-	//	local_cheat = 1;
-	//}
+		engine_audio_manager_play_effect( effect_type_cheat );
+		local_cheat = 1;
+	}
 }
 
 void screen_intro_screen_update( unsigned char *screen_type )

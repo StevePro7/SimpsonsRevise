@@ -61,6 +61,15 @@ typedef enum tag_enum_select_answer_type
 
 } enum_select_answer_type;
 
+typedef enum tag_enum_effect_type
+{
+	effect_type_cheat,	// 0
+	effect_type_ready,	// 1
+	effect_type_right,	// 2
+	effect_type_wrong,	// 3
+
+} enum_effect_type;
+
 typedef enum tag_enum_music_type
 {
 	music_type_gameover,	// 0
