@@ -75,6 +75,7 @@ void screen_diff_screen_update( unsigned char *screen_type )
 		screen_bases_screen_timer++;
 		if( screen_bases_screen_timer >= screen_diff_screen_delay )
 		{
+			engine_sprite_manager_hide( sprite_type_right );
 			*screen_type = screen_type_long;
 			return;
 		}

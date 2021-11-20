@@ -71,7 +71,7 @@ void engine_audio_manager_play_music( unsigned char index )
 		return;
 	}
 
-	play_audio( SFX_MUSICS_START + index, 1, SOUND_PCM_CH2 );
+	play_audio( SFX_MUSICS_START + index, 1, SOUND_PCM_CH1 );
 }
 
 void engine_audio_manager_play_result( unsigned char index )
@@ -120,7 +120,7 @@ void engine_audio_manager_sound_doh()
 
 static void play_audio( const u8 id, const u8 priority, const u16 channel )
 {
-	stop_audio();
+	//stop_audio();
 	XGM_startPlayPCM( id, priority, channel );
 }
 
