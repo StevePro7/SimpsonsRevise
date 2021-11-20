@@ -7,6 +7,7 @@
 #include <genesis.h>
 #endif
 
+extern const Image gfx_font;
 extern const Image gfx_splash;
 extern const Image gfx_simpsons;
 

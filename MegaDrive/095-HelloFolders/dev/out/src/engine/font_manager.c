@@ -2,7 +2,6 @@
 #include "global_manager.h"	// TODO - can I put FONT_TILES here?
 #include "gfx_tiles.h"
 
-#define FONT_TILES	1		// 1  is graphics tile
 #define TEXT_ROOT	32		// 32 is " " in ASCII.
 #define DATA_ROOT	16		// 16 is "0" (48=16+32)
 #define UNIT_ROOT	10		// 10 is decimal
@@ -34,7 +33,7 @@ void engine_font_manager_char( const unsigned char ch, unsigned char x, unsigned
 	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, tile, 0, 1, 1 );
 }
 
-void engine_font_manager_text( const unsigned char *text, unsigned char x, unsigned char y )
+void engine_font_manager_text( char *text, unsigned char x, unsigned char y )
 {
 	unsigned char idx = 0;
 	while( '\0' != text[ idx ] )
@@ -70,7 +69,7 @@ void engine_font_manager_data( unsigned int data, unsigned char x, unsigned char
 	}
 }
 
-void engine_font_manager_zero( unsigned int data, unsigned char x, unsigned char y )
+void engine_font_manager_data_ZERO( unsigned int data, unsigned char x, unsigned char y )
 {
 	unsigned char idx;
 	signed char tile;
