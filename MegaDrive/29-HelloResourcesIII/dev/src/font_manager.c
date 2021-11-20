@@ -5,7 +5,7 @@
 #define TEXT_ROOT	32		// 32 is " " in ASCII.
 #define DATA_ROOT	16		// 16 is "0" (48=16+32)
 #define UNIT_ROOT	10		// 10 is decimal
-#define DATA_LONG	3		// 7 placeholder
+#define DATA_LONG	3		// 3 placeholder
 
 #ifdef _CONSOLE
 #include "_genesis.h"
@@ -48,46 +48,27 @@ void engine_font_manager_text( char *text, unsigned char x, unsigned char y )
 	}
 }
 
-void engine_font_manager_load()
+void engine_font_manager_data( unsigned int data, unsigned char x, unsigned char y )
 {
-	u16 x = 10;
-	u16 y = 10;
-	u16 xm = 7;
-	const u16 ym = 0;
-	const u16 wm = 1;
-	const u16 hm = 1;
-	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, xm, ym, wm, hm );
-}
+	unsigned char idx;
+	signed char tile;
 
-//void engine_font_manager_clear( unsigned short x, unsigned short y, unsigned short w )
-//{
-//	VDP_clearText( x, y, w );
-//}
-//
-//// http://gendev.spritesmind.net/forum/viewtopic.php?t=3093
-//void engine_font_manager_data( unsigned short value, unsigned short x, unsigned short y )
-//{
-//	// Set '3' = to get right aligned.
-//	sprintf( str_data, "%3d", value );
-//	VDP_clearText( x, y, MAX_CHAR );
-//	VDP_drawText( str_data, x, y );
-//}
-//
-//void engine_font_manager_zero( unsigned short value, unsigned short x, unsigned short y )
-//{
-//	// Set '3' = to have padded zeros.
-//	sprintf( str_data, "%03d", value );
-//	VDP_clearText( x, y, 3 );
-//	VDP_drawText( str_data, x, y );
-//}
-//
-//void engine_font_manager_char( const char ch, unsigned short x, unsigned short y )
-//{
-//	sprintf( str_char, "%c", ch );
-//	VDP_drawText( str_char, x, y );
-//}
-//
-//void engine_font_manager_text( const char *str, unsigned short x, unsigned short y )
-//{
-//	VDP_drawText( str, x, y );
-//}
+	unsigned int quotient = 0;
+	unsigned char remainder = 0;
+
+	for( idx = 0; idx < DATA_LONG; ++idx )
+	{
+		quotient = data / UNIT_ROOT;
+		remainder = data % UNIT_ROOT;
+		data /= UNIT_ROOT;
+
+		tile = remainder + DATA_ROOT;
+		if( 0 == quotient && 0 == remainder && idx > 0 )
+		{
+			// Replace with space!
+			tile = 0;
+		}
+
+		VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x--, y, tile, 0, 1, 1 );
+	}
+}
