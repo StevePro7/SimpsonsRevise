@@ -2,6 +2,11 @@
 #include "global_manager.h"
 #include "gfx_tiles.h"
 
+#define TEXT_ROOT	32		// 32 is " " in ASCII.
+#define DATA_ROOT	16		// 16 is "0" (48=16+32)
+#define UNIT_ROOT	10		// 10 is decimal
+#define DATA_LONG	3		// 7 placeholder
+
 #ifdef _CONSOLE
 #include "_genesis.h"
 #else
@@ -28,6 +33,12 @@ void engine_font_manager_init()
 
 	VDP_setPalette( palette, data );
 	//VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL1, FALSE, FALSE, FALSE, ind ), x, y, 2, 0, 1, 1 );
+}
+
+void engine_font_manager_char( const unsigned char ch, unsigned char x, unsigned char y )
+{
+	unsigned char tile = ch - TEXT_ROOT;
+	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, tile, 0, 1, 1 );
 }
 
 void engine_font_manager_load()
