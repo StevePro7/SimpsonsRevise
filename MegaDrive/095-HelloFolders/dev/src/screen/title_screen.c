@@ -1,5 +1,4 @@
 #include "title_screen.h"
-//#include "../engine/asm_manager.h"
 #include "../engine/audio_manager.h"
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
@@ -11,11 +10,11 @@
 #include "../engine/random_manager.h"
 #include "../engine/timer_manager.h"
 
-//static unsigned char screen_title_screen_delay;
+static unsigned char screen_title_screen_delay;
 
 void screen_title_screen_init()
 {
-	//screen_title_screen_delay = NORMAL_DELAY;
+	screen_title_screen_delay = NORMAL_DELAY;
 }
 
 void screen_title_screen_load()
@@ -37,13 +36,13 @@ void screen_title_screen_load()
 
 void screen_title_screen_update( unsigned char *screen_type )
 {
-	//screen_bases_screen_timer++;
-	//if( screen_bases_screen_timer >= screen_title_screen_delay )
-	//{
-	//	*screen_type = screen_type_intro;
-	//	return;
-	//}
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer >= screen_title_screen_delay )
+	{
+		*screen_type = screen_type_intro;
+		return;
+	}
 
-	//engine_random_manager_rand();
+	engine_random_manager_rand();
 	*screen_type = screen_type_title;
 }
