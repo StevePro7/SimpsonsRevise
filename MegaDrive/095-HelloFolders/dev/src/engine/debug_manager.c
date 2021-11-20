@@ -4,4 +4,5 @@
 void engine_debug_manager_init()
 {
 	question_long = 5;
+	local_cheat = 1;
 }

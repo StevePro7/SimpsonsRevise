@@ -34,7 +34,7 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
-	engine_font_manager_text( LOCALE_BLANK3, QUIZ_X - 1, select_high_option[ quiz_select ] );
+	engine_font_manager_text( LOCALE_BLANK5, QUIZ_X - 3, select_high_option[ quiz_select ] );
 	firstTime = 0;
 }
 
