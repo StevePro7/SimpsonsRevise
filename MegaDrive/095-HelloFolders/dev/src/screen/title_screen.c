@@ -3,6 +3,7 @@
 #include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
+#include "../engine/graphics_manager.h"
 #include "../engine/hack_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/image_manager.h"
@@ -19,12 +20,15 @@ void screen_title_screen_init()
 
 void screen_title_screen_load()
 {
+	engine_graphics_manager_clear_full();
+	engine_image_manager_draw_title();
+
 	screen_bases_screen_init();
 
 	//devkit_SMS_displayOff();
 	//engine_content_manager_load_sprites();
 
-	engine_image_manager_draw_title();
+	
 	if( hacker_extra )
 	{
 		engine_font_manager_text( LOCALE_VERSION, 35, 26 );
