@@ -22,23 +22,30 @@ void engine_font_manager_init()
 	unsigned short *data = NULL;
 	unsigned char palette = NULL;
 
-	//u16 ind;
-	//ind = PALETTE1_TILES;
 	VDP_loadTileSet( gfx_font.tileset, FONT_TILES, TRUE );
-
 	if( NULL != gfx_font.palette )
 	{
 		data = gfx_font.palette->data;
 	}
 
 	VDP_setPalette( palette, data );
-	//VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL1, FALSE, FALSE, FALSE, ind ), x, y, 2, 0, 1, 1 );
 }
 
 void engine_font_manager_char( const unsigned char ch, unsigned char x, unsigned char y )
 {
 	unsigned char tile = ch - TEXT_ROOT;
 	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, tile, 0, 1, 1 );
+}
+
+void engine_font_manager_text( char *text, unsigned char x, unsigned char y )
+{
+	unsigned char idx = 0;
+	while( '\0' != text[ idx ] )
+	{
+		signed char tile = text[ idx ] - TEXT_ROOT;
+		VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x++, y, tile, 0, 1, 1 );
+		idx++;
+	}
 }
 
 void engine_font_manager_load()
