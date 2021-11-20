@@ -41,6 +41,10 @@ void engine_hack_manager_init()
 
 void engine_hack_manager_invert()
 {
+	if( hacker_cheat && HACKER_SPACE == hacker_cheat )
+	//{
+	//	hacker_cheat = 1;
+	//}
 	if( hacker_music && HACKER_SPACE == hacker_music )
 	{
 		hacker_music = 1;
