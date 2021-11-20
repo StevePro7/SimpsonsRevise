@@ -16,13 +16,13 @@
 #pragma warning( disable : 4244 ) 
 #endif
 
-//static unsigned char screen_over_screen_delay1;
-//static unsigned int screen_over_screen_delay2;
+static unsigned char screen_over_screen_delay1;
+static unsigned int screen_over_screen_delay2;
 
 void screen_over_screen_init()
 {
-//	screen_over_screen_delay1 = TITLE_DELAY * 2;
-//	screen_over_screen_delay2 = TITLE_DELAY * 8;
+	screen_over_screen_delay1 = TITLE_DELAY * 2;
+	screen_over_screen_delay2 = TITLE_DELAY * 8;
 }
 
 void screen_over_screen_load()
@@ -56,37 +56,37 @@ void screen_over_screen_load()
 		return;
 	}
 
-	//engine_audio_manager_finish_music();
+	engine_audio_manager_play_music( music_type_gameover );
 }
 
 void screen_over_screen_update( unsigned char *screen_type )
 {
-	//unsigned char input = 0;
-	//unsigned char level = 0;
+	unsigned char input = 0;
+	unsigned char level = 0;
 
-	//screen_bases_screen_timer++;
-	//if( screen_bases_screen_timer < screen_over_screen_delay1 )
-	//{
-	//	return;
-	//}
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer < screen_over_screen_delay1 )
+	{
+		return;
+	}
 
-	//input = engine_input_manager_hold_fire1();
-	//if( input )
-	//{
-	//	level = 1;
-	//}
+	input = engine_input_manager_hold_fire1();
+	if( input )
+	{
+		level = 1;
+	}
 
-	//screen_bases_screen_timer++;
-	//if( screen_bases_screen_timer >= screen_over_screen_delay2 )
-	//{
-	//	level = 1;
-	//}
+	screen_bases_screen_timer++;
+	if( screen_bases_screen_timer >= screen_over_screen_delay2 )
+	{
+		level = 1;
+	}
 
-	//if( level )
-	//{
-	//	*screen_type = screen_type_title;
-	//	return;
-	//}
+	if( level )
+	{
+		*screen_type = screen_type_title;
+		return;
+	}
 
 	*screen_type = screen_type_over;
 }

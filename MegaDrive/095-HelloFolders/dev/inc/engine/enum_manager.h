@@ -61,4 +61,11 @@ typedef enum tag_enum_select_answer_type
 
 } enum_select_answer_type;
 
+typedef enum tag_enum_music_type
+{
+	music_type_gameover,	// 0
+	music_type_simpsons,	// 1
+
+} enum_music_type;
+
 #endif//_ENUM_MANAGER_H_
