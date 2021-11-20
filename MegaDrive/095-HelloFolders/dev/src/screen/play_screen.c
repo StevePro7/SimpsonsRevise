@@ -54,6 +54,9 @@ void screen_play_screen_update( unsigned char *screen_type )
 	input = engine_input_manager_hold_fire2();
 	if( input )
 	{
+		engine_sprite_manager_hide( sprite_type_chose );
+		engine_sprite_manager_update();
+
 		*screen_type = screen_type_score;
 		return;
 	}

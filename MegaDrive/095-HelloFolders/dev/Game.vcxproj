@@ -164,6 +164,7 @@
     <ClCompile Include="src\engine\debug_manager.c" />
     <ClCompile Include="src\engine\enum_manager.c" />
     <ClCompile Include="src\engine\font_manager.c" />
+    <ClCompile Include="src\engine\function_manager.c" />
     <ClCompile Include="src\engine\global_manager.c" />
     <ClCompile Include="src\engine\graphics_manager.c" />
     <ClCompile Include="src\engine\hack_manager.c" />
@@ -211,6 +212,7 @@
     <ClInclude Include="inc\engine\debug_manager.h" />
     <ClInclude Include="inc\engine\enum_manager.h" />
     <ClInclude Include="inc\engine\font_manager.h" />
+    <ClInclude Include="inc\engine\function_manager.h" />
     <ClInclude Include="inc\engine\global_manager.h" />
     <ClInclude Include="inc\engine\graphics_manager.h" />
     <ClInclude Include="inc\engine\hack_manager.h" />

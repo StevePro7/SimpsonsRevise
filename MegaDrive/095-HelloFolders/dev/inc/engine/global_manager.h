@@ -25,8 +25,8 @@
 #define CHEAT_TOTAL			5
 
 // Summary.
-#define SUMMARY_TEXT_X		2
-#define SUMMARY_DATA_X		19
+#define SUMMARY_TEXT_X		4
+#define SUMMARY_DATA_X		21
 
 // Dots.
 #define DOTS_X				10	// 6
