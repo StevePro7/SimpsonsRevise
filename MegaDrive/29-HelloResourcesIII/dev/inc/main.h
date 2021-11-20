@@ -7,6 +7,7 @@
 #include <genesis.h>
 #endif
 
-#include "gfx_tiles.h"
+//#include "gfx_tiles.h"
+#include "font_manager.h"
 
 #endif//__MAIN__

@@ -1,11 +1,12 @@
 #include "main.h"
-#define	PALETTE1_TILES		1
+
 static void draw_image( const Image image, unsigned char palette, unsigned short tiles, unsigned char x, unsigned char y );
 
 int main()
 {
+	engine_font_manager_init();
 	//VDP_drawText( "Hello content!!", 10, 13 );
-	draw_image( gfx_font, PAL1, PALETTE1_TILES, 4, 2 );
+//	draw_image( gfx_font, PAL1, PALETTE1_TILES, 4, 2 );
 	while( 1 )
 	{
 		VDP_waitVSync();
@@ -18,7 +19,7 @@ static void draw_image( const Image image, unsigned char palette, unsigned short
 {
 	unsigned short *data = NULL;
 	u16 ind;
-	ind = PALETTE1_TILES ;
+	//ind = PALETTE1_TILES ;
 	VDP_loadTileSet( image.tileset, ind, TRUE );
 
 	if( NULL != image.palette )
