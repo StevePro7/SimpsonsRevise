@@ -34,11 +34,11 @@ void engine_font_manager_load()
 {
 	u16 x = 10;
 	u16 y = 10;
-	u16 xm = 3;
-	u16 ym = 0;
-	u16 wm = 1;
-	u16 hm = 1;
-	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, 4, 0, 1, 1 );
+	u16 xm = 7;
+	const u16 ym = 0;
+	const u16 wm = 1;
+	const u16 hm = 1;
+	VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x, y, xm, ym, wm, hm );
 }
 
 //void engine_font_manager_clear( unsigned short x, unsigned short y, unsigned short w )
