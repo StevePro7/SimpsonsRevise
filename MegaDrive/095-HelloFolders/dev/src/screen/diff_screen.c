@@ -8,6 +8,7 @@
 #include "../engine/locale_manager.h"
 #include "../engine/random_manager.h"
 #include "../engine/select_manager.h"
+#include "../engine/sprite_manager.h"
 #include "../engine/timer_manager.h"
 
 static unsigned char screen_diff_screen_delay;
@@ -23,8 +24,8 @@ void screen_diff_screen_load()
 	screen_bases_screen_init();
 	screen_diff_screen_state = select_type_before;
 
-	engine_font_manager_text( LOCALE_BLANK5, 2, 13 );
-	engine_font_manager_text( LOCALE_BLANK5, 2, 14 );
+	engine_font_manager_text( LOCALE_BLANK5, 4, 13 );
+	engine_font_manager_text( LOCALE_BLANK5, 4, 14 );
 
 	engine_select_manager_base();
 	engine_font_manager_text( LOCALE_DIFFICULTY, 2, 6 );
@@ -35,6 +36,7 @@ void screen_diff_screen_update( unsigned char *screen_type )
 {
 	unsigned char input = 0;
 	engine_random_manager_rand();
+	engine_sprite_manager_update();
 
 	if( select_type_before == screen_diff_screen_state )
 	{
@@ -66,8 +68,10 @@ void screen_diff_screen_update( unsigned char *screen_type )
 
 	if( select_type_after == screen_diff_screen_state )
 	{
+		engine_font_manager_text( LOCALE_BLANK3, QUIZ_X - 1, select_high_option[ diff_select ] );
+		engine_sprite_manager_hide( sprite_type_chose );
 		engine_select_manager_draw_right();
-
+		engine_sprite_manager_update();
 		screen_bases_screen_timer++;
 		if( screen_bases_screen_timer >= screen_diff_screen_delay )
 		{
@@ -76,5 +80,6 @@ void screen_diff_screen_update( unsigned char *screen_type )
 		}
 	}
 
+	engine_sprite_manager_update();
 	*screen_type = screen_type_diff;
 }
