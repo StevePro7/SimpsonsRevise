@@ -13,10 +13,6 @@
 #include <genesis.h>
 #endif
 
-//#define MAX_CHAR	3
-//char str_data[ MAX_CHAR ] = "0";
-//char str_char[ 1 ] = "0";
-
 void engine_font_manager_init()
 {
 	unsigned short *data = NULL;
@@ -68,6 +64,23 @@ void engine_font_manager_data( unsigned int data, unsigned char x, unsigned char
 			// Replace with space!
 			tile = 0;
 		}
+
+		VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x--, y, tile, 0, 1, 1 );
+	}
+}
+
+void engine_font_manager_data_ZERO( unsigned int data, unsigned char x, unsigned char y )
+{
+	unsigned char idx;
+	signed char tile;
+
+	char hold[ DATA_LONG ];
+	for( idx = 0; idx < DATA_LONG; ++idx )
+	{
+		hold[ idx ] = data % UNIT_ROOT;
+		data /= UNIT_ROOT;
+
+		tile = hold[ idx ] + DATA_ROOT;
 
 		VDP_setMapEx( BG_A, gfx_font.tilemap, TILE_ATTR_FULL( PAL0, FALSE, FALSE, FALSE, FONT_TILES ), x--, y, tile, 0, 1, 1 );
 	}
