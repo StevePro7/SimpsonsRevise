@@ -65,8 +65,7 @@ extern unsigned char local_cheat;
 #define MAX_MUSICS				2
 #define MAX_RESULTS				6
 
-#define PALETTE1_TILES			1
-#define PALETTE2_TILES			240
+#define PALETTE1_TILES			65
 
 #define SFX_EFFECT_START		65
 #define SFX_MUSICS_START		SFX_EFFECT_START + MAX_EFFECTS

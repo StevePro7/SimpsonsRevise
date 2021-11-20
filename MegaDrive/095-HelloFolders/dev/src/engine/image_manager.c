@@ -30,22 +30,6 @@ void engine_image_manager_draw_actor( unsigned char index )
 	draw_image( image, PAL1, PALETTE1_TILES, 0, 0 );
 }
 
-//void engine_image_manager_draw_header()
-//{
-//	draw_image( gfx_header, PAL1, PALETTE1_TILES, 2, 7 );
-//}
-//
-//void engine_image_manager_draw_banner()
-//{
-//	draw_image( gfx_banner, PAL1, PALETTE1_TILES, 0, 0 );
-//}
-
-//void engine_image_manager_draw_eddie( unsigned char index, unsigned char x, unsigned char y )
-//{
-//	const Image image = *image_eddie[ index ];
-//	draw_image( image, PAL2, PALETTE2_TILES, x, y );
-//}
-
 static void draw_image( const Image image, unsigned char palette, unsigned short tiles, unsigned char x, unsigned char y )
 {
 	unsigned short *data = NULL;
