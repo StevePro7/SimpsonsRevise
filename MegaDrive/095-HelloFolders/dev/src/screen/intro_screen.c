@@ -75,8 +75,8 @@ void screen_intro_screen_update( unsigned char *screen_type )
 			cheat_count++;
 			if( cheat_count >= CHEAT_TOTAL )
 			{
-				engine_font_manager_text( LOCALE_CHEAT, 25, 10 );
-				engine_font_manager_text( LOCALE_MODE, 25, 11 );
+				engine_font_manager_text( LOCALE_CHEAT, 29, 10 );
+				engine_font_manager_text( LOCALE_MODE, 29, 11 );
 
 				engine_audio_manager_play_effect( effect_type_cheat );
 				local_cheat = 1;
