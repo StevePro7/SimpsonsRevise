@@ -1,5 +1,5 @@
 #include "font_manager.h"
-#include "global_manager.h"
+#include "global_manager.h"	// TODO - can I put FONT_TILES here?
 #include "gfx_tiles.h"
 
 #define TEXT_ROOT	32		// 32 is " " in ASCII.
