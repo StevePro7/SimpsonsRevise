@@ -64,17 +64,17 @@ void engine_select_manager_clear2()
 //		engine_font_manager_text( LOCALE_BLANK5, QUIZ_X, select_high_option[ idx ] );
 //	}
 //}
-//void engine_select_manager_load_diff()
-//{
-//	unsigned char idx;
-//	for( idx = 0; idx < MAX_OPTIONS; idx++ )
-//	{
-//		engine_font_manager_text( select_diff_option[ idx ], QUIZ_X + 2, select_high_option[ idx ] );
-//	}
-//
-//	select_choice = diff_select;
-//	select_height = select_option[ select_choice ];
-//}
+void engine_select_manager_load_diff()
+{
+	unsigned char idx;
+	for( idx = 0; idx < MAX_OPTIONS; idx++ )
+	{
+		engine_font_manager_text( select_diff_option[ idx ], QUIZ_X + 2, select_high_option[ idx ] );
+	}
+
+	select_choice = diff_select;
+	select_height = select_option[ select_choice ];
+}
 //void engine_select_manager_load_long()
 //{
 //	unsigned char idx;

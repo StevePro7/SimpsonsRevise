@@ -21,7 +21,7 @@ void engine_audio_manager_sound_doh();
 //void engine_audio_manager_finish_music();
 //void engine_audio_manager_stop_music();
 //
-//void engine_audio_manager_sound_right();
+//void engine_audio_manager_play_effect( effect_type_right );
 //void engine_audio_manager_sound_wrong();
 //void engine_audio_manager_sound_cheat();
 

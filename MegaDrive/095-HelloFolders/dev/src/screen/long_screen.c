@@ -58,7 +58,7 @@ void screen_long_screen_update( unsigned char *screen_type )
 	//		// Set the question count here.
 	//		question_long = select_long_option[ long_select ];
 
-	//		engine_audio_manager_sound_right();
+	//		engine_audio_manager_play_effect( effect_type_right );
 	//		screen_long_screen_state = select_type_after;
 	//	}
 	//}
