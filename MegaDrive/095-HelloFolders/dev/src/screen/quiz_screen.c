@@ -34,6 +34,7 @@ void screen_quiz_screen_load()
 		screen_quiz_screen_state = answer_type_wrong;
 	}
 
+	// Remove letter beneath answer sprite.
 	engine_font_manager_text( LOCALE_BLANK5, QUIZ_X - 3, select_high_option[ quiz_select ] );
 	firstTime = 0;
 }
