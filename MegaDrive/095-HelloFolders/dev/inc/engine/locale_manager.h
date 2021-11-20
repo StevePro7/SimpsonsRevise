@@ -70,6 +70,6 @@
 #define LOCALE_BLANK8		"        "
 #define LOCALE_BLANK11		"           "
 #define LOCALE_BLANK12		"            "
-#define LOCALE_BLANK21		"                     "
+#define LOCALE_BLANK22		"                      "
 
 #endif//_LOCALE_MANAGER_H_

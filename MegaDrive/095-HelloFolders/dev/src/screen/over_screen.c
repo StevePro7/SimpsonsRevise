@@ -2,6 +2,7 @@
 #include "../engine/audio_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
+#include "../engine/function_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/input_manager.h"
 #include "../engine/locale_manager.h"
@@ -26,30 +27,34 @@ void screen_over_screen_init()
 
 void screen_over_screen_load()
 {
-	//float percent = 0.0f;
-	//screen_bases_screen_init();
+	unsigned short percent = engine_function_manager_calculate_percentage( score_player, question_count );
+	screen_bases_screen_init();
 
-	//engine_quiz_manager_base3( TITLE_Y + 2 );
-	//engine_font_manager_text( LOCALE_OVER_MSG1, 2, 21 );
-	//engine_font_manager_text( LOCALE_OVER_MSG2, 2, 22 );
+	//engine_font_manager_text( LOCALE_BLANK3, 35, 4 );		// score top right
+	engine_font_manager_text( LOCALE_OVER_MSG1, 4, 23 );
+	engine_font_manager_text( LOCALE_OVER_MSG2, 4, 24 );
 
-	//engine_font_manager_text( LOCALE_UNDERLINED, 8, TITLE_Y - 1 );
-	//engine_font_manager_text( LOCALE_COMPLETION, 8, TITLE_Y + 0 );
-	//engine_font_manager_text( LOCALE_UNDERLINED, 8, TITLE_Y + 1 );
+	engine_font_manager_text( LOCALE_UNDERLINED, 10, TITLE_Y - 1 );
+	engine_font_manager_text( LOCALE_COMPLETION, 10, TITLE_Y + 0 );
+	engine_font_manager_text( LOCALE_UNDERLINED, 10, TITLE_Y + 1 );
 
-	//engine_font_manager_text( LOCALE_QUIZ_TOTAL, SUMMARY_TEXT_X, 5 );
-	//engine_font_manager_zero( question_long, SUMMARY_DATA_X, 6 );
+	engine_font_manager_text( LOCALE_QUIZ_TOTAL, SUMMARY_TEXT_X, 7 );
+	engine_font_manager_zero( question_long, SUMMARY_DATA_X, 8 );
 
-	//engine_font_manager_text( LOCALE_QUIZ_SOLVE, SUMMARY_TEXT_X, 9 );
-	//engine_font_manager_zero( question_count, SUMMARY_DATA_X, 10 );
+	engine_font_manager_text( LOCALE_QUIZ_SOLVE, SUMMARY_TEXT_X, 11 );
+	engine_font_manager_zero( question_count, SUMMARY_DATA_X, 12 );
 
-	//engine_font_manager_text( LOCALE_QUIZ_RIGHT, SUMMARY_TEXT_X, 13 );
-	//engine_font_manager_zero( score_player, SUMMARY_DATA_X, 14 );
+	engine_font_manager_text( LOCALE_QUIZ_RIGHT, SUMMARY_TEXT_X, 15 );
+	engine_font_manager_zero( score_player, SUMMARY_DATA_X, 16 );
 
-	//engine_font_manager_text( LOCALE_OVER_PERCENT, SUMMARY_TEXT_X, 17 );
-	//percent = ( float ) score_player / ( float ) question_count * 100;
-	//engine_font_manager_zero( percent, SUMMARY_DATA_X, 18 );
-	//engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 18 );
+	// Allow for potential division by zero error.
+	engine_font_manager_text( LOCALE_CURR_PERCENT, SUMMARY_TEXT_X, 19 );
+	if( question_count == 0 )
+	{
+		engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
+		engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
+		return;
+	}
 
 	//engine_audio_manager_finish_music();
 }

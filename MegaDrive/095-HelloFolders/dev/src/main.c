@@ -10,13 +10,12 @@ int main()
 
 
 	// Initialize.
-	//engine_font_manager_init();
+	engine_font_manager_init();
 	engine_hack_manager_init();
 	engine_hack_manager_invert();
 
 	engine_actor_manager_init();
 	engine_audio_manager_init();
-	engine_font_manager_init();
 	engine_quiz_manager_init();
 	engine_score_manager_init();
 	engine_select_manager_init();

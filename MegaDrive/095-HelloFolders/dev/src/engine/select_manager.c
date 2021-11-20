@@ -53,7 +53,7 @@ void engine_select_manager_clear2()
 	}
 	for( high = 10; high < 25; high++ )
 	{
-		engine_font_manager_text( LOCALE_BLANK21, 4, high );
+		engine_font_manager_text( LOCALE_BLANK22, 4, high );
 	}
 }
 //void engine_select_manager_clear3()
