@@ -3,7 +3,7 @@
 
 #define LOCALE_VERSION		"V2.0"
 
-#define LOCALE_BLANK		"                                "
+#define LOCALE_BLANK		"                                  "
 #define LOCALE_PAUSED		"PAUSED"
 #define LOCALE_RESUME		"      "
 

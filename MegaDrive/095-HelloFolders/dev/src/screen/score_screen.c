@@ -18,7 +18,7 @@ void screen_score_screen_load()
 	unsigned short percent = engine_function_manager_calculate_percentage( score_player, question_count );
 	engine_select_manager_clear2();
 
-	engine_font_manager_text( LOCALE_BLANK3, 35, 4 );
+	//engine_font_manager_text( LOCALE_BLANK3, 35, 4 );		// score top right
 	engine_font_manager_text( LOCALE_FIRE2, 4, 23 );
 	engine_font_manager_text( LOCALE_FIRE1, 4, 24 );
 
