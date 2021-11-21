@@ -101,7 +101,6 @@ void screen_ready_screen_update( unsigned char *screen_type )
 	if( level )
 	{
 		engine_audio_manager_stop();
-		//engine_sound_manager_init();
 
 		*screen_type = screen_type_level;
 		return;

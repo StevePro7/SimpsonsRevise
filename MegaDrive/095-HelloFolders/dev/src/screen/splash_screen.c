@@ -18,13 +18,6 @@ void screen_splash_screen_load()
 {
 	engine_graphics_manager_clear_full();
 	engine_image_manager_draw_splash();
-	//engine_font_manager_text( "SPLASH SCREEN!!", 10, 2 );
-
-	//screen_bases_screen_init();
-	//devkit_SMS_displayOff();
-	//engine_content_manager_load_sprite_palette( COLOR_BLACK );
-	//engine_content_manager_splash();
-	//devkit_SMS_displayOn();
 }
 
 void screen_splash_screen_update( unsigned char *screen_type )

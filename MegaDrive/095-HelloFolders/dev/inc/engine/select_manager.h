@@ -11,8 +11,6 @@ extern unsigned char select_text_option[ MAX_OPTIONS ][ 3 ];
 extern unsigned char select_diff_option[ MAX_OPTIONS ][ 6 ];
 extern unsigned char select_long_option[ MAX_OPTIONS ];
 
-//void engine_select_manager_load_quiz();
-
 
 // Public methods.
 void engine_select_manager_init();

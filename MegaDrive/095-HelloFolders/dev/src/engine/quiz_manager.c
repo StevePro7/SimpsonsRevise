@@ -51,11 +51,6 @@ void engine_quiz_manager_base3( unsigned char y )
 	show_diff( 28/*24*/, y );
 }
 
-//void engine_quiz_manager_bank( unsigned char b )
-//{
-//	//devkit_SMS_mapROMBank( b );
-//}
-
 void engine_quiz_manager_answer( unsigned char q )
 {
 	if( diff_type_easy == diff_select )
@@ -124,9 +119,6 @@ void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char
 
 	// Number.
 	engine_font_manager_zero( qi + 1, QUIZ_X + 14, TITLE_Y );
-
-	//bank = diff_select + QUIZ_BANK;
-	//engine_quiz_manager_bank( bank );
 
 	if( diff_type_easy == diff_select )
 	{

@@ -3,6 +3,6 @@
 
 void engine_debug_manager_init()
 {
-	question_long = 2;
-	local_cheat = 1;
+	//question_long = 2;
+	//local_cheat = 1;
 }

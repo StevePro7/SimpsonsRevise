@@ -16,7 +16,6 @@ const SpriteDefinition* spriteDefList[ MAX_SPRITES ] = { &gfx_chose, &gfx_right,
 
 // Private function.
 static void init_sprite( const unsigned char index );
-//static void palette_sprite();
 
 void engine_sprite_manager_init()
 {
@@ -25,8 +24,6 @@ void engine_sprite_manager_init()
 	init_sprite( sprite_type_chose );
 	init_sprite( sprite_type_right );
 	init_sprite( sprite_type_wrong );
-
-	//palette_sprite();
 }
 
 void engine_sprite_manager_hide( unsigned char index )
@@ -85,9 +82,3 @@ static void init_sprite( const unsigned char index )
 	sprites[ index ] = SPR_addSprite( spriteDef, 0, 0, TILE_ATTR( PAL3, 0, FALSE, FALSE ) );
 	SPR_setVisibility( sprites[ index ], HIDDEN );
 }
-//static void palette_sprite()
-//{
-//	// Sega Genesis deep yellow hex color:
-//	unsigned short color = RGB24_TO_VDPCOLOR( 0xFFE57C );
-//	VDP_setPaletteColor( PAL3 * 16 + 15, color );
-//}
