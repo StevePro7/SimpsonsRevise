@@ -1,6 +1,11 @@
 TODO
 20/11/2021
 
+remove debug
+
 on last question disappear
 right / wrong sprite on last question disappear
 > cheat 
+
+
+percent on 0

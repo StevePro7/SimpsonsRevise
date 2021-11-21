@@ -85,6 +85,10 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 
 		if( level )
 		{
+			engine_sprite_manager_hide( sprite_type_right );
+			engine_sprite_manager_hide( sprite_type_wrong );
+			engine_sprite_manager_update();
+
 			question_index++;
 			if( question_index >= question_long )
 			{
@@ -92,10 +96,6 @@ void screen_quiz_screen_update( unsigned char *screen_type )
 				*screen_type = screen_type_over;
 				return;
 			}
-
-			engine_sprite_manager_hide( sprite_type_right );
-			engine_sprite_manager_hide( sprite_type_wrong );
-			engine_sprite_manager_update();
 
 			// OLD
 			//*screen_type = screen_type_play;

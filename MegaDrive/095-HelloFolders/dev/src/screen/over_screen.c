@@ -54,6 +54,11 @@ void screen_over_screen_load()
 		engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
 		engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
 	}
+	else
+	{
+		engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
+		engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
+	}
 
 	engine_audio_manager_play_music( music_type_gameover );
 }
