@@ -15,10 +15,11 @@ static unsigned int screen_ready_screen_delay;
 static unsigned char screen_ready_screen_delay2;
 static unsigned char screen_bases_screen_timer2;
 static unsigned char screen_ready_screen_dots;
+static unsigned char first_time;
 
 void screen_ready_screen_init()
 {
-	screen_ready_screen_delay = TITLE_DELAY * 3;
+	screen_ready_screen_delay = TITLE_DELAY + SPLASH_DELAY;
 	screen_ready_screen_delay2 = NORMAL_DELAY;
 }
 
@@ -48,6 +49,7 @@ void screen_ready_screen_load()
 
 	screen_bases_screen_timer2 = 0;
 	screen_ready_screen_dots = 0;
+	first_time = 0;
 }
 
 void screen_ready_screen_update( unsigned char *screen_type )
@@ -79,12 +81,16 @@ void screen_ready_screen_update( unsigned char *screen_type )
 	if( screen_bases_screen_timer2 >= screen_ready_screen_delay2 )
 	{
 		screen_ready_screen_dots++;
-		if( screen_ready_screen_dots > 3 )
+		if( screen_ready_screen_dots == 3 )
 		{
-			engine_font_manager_text( LOCALE_READY, 3, DOTS_Y );
-			screen_ready_screen_dots = 0;
+			if( !first_time )
+			{
+				first_time = 1;
+				engine_audio_manager_play_effect( effect_type_ready );
+			}
 		}
-		else
+
+		if( screen_ready_screen_dots <= 3 )
 		{
 			engine_font_manager_text( LOCALE_DOT, DOTS_X + screen_ready_screen_dots, DOTS_Y );
 		}

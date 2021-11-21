@@ -51,7 +51,7 @@ void engine_select_manager_clear2()
 	{
 		engine_font_manager_text( LOCALE_BLANK, 4, high );
 	}
-	for( high = 10; high < 25; high++ )
+	for( high = 10; high < 27; high++ )
 	{
 		engine_font_manager_text( LOCALE_BLANK22, 4, high );
 	}

@@ -1,14 +1,19 @@
 TODO
 20/11/2021
 
-remove debug
 
-on last question disappear
+Go back
 
-> cheat 
+Get Ready
 
 
 
 DONE
 percent on 0
 right / wrong sprite on last question disappear
+
+
+remove debug
+
+on last question disappear
+> cheat 
