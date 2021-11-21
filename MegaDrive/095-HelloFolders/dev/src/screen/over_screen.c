@@ -30,7 +30,6 @@ void screen_over_screen_load()
 	unsigned short percent = engine_function_manager_calculate_percentage( score_player, question_count );
 	screen_bases_screen_init();
 
-	//engine_font_manager_text( LOCALE_BLANK3, 35, 4 );		// score top right
 	engine_font_manager_text( LOCALE_OVER_MSG1, 4, 23 );
 	engine_font_manager_text( LOCALE_OVER_MSG2, 4, 24 );
 
@@ -52,11 +51,10 @@ void screen_over_screen_load()
 	engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
 	engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
 
-	//engine_font_manager_text( "SGB", QUIZ_X - 3, select_high_option[ answer_index ] );
+	// Remove arrow if in cheat mode.
 	if( local_cheat )
 	{
 		engine_font_manager_text( LOCALE_BLANK3, QUIZ_X - 3, select_high_option[ answer_index ] );
-		//engine_font_manager_text( LOCALE_BLANK5, QUIZ_X - 3, select_high_option[ quiz_select ] );
 	}
 
 	engine_audio_manager_play_music( music_type_gameover );

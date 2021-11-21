@@ -159,8 +159,6 @@
     <ClCompile Include="src\banks\bank5.c" />
     <ClCompile Include="src\engine\actor_manager.c" />
     <ClCompile Include="src\engine\audio_manager.c" />
-    <ClCompile Include="src\engine\content_manager.c" />
-    <ClCompile Include="src\engine\data_manager.c" />
     <ClCompile Include="src\engine\debug_manager.c" />
     <ClCompile Include="src\engine\enum_manager.c" />
     <ClCompile Include="src\engine\font_manager.c" />
@@ -207,8 +205,6 @@
     <ClInclude Include="inc\banks\bank5.h" />
     <ClInclude Include="inc\engine\actor_manager.h" />
     <ClInclude Include="inc\engine\audio_manager.h" />
-    <ClInclude Include="inc\engine\content_manager.h" />
-    <ClInclude Include="inc\engine\data_manager.h" />
     <ClInclude Include="inc\engine\debug_manager.h" />
     <ClInclude Include="inc\engine\enum_manager.h" />
     <ClInclude Include="inc\engine\font_manager.h" />

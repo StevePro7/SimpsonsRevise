@@ -48,9 +48,6 @@
     <ClCompile Include="src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\engine\data_manager.c">
-      <Filter>Source Files\engine</Filter>
-    </ClCompile>
     <ClCompile Include="src\screen\play_screen.c">
       <Filter>Source Files\screen</Filter>
     </ClCompile>
@@ -88,9 +85,6 @@
       <Filter>Source Files\engine</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\audio_manager.c">
-      <Filter>Source Files\engine</Filter>
-    </ClCompile>
-    <ClCompile Include="src\engine\content_manager.c">
       <Filter>Source Files\engine</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\debug_manager.c">
@@ -202,9 +196,6 @@
     <ClInclude Include="inc\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="inc\engine\data_manager.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
     <ClInclude Include="inc\screen\play_screen.h">
       <Filter>Header Files\screen</Filter>
     </ClInclude>
@@ -242,9 +233,6 @@
       <Filter>Header Files\engine</Filter>
     </ClInclude>
     <ClInclude Include="inc\engine\audio_manager.h">
-      <Filter>Header Files\engine</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\engine\content_manager.h">
       <Filter>Header Files\engine</Filter>
     </ClInclude>
     <ClInclude Include="inc\engine\debug_manager.h">

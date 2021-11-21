@@ -5,7 +5,7 @@
 
 static unsigned char prevActor;
 static unsigned char currActor;
-//
+
 void engine_actor_manager_init()
 {
 	prevActor = 0;

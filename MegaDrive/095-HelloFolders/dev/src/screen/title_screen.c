@@ -1,6 +1,5 @@
 #include "title_screen.h"
 #include "../engine/audio_manager.h"
-#include "../engine/content_manager.h"
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/graphics_manager.h"
@@ -24,17 +23,11 @@ void screen_title_screen_load()
 	engine_image_manager_draw_title();
 
 	screen_bases_screen_init();
-
-	//devkit_SMS_displayOff();
-	//engine_content_manager_load_sprites();
-
-	
 	if( hacker_extra )
 	{
 		engine_font_manager_text( LOCALE_VERSION, 35, 26 );
 	}
 
-	//devkit_SMS_displayOn();
 	engine_audio_manager_play_music( music_type_simpsons );
 }
 
