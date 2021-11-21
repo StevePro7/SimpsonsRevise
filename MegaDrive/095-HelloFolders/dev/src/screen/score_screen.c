@@ -34,15 +34,24 @@ void screen_score_screen_load()
 
 	// Allow for potential division by zero error.
 	engine_font_manager_text( LOCALE_CURR_PERCENT, SUMMARY_TEXT_X, 19 );
-	if( question_count == 0 )
-	{
+	//if( question_count == 0 )
+	//{
 		engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
 		engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
-		return;
-	}
+	//}
+	//else
+	//{
+	//	engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
+	//	engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
+	//}
+	
 
-	engine_font_manager_zero( percent, SUMMARY_DATA_X, 20 );
-	engine_font_manager_text( LOCALE_PERCENT_SYM, SUMMARY_DATA_X + 1, 20 );
+	//engine_font_manager_text( LOCALE_BLANK5, QUIZ_X - 3, select_high_option[ quiz_select ] );
+	engine_font_manager_text( "SGB", QUIZ_X - 3, select_high_option[ answer_index ] );
+	if( local_cheat )
+	{
+		//engine_font_manager_text( LOCALE_BLANK5, QUIZ_X - 3, select_high_option[ quiz_select ] );
+	}
 }
 
 void screen_score_screen_update( unsigned char *screen_type )
