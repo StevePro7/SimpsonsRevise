@@ -3,7 +3,6 @@
 unsigned char hacker_debug;
 unsigned char hacker_cheat, hacker_random;
 unsigned char hacker_music, hacker_sound;
-unsigned char hacker_extra;
 
 #define PEEK( addr)			(* ( unsigned char *)( addr ) )
 #define POKE( addr, data )	(* ( unsigned char *)( addr ) = ( data ) )
@@ -24,7 +23,6 @@ void engine_hack_manager_init()
 	hacker_random = 0;
 	hacker_music = 0;
 	hacker_sound = 0;
-	hacker_extra = 0;
 
 #ifndef _CONSOLE
 
@@ -34,7 +32,6 @@ void engine_hack_manager_init()
 	hacker_random = PEEK( HACKER_START + 1 );	// 0x01E1		// 0=randomly ask questions.
 	hacker_music = PEEK( HACKER_START + 2 );	// 0x01E2		// 0=music on otherwise off.
 	hacker_sound = PEEK( HACKER_START + 3 );	// 0x01E3		// 0=sound on otherwise off.
-	hacker_extra = PEEK( HACKER_START + 4 );	// 0x01E4		// 0=display all extra text.
 
 #endif
 }
@@ -57,12 +54,7 @@ void engine_hack_manager_invert()
 	{
 		hacker_sound = 0;
 	}
-	if( hacker_extra && HACKER_SPACE == hacker_extra )
-	{
-		hacker_extra = 0;
-	}
 
 	hacker_music = !hacker_music;
 	hacker_sound = !hacker_sound;
-	hacker_extra = !hacker_extra;
 }

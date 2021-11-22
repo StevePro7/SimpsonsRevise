@@ -4,7 +4,6 @@
 extern unsigned char hacker_debug;
 extern unsigned char hacker_cheat, hacker_random;
 extern unsigned char hacker_music, hacker_sound;
-extern unsigned char hacker_extra;
 
 void engine_hack_manager_init();
 void engine_hack_manager_invert();

@@ -23,10 +23,7 @@ void screen_title_screen_load()
 	engine_image_manager_draw_title();
 
 	screen_bases_screen_init();
-	if( hacker_extra )
-	{
-		engine_font_manager_text( LOCALE_VERSION, 35, 26 );
-	}
+	engine_font_manager_text( LOCALE_VERSION, 35, 26 );
 
 	engine_audio_manager_play_music( music_type_simpsons );
 }

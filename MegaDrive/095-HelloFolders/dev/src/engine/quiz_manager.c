@@ -33,12 +33,10 @@ void engine_quiz_manager_init()
 void engine_quiz_manager_base()
 {
 	engine_font_manager_text( LOCALE_QUESTION, QUIZ_X, TITLE_Y );
-	if( hacker_extra )
-	{
-		// Display total number of questions.
-		engine_font_manager_text( LOCALE_FSLASH_SYM, QUIZ_X + 15, TITLE_Y );
-		engine_font_manager_zero( question_long, QUIZ_X + 18, TITLE_Y );
-	}
+
+	// Display total number of questions.
+	engine_font_manager_text( LOCALE_FSLASH_SYM, QUIZ_X + 15, TITLE_Y );
+	engine_font_manager_zero( question_long, QUIZ_X + 18, TITLE_Y );
 }
 
 void engine_quiz_manager_base2()
@@ -232,11 +230,6 @@ void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char
 
 static void show_diff( unsigned char x, unsigned char y )
 {
-	if( !hacker_extra )
-	{
-		return;
-	}
-
 	// Display difficulty level for quiz.
 	engine_font_manager_text( LOCALE_SQUARE_LEFT, x + 0, y );
 	engine_font_manager_text( LOCALE_SQUARE_RIGHT, x + 5, y );
