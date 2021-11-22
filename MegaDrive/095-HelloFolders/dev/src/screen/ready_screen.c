@@ -68,12 +68,12 @@ void screen_ready_screen_update( unsigned char *screen_type )
 	if( input )
 	{
 		// Clean up.
-		engine_font_manager_text( LOCALE_BLANK5, 3, 10 );
-		engine_font_manager_text( LOCALE_BLANK11, 2, 11 );
-		engine_font_manager_text( LOCALE_BLANK5, 3, 16 );
-		engine_font_manager_text( LOCALE_BLANK5, 2, 17 );
-		engine_font_manager_text( LOCALE_BLANK8, 3, 22 );
-		engine_font_manager_text( LOCALE_BLANK8, 3, 23 );
+		engine_font_manager_text( LOCALE_BLANK11, 2, 10 );
+		engine_font_manager_text( LOCALE_BLANK11, 1, 11 );
+		engine_font_manager_text( LOCALE_BLANK11, 1, 16 );
+		engine_font_manager_text( LOCALE_BLANK11, 1, 17 );
+		engine_font_manager_text( LOCALE_BLANK11, 0, 22 );
+		engine_font_manager_text( LOCALE_BLANK11, 0, 23 );
 
 		*screen_type = screen_type_long;
 		return;

@@ -25,8 +25,7 @@ void screen_long_screen_load()
 	screen_long_screen_state = select_type_before;
 
 	engine_font_manager_text( LOCALE_QUESTIONS, 3, 6 );
-	engine_font_manager_text( "X", 12, 6 );
-	//engine_font_manager_text( LOCALE_ARROW_SPACE, 15, 6 );
+	engine_font_manager_text( LOCALE_ARROW_SPACE, 12, 6 );
 	engine_select_manager_load_long();
 	engine_select_manager_base();
 }
