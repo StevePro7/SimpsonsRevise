@@ -2,10 +2,9 @@ TODO
 20/11/2021
 
 
-Go back
-
-Get Ready
-
+Move over 1 or 2 tiles to the left
+Statistics
+Game Over
 
 
 DONE
@@ -17,3 +16,7 @@ remove debug
 
 on last question disappear
 > cheat 
+
+
+Go back
+Get Ready

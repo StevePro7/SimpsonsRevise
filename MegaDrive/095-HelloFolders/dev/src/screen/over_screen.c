@@ -30,12 +30,13 @@ void screen_over_screen_load()
 	unsigned short percent = engine_function_manager_calculate_percentage( score_player, question_count );
 	screen_bases_screen_init();
 
+	engine_font_manager_text( LOCALE_BLANK, 2, 4 );
 	engine_font_manager_text( LOCALE_OVER_MSG1, 4, 23 );
 	engine_font_manager_text( LOCALE_OVER_MSG2, 4, 24 );
 
-	engine_font_manager_text( LOCALE_UNDERLINED, 10, TITLE_Y - 1 );
-	engine_font_manager_text( LOCALE_COMPLETION, 10, TITLE_Y + 0 );
-	engine_font_manager_text( LOCALE_UNDERLINED, 10, TITLE_Y + 1 );
+	engine_font_manager_text( LOCALE_UNDERLINED, INFO_SUMMARY_X, TITLE_Y - 1 );
+	engine_font_manager_text( LOCALE_COMPLETION, INFO_SUMMARY_X, TITLE_Y + 0 );
+	engine_font_manager_text( LOCALE_UNDERLINED, INFO_SUMMARY_X, TITLE_Y + 1 );
 
 	engine_font_manager_text( LOCALE_QUIZ_TOTAL, SUMMARY_TEXT_X, 7 );
 	engine_font_manager_zero( question_long, SUMMARY_DATA_X, 8 );

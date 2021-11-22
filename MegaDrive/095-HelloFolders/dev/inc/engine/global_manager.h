@@ -25,6 +25,7 @@
 #define CHEAT_TOTAL			5
 
 // Summary.
+#define INFO_SUMMARY_X		12
 #define SUMMARY_TEXT_X		4
 #define SUMMARY_DATA_X		21
 

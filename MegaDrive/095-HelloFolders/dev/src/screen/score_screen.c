@@ -21,7 +21,7 @@ void screen_score_screen_load()
 	engine_font_manager_text( LOCALE_FIRE2, 4, 23 );
 	engine_font_manager_text( LOCALE_FIRE1, 4, 24 );
 
-	engine_font_manager_text( LOCALE_STATISTICS, 10, TITLE_Y );
+	engine_font_manager_text( LOCALE_STATISTICS, INFO_SUMMARY_X, TITLE_Y );
 	engine_font_manager_text( LOCALE_QUIZ_TOTAL, SUMMARY_TEXT_X, 7 );
 	engine_font_manager_zero( question_long, SUMMARY_DATA_X, 8 );
 
