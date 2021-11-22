@@ -1,12 +1,12 @@
 TODO
+22/11/2021
+
+test all the blank
+e.g.
+Dr. Nick gets top chopped!
+
+
 20/11/2021
-
-
-Move over 1 or 2 tiles to the left
-Statistics
-Game Over
-
-
 DONE
 percent on 0
 right / wrong sprite on last question disappear
@@ -20,3 +20,8 @@ on last question disappear
 
 Go back
 Get Ready
+
+
+Move over 1 or 2 tiles to the left
+Statistics
+Game Over
