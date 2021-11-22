@@ -45,16 +45,24 @@ void engine_hack_manager_invert()
 	{
 		hacker_cheat = 0;
 	}
+	if( hacker_random && HACKER_SPACE == hacker_random )
+	{
+		hacker_random = 0;
+	}
 	if( hacker_music && HACKER_SPACE == hacker_music )
 	{
-		hacker_music = 1;
+		hacker_music = 0;
 	}
 	if( hacker_sound && HACKER_SPACE == hacker_sound )
 	{
-		hacker_sound = 1;
+		hacker_sound = 0;
 	}
 	if( hacker_extra && HACKER_SPACE == hacker_extra )
 	{
-		hacker_extra = 1;
+		hacker_extra = 0;
 	}
+
+	hacker_music = !hacker_music;
+	hacker_sound = !hacker_sound;
+	hacker_extra = !hacker_extra;
 }
