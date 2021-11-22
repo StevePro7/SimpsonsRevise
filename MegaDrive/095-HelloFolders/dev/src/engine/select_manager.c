@@ -47,11 +47,11 @@ void engine_select_manager_base()
 void engine_select_manager_clear2()
 {
 	unsigned char high;
-	for( high = 4; high < 10; high++ )
+	for( high = 4; high < 9; high++ )
 	{
 		engine_font_manager_text( LOCALE_BLANK, 4, high );
 	}
-	for( high = 10; high < 27; high++ )
+	for( high = 9; high < 27; high++ )
 	{
 		engine_font_manager_text( LOCALE_BLANK22, 4, high );
 	}
