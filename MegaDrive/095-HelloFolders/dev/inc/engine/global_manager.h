@@ -28,10 +28,6 @@
 #define SUMMARY_TEXT_X		4
 #define SUMMARY_DATA_X		21
 
-// Dots.
-#define DOTS_X				7	// 6
-#define DOTS_Y				19	// 18
-
 // Actors.
 #define MAX_ACTORS			16
 
