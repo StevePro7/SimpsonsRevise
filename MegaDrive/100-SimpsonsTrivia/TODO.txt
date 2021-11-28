@@ -1,0 +1,33 @@
+TODO
+28/11/2021
+SimpsonsMD randomizer is buggy as the same Qs repeat
+
+
+22/11/2021
+
+test all the blank
+e.g.
+top chopped
+Dr. Nick 
+Marge
+
+
+20/11/2021
+DONE
+percent on 0
+right / wrong sprite on last question disappear
+
+
+remove debug
+
+on last question disappear
+> cheat 
+
+
+Go back
+Get Ready
+
+
+Move over 1 or 2 tiles to the left
+Statistics
+Game Over
