@@ -7,7 +7,7 @@ int main()
 	VDP_setPaletteColor( PAL0 * 16 + 0, bgcolor );
 	VDP_setPaletteColor( PAL0 * 16 + 15, fgcolor );
 
-	VDP_drawText( "Hello Genny World!", 10, 13 );
+	VDP_drawText( "Hello Genny World...!", 10, 13 );
 	while( 1 )
 	{
 		VDP_waitVSync();
