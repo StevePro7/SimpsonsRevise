@@ -12,8 +12,8 @@
 #include "../engine/timer_manager.h"
 
 // Dots.
-#define DOTS_X				7	// 6
-#define DOTS_Y				23	// 18
+#define DOTS_X				7
+#define DOTS_Y				23
 
 static unsigned int screen_ready_screen_delay;
 static unsigned char screen_ready_screen_delay2;

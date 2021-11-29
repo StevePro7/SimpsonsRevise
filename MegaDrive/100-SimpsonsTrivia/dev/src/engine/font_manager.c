@@ -1,5 +1,4 @@
 #include "font_manager.h"
-#include "global_manager.h"	// TODO - can I put FONT_TILES here?
 #include "gfx_tiles.h"
 
 #define FONT_TILES	1		// 1  is graphics tile

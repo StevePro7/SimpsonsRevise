@@ -10,7 +10,7 @@
 #include <genesis.h>
 #endif
 
- //Private helper methods.
+ // Private helper methods.
 static void load_random();
 static void load_normal();
 static void load_mixed();
@@ -76,7 +76,6 @@ static void load_random()
 	{
 		while( 1 )
 		{
-			//unsigned char rnd = rand() % MAX_QUESTIONS;
 			unsigned char rnd = engine_random_manager_data( MAX_QUESTIONS );
 			if( 0 == quiz_questions[ rnd ] )
 			{
@@ -92,7 +91,6 @@ static void load_random()
 		{
 			while( 1 )
 			{
-				//unsigned char rnd = rand() % MAX_OPTIONS;
 				unsigned char rnd = engine_random_manager_data( MAX_OPTIONS );
 				if( 0 == quiz_options[ idx ][ rnd ] )
 				{
@@ -135,7 +133,6 @@ static void load_mixed()
 		{
 			while( 1 )
 			{
-				//unsigned char rnd = rand() % MAX_OPTIONS;
 				unsigned char rnd = engine_random_manager_data( MAX_OPTIONS );
 				if( 0 == quiz_options[ idx ][ rnd ] )
 				{

@@ -11,9 +11,6 @@ unsigned char hacker_music, hacker_sound;
 #define HACKER_SPACE		32
 
 #ifdef _CONSOLE
-#else
-//#pragma disable_warning 110
-//#pragma disable_warning 126
 #endif
 
 void engine_hack_manager_init()

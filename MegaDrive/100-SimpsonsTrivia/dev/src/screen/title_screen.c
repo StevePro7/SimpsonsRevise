@@ -3,7 +3,6 @@
 #include "../engine/enum_manager.h"
 #include "../engine/font_manager.h"
 #include "../engine/graphics_manager.h"
-#include "../engine/hack_manager.h"
 #include "../engine/global_manager.h"
 #include "../engine/image_manager.h"
 #include "../engine/locale_manager.h"

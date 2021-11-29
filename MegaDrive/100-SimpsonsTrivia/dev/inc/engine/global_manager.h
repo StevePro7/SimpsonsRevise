@@ -42,17 +42,17 @@
 
 
 // Additional.
-#define OPTN_X				9	// 4
-#define OPTA_Y				11	// 9
-#define OPTB_Y				15	// 13
-#define OPTC_Y				19	// 17
-#define OPTD_Y				23	// 21
+#define OPTN_X				9
+#define OPTA_Y				11
+#define OPTB_Y				15
+#define OPTC_Y				19
+#define OPTD_Y				23
 
-#define QUIZ_X				4	// 2
-#define QUIZ_Y				6	// 5
+#define QUIZ_X				4
+#define QUIZ_Y				6
 
-#define TITLE_X				27	// 23
-#define TITLE_Y				4	// 3
+#define TITLE_X				27
+#define TITLE_Y				4
 
 extern unsigned char local_cheat;
 

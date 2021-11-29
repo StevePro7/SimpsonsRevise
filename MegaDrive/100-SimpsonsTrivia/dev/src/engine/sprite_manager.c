@@ -49,7 +49,6 @@ void engine_sprite_manager_draw( const unsigned char index, unsigned char x, uns
 
 	VDP_setPalette( PAL3, data );
 	SPR_setPosition( sprites[ index ], x, y );
-	//palette_sprite();
 	SPR_setVisibility( sprites[ index ], VISIBLE );
 }
 

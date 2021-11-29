@@ -108,7 +108,6 @@ void engine_quiz_manager_cheat2( unsigned char ans, unsigned char flag )
 void engine_quiz_manager_load( unsigned char qi, unsigned char qv, unsigned char opt1, unsigned char opt2, unsigned char opt3, unsigned char opt4 )
 {
 	unsigned char opt1_Y, opt2_Y, opt3_Y, opt4_Y;
-	//unsigned char bank;
 
 	opt1_Y = option_height[ opt1 ];
 	opt2_Y = option_height[ opt2 ];

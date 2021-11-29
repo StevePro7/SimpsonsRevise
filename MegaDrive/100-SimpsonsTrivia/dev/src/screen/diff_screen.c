@@ -45,18 +45,14 @@ void screen_diff_screen_update( unsigned char *screen_type )
 		{
 			diff_select = engine_select_manager_move_up( diff_select );
 		}
+
 		input = engine_input_manager_hold_down();
 		if( input )
 		{
 			diff_select = engine_select_manager_move_down( diff_select );
 		}
+
 		// IMPORTANT - don't allow to go back here as invalidates cheat mode!
-		//input = engine_input_manager_hold_fire2( curr_joypad1, prev_joypad1 );
-		//if(input)
-		//{
-		//	*screen_type = SCREEN_TYPE_INTRO;
-		//	return;
-		//}
 		input = engine_input_manager_hold_fire1();
 		if( input )
 		{
@@ -72,6 +68,7 @@ void screen_diff_screen_update( unsigned char *screen_type )
 
 		engine_select_manager_draw_right();
 		engine_sprite_manager_update();
+
 		screen_bases_screen_timer++;
 		if( screen_bases_screen_timer >= screen_diff_screen_delay )
 		{

@@ -118,7 +118,6 @@ static void play_audio( const u8 id, const u8 priority, const u16 channel )
 {
 	XGM_startPlayPCM( id, priority, channel );
 }
-
 static void stop_audio()
 {
 	if( XGM_isPlayingPCM( SOUND_PCM_CH1_MSK ) )
