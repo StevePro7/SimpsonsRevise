@@ -32,7 +32,8 @@ void screen_func_screen_update( unsigned char *screen_type )
 	if( input )
 	{
 		//engine_font_manager_text( "WHOHOO!!", 10, 4 );
-		engine_audio_manager_play_effect( effect_type_wrong );
+		//engine_audio_manager_play_effect( effect_type_wrong );
+		engine_audio_manager_sound_doh();
 		//engine_audio_manager_play_music( music_type_gameover );
 		//engine_audio_manager_play_music( music_type_simpsons );
 		//engine_audio_manager_play_result( 5 );

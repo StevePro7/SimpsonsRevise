@@ -103,8 +103,9 @@ void engine_audio_manager_sound_doh()
 {
 	while( 1 )
 	{
-		currWrong = engine_random_manager_data( MAX_WRONG );
-		if( currWrong != prevWrong )
+		//currWrong = engine_random_manager_data( MAX_WRONG );
+		currWrong = 1;
+		//if( currWrong != prevWrong )
 		{
 			break;
 		}

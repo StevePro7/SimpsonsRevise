@@ -7,11 +7,11 @@
 #include "../engine/input_manager.h"
 #include "../engine/timer_manager.h"
 
-static unsigned char screen_splash_screen_delay;
+static unsigned int screen_splash_screen_delay;
 
 void screen_splash_screen_init()
 {
-	screen_splash_screen_delay = SPLASH_DELAY;
+	screen_splash_screen_delay = 500;
 }
 
 void screen_splash_screen_load()

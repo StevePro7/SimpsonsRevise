@@ -1,6 +1,10 @@
 TODO
 22/11/2021
 
+MegaDrive header
+SAMPLE PROGRAM
+
+
 test all the blank
 e.g.
 top chopped
